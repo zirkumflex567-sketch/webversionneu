@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "ab_char_lyra_basic",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Lyras Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Mondbrand",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt schnell, schmutzig, direkt.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Interceptor / Duellantin",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_heavy",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Lyras Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Mondbrand",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt schnell, schmutzig, direkt.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Interceptor / Duellantin",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_skill_1",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Funkenstoss",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Prolog: Funken im Schlamm / Bindung 1",
+    "status": "Mondbrand",
+    "onfoot_effect": "Funkenstoss ist eine Kerntechnik fuer Interceptor / Duellantin: sie setzt Mondbrand ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Dornwolf wird Funkenstoss als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Funkenstoss ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch",
+      "Mondbrand",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_skill_2",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Dornschritt",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Prolog: Funken im Schlamm / Bindung 1",
+    "status": "Mondbrand",
+    "onfoot_effect": "Dornschritt ist eine Kerntechnik fuer Interceptor / Duellantin: sie setzt Mondbrand ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Dornwolf wird Dornschritt als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Dornschritt ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch",
+      "Mondbrand",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_skill_3",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Klingenregen",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Prolog: Funken im Schlamm / Bindung 2",
+    "status": "Mondbrand",
+    "onfoot_effect": "Klingenregen ist eine Kerntechnik fuer Interceptor / Duellantin: sie setzt Mondbrand ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Dornwolf wird Klingenregen als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Klingenregen ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch",
+      "Mondbrand",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_skill_4",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Letzter Blick",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Prolog: Funken im Schlamm / Bindung 3",
+    "status": "Mondbrand",
+    "onfoot_effect": "Letzter Blick ist eine Kerntechnik fuer Interceptor / Duellantin: sie setzt Mondbrand ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Dornwolf wird Letzter Blick als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Letzter Blick ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch",
+      "Mondbrand",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_ultimate",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Hausbrand",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Lyra Dorn",
+    "status": "Mondbrand",
+    "onfoot_effect": "Ultimative Charaktertechnik: Hausbrand verwandelt den persoenlichen Konflikt von Lyra Dorn in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Hausbrand einen Signatur-Overdrive des Dornwolf aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_passive_1",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Mondbrand",
+    "onfoot_effect": "Passiver Bonus, der Lyra Dorns Thema 'Rache, Ueberleben, Verantwortung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Mondbrand und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Dornwolf einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_passive_2",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Mondbrand",
+    "onfoot_effect": "Passiver Bonus, der Lyra Dorns Thema 'Rache, Ueberleben, Verantwortung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Mondbrand und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Dornwolf einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_passive_3",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Mondbrand",
+    "onfoot_effect": "Passiver Bonus, der Lyra Dorns Thema 'Rache, Ueberleben, Verantwortung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Mondbrand und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Dornwolf einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_vehicle_1",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Rissdrift",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Dornwolf Modulstufe 1",
+    "status": "Mondbrand",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Rissdrift ist die Signaturtechnik des Dornwolf (leichter Rissjaeger). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "leichter Rissjaeger",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_vehicle_2",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Pistolenkuppel",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Dornwolf Modulstufe 2",
+    "status": "Mondbrand",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Pistolenkuppel ist die Signaturtechnik des Dornwolf (leichter Rissjaeger). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "leichter Rissjaeger",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_lyra_vehicle_3",
+    "character_id": "char_lyra",
+    "character": "Lyra Dorn",
+    "name": "Dornramme",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Dornwolf Modulstufe 3",
+    "status": "Mondbrand",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Dornramme ist die Signaturtechnik des Dornwolf (leichter Rissjaeger). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "leichter Rissjaeger",
+      "Mondbrand"
+    ]
+  },
+  {
+    "id": "ab_char_mira_basic",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Miras Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Siegelriss",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt kontrolliert, analytisch, gefaehrlich.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Controller / Runenbrecherin",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_mira_heavy",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Miras Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Siegelriss",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt kontrolliert, analytisch, gefaehrlich.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Controller / Runenbrecherin",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_mira_skill_1",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Siegelbruch",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 1: Sumpfkathedrale / Bindung 1",
+    "status": "Siegelriss",
+    "onfoot_effect": "Siegelbruch ist eine Kerntechnik fuer Controller / Runenbrecherin: sie setzt Siegelriss ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Archivspinne wird Siegelbruch als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Siegelbruch ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Scherbenkrone",
+      "Siegelriss",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_mira_skill_2",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Archivschnitt",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 1: Sumpfkathedrale / Bindung 1",
+    "status": "Siegelriss",
+    "onfoot_effect": "Archivschnitt ist eine Kerntechnik fuer Controller / Runenbrecherin: sie setzt Siegelriss ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Archivspinne wird Archivschnitt als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Archivschnitt ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Scherbenkrone",
+      "Siegelriss",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_mira_skill_3",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Nullfeld",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 1: Sumpfkathedrale / Bindung 2",
+    "status": "Siegelriss",
+    "onfoot_effect": "Nullfeld ist eine Kerntechnik fuer Controller / Runenbrecherin: sie setzt Siegelriss ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Archivspinne wird Nullfeld als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Nullfeld ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Scherbenkrone",
+      "Siegelriss",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_mira_skill_4",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Wahrheitsnaht",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 1: Sumpfkathedrale / Bindung 3",
+    "status": "Siegelriss",
+    "onfoot_effect": "Wahrheitsnaht ist eine Kerntechnik fuer Controller / Runenbrecherin: sie setzt Siegelriss ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Archivspinne wird Wahrheitsnaht als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Wahrheitsnaht ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Scherbenkrone",
+      "Siegelriss",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_mira_ultimate",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Offenes Archiv",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Mira Voss",
+    "status": "Siegelriss",
+    "onfoot_effect": "Ultimative Charaktertechnik: Offenes Archiv verwandelt den persoenlichen Konflikt von Mira Voss in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Offenes Archiv einen Signatur-Overdrive des Archivspinne aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_mira_passive_1",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Siegelriss",
+    "onfoot_effect": "Passiver Bonus, der Mira Vosss Thema 'Wahrheit, Schuld, Archivmagie' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Siegelriss und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Archivspinne einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_mira_passive_2",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Siegelriss",
+    "onfoot_effect": "Passiver Bonus, der Mira Vosss Thema 'Wahrheit, Schuld, Archivmagie' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Siegelriss und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Archivspinne einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_mira_passive_3",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Siegelriss",
+    "onfoot_effect": "Passiver Bonus, der Mira Vosss Thema 'Wahrheit, Schuld, Archivmagie' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Siegelriss und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Archivspinne einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_mira_vehicle_1",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Runenminen",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Archivspinne Modulstufe 1",
+    "status": "Siegelriss",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Runenminen ist die Signaturtechnik des Archivspinne (Sigil-Legerin). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sigil-Legerin",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_mira_vehicle_2",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Gedaechtnisnetz",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Archivspinne Modulstufe 2",
+    "status": "Siegelriss",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Gedaechtnisnetz ist die Signaturtechnik des Archivspinne (Sigil-Legerin). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sigil-Legerin",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_mira_vehicle_3",
+    "character_id": "char_mira",
+    "character": "Mira Voss",
+    "name": "Spiegelanker",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Archivspinne Modulstufe 3",
+    "status": "Siegelriss",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Spiegelanker ist die Signaturtechnik des Archivspinne (Sigil-Legerin). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sigil-Legerin",
+      "Siegelriss"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_basic",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Tareks Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt mobil, taeuschend, riskant.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Skirmisher / Taeuscher",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_heavy",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Tareks Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt mobil, taeuschend, riskant.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Skirmisher / Taeuscher",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_skill_1",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Spiegelkoeder",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 2: Salzschuld / Bindung 1",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Spiegelkoeder ist eine Kerntechnik fuer Skirmisher / Taeuscher: sie setzt Schuldmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Glasfuchs wird Spiegelkoeder als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Spiegelkoeder ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Sonnenglasweite",
+      "Schuldmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_skill_2",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Karawanensprung",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 2: Salzschuld / Bindung 1",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Karawanensprung ist eine Kerntechnik fuer Skirmisher / Taeuscher: sie setzt Schuldmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Glasfuchs wird Karawanensprung als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Karawanensprung ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Sonnenglasweite",
+      "Schuldmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_skill_3",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Salzspeerstich",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 2: Salzschuld / Bindung 2",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Salzspeerstich ist eine Kerntechnik fuer Skirmisher / Taeuscher: sie setzt Schuldmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Glasfuchs wird Salzspeerstich als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Salzspeerstich ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Sonnenglasweite",
+      "Schuldmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_skill_4",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Falscher Tod",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 2: Salzschuld / Bindung 3",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Falscher Tod ist eine Kerntechnik fuer Skirmisher / Taeuscher: sie setzt Schuldmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Glasfuchs wird Falscher Tod als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Falscher Tod ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Sonnenglasweite",
+      "Schuldmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_ultimate",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Hundert Vertraege",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Tarek al-Sahir",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Ultimative Charaktertechnik: Hundert Vertraege verwandelt den persoenlichen Konflikt von Tarek al-Sahir in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Hundert Vertraege einen Signatur-Overdrive des Glasfuchs aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_passive_1",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Passiver Bonus, der Tarek al-Sahirs Thema 'Schuld, Charme, Flucht und Bindung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Schuldmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Glasfuchs einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_passive_2",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Passiver Bonus, der Tarek al-Sahirs Thema 'Schuld, Charme, Flucht und Bindung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Schuldmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Glasfuchs einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_passive_3",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Passiver Bonus, der Tarek al-Sahirs Thema 'Schuld, Charme, Flucht und Bindung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Schuldmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Glasfuchs einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_vehicle_1",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Sandsegelboost",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Glasfuchs Modulstufe 1",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Sandsegelboost ist die Signaturtechnik des Glasfuchs (Sandsegler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sandsegler",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_vehicle_2",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Koederfackel",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Glasfuchs Modulstufe 2",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Koederfackel ist die Signaturtechnik des Glasfuchs (Sandsegler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sandsegler",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_tarek_vehicle_3",
+    "character_id": "char_tarek",
+    "character": "Tarek al-Sahir",
+    "name": "Schuldenpflug",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Glasfuchs Modulstufe 3",
+    "status": "Schuldmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Schuldenpflug ist die Signaturtechnik des Glasfuchs (Sandsegler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Sandsegler",
+      "Schuldmarke"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_basic",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Siofras Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Harzbindung",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt praezise, lauernd, organisch.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Ranger / Fallenbinderin",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_heavy",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Siofras Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Harzbindung",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt praezise, lauernd, organisch.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Ranger / Fallenbinderin",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_skill_1",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Namenspfeil",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 3: Der Wald vergisst / Bindung 1",
+    "status": "Harzbindung",
+    "onfoot_effect": "Namenspfeil ist eine Kerntechnik fuer Ranger / Fallenbinderin: sie setzt Harzbindung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Moorkaefer wird Namenspfeil als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Namenspfeil ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Wurzelwald Nhal",
+      "Harzbindung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_skill_2",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Wurzelfalle",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 3: Der Wald vergisst / Bindung 1",
+    "status": "Harzbindung",
+    "onfoot_effect": "Wurzelfalle ist eine Kerntechnik fuer Ranger / Fallenbinderin: sie setzt Harzbindung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Moorkaefer wird Wurzelfalle als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Wurzelfalle ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Wurzelwald Nhal",
+      "Harzbindung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_skill_3",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Moosmantel",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 3: Der Wald vergisst / Bindung 2",
+    "status": "Harzbindung",
+    "onfoot_effect": "Moosmantel ist eine Kerntechnik fuer Ranger / Fallenbinderin: sie setzt Harzbindung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Moorkaefer wird Moosmantel als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Moosmantel ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Wurzelwald Nhal",
+      "Harzbindung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_skill_4",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Chor der Dornen",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 3: Der Wald vergisst / Bindung 3",
+    "status": "Harzbindung",
+    "onfoot_effect": "Chor der Dornen ist eine Kerntechnik fuer Ranger / Fallenbinderin: sie setzt Harzbindung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Moorkaefer wird Chor der Dornen als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Chor der Dornen ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Wurzelwald Nhal",
+      "Harzbindung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_ultimate",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Der Wald nennt dich",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Siofra Nhal",
+    "status": "Harzbindung",
+    "onfoot_effect": "Ultimative Charaktertechnik: Der Wald nennt dich verwandelt den persoenlichen Konflikt von Siofra Nhal in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Der Wald nennt dich einen Signatur-Overdrive des Moorkaefer aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_passive_1",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Harzbindung",
+    "onfoot_effect": "Passiver Bonus, der Siofra Nhals Thema 'Namen, Erinnerung, Naturresonanz' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Harzbindung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Moorkaefer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_passive_2",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Harzbindung",
+    "onfoot_effect": "Passiver Bonus, der Siofra Nhals Thema 'Namen, Erinnerung, Naturresonanz' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Harzbindung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Moorkaefer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_passive_3",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Harzbindung",
+    "onfoot_effect": "Passiver Bonus, der Siofra Nhals Thema 'Namen, Erinnerung, Naturresonanz' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Harzbindung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Moorkaefer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_vehicle_1",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Sumpfgriff",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Moorkaefer Modulstufe 1",
+    "status": "Harzbindung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Sumpfgriff ist die Signaturtechnik des Moorkaefer (Bio-Crawler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Bio-Crawler",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_vehicle_2",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Sporenwolke",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Moorkaefer Modulstufe 2",
+    "status": "Harzbindung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Sporenwolke ist die Signaturtechnik des Moorkaefer (Bio-Crawler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Bio-Crawler",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_siofra_vehicle_3",
+    "character_id": "char_siofra",
+    "character": "Siofra Nhal",
+    "name": "Herzwurzelzug",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Moorkaefer Modulstufe 3",
+    "status": "Harzbindung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Herzwurzelzug ist die Signaturtechnik des Moorkaefer (Bio-Crawler). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Bio-Crawler",
+      "Harzbindung"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_basic",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Brannoks Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt schwer, laut, brutal ehrlich.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Bruiser / Harpunierer",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_heavy",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Brannoks Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt schwer, laut, brutal ehrlich.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Bruiser / Harpunierer",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_skill_1",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Harpunenwurf",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 4: Die Glocke unter der Brandung / Bindung 1",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Harpunenwurf ist eine Kerntechnik fuer Bruiser / Harpunierer: sie setzt Tiefenruf ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Riffbrecher wird Harpunenwurf als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Harpunenwurf ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Tiefenruf",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_skill_2",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Ankerkonter",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 4: Die Glocke unter der Brandung / Bindung 1",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Ankerkonter ist eine Kerntechnik fuer Bruiser / Harpunierer: sie setzt Tiefenruf ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Riffbrecher wird Ankerkonter als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Ankerkonter ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Tiefenruf",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_skill_3",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Sturmtritt",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 4: Die Glocke unter der Brandung / Bindung 2",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Sturmtritt ist eine Kerntechnik fuer Bruiser / Harpunierer: sie setzt Tiefenruf ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Riffbrecher wird Sturmtritt als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Sturmtritt ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Tiefenruf",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_skill_4",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Riffspalter",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 4: Die Glocke unter der Brandung / Bindung 3",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Riffspalter ist eine Kerntechnik fuer Bruiser / Harpunierer: sie setzt Tiefenruf ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Riffbrecher wird Riffspalter als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Riffspalter ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Tiefenruf",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_ultimate",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Die Glocke antwortet",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Brannok Reef",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Ultimative Charaktertechnik: Die Glocke antwortet verwandelt den persoenlichen Konflikt von Brannok Reef in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Die Glocke antwortet einen Signatur-Overdrive des Riffbrecher aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_passive_1",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Passiver Bonus, der Brannok Reefs Thema 'Bruder, Sturm, Arbeiterzorn' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Tiefenruf und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Riffbrecher einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_passive_2",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Passiver Bonus, der Brannok Reefs Thema 'Bruder, Sturm, Arbeiterzorn' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Tiefenruf und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Riffbrecher einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_passive_3",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Passiver Bonus, der Brannok Reefs Thema 'Bruder, Sturm, Arbeiterzorn' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Tiefenruf und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Riffbrecher einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_vehicle_1",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Bugramme",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Riffbrecher Modulstufe 1",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Bugramme ist die Signaturtechnik des Riffbrecher (Rammbastion). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Rammbastion",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_vehicle_2",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Kettenharpune",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Riffbrecher Modulstufe 2",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Kettenharpune ist die Signaturtechnik des Riffbrecher (Rammbastion). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Rammbastion",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_brannok_vehicle_3",
+    "character_id": "char_brannok",
+    "character": "Brannok Reef",
+    "name": "Brandungswalze",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Riffbrecher Modulstufe 3",
+    "status": "Tiefenruf",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Brandungswalze ist die Signaturtechnik des Riffbrecher (Rammbastion). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Rammbastion",
+      "Tiefenruf"
+    ]
+  },
+  {
+    "id": "ab_char_edda_basic",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Eddas Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Eidmarke",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt standhaft, taktisch, ehrenhart.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Tank / Bannstandarte",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_edda_heavy",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Eddas Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Eidmarke",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt standhaft, taktisch, ehrenhart.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Tank / Bannstandarte",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_edda_skill_1",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Bannstandarte",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 5: Falken ohne Himmel / Bindung 1",
+    "status": "Eidmarke",
+    "onfoot_effect": "Bannstandarte ist eine Kerntechnik fuer Tank / Bannstandarte: sie setzt Eidmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Eidpanzer wird Bannstandarte als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Bannstandarte ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm der Eidwacht",
+      "Eidmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_edda_skill_2",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Falkenhieb",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 5: Falken ohne Himmel / Bindung 1",
+    "status": "Eidmarke",
+    "onfoot_effect": "Falkenhieb ist eine Kerntechnik fuer Tank / Bannstandarte: sie setzt Eidmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Eidpanzer wird Falkenhieb als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Falkenhieb ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm der Eidwacht",
+      "Eidmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_edda_skill_3",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Schildschwur",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 5: Falken ohne Himmel / Bindung 2",
+    "status": "Eidmarke",
+    "onfoot_effect": "Schildschwur ist eine Kerntechnik fuer Tank / Bannstandarte: sie setzt Eidmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Eidpanzer wird Schildschwur als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Schildschwur ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm der Eidwacht",
+      "Eidmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_edda_skill_4",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Urteilslinie",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 5: Falken ohne Himmel / Bindung 3",
+    "status": "Eidmarke",
+    "onfoot_effect": "Urteilslinie ist eine Kerntechnik fuer Tank / Bannstandarte: sie setzt Eidmarke ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Eidpanzer wird Urteilslinie als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Urteilslinie ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm der Eidwacht",
+      "Eidmarke",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_edda_ultimate",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Haus ohne Herren",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Edda Falkenlicht",
+    "status": "Eidmarke",
+    "onfoot_effect": "Ultimative Charaktertechnik: Haus ohne Herren verwandelt den persoenlichen Konflikt von Edda Falkenlicht in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Haus ohne Herren einen Signatur-Overdrive des Eidpanzer aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_edda_passive_1",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Eidmarke",
+    "onfoot_effect": "Passiver Bonus, der Edda Falkenlichts Thema 'Adel, Pflicht, Gerechtigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Eidmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Eidpanzer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_edda_passive_2",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Eidmarke",
+    "onfoot_effect": "Passiver Bonus, der Edda Falkenlichts Thema 'Adel, Pflicht, Gerechtigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Eidmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Eidpanzer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_edda_passive_3",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Eidmarke",
+    "onfoot_effect": "Passiver Bonus, der Edda Falkenlichts Thema 'Adel, Pflicht, Gerechtigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Eidmarke und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Eidpanzer einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_edda_vehicle_1",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Eidschild",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Eidpanzer Modulstufe 1",
+    "status": "Eidmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Eidschild ist die Signaturtechnik des Eidpanzer (Konvoi-Schild). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Konvoi-Schild",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_edda_vehicle_2",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Konvoiwand",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Eidpanzer Modulstufe 2",
+    "status": "Eidmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Konvoiwand ist die Signaturtechnik des Eidpanzer (Konvoi-Schild). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Konvoi-Schild",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_edda_vehicle_3",
+    "character_id": "char_edda",
+    "character": "Edda Falkenlicht",
+    "name": "Falkensturz",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Eidpanzer Modulstufe 3",
+    "status": "Eidmarke",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Falkensturz ist die Signaturtechnik des Eidpanzer (Konvoi-Schild). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Konvoi-Schild",
+      "Eidmarke"
+    ]
+  },
+  {
+    "id": "ab_char_kael_basic",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Kaels Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Rostbruch",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt schmutzig, schnell, hinterhaeltig.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Assassin / Debuffer",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_kael_heavy",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Kaels Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Rostbruch",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt schmutzig, schnell, hinterhaeltig.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Assassin / Debuffer",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_kael_skill_1",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Schachtdolch",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 6: Schacht Null / Bindung 1",
+    "status": "Rostbruch",
+    "onfoot_effect": "Schachtdolch ist eine Kerntechnik fuer Assassin / Debuffer: sie setzt Rostbruch ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Schachtmaus wird Schachtdolch als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Schachtdolch ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Dunkelgrund",
+      "Rostbruch",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_kael_skill_2",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Licht aus",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 6: Schacht Null / Bindung 1",
+    "status": "Rostbruch",
+    "onfoot_effect": "Licht aus ist eine Kerntechnik fuer Assassin / Debuffer: sie setzt Rostbruch ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Schachtmaus wird Licht aus als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Licht aus ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Dunkelgrund",
+      "Rostbruch",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_kael_skill_3",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Giftleine",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 6: Schacht Null / Bindung 2",
+    "status": "Rostbruch",
+    "onfoot_effect": "Giftleine ist eine Kerntechnik fuer Assassin / Debuffer: sie setzt Rostbruch ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Schachtmaus wird Giftleine als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Giftleine ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Dunkelgrund",
+      "Rostbruch",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_kael_skill_4",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Rueckgratfinder",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 6: Schacht Null / Bindung 3",
+    "status": "Rostbruch",
+    "onfoot_effect": "Rueckgratfinder ist eine Kerntechnik fuer Assassin / Debuffer: sie setzt Rostbruch ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Schachtmaus wird Rueckgratfinder als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Rueckgratfinder ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Dunkelgrund",
+      "Rostbruch",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_kael_ultimate",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Niemand zahlt fuer mich",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Kael Nhar",
+    "status": "Rostbruch",
+    "onfoot_effect": "Ultimative Charaktertechnik: Niemand zahlt fuer mich verwandelt den persoenlichen Konflikt von Kael Nhar in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Niemand zahlt fuer mich einen Signatur-Overdrive des Schachtmaus aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_kael_passive_1",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Rostbruch",
+    "onfoot_effect": "Passiver Bonus, der Kael Nhars Thema 'Ueberleben, Verrat, Opfer' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Rostbruch und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Schachtmaus einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_kael_passive_2",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Rostbruch",
+    "onfoot_effect": "Passiver Bonus, der Kael Nhars Thema 'Ueberleben, Verrat, Opfer' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Rostbruch und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Schachtmaus einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_kael_passive_3",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Rostbruch",
+    "onfoot_effect": "Passiver Bonus, der Kael Nhars Thema 'Ueberleben, Verrat, Opfer' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Rostbruch und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Schachtmaus einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_kael_vehicle_1",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Tunnelhaken",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Schachtmaus Modulstufe 1",
+    "status": "Rostbruch",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Tunnelhaken ist die Signaturtechnik des Schachtmaus (Tunnel-Sprinter). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Tunnel-Sprinter",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_kael_vehicle_2",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Schrottnebel",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Schachtmaus Modulstufe 2",
+    "status": "Rostbruch",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Schrottnebel ist die Signaturtechnik des Schachtmaus (Tunnel-Sprinter). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Tunnel-Sprinter",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_kael_vehicle_3",
+    "character_id": "char_kael",
+    "character": "Kael Nhar",
+    "name": "Klingenreifen",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Schachtmaus Modulstufe 3",
+    "status": "Rostbruch",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Klingenreifen ist die Signaturtechnik des Schachtmaus (Tunnel-Sprinter). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Tunnel-Sprinter",
+      "Rostbruch"
+    ]
+  },
+  {
+    "id": "ab_char_oren_basic",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Orens Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Wundlicht",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt ruhig, schuetzend, unbequem mutig.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Support / Heiler-Monk",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_oren_heavy",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Orens Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Wundlicht",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt ruhig, schuetzend, unbequem mutig.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Support / Heiler-Monk",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_oren_skill_1",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Kettengebet",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Kapitel 5 optional, voll ab Post-20h / Bindung 1",
+    "status": "Wundlicht",
+    "onfoot_effect": "Kettengebet ist eine Kerntechnik fuer Support / Heiler-Monk: sie setzt Wundlicht ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Pilgerglocke wird Kettengebet als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Kettengebet ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm",
+      "Wundlicht",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_oren_skill_2",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Wardkreis",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Kapitel 5 optional, voll ab Post-20h / Bindung 1",
+    "status": "Wundlicht",
+    "onfoot_effect": "Wardkreis ist eine Kerntechnik fuer Support / Heiler-Monk: sie setzt Wundlicht ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Pilgerglocke wird Wardkreis als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Wardkreis ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm",
+      "Wundlicht",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_oren_skill_3",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Sanfter Bruch",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Kapitel 5 optional, voll ab Post-20h / Bindung 2",
+    "status": "Wundlicht",
+    "onfoot_effect": "Sanfter Bruch ist eine Kerntechnik fuer Support / Heiler-Monk: sie setzt Wundlicht ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Pilgerglocke wird Sanfter Bruch als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Sanfter Bruch ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm",
+      "Wundlicht",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_oren_skill_4",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Friedensschlag",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Kapitel 5 optional, voll ab Post-20h / Bindung 3",
+    "status": "Wundlicht",
+    "onfoot_effect": "Friedensschlag ist eine Kerntechnik fuer Support / Heiler-Monk: sie setzt Wundlicht ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Pilgerglocke wird Friedensschlag als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Friedensschlag ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Hochkamm",
+      "Wundlicht",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_oren_ultimate",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Barmherzigkeit steht",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Oren Vale",
+    "status": "Wundlicht",
+    "onfoot_effect": "Ultimative Charaktertechnik: Barmherzigkeit steht verwandelt den persoenlichen Konflikt von Oren Vale in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Barmherzigkeit steht einen Signatur-Overdrive des Pilgerglocke aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_oren_passive_1",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Wundlicht",
+    "onfoot_effect": "Passiver Bonus, der Oren Vales Thema 'Barmherzigkeit ohne Feigheit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Wundlicht und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Pilgerglocke einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_oren_passive_2",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Wundlicht",
+    "onfoot_effect": "Passiver Bonus, der Oren Vales Thema 'Barmherzigkeit ohne Feigheit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Wundlicht und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Pilgerglocke einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_oren_passive_3",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Wundlicht",
+    "onfoot_effect": "Passiver Bonus, der Oren Vales Thema 'Barmherzigkeit ohne Feigheit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Wundlicht und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Pilgerglocke einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_oren_vehicle_1",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Heilglocke",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Pilgerglocke Modulstufe 1",
+    "status": "Wundlicht",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Heilglocke ist die Signaturtechnik des Pilgerglocke (Support-Kutsche). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Support-Kutsche",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_oren_vehicle_2",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Pilgerschild",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Pilgerglocke Modulstufe 2",
+    "status": "Wundlicht",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Pilgerschild ist die Signaturtechnik des Pilgerglocke (Support-Kutsche). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Support-Kutsche",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_oren_vehicle_3",
+    "character_id": "char_oren",
+    "character": "Oren Vale",
+    "name": "Rettungsleine",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Pilgerglocke Modulstufe 3",
+    "status": "Wundlicht",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Rettungsleine ist die Signaturtechnik des Pilgerglocke (Support-Kutsche). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Support-Kutsche",
+      "Wundlicht"
+    ]
+  },
+  {
+    "id": "ab_char_yara_basic",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Yaras Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Ueberladung",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt technisch, aufladend, improvisierend.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Engineer / Drohnenkern",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_yara_heavy",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Yaras Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Ueberladung",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt technisch, aufladend, improvisierend.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Engineer / Drohnenkern",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_yara_skill_1",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Hammerladung",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Post-20h: Aschdock-Rebellion / Bindung 1",
+    "status": "Ueberladung",
+    "onfoot_effect": "Hammerladung ist eine Kerntechnik fuer Engineer / Drohnenkern: sie setzt Ueberladung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Kranhexe wird Hammerladung als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Hammerladung ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Ueberladung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_yara_skill_2",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Drohnenbiss",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Post-20h: Aschdock-Rebellion / Bindung 1",
+    "status": "Ueberladung",
+    "onfoot_effect": "Drohnenbiss ist eine Kerntechnik fuer Engineer / Drohnenkern: sie setzt Ueberladung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Kranhexe wird Drohnenbiss als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Drohnenbiss ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Ueberladung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_yara_skill_3",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Nietregen",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Post-20h: Aschdock-Rebellion / Bindung 2",
+    "status": "Ueberladung",
+    "onfoot_effect": "Nietregen ist eine Kerntechnik fuer Engineer / Drohnenkern: sie setzt Ueberladung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Kranhexe wird Nietregen als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Nietregen ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Ueberladung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_yara_skill_4",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Kesseltritt",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Post-20h: Aschdock-Rebellion / Bindung 3",
+    "status": "Ueberladung",
+    "onfoot_effect": "Kesseltritt ist eine Kerntechnik fuer Engineer / Drohnenkern: sie setzt Ueberladung ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Kranhexe wird Kesseltritt als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Kesseltritt ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Eisenbrandkueste",
+      "Ueberladung",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_yara_ultimate",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Die Werft erhebt sich",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Yara Kest",
+    "status": "Ueberladung",
+    "onfoot_effect": "Ultimative Charaktertechnik: Die Werft erhebt sich verwandelt den persoenlichen Konflikt von Yara Kest in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Die Werft erhebt sich einen Signatur-Overdrive des Kranhexe aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_yara_passive_1",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Ueberladung",
+    "onfoot_effect": "Passiver Bonus, der Yara Kests Thema 'Arbeit, Erfindung, Aufstand' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Ueberladung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Kranhexe einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_yara_passive_2",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Ueberladung",
+    "onfoot_effect": "Passiver Bonus, der Yara Kests Thema 'Arbeit, Erfindung, Aufstand' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Ueberladung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Kranhexe einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_yara_passive_3",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Ueberladung",
+    "onfoot_effect": "Passiver Bonus, der Yara Kests Thema 'Arbeit, Erfindung, Aufstand' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Ueberladung und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Kranhexe einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_yara_vehicle_1",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Kranarm",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Kranhexe Modulstufe 1",
+    "status": "Ueberladung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Kranarm ist die Signaturtechnik des Kranhexe (Werkstatt-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Werkstatt-Rig",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_yara_vehicle_2",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Reparaturfeld",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Kranhexe Modulstufe 2",
+    "status": "Ueberladung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Reparaturfeld ist die Signaturtechnik des Kranhexe (Werkstatt-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Werkstatt-Rig",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_yara_vehicle_3",
+    "character_id": "char_yara",
+    "character": "Yara Kest",
+    "name": "Schlackewerfer",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Kranhexe Modulstufe 3",
+    "status": "Ueberladung",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Schlackewerfer ist die Signaturtechnik des Kranhexe (Werkstatt-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Werkstatt-Rig",
+      "Ueberladung"
+    ]
+  },
+  {
+    "id": "ab_char_neris_basic",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Neriss Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Echohunger",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt zerbrechlich, unheimlich, explosiv.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Echo-Mage / Opfermagie",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_neris_heavy",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Neriss Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Echohunger",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt zerbrechlich, unheimlich, explosiv.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Echo-Mage / Opfermagie",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_neris_skill_1",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Echozunge",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Post-20h: Stimme im Glas Nachhall / Bindung 1",
+    "status": "Echohunger",
+    "onfoot_effect": "Echozunge ist eine Kerntechnik fuer Echo-Mage / Opfermagie: sie setzt Echohunger ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Traumsaege wird Echozunge als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Echozunge ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone/Wurzelwald",
+      "Echohunger",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_neris_skill_2",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Fremder Schmerz",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Post-20h: Stimme im Glas Nachhall / Bindung 1",
+    "status": "Echohunger",
+    "onfoot_effect": "Fremder Schmerz ist eine Kerntechnik fuer Echo-Mage / Opfermagie: sie setzt Echohunger ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Traumsaege wird Fremder Schmerz als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Fremder Schmerz ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone/Wurzelwald",
+      "Echohunger",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_neris_skill_3",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Sichelkreis",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Post-20h: Stimme im Glas Nachhall / Bindung 2",
+    "status": "Echohunger",
+    "onfoot_effect": "Sichelkreis ist eine Kerntechnik fuer Echo-Mage / Opfermagie: sie setzt Echohunger ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Traumsaege wird Sichelkreis als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Sichelkreis ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone/Wurzelwald",
+      "Echohunger",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_neris_skill_4",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Erinnerungsriss",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Post-20h: Stimme im Glas Nachhall / Bindung 3",
+    "status": "Echohunger",
+    "onfoot_effect": "Erinnerungsriss ist eine Kerntechnik fuer Echo-Mage / Opfermagie: sie setzt Echohunger ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Traumsaege wird Erinnerungsriss als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Erinnerungsriss ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone/Wurzelwald",
+      "Echohunger",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_neris_ultimate",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Ich bin nicht sie",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Neris Vael",
+    "status": "Echohunger",
+    "onfoot_effect": "Ultimative Charaktertechnik: Ich bin nicht sie verwandelt den persoenlichen Konflikt von Neris Vael in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Ich bin nicht sie einen Signatur-Overdrive des Traumsaege aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_neris_passive_1",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Echohunger",
+    "onfoot_effect": "Passiver Bonus, der Neris Vaels Thema 'Identitaet, fremde Erinnerung, Selbstbestimmung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Echohunger und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Traumsaege einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_neris_passive_2",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Echohunger",
+    "onfoot_effect": "Passiver Bonus, der Neris Vaels Thema 'Identitaet, fremde Erinnerung, Selbstbestimmung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Echohunger und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Traumsaege einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_neris_passive_3",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Echohunger",
+    "onfoot_effect": "Passiver Bonus, der Neris Vaels Thema 'Identitaet, fremde Erinnerung, Selbstbestimmung' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Echohunger und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Traumsaege einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_neris_vehicle_1",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Traumspur",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Traumsaege Modulstufe 1",
+    "status": "Echohunger",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Traumspur ist die Signaturtechnik des Traumsaege (Echo-Risslaeufer). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Echo-Risslaeufer",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_neris_vehicle_2",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Echoportal",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Traumsaege Modulstufe 2",
+    "status": "Echohunger",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Echoportal ist die Signaturtechnik des Traumsaege (Echo-Risslaeufer). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Echo-Risslaeufer",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_neris_vehicle_3",
+    "character_id": "char_neris",
+    "character": "Neris Vael",
+    "name": "Seelenmotor",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Traumsaege Modulstufe 3",
+    "status": "Echohunger",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Seelenmotor ist die Signaturtechnik des Traumsaege (Echo-Risslaeufer). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Echo-Risslaeufer",
+      "Echohunger"
+    ]
+  },
+  {
+    "id": "ab_char_velka_basic",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Velkas Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt verfolgend, kontrollierend, gnadenlos praezise.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Lancer / Verfolgerin",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_velka_heavy",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Velkas Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt verfolgend, kontrollierend, gnadenlos praezise.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Lancer / Verfolgerin",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_velka_skill_1",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Sturmlanze",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Post-20h: Kein Grab fuer Sturmreiter / Bindung 1",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Sturmlanze ist eine Kerntechnik fuer Lancer / Verfolgerin: sie setzt Sturmjagd ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Sturmwidder wird Sturmlanze als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Sturmlanze ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Eisenbrandkueste",
+      "Sturmjagd",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_velka_skill_2",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Reiterleine",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Post-20h: Kein Grab fuer Sturmreiter / Bindung 1",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Reiterleine ist eine Kerntechnik fuer Lancer / Verfolgerin: sie setzt Sturmjagd ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Sturmwidder wird Reiterleine als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Reiterleine ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Eisenbrandkueste",
+      "Sturmjagd",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_velka_skill_3",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Weitwurf",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Post-20h: Kein Grab fuer Sturmreiter / Bindung 2",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Weitwurf ist eine Kerntechnik fuer Lancer / Verfolgerin: sie setzt Sturmjagd ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Sturmwidder wird Weitwurf als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Weitwurf ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Eisenbrandkueste",
+      "Sturmjagd",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_velka_skill_4",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Jagdurteil",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Post-20h: Kein Grab fuer Sturmreiter / Bindung 3",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Jagdurteil ist eine Kerntechnik fuer Lancer / Verfolgerin: sie setzt Sturmjagd ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Sturmwidder wird Jagdurteil als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Jagdurteil ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Graumarsch/Eisenbrandkueste",
+      "Sturmjagd",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_velka_ultimate",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Kein Weg bleibt offen",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Velka Sturmtritt",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Ultimative Charaktertechnik: Kein Weg bleibt offen verwandelt den persoenlichen Konflikt von Velka Sturmtritt in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Kein Weg bleibt offen einen Signatur-Overdrive des Sturmwidder aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_velka_passive_1",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Passiver Bonus, der Velka Sturmtritts Thema 'Verlust, Professionalitaet, Zugehoerigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Sturmjagd und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Sturmwidder einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_velka_passive_2",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Passiver Bonus, der Velka Sturmtritts Thema 'Verlust, Professionalitaet, Zugehoerigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Sturmjagd und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Sturmwidder einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_velka_passive_3",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Passiver Bonus, der Velka Sturmtritts Thema 'Verlust, Professionalitaet, Zugehoerigkeit' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Sturmjagd und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Sturmwidder einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_velka_vehicle_1",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Verfolgungsseil",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Sturmwidder Modulstufe 1",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Verfolgungsseil ist die Signaturtechnik des Sturmwidder (Jagd-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Jagd-Rig",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_velka_vehicle_2",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Sturmkamm",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Sturmwidder Modulstufe 2",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Sturmkamm ist die Signaturtechnik des Sturmwidder (Jagd-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Jagd-Rig",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_velka_vehicle_3",
+    "character_id": "char_velka",
+    "character": "Velka Sturmtritt",
+    "name": "Rammgalopp",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Sturmwidder Modulstufe 3",
+    "status": "Sturmjagd",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Rammgalopp ist die Signaturtechnik des Sturmwidder (Jagd-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Jagd-Rig",
+      "Sturmjagd"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_basic",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Cyrs Grundkette",
+    "slot": "basic",
+    "cooldown": 0,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Formschock",
+    "onfoot_effect": "Schnelle Standardkombo, die Ressourcen erzeugt und den Charakterrhythmus lehrt. Spielt adaptiv, fremd, lernend.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Adaptive / Formwechsel",
+      "Formschock"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_heavy",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Cyrs Brecher",
+    "slot": "heavy",
+    "cooldown": 4,
+    "cost": "keine",
+    "unlock": "Start",
+    "status": "Formschock",
+    "onfoot_effect": "Langsamer, schwerer Treffer mit hohem Haltungs- und Fahrzeugpanzer-Schaden. Spielt adaptiv, fremd, lernend.",
+    "vehicle_effect": "Im Fahrzeug als kurzer Modul-Impuls ausgefuehrt, ohne den Fahrfluss zu stoppen.",
+    "multiplayer_hook": "Erzeugt ein kurzes Synergie-Fenster fuer naechste Duo-Technik.",
+    "tags": [
+      "Adaptive / Formwechsel",
+      "Formschock"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_skill_1",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Formgriff",
+    "slot": "skill_1",
+    "cooldown": 8,
+    "cost": "1 Fokus",
+    "unlock": "Post-20h: Asterhof-Geheimnis / Bindung 1",
+    "status": "Formschock",
+    "onfoot_effect": "Formgriff ist eine Kerntechnik fuer Adaptive / Formwechsel: sie setzt Formschock ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Namenloser Kern wird Formgriff als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Formgriff ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone",
+      "Formschock",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_skill_2",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Geklaute Technik",
+    "slot": "skill_2",
+    "cooldown": 12,
+    "cost": "2 Fokus",
+    "unlock": "Post-20h: Asterhof-Geheimnis / Bindung 1",
+    "status": "Formschock",
+    "onfoot_effect": "Geklaute Technik ist eine Kerntechnik fuer Adaptive / Formwechsel: sie setzt Formschock ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Namenloser Kern wird Geklaute Technik als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Geklaute Technik ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone",
+      "Formschock",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_skill_3",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Leeres Gesicht",
+    "slot": "skill_3",
+    "cooldown": 16,
+    "cost": "1 Resonanz",
+    "unlock": "Post-20h: Asterhof-Geheimnis / Bindung 2",
+    "status": "Formschock",
+    "onfoot_effect": "Leeres Gesicht ist eine Kerntechnik fuer Adaptive / Formwechsel: sie setzt Formschock ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Namenloser Kern wird Leeres Gesicht als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Leeres Gesicht ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone",
+      "Formschock",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_skill_4",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Resonanzbiss",
+    "slot": "skill_4",
+    "cooldown": 20,
+    "cost": "2 Resonanz",
+    "unlock": "Post-20h: Asterhof-Geheimnis / Bindung 3",
+    "status": "Formschock",
+    "onfoot_effect": "Resonanzbiss ist eine Kerntechnik fuer Adaptive / Formwechsel: sie setzt Formschock ein, verschiebt Positionen und oeffnet ein klares Zeitfenster fuer Finisher.",
+    "vehicle_effect": "Im Namenloser Kern wird Resonanzbiss als Fahrzeugtechnik gelesen: kurzer Drift, Modulimpuls oder Bordwaffenfenster mit derselben Statuslogik.",
+    "multiplayer_hook": "Wenn ein zweiter Spieler waehrend Resonanzbiss ein passendes Statusfenster trifft, entsteht eine Combo-Variante mit Extra-Stagger.",
+    "tags": [
+      "Scherbenkrone",
+      "Formschock",
+      "onfoot"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_ultimate",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Ich waehle meinen Namen",
+    "slot": "ultimate",
+    "cooldown": 90,
+    "cost": "volle Resonanz",
+    "unlock": "Bindung 3 oder Story-Schluessel fuer Cyr Ohne Gestern",
+    "status": "Formschock",
+    "onfoot_effect": "Ultimative Charaktertechnik: Ich waehle meinen Namen verwandelt den persoenlichen Konflikt von Cyr Ohne Gestern in ein grosses Kampfereignis mit Schadens-, Kontroll- und Story-Callout.",
+    "vehicle_effect": "Im Fahrzeug loest Ich waehle meinen Namen einen Signatur-Overdrive des Namenloser Kern aus, inklusive Spezialkamera und Teamfenster.",
+    "multiplayer_hook": "Andere Spieler koennen innerhalb von 5 Sekunden einen Ultimate-Anker setzen, wodurch eine Konvoi-Ultimate entsteht.",
+    "tags": [
+      "ultimate",
+      "Formschock"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_passive_1",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Narbeninstinkt",
+    "slot": "passive_1",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 1",
+    "status": "Formschock",
+    "onfoot_effect": "Passiver Bonus, der Cyr Ohne Gesterns Thema 'Werkzeug wird Person' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Formschock und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Namenloser Kern einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_passive_2",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Regionale Handschrift",
+    "slot": "passive_2",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 2",
+    "status": "Formschock",
+    "onfoot_effect": "Passiver Bonus, der Cyr Ohne Gesterns Thema 'Werkzeug wird Person' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Formschock und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Namenloser Kern einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_passive_3",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Bindungsschwur",
+    "slot": "passive_3",
+    "cooldown": 0,
+    "cost": "passiv",
+    "unlock": "Talentreihe 3",
+    "status": "Formschock",
+    "onfoot_effect": "Passiver Bonus, der Cyr Ohne Gesterns Thema 'Werkzeug wird Person' mechanisch spuerbar macht. Verbessert Ressourcenfluss, Reaktion auf Formschock und Dialog-/Questloesungen.",
+    "vehicle_effect": "Gibt dem Namenloser Kern einen kleinen, aber buildpraegenden Bonus.",
+    "multiplayer_hook": "Wird im Koop geteilt, wenn die Bindung zwischen den Figuren hoch genug ist.",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_vehicle_1",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Kernwechsel",
+    "slot": "vehicle_skill_1",
+    "cooldown": 10,
+    "cost": "Hitze 20",
+    "unlock": "Namenloser Kern Modulstufe 1",
+    "status": "Formschock",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Kernwechsel ist die Signaturtechnik des Namenloser Kern (Transform-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Transform-Rig",
+      "Formschock"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_vehicle_2",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Maskenpanzer",
+    "slot": "vehicle_skill_2",
+    "cooldown": 18,
+    "cost": "Hitze 35",
+    "unlock": "Namenloser Kern Modulstufe 2",
+    "status": "Formschock",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Maskenpanzer ist die Signaturtechnik des Namenloser Kern (Transform-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Transform-Rig",
+      "Formschock"
+    ]
+  },
+  {
+    "id": "ab_char_cyr_vehicle_3",
+    "character_id": "char_cyr",
+    "character": "Cyr Ohne Gestern",
+    "name": "Unmoeglicher Winkel",
+    "slot": "vehicle_skill_3",
+    "cooldown": 30,
+    "cost": "Resonanzkern",
+    "unlock": "Namenloser Kern Modulstufe 3",
+    "status": "Formschock",
+    "onfoot_effect": "Nicht zu Fuss nutzbar, aber kann durch Companion-Callout vorbereitet werden.",
+    "vehicle_effect": "Unmoeglicher Winkel ist die Signaturtechnik des Namenloser Kern (Transform-Rig). Sie greift direkt in Lenkung, Gegnerformation und Fahrzeugpanzerung ein.",
+    "multiplayer_hook": "Kann mit Ramme, Harpune, Schild oder Sigil eines anderen Fahrzeugs verkettet werden.",
+    "tags": [
+      "vehicle",
+      "Transform-Rig",
+      "Formschock"
+    ]
+  }
+]

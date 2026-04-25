@@ -1,0 +1,13 @@
+id,name,playable_20h,region,role,theme,unlock,vehicle,vehicle_class,weapon
+char_lyra,Lyra Dorn,True,Graumarsch,Interceptor / Duellantin,"Rache, Ueberleben, Verantwortung",Prolog: Funken im Schlamm,Dornwolf,leichter Rissjaeger,Doppelklinge + Funkenpistole
+char_mira,Mira Voss,True,Graumarsch/Scherbenkrone,Controller / Runenbrecherin,"Wahrheit, Schuld, Archivmagie",Kapitel 1: Sumpfkathedrale,Archivspinne,Sigil-Legerin,Runenklingen + Archivsigil
+char_tarek,Tarek al-Sahir,True,Sonnenglasweite,Skirmisher / Taeuscher,"Schuld, Charme, Flucht und Bindung",Kapitel 2: Salzschuld,Glasfuchs,Sandsegler,Speer + Spiegelkoeder
+char_siofra,Siofra Nhal,True,Wurzelwald Nhal,Ranger / Fallenbinderin,"Namen, Erinnerung, Naturresonanz",Kapitel 3: Der Wald vergisst,Moorkaefer,Bio-Crawler,Harzbogen + lebende Fallen
+char_brannok,Brannok Reef,True,Eisenbrandkueste,Bruiser / Harpunierer,"Bruder, Sturm, Arbeiterzorn",Kapitel 4: Die Glocke unter der Brandung,Riffbrecher,Rammbastion,Ankerklinge + Harpune
+char_edda,Edda Falkenlicht,True,Hochkamm der Eidwacht,Tank / Bannstandarte,"Adel, Pflicht, Gerechtigkeit",Kapitel 5: Falken ohne Himmel,Eidpanzer,Konvoi-Schild,Grossschwert + Eidbanner
+char_kael,Kael Nhar,True,Dunkelgrund,Assassin / Debuffer,"Ueberleben, Verrat, Opfer",Kapitel 6: Schacht Null,Schachtmaus,Tunnel-Sprinter,Dolche + Schachtgift
+char_oren,Oren Vale,False,Hochkamm,Support / Heiler-Monk,Barmherzigkeit ohne Feigheit,"Kapitel 5 optional, voll ab Post-20h",Pilgerglocke,Support-Kutsche,Kettenstab + Wards
+char_yara,Yara Kest,False,Eisenbrandkueste,Engineer / Drohnenkern,"Arbeit, Erfindung, Aufstand",Post-20h: Aschdock-Rebellion,Kranhexe,Werkstatt-Rig,Schmiedehammer + Reparaturdrohne
+char_neris,Neris Vael,False,Scherbenkrone/Wurzelwald,Echo-Mage / Opfermagie,"Identitaet, fremde Erinnerung, Selbstbestimmung",Post-20h: Stimme im Glas Nachhall,Traumsaege,Echo-Risslaeufer,Sichel + Echoadern
+char_velka,Velka Sturmtritt,False,Graumarsch/Eisenbrandkueste,Lancer / Verfolgerin,"Verlust, Professionalitaet, Zugehoerigkeit",Post-20h: Kein Grab fuer Sturmreiter,Sturmwidder,Jagd-Rig,Lanze + Sturmleine
+char_cyr,Cyr Ohne Gestern,False,Scherbenkrone,Adaptive / Formwechsel,Werkzeug wird Person,Post-20h: Asterhof-Geheimnis,Namenloser Kern,Transform-Rig,Resonanzwaffe

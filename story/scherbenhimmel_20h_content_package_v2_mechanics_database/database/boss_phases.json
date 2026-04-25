@@ -1,0 +1,242 @@
+[
+  {
+    "boss_id": "boss_nasser_faehnrich",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Der Nasse Faehnrichs Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_nasser_faehnrich",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Der Nasse Faehnrich die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_nasser_faehnrich",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Der Nasse Faehnrich eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_laternenwurm_mutter",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Mutter der Laternenwuermers Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_laternenwurm_mutter",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Mutter der Laternenwuermer die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_laternenwurm_mutter",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Mutter der Laternenwuermer eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_noret",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Noret, Schuldbuchhalter aus Glass Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_noret",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Noret, Schuldbuchhalter aus Glas die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_noret",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Noret, Schuldbuchhalter aus Glas eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_namenloser_garten",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Der Namenlose Gartens Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_namenloser_garten",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Der Namenlose Garten die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_namenloser_garten",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Der Namenlose Garten eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_tiefenglocke",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Malrec und die Tiefenglockes Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_tiefenglocke",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Malrec und die Tiefenglocke die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_tiefenglocke",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Malrec und die Tiefenglocke eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_falkenlinie",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Fall der Falkenlinies Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_falkenlinie",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Fall der Falkenlinie die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_falkenlinie",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Fall der Falkenlinie eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_sankt_ival",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Sankt Ival, Maschinenheiligers Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_sankt_ival",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Sankt Ival, Maschinenheiliger die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_sankt_ival",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Sankt Ival, Maschinenheiliger eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_sereth_hand",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Sereths Hand: Die Glaeserne Regentins Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_sereth_hand",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Sereths Hand: Die Glaeserne Regentin die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_sereth_hand",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Sereths Hand: Die Glaeserne Regentin eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_schrottkoenig",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Der Schrottkoenig von Ruessmarkts Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_schrottkoenig",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Der Schrottkoenig von Ruessmarkt die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_schrottkoenig",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Der Schrottkoenig von Ruessmarkt eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  },
+  {
+    "boss_id": "boss_glassrochen_alpha",
+    "phase": 1,
+    "name": "Eroeffnung: Muster lesen",
+    "mechanics": "Spieler lernen Glasrochen Alphas Hauptmuster. Telegraphen sind klar, aber hart bestraft.",
+    "coop_rule": "Solo mit Companion-AI machbar; Koop kann Rollen teilen, bekommt aber Zusatzmechaniken statt nur mehr HP.",
+    "fail_state": "Fehler verursacht Schaden, aber keinen langen Reset."
+  },
+  {
+    "boss_id": "boss_glassrochen_alpha",
+    "phase": 2,
+    "name": "Bruch: Arena veraendert sich",
+    "mechanics": "Bei 65 Prozent Leben veraendert Glasrochen Alpha die Arena. Vehicle-Linien, Deckung oder Companion-Rollen werden neu bewertet.",
+    "coop_rule": "Zwei Spieler koennen Mechaniken trennen: einer lockt, einer loest, einer faehrt, einer repariert.",
+    "fail_state": "Fehler zerstoert Deckung oder oeffnet zusaetzliche Adds."
+  },
+  {
+    "boss_id": "boss_glassrochen_alpha",
+    "phase": 3,
+    "name": "Entscheidung: Risiko oder Rettung",
+    "mechanics": "Unter 30 Prozent erzwingt Glasrochen Alpha eine Wahl: maximaler Schaden, Rettung eines NPCs, Schutz eines Fahrzeugs oder Sicherung einer seltenen Belohnung.",
+    "coop_rule": "Perfekte Koop-Ausfuehrung erzeugt Bonusdrop, aber kein exklusives Power-Item.",
+    "fail_state": "Fehler veraendert World-State oder reduziert Bonusbelohnung, nicht die Hauptprogression."
+  }
+]

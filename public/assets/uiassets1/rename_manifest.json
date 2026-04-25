@@ -1,0 +1,956 @@
+[
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_2.jpeg",
+    "new_filename": "buttons/deploy_button/deploy_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "DEPLOY Button",
+    "state": "Base",
+    "label": "DEPLOY Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_3.jpeg",
+    "new_filename": "buttons/deploy_button/deploy_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "DEPLOY Button",
+    "state": "Hover",
+    "label": "DEPLOY Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_4.jpeg",
+    "new_filename": "buttons/deploy_button/deploy_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "DEPLOY Button",
+    "state": "Pressed",
+    "label": "DEPLOY Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_5.jpeg",
+    "new_filename": "buttons/deploy_button/deploy_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "DEPLOY Button",
+    "state": "Disabled",
+    "label": "DEPLOY Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326.jpeg",
+    "new_filename": "buttons/deploy_button/deploy_button__05__active_armed.jpeg",
+    "category": "Buttons",
+    "asset": "DEPLOY Button",
+    "state": "Active/Armed",
+    "label": "DEPLOY Button — Active/Armed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_2.jpeg",
+    "new_filename": "buttons/abort_button/abort_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "ABORT Button",
+    "state": "Base",
+    "label": "ABORT Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_3.jpeg",
+    "new_filename": "buttons/abort_button/abort_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "ABORT Button",
+    "state": "Hover",
+    "label": "ABORT Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_4.jpeg",
+    "new_filename": "buttons/abort_button/abort_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "ABORT Button",
+    "state": "Pressed",
+    "label": "ABORT Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_5.jpeg",
+    "new_filename": "buttons/abort_button/abort_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "ABORT Button",
+    "state": "Disabled",
+    "label": "ABORT Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326.jpeg",
+    "new_filename": "buttons/abort_button/abort_button__05__critical_alert.jpeg",
+    "category": "Buttons",
+    "asset": "ABORT Button",
+    "state": "Critical Alert",
+    "label": "ABORT Button — Critical Alert"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCircular_202604230326_2.jpeg",
+    "new_filename": "buttons/settings_button/settings_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "SETTINGS Button",
+    "state": "Base",
+    "label": "SETTINGS Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCircular_202604230326_3.jpeg",
+    "new_filename": "buttons/settings_button/settings_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "SETTINGS Button",
+    "state": "Hover",
+    "label": "SETTINGS Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCircular_202604230326_4.jpeg",
+    "new_filename": "buttons/settings_button/settings_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "SETTINGS Button",
+    "state": "Pressed",
+    "label": "SETTINGS Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Circular_gear_settings_202604230326.jpeg",
+    "new_filename": "buttons/settings_button/settings_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "SETTINGS Button",
+    "state": "Disabled",
+    "label": "SETTINGS Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCircular_202604230326.jpeg",
+    "new_filename": "buttons/settings_button/settings_button__05__open_active.jpeg",
+    "category": "Buttons",
+    "asset": "SETTINGS Button",
+    "state": "Open/Active",
+    "label": "SETTINGS Button — Open/Active"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eOrange_202604230326_2.jpeg",
+    "new_filename": "buttons/logout_button/logout_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "LOGOUT Button",
+    "state": "Base",
+    "label": "LOGOUT Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eOrange_202604230326_3.jpeg",
+    "new_filename": "buttons/logout_button/logout_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "LOGOUT Button",
+    "state": "Hover",
+    "label": "LOGOUT Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eOrange_202604230326.jpeg",
+    "new_filename": "buttons/logout_button/logout_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "LOGOUT Button",
+    "state": "Pressed",
+    "label": "LOGOUT Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Orange_industrial_logout_202604230326.jpeg",
+    "new_filename": "buttons/logout_button/logout_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "LOGOUT Button",
+    "state": "Disabled",
+    "label": "LOGOUT Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUpgrade_202604230326_2.jpeg",
+    "new_filename": "buttons/upgrade_button/upgrade_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "UPGRADE Button",
+    "state": "Base",
+    "label": "UPGRADE Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUpgrade_202604230326_3.jpeg",
+    "new_filename": "buttons/upgrade_button/upgrade_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "UPGRADE Button",
+    "state": "Hover",
+    "label": "UPGRADE Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUpgrade_202604230326_4.jpeg",
+    "new_filename": "buttons/upgrade_button/upgrade_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "UPGRADE Button",
+    "state": "Pressed",
+    "label": "UPGRADE Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUpgrade_202604230326.jpeg",
+    "new_filename": "buttons/upgrade_button/upgrade_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "UPGRADE Button",
+    "state": "Disabled",
+    "label": "UPGRADE Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Upgrade_button_with_202604230326.jpeg",
+    "new_filename": "buttons/upgrade_button/upgrade_button__05__available_ready.jpeg",
+    "category": "Buttons",
+    "asset": "UPGRADE Button",
+    "state": "Available/Ready",
+    "label": "UPGRADE Button — Available/Ready"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eAcquire_202604230326_2.jpeg",
+    "new_filename": "buttons/acquire_button/acquire_button__01__base.jpeg",
+    "category": "Buttons",
+    "asset": "ACQUIRE Button",
+    "state": "Base",
+    "label": "ACQUIRE Button — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eAcquire_202604230326_3.jpeg",
+    "new_filename": "buttons/acquire_button/acquire_button__02__hover.jpeg",
+    "category": "Buttons",
+    "asset": "ACQUIRE Button",
+    "state": "Hover",
+    "label": "ACQUIRE Button — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eAcquire_202604230326_4.jpeg",
+    "new_filename": "buttons/acquire_button/acquire_button__03__pressed.jpeg",
+    "category": "Buttons",
+    "asset": "ACQUIRE Button",
+    "state": "Pressed",
+    "label": "ACQUIRE Button — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eAcquire_202604230326_5.jpeg",
+    "new_filename": "buttons/acquire_button/acquire_button__04__disabled.jpeg",
+    "category": "Buttons",
+    "asset": "ACQUIRE Button",
+    "state": "Disabled",
+    "label": "ACQUIRE Button — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eAcquire_202604230326.jpeg",
+    "new_filename": "buttons/acquire_button/acquire_button__05__reward_ready.jpeg",
+    "category": "Buttons",
+    "asset": "ACQUIRE Button",
+    "state": "Reward Ready",
+    "label": "ACQUIRE Button — Reward Ready"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326_4.jpeg",
+    "new_filename": "icons/back_arrow/back_arrow__01__base.jpeg",
+    "category": "Icons",
+    "asset": "BACK Arrow",
+    "state": "Base",
+    "label": "BACK Arrow — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326_5.jpeg",
+    "new_filename": "icons/back_arrow/back_arrow__02__hover.jpeg",
+    "category": "Icons",
+    "asset": "BACK Arrow",
+    "state": "Hover",
+    "label": "BACK Arrow — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326_6.jpeg",
+    "new_filename": "icons/back_arrow/back_arrow__03__pressed.jpeg",
+    "category": "Icons",
+    "asset": "BACK Arrow",
+    "state": "Pressed",
+    "label": "BACK Arrow — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Metal_arrow_UI_202604230326.jpeg",
+    "new_filename": "icons/back_arrow/back_arrow__04__disabled.jpeg",
+    "category": "Icons",
+    "asset": "BACK Arrow",
+    "state": "Disabled",
+    "label": "BACK Arrow — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCheckmark_202604230326_2.jpeg",
+    "new_filename": "icons/confirm_checkmark/confirm_checkmark__01__base.jpeg",
+    "category": "Icons",
+    "asset": "CONFIRM Checkmark",
+    "state": "Base",
+    "label": "CONFIRM Checkmark — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCheckmark_202604230326_3.jpeg",
+    "new_filename": "icons/confirm_checkmark/confirm_checkmark__02__hover.jpeg",
+    "category": "Icons",
+    "asset": "CONFIRM Checkmark",
+    "state": "Hover",
+    "label": "CONFIRM Checkmark — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCheckmark_202604230326_4.jpeg",
+    "new_filename": "icons/confirm_checkmark/confirm_checkmark__03__pressed.jpeg",
+    "category": "Icons",
+    "asset": "CONFIRM Checkmark",
+    "state": "Pressed",
+    "label": "CONFIRM Checkmark — Pressed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCheckmark_202604230326_5.jpeg",
+    "new_filename": "icons/confirm_checkmark/confirm_checkmark__04__disabled.jpeg",
+    "category": "Icons",
+    "asset": "CONFIRM Checkmark",
+    "state": "Disabled",
+    "label": "CONFIRM Checkmark — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eCheckmark_202604230326.jpeg",
+    "new_filename": "icons/confirm_checkmark/confirm_checkmark__05__success_flash.jpeg",
+    "category": "Icons",
+    "asset": "CONFIRM Checkmark",
+    "state": "Success Flash",
+    "label": "CONFIRM Checkmark — Success Flash"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326_2.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__01__base.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Base",
+    "label": "Health Bar Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326_3.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__02__empty.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Empty",
+    "label": "Health Bar Frame — Empty"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326_4.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__03__low.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Low",
+    "label": "Health Bar Frame — Low"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326_5.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__04__half_full.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Half Full",
+    "label": "Health Bar Frame — Half Full"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326_6.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__05__full.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Full",
+    "label": "Health Bar Frame — Full"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Health_bar_frame_202604230326.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__06__critical_warning.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Critical Warning",
+    "label": "Health Bar Frame — Critical Warning"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHealth_202604230326.jpeg",
+    "new_filename": "hud_elements/health_bar_frame/health_bar_frame__07__damaged_frame.jpeg",
+    "category": "HUD Elements",
+    "asset": "Health Bar Frame",
+    "state": "Damaged Frame",
+    "label": "Health Bar Frame — Damaged Frame"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326_2.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__01__base.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Base",
+    "label": "Shield Bar Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326_3.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__02__empty.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Empty",
+    "label": "Shield Bar Frame — Empty"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326_4.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__03__low.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Low",
+    "label": "Shield Bar Frame — Low"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326_5.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__04__half_full.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Half Full",
+    "label": "Shield Bar Frame — Half Full"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326_6.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__05__full.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Full",
+    "label": "Shield Bar Frame — Full"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eShield_202604230326.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__06__overcharged.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Overcharged",
+    "label": "Shield Bar Frame — Overcharged"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Shield_bar_frame_202604230326.jpeg",
+    "new_filename": "hud_elements/shield_bar_frame/shield_bar_frame__07__broken.jpeg",
+    "category": "HUD Elements",
+    "asset": "Shield Bar Frame",
+    "state": "Broken",
+    "label": "Shield Bar Frame — Broken"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326_2.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__01__base.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Base",
+    "label": "Speedometer Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326_3.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__02__idle.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Idle",
+    "label": "Speedometer Frame — Idle"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326_4.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__03__low_speed.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Low Speed",
+    "label": "Speedometer Frame — Low Speed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326_5.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__04__mid_speed.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Mid Speed",
+    "label": "Speedometer Frame — Mid Speed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326_6.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__05__high_speed.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "High Speed",
+    "label": "Speedometer Frame — High Speed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSpeedometer_202604230326.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__06__nitro_maxed.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Nitro/Maxed",
+    "label": "Speedometer Frame — Nitro/Maxed"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Speedometer_frame_industrial_202604230326.jpeg",
+    "new_filename": "hud_elements/speedometer_frame/speedometer_frame__07__broken.jpeg",
+    "category": "HUD Elements",
+    "asset": "Speedometer Frame",
+    "state": "Broken",
+    "label": "Speedometer Frame — Broken"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326_2.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__01__base.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Base",
+    "label": "Ability Slot — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326_3.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__02__empty.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Empty",
+    "label": "Ability Slot — Empty"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326_4.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__03__hover.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Hover",
+    "label": "Ability Slot — Hover"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326_5.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__04__selected.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Selected",
+    "label": "Ability Slot — Selected"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326_6.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__05__cooldown.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Cooldown",
+    "label": "Ability Slot — Cooldown"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eSquare_202604230326.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__06__locked.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Locked",
+    "label": "Ability Slot — Locked"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Square_ability_slot_202604230326.jpeg",
+    "new_filename": "hud_elements/ability_slot/ability_slot__07__ready_charged.jpeg",
+    "category": "HUD Elements",
+    "asset": "Ability Slot",
+    "state": "Ready/Charged",
+    "label": "Ability Slot — Ready/Charged"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDigital_202604230326_2.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__01__base.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Base",
+    "label": "Wave Counter Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDigital_202604230326_3.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__02__idle.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Idle",
+    "label": "Wave Counter Frame — Idle"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDigital_202604230326_4.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__03__active.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Active",
+    "label": "Wave Counter Frame — Active"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDigital_202604230326_5.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__04__warning.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Warning",
+    "label": "Wave Counter Frame — Warning"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Digital_display_frame_202604230326.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__05__critical_final_wave.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Critical/Final Wave",
+    "label": "Wave Counter Frame — Critical/Final Wave"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eDigital_202604230326.jpeg",
+    "new_filename": "hud_elements/wave_counter_frame/wave_counter_frame__06__broken.jpeg",
+    "category": "HUD Elements",
+    "asset": "Wave Counter Frame",
+    "state": "Broken",
+    "label": "Wave Counter Frame — Broken"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eScrap_202604230326_2.jpeg",
+    "new_filename": "icons/scrap_icon/scrap_icon__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Scrap Icon",
+    "state": "Base",
+    "label": "Scrap Icon — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eScrap_202604230326_3.jpeg",
+    "new_filename": "icons/scrap_icon/scrap_icon__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Scrap Icon",
+    "state": "Highlighted",
+    "label": "Scrap Icon — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eScrap_202604230326.jpeg",
+    "new_filename": "icons/scrap_icon/scrap_icon__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Scrap Icon",
+    "state": "Disabled",
+    "label": "Scrap Icon — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eGlowing_202604230326_2.jpeg",
+    "new_filename": "icons/tech_parts_icon/tech_parts_icon__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Tech-Parts Icon",
+    "state": "Base",
+    "label": "Tech-Parts Icon — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Glowing_green_motherboard_202604230326.jpeg",
+    "new_filename": "icons/tech_parts_icon/tech_parts_icon__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Tech-Parts Icon",
+    "state": "Highlighted",
+    "label": "Tech-Parts Icon — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eGlowing_202604230326.jpeg",
+    "new_filename": "icons/tech_parts_icon/tech_parts_icon__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Tech-Parts Icon",
+    "state": "Disabled",
+    "label": "Tech-Parts Icon — Disabled"
+  },
+  {
+    "status": "missing_prompt_output",
+    "original_filename": "",
+    "new_filename": "",
+    "category": "Icons",
+    "asset": "Tech-Parts Icon",
+    "state": "Rare",
+    "label": "Tech-Parts Icon — Rare"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eBlue_202604230326_2.jpeg",
+    "new_filename": "icons/nitro_icon/nitro_icon__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Nitro Icon",
+    "state": "Base",
+    "label": "Nitro Icon — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eBlue_202604230326_3.jpeg",
+    "new_filename": "icons/nitro_icon/nitro_icon__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Nitro Icon",
+    "state": "Highlighted",
+    "label": "Nitro Icon — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Blue_gas_canister_202604230326.jpeg",
+    "new_filename": "icons/nitro_icon/nitro_icon__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Nitro Icon",
+    "state": "Disabled",
+    "label": "Nitro Icon — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eBlue_202604230326.jpeg",
+    "new_filename": "icons/nitro_icon/nitro_icon__04__boost_ready.jpeg",
+    "category": "Icons",
+    "asset": "Nitro Icon",
+    "state": "Boost Ready",
+    "label": "Nitro Icon — Boost Ready"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326_2.jpeg",
+    "new_filename": "icons/repair_kit_icon/repair_kit_icon__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Repair-Kit Icon",
+    "state": "Base",
+    "label": "Repair-Kit Icon — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326_3.jpeg",
+    "new_filename": "icons/repair_kit_icon/repair_kit_icon__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Repair-Kit Icon",
+    "state": "Highlighted",
+    "label": "Repair-Kit Icon — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eMetal_202604230326.jpeg",
+    "new_filename": "icons/repair_kit_icon/repair_kit_icon__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Repair-Kit Icon",
+    "state": "Disabled",
+    "label": "Repair-Kit Icon — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Metal_toolbox_with_202604230326.jpeg",
+    "new_filename": "icons/repair_kit_icon/repair_kit_icon__04__premium.jpeg",
+    "category": "Icons",
+    "asset": "Repair-Kit Icon",
+    "state": "Premium",
+    "label": "Repair-Kit Icon — Premium"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHeavy_202604230326_2.jpeg",
+    "new_filename": "icons/ammo_icon/ammo_icon__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Ammo Icon",
+    "state": "Base",
+    "label": "Ammo Icon — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHeavy_202604230326_3.jpeg",
+    "new_filename": "icons/ammo_icon/ammo_icon__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Ammo Icon",
+    "state": "Highlighted",
+    "label": "Ammo Icon — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Heavy_ammunition_crate_202604230326.jpeg",
+    "new_filename": "icons/ammo_icon/ammo_icon__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Ammo Icon",
+    "state": "Disabled",
+    "label": "Ammo Icon — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eHeavy_202604230326.jpeg",
+    "new_filename": "icons/ammo_icon/ammo_icon__04__rare_explosive.jpeg",
+    "category": "Icons",
+    "asset": "Ammo Icon",
+    "state": "Rare/Explosive",
+    "label": "Ammo Icon — Rare/Explosive"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eFive-pointed_202604230326_2.jpeg",
+    "new_filename": "icons/skill_star/skill_star__01__base.jpeg",
+    "category": "Icons",
+    "asset": "Skill Star",
+    "state": "Base",
+    "label": "Skill Star — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eFive-pointed_202604230326_3.jpeg",
+    "new_filename": "icons/skill_star/skill_star__02__highlighted.jpeg",
+    "category": "Icons",
+    "asset": "Skill Star",
+    "state": "Highlighted",
+    "label": "Skill Star — Highlighted"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Five-pointed_star_game_202604230326.jpeg",
+    "new_filename": "icons/skill_star/skill_star__03__disabled.jpeg",
+    "category": "Icons",
+    "asset": "Skill Star",
+    "state": "Disabled",
+    "label": "Skill Star — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eFive-pointed_202604230326.jpeg",
+    "new_filename": "icons/skill_star/skill_star__04__legendary.jpeg",
+    "category": "Icons",
+    "asset": "Skill Star",
+    "state": "Legendary",
+    "label": "Skill Star — Legendary"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUI_202604230326_2.jpeg",
+    "new_filename": "menu_frames/main_menu_frame/main_menu_frame__01__base.jpeg",
+    "category": "Menu Frames",
+    "asset": "Main Menu Frame",
+    "state": "Base",
+    "label": "Main Menu Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUI_202604230326_3.jpeg",
+    "new_filename": "menu_frames/main_menu_frame/main_menu_frame__02__focused.jpeg",
+    "category": "Menu Frames",
+    "asset": "Main Menu Frame",
+    "state": "Focused",
+    "label": "Main Menu Frame — Focused"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUI_202604230326_4.jpeg",
+    "new_filename": "menu_frames/main_menu_frame/main_menu_frame__03__alert.jpeg",
+    "category": "Menu Frames",
+    "asset": "Main Menu Frame",
+    "state": "Alert",
+    "label": "Main Menu Frame — Alert"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eUI_202604230326.jpeg",
+    "new_filename": "menu_frames/main_menu_frame/main_menu_frame__04__disabled_offline.jpeg",
+    "category": "Menu Frames",
+    "asset": "Main Menu Frame",
+    "state": "Disabled/Offline",
+    "label": "Main Menu Frame — Disabled/Offline"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "UI_frame_industrial_202604230326.jpeg",
+    "new_filename": "menu_frames/main_menu_frame/main_menu_frame__05__damaged.jpeg",
+    "category": "Menu Frames",
+    "asset": "Main Menu Frame",
+    "state": "Damaged",
+    "label": "Main Menu Frame — Damaged"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eWasteland_202604230326_2.jpeg",
+    "new_filename": "menu_frames/small_dialog_frame/small_dialog_frame__01__base.jpeg",
+    "category": "Menu Frames",
+    "asset": "Small Dialog Frame",
+    "state": "Base",
+    "label": "Small Dialog Frame — Base"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eWasteland_202604230326_3.jpeg",
+    "new_filename": "menu_frames/small_dialog_frame/small_dialog_frame__02__focused.jpeg",
+    "category": "Menu Frames",
+    "asset": "Small Dialog Frame",
+    "state": "Focused",
+    "label": "Small Dialog Frame — Focused"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eWasteland_202604230326_4.jpeg",
+    "new_filename": "menu_frames/small_dialog_frame/small_dialog_frame__03__warning.jpeg",
+    "category": "Menu Frames",
+    "asset": "Small Dialog Frame",
+    "state": "Warning",
+    "label": "Small Dialog Frame — Warning"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Kopie_von_#U201eWasteland_202604230326.jpeg",
+    "new_filename": "menu_frames/small_dialog_frame/small_dialog_frame__04__disabled.jpeg",
+    "category": "Menu Frames",
+    "asset": "Small Dialog Frame",
+    "state": "Disabled",
+    "label": "Small Dialog Frame — Disabled"
+  },
+  {
+    "status": "mapped",
+    "original_filename": "Wasteland_game_UI_202604230326.jpeg",
+    "new_filename": "menu_frames/small_dialog_frame/small_dialog_frame__05__damaged.jpeg",
+    "category": "Menu Frames",
+    "asset": "Small Dialog Frame",
+    "state": "Damaged",
+    "label": "Small Dialog Frame — Damaged"
+  },
+  {
+    "status": "unmatched_extra",
+    "original_filename": "Deploy_button_wasteland_202604230105.jpeg_202604230326.jpeg",
+    "new_filename": "unmatched/unmatched__01__deploy_button_wasteland_202604230105_jpeg_202604230326.jpeg",
+    "category": "",
+    "asset": "",
+    "state": "",
+    "label": ""
+  }
+]

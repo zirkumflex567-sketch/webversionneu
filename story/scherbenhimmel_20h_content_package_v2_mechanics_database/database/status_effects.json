@@ -1,0 +1,92 @@
+[
+  {
+    "id": "st_mondbrand",
+    "name": "Mondbrand",
+    "type": "damage_over_time",
+    "detail": "Brennt nicht auf Haut, sondern in Erinnerung. Stapelt bis 5; bei 5 Stapeln explodiert der Gegner in einem Lichtknall, der Illusionen enttarnt."
+  },
+  {
+    "id": "st_siegelriss",
+    "name": "Siegelriss",
+    "type": "armor_break",
+    "detail": "Schwaecht magische Panzerung und macht verborgene Schwachpunkte sichtbar. Besonders stark gegen Archivleiber und Echohuelsen."
+  },
+  {
+    "id": "st_schuldmarke",
+    "name": "Schuldmarke",
+    "type": "redirect",
+    "detail": "Markierte Gegner nehmen Zusatzschaden, wenn sie Verbundete angreifen. Bei Tod springt die Marke auf den naechsten Elitegegner."
+  },
+  {
+    "id": "st_harzbindung",
+    "name": "Harzbindung",
+    "type": "root_slow",
+    "detail": "Verlangsamt Bewegung, Geschossdrehung und Fahrzeuglenkung. Bei Kontakt mit Feuer wird daraus Harzbrand."
+  },
+  {
+    "id": "st_tiefenruf",
+    "name": "Tiefenruf",
+    "type": "taunt_vulnerability",
+    "detail": "Zwingt leichte Gegner kurz in Brannoks Richtung und erhoeht erhaltenen Rammschaden."
+  },
+  {
+    "id": "st_eidmarke",
+    "name": "Eidmarke",
+    "type": "guard_counter",
+    "detail": "Gegner mit Eidmarke loesen beim Angriff auf geschuetzte Ziele einen Gegenbann aus."
+  },
+  {
+    "id": "st_rostbruch",
+    "name": "Rostbruch",
+    "type": "weakness",
+    "detail": "Reduziert Reparatur, Schildgeneration und Fahrzeugpanzerung. Wird durch Schrottnebel stark verlaengert."
+  },
+  {
+    "id": "st_wundlicht",
+    "name": "Wundlicht",
+    "type": "heal_mark",
+    "detail": "Heilmarke auf Verbundeten. Der naechste schwere Treffer wird teilweise in Heilung ueber Zeit umgewandelt."
+  },
+  {
+    "id": "st_ueberladung",
+    "name": "Ueberladung",
+    "type": "charge",
+    "detail": "Erhoeht Schaden technischer Waffen, kann aber bei Ueberhitzung in eine kontrollierte Entladung verwandelt werden."
+  },
+  {
+    "id": "st_echohunger",
+    "name": "Echohunger",
+    "type": "life_trade",
+    "detail": "Neris opfert eigene Ressourcen, um Gegner mit fremden Erinnerungen zu vergiften. Bei Kill bekommt sie Echo zurueck."
+  },
+  {
+    "id": "st_sturmjagd",
+    "name": "Sturmjagd",
+    "type": "pursuit",
+    "detail": "Markiert ein Ziel als Beute. Je laenger es sich bewegt, desto staerker wird Velkas naechster Treffer."
+  },
+  {
+    "id": "st_formschock",
+    "name": "Formschock",
+    "type": "adaptive",
+    "detail": "Cyr destabilisiert gegnerische Muster. Wiederholte Angriffe desselben Gegners werden schwaecher, neue Attacken kurz staerker."
+  },
+  {
+    "id": "st_salzblind",
+    "name": "Salzblind",
+    "type": "accuracy_down",
+    "detail": "Wuesteneffekt. Reduziert Fernkampfgenauigkeit und verdunkelt Mini-Map-Pings."
+  },
+  {
+    "id": "st_namenriss",
+    "name": "Namenriss",
+    "type": "identity_damage",
+    "detail": "Quest- und Bossstatus. Blockiert bestimmte Heilungen, bis ein Echo-Objekt beruehrt oder ein Companion-Callout beantwortet wird."
+  },
+  {
+    "id": "st_laternenbarriere",
+    "name": "Laternenbarriere",
+    "type": "shield",
+    "detail": "Temporarer Schild, der im Koop durch gemeinsame Positionierung dicker wird statt nur durch Itemlevel."
+  }
+]

@@ -1,0 +1,2294 @@
+[
+  {
+    "id": "dt_graumarsch_schwaermer",
+    "owner": "Graumarsch Schwaermer",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_vm_007",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_014",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_lyra_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_mat_torfharz",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_134",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_021",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_lyra_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_house_torfbank",
+        "weight": 40
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_graumarsch_brecher",
+    "owner": "Graumarsch Brecher",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_affix_138",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_136",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_014",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_139",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_house_torfbank",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_132",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_135",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_lyra_1",
+        "weight": 40
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_graumarsch_scharfschuetze",
+    "owner": "Graumarsch Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_vm_035",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_136",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_134",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_mat_torfharz",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_lyra_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_014",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_lyra_6",
+        "weight": 1
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_graumarsch_ritualist",
+    "owner": "Graumarsch Ritualist",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_char_lyra_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_138",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_lyra_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_028",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_035",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_133",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_lyra_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_136",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_graumarsch_fahrzeugjaeger",
+    "owner": "Graumarsch Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_mat_torfharz",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_lyra_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_lyra_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_133",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_021",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_137",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_135",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_028",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_graumarsch_elite-echo",
+    "owner": "Graumarsch Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_vm_028",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_139",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_132",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_lyra_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_014",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_007",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_135",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_schwaermer",
+    "owner": "Sonnenglasweite Schwaermer",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_char_tarek_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_008",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_015",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_144",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_house_spiegelteppich",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_029",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_145",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_140",
+        "weight": 40
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_brecher",
+    "owner": "Sonnenglasweite Brecher",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_affix_143",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_cos_salzbanner",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_029",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_036",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_144",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_tarek_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_char_tarek_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_tarek_3",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_scharfschuetze",
+    "owner": "Sonnenglasweite Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_affix_146",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_142",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_cos_salzbanner",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_001",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_tarek_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_char_tarek_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_house_spiegelteppich",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_tarek_4",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_ritualist",
+    "owner": "Sonnenglasweite Ritualist",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_char_tarek_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_cos_salzbanner",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_001",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_145",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_015",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_143",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_tarek_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_tarek_4",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_fahrzeugjaeger",
+    "owner": "Sonnenglasweite Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_house_spiegelteppich",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_tarek_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_tarek_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_cos_salzbanner",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_tarek_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_008",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_mat_salzsplitter",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_143",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_sonnenglasweite_elite-echo",
+    "owner": "Sonnenglasweite Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_affix_146",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_tarek_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_tarek_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_036",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_022",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_001",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_tarek_2",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_schwaermer",
+    "owner": "Wurzelwald Nhal Schwaermer",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_house_wurzelgarten",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_149",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_152",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_151",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_3",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_brecher",
+    "owner": "Wurzelwald Nhal Brecher",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_affix_153",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_150",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_149",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_154",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_151",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_cos_harzmaske",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_2",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_scharfschuetze",
+    "owner": "Wurzelwald Nhal Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_siofra_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_155",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_siofra_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_152",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_cos_harzmaske",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_148",
+        "weight": 40
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_ritualist",
+    "owner": "Wurzelwald Nhal Ritualist",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_char_siofra_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_siofra_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_152",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_siofra_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_148",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_150",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_siofra_3",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_fahrzeugjaeger",
+    "owner": "Wurzelwald Nhal Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_char_siofra_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_155",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_153",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_siofra_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_house_wurzelgarten",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_mat_wurzelherz",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_149",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_wurzelwald_nhal_elite-echo",
+    "owner": "Wurzelwald Nhal Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_mat_wurzelherz",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_siofra_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_149",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_150",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_152",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_148",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_153",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_schwaermer",
+    "owner": "Eisenbrandkueste Schwaermer",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_vm_038",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_yara_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_yara_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_158",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_163",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_house_werftkran",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_brannok_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_yara_5",
+        "weight": 2
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_brecher",
+    "owner": "Eisenbrandkueste Brecher",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_affix_157",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_yara_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_brannok_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_010",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_yara_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_brannok_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_yara_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_vm_003",
+        "weight": 40
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_scharfschuetze",
+    "owner": "Eisenbrandkueste Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_affix_157",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_yara_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_017",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_031",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_yara_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_yara_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_161",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_163",
+        "weight": 2
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_ritualist",
+    "owner": "Eisenbrandkueste Ritualist",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_char_brannok_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_161",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_156",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_yara_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_vm_010",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_031",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_yara_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_017",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_fahrzeugjaeger",
+    "owner": "Eisenbrandkueste Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_char_yara_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_159",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_162",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_157",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_161",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_158",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_031",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_yara_3",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_eisenbrandkueste_elite-echo",
+    "owner": "Eisenbrandkueste Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_brannok_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_163",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_brannok_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_162",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_159",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_010",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_house_werftkran",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_schwaermer",
+    "owner": "Hochkamm der Eidwacht Schwaermer",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_edda_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_170",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_164",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_166",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_169",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_167",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_171",
+        "weight": 2
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_brecher",
+    "owner": "Hochkamm der Eidwacht Brecher",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_affix_170",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_edda_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_edda_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_edda_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_169",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_164",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_edda_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_168",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_scharfschuetze",
+    "owner": "Hochkamm der Eidwacht Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_affix_167",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_165",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_171",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_edda_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_170",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_house_eidtafel",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_edda_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_edda_4",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_ritualist",
+    "owner": "Hochkamm der Eidwacht Ritualist",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_affix_168",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_edda_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_165",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_house_eidtafel",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_edda_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_edda_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_167",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_fahrzeugjaeger",
+    "owner": "Hochkamm der Eidwacht Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_char_edda_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_mat_eidsilber",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_edda_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_171",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_house_eidtafel",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_164",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_165",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_166",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_hochkamm_der_eidwacht_elite-echo",
+    "owner": "Hochkamm der Eidwacht Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_affix_165",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_edda_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_168",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_171",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_house_eidtafel",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_164",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_166",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_schwaermer",
+    "owner": "Dunkelgrund Schwaermer",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_char_kael_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_176",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_005",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_kael_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_177",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_house_schachtlampe",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_174",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_012",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_brecher",
+    "owner": "Dunkelgrund Brecher",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_char_kael_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_173",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_179",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_kael_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_026",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_172",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_177",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_174",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_scharfschuetze",
+    "owner": "Dunkelgrund Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_vm_005",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_kael_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_172",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_179",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_kael_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_033",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_mat_schachtkern",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_173",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_ritualist",
+    "owner": "Dunkelgrund Ritualist",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_char_kael_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_172",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_005",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_kael_3",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_kael_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_affix_176",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_040",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_175",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_fahrzeugjaeger",
+    "owner": "Dunkelgrund Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_char_kael_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_179",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_kael_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_019",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_kael_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_kael_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_012",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_kael_3",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_dunkelgrund_elite-echo",
+    "owner": "Dunkelgrund Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_vm_005",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_175",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_174",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_177",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_176",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_mat_schachtkern",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_179",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_033",
+        "weight": 5
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_schwaermer",
+    "owner": "Scherbenkrone Schwaermer",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_affix_184",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_cyr_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_183",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_006",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_cyr_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_180",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_char_cyr_6",
+        "weight": 1
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_brecher",
+    "owner": "Scherbenkrone Brecher",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_char_cyr_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_184",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_cyr_6",
+        "weight": 1
+      },
+      {
+        "item_id": "loot_vm_034",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_186",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_affix_183",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_char_cyr_2",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_181",
+        "weight": 25
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_scharfschuetze",
+    "owner": "Scherbenkrone Scharfschuetze",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_affix_180",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_013",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_034",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_041",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_020",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_006",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_181",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_187",
+        "weight": 2
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_ritualist",
+    "owner": "Scherbenkrone Ritualist",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_affix_185",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_char_cyr_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_041",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_020",
+        "weight": 12
+      },
+      {
+        "item_id": "loot_vm_034",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_char_cyr_1",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_vm_006",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_186",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_fahrzeugjaeger",
+    "owner": "Scherbenkrone Fahrzeugjaeger",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_vm_027",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_affix_187",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_cyr_5",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_181",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_affix_184",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_013",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_034",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_020",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_scherbenkrone_elite-echo",
+    "owner": "Scherbenkrone Elite-Echo",
+    "owner_type": "enemy",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_affix_180",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_181",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_mat_mondglasstaub",
+        "weight": 40
+      },
+      {
+        "item_id": "loot_affix_185",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_041",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_cyr_4",
+        "weight": 5
+      },
+      {
+        "item_id": "loot_vm_013",
+        "weight": 25
+      },
+      {
+        "item_id": "loot_vm_020",
+        "weight": 12
+      }
+    ],
+    "pity_rule": "Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region."
+  },
+  {
+    "id": "dt_boss_nasser_faehnrich",
+    "owner": "Der Nasse Faehnrich",
+    "owner_type": "boss",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_affix_163",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_027",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_184",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_033",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_velka_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_neris_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_oren_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_034",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_032",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_031",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_cyr_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_028",
+        "weight": 10
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_laternenwurm_mutter",
+    "owner": "Mutter der Laternenwuermer",
+    "owner_type": "boss",
+    "region": "Graumarsch",
+    "entries": [
+      {
+        "item_id": "loot_vm_029",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_135",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_oren_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_036",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_cyr_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_144",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_edda_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_tarek_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_brannok_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_neris_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_brannok_4",
+        "weight": 10
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_noret",
+    "owner": "Noret, Schuldbuchhalter aus Glas",
+    "owner_type": "boss",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_vm_022",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_cos_glockenhupe",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_mira_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_028",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_kael_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_velka_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_152",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_176",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_163",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_affix_160",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_171",
+        "weight": 6
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_namenloser_garten",
+    "owner": "Der Namenlose Garten",
+    "owner_type": "boss",
+    "region": "Wurzelwald Nhal",
+    "entries": [
+      {
+        "item_id": "loot_house_werftkran",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_cos_glockenhupe",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_038",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_affix_168",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_lyra_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_187",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_tarek_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_brannok_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_cos_harzmaske",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_oren_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_033",
+        "weight": 10
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_tiefenglocke",
+    "owner": "Malrec und die Tiefenglocke",
+    "owner_type": "boss",
+    "region": "Eisenbrandkueste",
+    "entries": [
+      {
+        "item_id": "loot_vm_033",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_neris_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_mat_levispan",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_brannok_2",
+        "weight": 22
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_157",
+        "weight": 22
+      },
+      {
+        "item_id": "loot_char_brannok_1",
+        "weight": 20
+      },
+      {
+        "item_id": "loot_char_yara_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_lyra_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_affix_144",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_031",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_027",
+        "weight": 10
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_falkenlinie",
+    "owner": "Fall der Falkenlinie",
+    "owner_type": "boss",
+    "region": "Hochkamm der Eidwacht",
+    "entries": [
+      {
+        "item_id": "loot_affix_164",
+        "weight": 20
+      },
+      {
+        "item_id": "loot_char_cyr_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_siofra_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_oren_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_144",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_yara_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_169",
+        "weight": 22
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_033",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_030",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_lyra_4",
+        "weight": 10
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_sankt_ival",
+    "owner": "Sankt Ival, Maschinenheiliger",
+    "owner_type": "boss",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_char_yara_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_lyra_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_cyr_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_mira_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_neris_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_032",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_neris_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_house_werftkran",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_affix_176",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_mat_schachtkern",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_tarek_5",
+        "weight": 6
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_sereth_hand",
+    "owner": "Sereths Hand: Die Glaeserne Regentin",
+    "owner_type": "boss",
+    "region": "Scherbenkrone",
+    "entries": [
+      {
+        "item_id": "loot_char_tarek_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_tarek_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_affix_136",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_brannok_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_mat_archivlinse",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_cyr_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_mira_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_siofra_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_038",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_cyr_3",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_oren_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_lyra_5",
+        "weight": 6
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_schrottkoenig",
+    "owner": "Der Schrottkoenig von Ruessmarkt",
+    "owner_type": "boss",
+    "region": "Dunkelgrund",
+    "entries": [
+      {
+        "item_id": "loot_vm_019",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_vm_036",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_tarek_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_neris_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_neris_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_velka_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_lyra_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_oren_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_vm_041",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_vm_035",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_005",
+        "weight": 20
+      },
+      {
+        "item_id": "loot_affix_174",
+        "weight": 18
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  },
+  {
+    "id": "dt_boss_glassrochen_alpha",
+    "owner": "Glasrochen Alpha",
+    "owner_type": "boss",
+    "region": "Sonnenglasweite",
+    "entries": [
+      {
+        "item_id": "loot_cos_salzbanner",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_vm_035",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_oren_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_neris_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_affix_139",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_char_kael_4",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_vm_028",
+        "weight": 10
+      },
+      {
+        "item_id": "loot_char_brannok_5",
+        "weight": 6
+      },
+      {
+        "item_id": "loot_house_spiegelteppich",
+        "weight": 22
+      },
+      {
+        "item_id": "loot_char_neris_6",
+        "weight": 2
+      },
+      {
+        "item_id": "loot_char_tarek_3",
+        "weight": 18
+      },
+      {
+        "item_id": "loot_char_cyr_5",
+        "weight": 6
+      }
+    ],
+    "pity_rule": "Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle."
+  }
+]

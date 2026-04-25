@@ -1,0 +1,13 @@
+CREATE TABLE characters(id TEXT PRIMARY KEY, name TEXT, region TEXT, role TEXT, weapon TEXT, vehicle TEXT, vehicle_class TEXT, theme TEXT, unlock TEXT, playable_20h INTEGER);
+CREATE TABLE abilities(id TEXT PRIMARY KEY, character_id TEXT, character TEXT, name TEXT, slot TEXT, cooldown INTEGER, cost TEXT, unlock TEXT, status TEXT, onfoot_effect TEXT, vehicle_effect TEXT, multiplayer_hook TEXT, tags TEXT);
+CREATE TABLE upgrades(id TEXT PRIMARY KEY, character_id TEXT, character TEXT, name TEXT, tier INTEGER, cost TEXT, unlock TEXT, effect TEXT, drawback TEXT, database_note TEXT);
+CREATE TABLE status_effects(id TEXT PRIMARY KEY, name TEXT, type TEXT, detail TEXT);
+CREATE TABLE vehicle_modules(id TEXT PRIMARY KEY, name TEXT, slot TEXT, tier TEXT, power_budget INTEGER, heat_change INTEGER, handling_change INTEGER, effect TEXT, source TEXT, notes TEXT);
+CREATE TABLE loot_items(id TEXT PRIMARY KEY, name TEXT, category TEXT, tier TEXT, character TEXT, region TEXT, source_type TEXT, effect TEXT, lore TEXT, salvage TEXT, drop_rule TEXT);
+CREATE TABLE enemies(id TEXT PRIMARY KEY, name TEXT, region TEXT, archetype TEXT, hp_role TEXT, mechanics TEXT, weakness TEXT, drop_table TEXT);
+CREATE TABLE bosses(id TEXT PRIMARY KEY, name TEXT, region TEXT, tier TEXT, hour TEXT, fantasy TEXT, vehicle_required INTEGER);
+CREATE TABLE boss_phases(boss_id TEXT, phase INTEGER, name TEXT, mechanics TEXT, coop_rule TEXT, fail_state TEXT);
+CREATE TABLE multiplayer_combos(id TEXT PRIMARY KEY, type TEXT, participants TEXT, name TEXT, trigger TEXT, effect TEXT, reward_note TEXT);
+CREATE TABLE drop_tables(id TEXT, owner TEXT, owner_type TEXT, region TEXT, item_id TEXT, weight INTEGER, pity_rule TEXT);
+CREATE TABLE crafting_recipes(id TEXT PRIMARY KEY, output_item TEXT, station TEXT, ingredients TEXT, unlock TEXT, note TEXT);
+CREATE TABLE quest_rewards(quest_id TEXT PRIMARY KEY, guaranteed TEXT, choice TEXT, bonus TEXT, design_note TEXT);

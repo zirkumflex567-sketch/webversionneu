@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Lyra Dorn",
+    "role": "Startfigur/Jägerin",
+    "region": "Graumarsch",
+    "arc": "Rache zu Verantwortung"
+  },
+  {
+    "name": "Mira Voss",
+    "role": "Archivgelehrte",
+    "region": "Graumarsch",
+    "arc": "Zynismus zu Einsatz"
+  },
+  {
+    "name": "Tarek al-Sahir",
+    "role": "Karawanensohn",
+    "region": "Sonnenglasweite",
+    "arc": "Flucht zu Bindung"
+  },
+  {
+    "name": "Siofra Nhal",
+    "role": "Wurzelchor-Kind",
+    "region": "Wurzelwald",
+    "arc": "Kollektiv zu eigener Stimme"
+  },
+  {
+    "name": "Brannok Reef",
+    "role": "Ex-Freibeuter",
+    "region": "Eisenbrandküste",
+    "arc": "Wut zu Loyalität"
+  },
+  {
+    "name": "Edda Falkenlicht",
+    "role": "entehrte Adlige",
+    "region": "Hochkamm",
+    "arc": "Pflicht zu Gerechtigkeit"
+  },
+  {
+    "name": "Kael Nhar",
+    "role": "Schachtflüchtling",
+    "region": "Dunkelgrund",
+    "arc": "Selbstschutz zu Wiedergutmachung"
+  },
+  {
+    "name": "Meisterin Ivara",
+    "role": "Leiterin der Letzten Laternen",
+    "region": "Laternenhof",
+    "arc": "Schutz durch Lüge"
+  },
+  {
+    "name": "Mara Esch",
+    "role": "Schifferin",
+    "region": "Graumarsch",
+    "arc": "Trauer zu Fürsorge"
+  },
+  {
+    "name": "Mina vom Spiegelmarkt",
+    "role": "Fälscherin/Händlerin",
+    "region": "Sonnenglasweite",
+    "arc": "Betrug zu nützlichem Ungehorsam"
+  },
+  {
+    "name": "Eron Reef",
+    "role": "Brannoks Bruder/Kultsympathisant",
+    "region": "Eisenbrandküste",
+    "arc": "Gerechter Zorn in falschen Händen"
+  },
+  {
+    "name": "Schreiberkind Eno",
+    "role": "Eidbuch-Fälscher",
+    "region": "Hochkamm",
+    "arc": "Lüge als Schutz der Schwachen"
+  },
+  {
+    "name": "Sankt Ival",
+    "role": "Maschinenheiliger",
+    "region": "Dunkelgrund",
+    "arc": "Arbeit als entmenschlichte Religion"
+  },
+  {
+    "name": "Sereth",
+    "role": "Archivkönigin",
+    "region": "Scherbenkrone",
+    "arc": "Wahrheit ohne Vergebung"
+  }
+]

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;700;900&family=Inter:wght@400;600;800&display=swap');
+
+:root {
+  /* Wasteland Color Palette */
+  --bg-deep: #040810;
+  --bg-panel: #0a111f;
+  --accent-toxic: #00ffaa;
+  --accent-toxic-glow: rgba(0, 255, 170, 0.4);
+  --accent-hazard: #ffaa00;
+  --accent-hazard-glow: rgba(255, 170, 0, 0.4);
+  --accent-tech: #c9b7ff;
+  --accent-tech-glow: rgba(201, 183, 255, 0.4);
+  
+  --text-bright: #ffffff;
+  --text-dim: #9ab0cc;
+  --text-muted: #536b8a;
+
+  /* Design Tokens */
+  --border-thick: 3px solid #000000;
+  --shadow-cel: 4px 4px 0px 0px #000000;
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  font-family: var(--font-inter);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-bright);
+  overflow: hidden;
+  user-select: none;
+}
+
+/* ── UI UTILITIES ── */
+
+.font-bebas { font-family: var(--font-bebas); }
+.font-orbitron { font-family: var(--font-orbitron); }
+
+.cel-border {
+  border: var(--border-thick);
+  box-shadow: var(--shadow-cel);
+}
+
+.toxic-glow { box-shadow: 0 0 20px var(--accent-toxic-glow); }
+.hazard-glow { box-shadow: 0 0 20px var(--accent-hazard-glow); }
+.tech-glow { box-shadow: 0 0 20px var(--accent-tech-glow); }
+
+/* ── HUD DASHBOARD ── */
+
+.hud-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.hud-element {
+  pointer-events: auto;
+}
+
+/* Top Stats Dashboard */
+.hud-top-bar {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2rem;
+}
+
+.hud-stat-box {
+  background: var(--bg-panel);
+  border: var(--border-thick);
+  box-shadow: var(--shadow-cel);
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hud-stat-label {
+  font-family: var(--font-bebas);
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+}
+
+.hud-stat-value {
+  font-family: var(--font-orbitron);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--accent-toxic);
+}
+
+/* ── BUTTON STYLES (Wasteland) ── */
+
+.btn-wasteland {
+  font-family: var(--font-bebas);
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  padding: 0.8rem 2rem;
+  background: var(--accent-toxic);
+  color: #000;
+  border: var(--border-thick);
+  box-shadow: var(--shadow-cel);
+  cursor: pointer;
+  transition: all 0.1s;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-wasteland:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000;
+  background: #fff;
+}
+
+.btn-wasteland:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #000;
+}
+
+.btn-wasteland:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(1);
+}
+
+/* ── CARDS ── */
+
+.card-wasteland {
+  background: var(--bg-panel);
+  border: var(--border-thick);
+  box-shadow: var(--shadow-cel);
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-wasteland::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--accent-toxic);
+}
+
+/* ── ANIMATIONS ── */
+
+@keyframes pulse-glow {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+.pulse {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+/* ── RESPONSIVE ── */
+
+@media (max-width: 1024px) {
+  .hud-stat-value { font-size: 1.5rem; }
+}

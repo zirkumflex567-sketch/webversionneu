@@ -1,0 +1,60 @@
+{
+  "fackelruh_choice": [
+    "save_smokehouse",
+    "save_school"
+  ],
+  "hub_first_upgrade": [
+    "sleeping_hall",
+    "workbench",
+    "infirmary"
+  ],
+  "mira_trust_intro": [
+    "freed_immediately",
+    "read_notes_first"
+  ],
+  "tarek_debt_resolution": [
+    "destroyed",
+    "bought",
+    "public_reading"
+  ],
+  "brunnen_resolution": [
+    "cleaned",
+    "sealed",
+    "citizen_control"
+  ],
+  "nahl_name_given": [
+    "true_name",
+    "false_name",
+    "silence"
+  ],
+  "ileth_resolution": [
+    "returned",
+    "burned",
+    "reliquary"
+  ],
+  "dock_resolution": [
+    "workers_saved",
+    "ammo_saved",
+    "both_saved"
+  ],
+  "eron_dialog_state": [
+    "family",
+    "worker_truth",
+    "malrec_exposed"
+  ],
+  "hochkam_power": [
+    "edda_rules",
+    "council_rules",
+    "vael_blackmailed"
+  ],
+  "kael_judgement": [
+    "forgiven",
+    "condemned_with_group",
+    "banished"
+  ],
+  "finale_philosophy": [
+    "lichtbann",
+    "bindeschwur",
+    "verewigung"
+  ]
+}

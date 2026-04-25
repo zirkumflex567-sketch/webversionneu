@@ -1,0 +1,109 @@
+.content-browser {
+  padding: 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.browser-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.browser-header input {
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.browser-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.browser-tabs button {
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #aaa;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.browser-tabs button.active {
+  background: #00ff88;
+  color: #000;
+  border-color: #00ff88;
+}
+
+.browser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.content-card {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.content-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #00ff88;
+}
+
+.content-card .title {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.content-card .badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  background: rgba(0, 255, 136, 0.1);
+  color: #00ff88;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.content-card .rarity {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.content-card .rarity.common { color: #aaa; }
+.content-card .rarity.refined { color: #00ff88; }
+.content-card .rarity.rare { color: #0088ff; }
+.content-card .rarity.signature { color: #ff00ff; }
+.content-card .rarity.relic { color: #ffaa00; }
+.content-card .rarity.mythic { color: #ff0000; }
+
+.content-card .stats, .content-card .phases {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.content-card .stats span, .content-card .phases span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+}

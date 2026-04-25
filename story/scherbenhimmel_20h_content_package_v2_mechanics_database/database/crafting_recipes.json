@@ -1,0 +1,482 @@
+[
+  {
+    "id": "recipe_vm_001",
+    "output_item": "loot_vm_001",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Sonnenglasweite x3"
+    ],
+    "unlock": "Ruf in Sonnenglasweite Stufe 2",
+    "note": "Crafting-Version von Moorlaeufer-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_002",
+    "output_item": "loot_vm_002",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Wurzelwald x3"
+    ],
+    "unlock": "Ruf in Wurzelwald Stufe 3",
+    "note": "Crafting-Version von Rissjaeger-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_003",
+    "output_item": "loot_vm_003",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Eisenbrandkueste x3"
+    ],
+    "unlock": "Ruf in Eisenbrandkueste Stufe 4",
+    "note": "Crafting-Version von Eidpanzer-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_004",
+    "output_item": "loot_vm_004",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Hochkamm x3"
+    ],
+    "unlock": "Ruf in Hochkamm Stufe 1",
+    "note": "Crafting-Version von Sandsegler-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_005",
+    "output_item": "loot_vm_005",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Dunkelgrund x3"
+    ],
+    "unlock": "Ruf in Dunkelgrund Stufe 2",
+    "note": "Crafting-Version von Schachtspinne-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_006",
+    "output_item": "loot_vm_006",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Scherbenkrone x3"
+    ],
+    "unlock": "Ruf in Scherbenkrone Stufe 3",
+    "note": "Crafting-Version von Werftbastion-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_007",
+    "output_item": "loot_vm_007",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Graumarsch x3"
+    ],
+    "unlock": "Ruf in Graumarsch Stufe 4",
+    "note": "Crafting-Version von Echo-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_008",
+    "output_item": "loot_vm_008",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Sonnenglasweite x3"
+    ],
+    "unlock": "Ruf in Sonnenglasweite Stufe 1",
+    "note": "Crafting-Version von Konvoi-Rahmen hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_009",
+    "output_item": "loot_vm_009",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Wurzelwald x3"
+    ],
+    "unlock": "Ruf in Wurzelwald Stufe 2",
+    "note": "Crafting-Version von Mondglas-Kern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_010",
+    "output_item": "loot_vm_010",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Eisenbrandkueste x3"
+    ],
+    "unlock": "Ruf in Eisenbrandkueste Stufe 3",
+    "note": "Crafting-Version von Salzspiegel-Kern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_011",
+    "output_item": "loot_vm_011",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Hochkamm x3"
+    ],
+    "unlock": "Ruf in Hochkamm Stufe 4",
+    "note": "Crafting-Version von Harzherz-Kern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_012",
+    "output_item": "loot_vm_012",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Dunkelgrund x3"
+    ],
+    "unlock": "Ruf in Dunkelgrund Stufe 1",
+    "note": "Crafting-Version von Tiefenglocken-Kern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_013",
+    "output_item": "loot_vm_013",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Scherbenkrone x3"
+    ],
+    "unlock": "Ruf in Scherbenkrone Stufe 2",
+    "note": "Crafting-Version von Eidkern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_014",
+    "output_item": "loot_vm_014",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Graumarsch x3"
+    ],
+    "unlock": "Ruf in Graumarsch Stufe 3",
+    "note": "Crafting-Version von Schrottfunken-Kern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_015",
+    "output_item": "loot_vm_015",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Sonnenglasweite x3"
+    ],
+    "unlock": "Ruf in Sonnenglasweite Stufe 4",
+    "note": "Crafting-Version von Archivkern hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_016",
+    "output_item": "loot_vm_016",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Wurzelwald x3"
+    ],
+    "unlock": "Ruf in Wurzelwald Stufe 1",
+    "note": "Crafting-Version von Kettenramme hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_017",
+    "output_item": "loot_vm_017",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Eisenbrandkueste x3"
+    ],
+    "unlock": "Ruf in Eisenbrandkueste Stufe 2",
+    "note": "Crafting-Version von Funkenkanone hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_018",
+    "output_item": "loot_vm_018",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Hochkamm x3"
+    ],
+    "unlock": "Ruf in Hochkamm Stufe 3",
+    "note": "Crafting-Version von Harpunenlanze hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_019",
+    "output_item": "loot_vm_019",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Dunkelgrund x3"
+    ],
+    "unlock": "Ruf in Dunkelgrund Stufe 4",
+    "note": "Crafting-Version von Runenpflug hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_020",
+    "output_item": "loot_vm_020",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Scherbenkrone x3"
+    ],
+    "unlock": "Ruf in Scherbenkrone Stufe 1",
+    "note": "Crafting-Version von Salzstreuer hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_021",
+    "output_item": "loot_vm_021",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Graumarsch x3"
+    ],
+    "unlock": "Ruf in Graumarsch Stufe 2",
+    "note": "Crafting-Version von Dornenwalze hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_022",
+    "output_item": "loot_vm_022",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Sonnenglasweite x3"
+    ],
+    "unlock": "Ruf in Sonnenglasweite Stufe 3",
+    "note": "Crafting-Version von Schachtbohrer hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_023",
+    "output_item": "loot_vm_023",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Wurzelwald x3"
+    ],
+    "unlock": "Ruf in Wurzelwald Stufe 4",
+    "note": "Crafting-Version von Falkenspeer hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_024",
+    "output_item": "loot_vm_024",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Eisenbrandkueste x3"
+    ],
+    "unlock": "Ruf in Eisenbrandkueste Stufe 1",
+    "note": "Crafting-Version von Seitensense hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_025",
+    "output_item": "loot_vm_025",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Hochkamm x3"
+    ],
+    "unlock": "Ruf in Hochkamm Stufe 2",
+    "note": "Crafting-Version von Nietwerfer hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_026",
+    "output_item": "loot_vm_026",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Dunkelgrund x3"
+    ],
+    "unlock": "Ruf in Dunkelgrund Stufe 3",
+    "note": "Crafting-Version von Echozunge hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_027",
+    "output_item": "loot_vm_027",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Scherbenkrone x3"
+    ],
+    "unlock": "Ruf in Scherbenkrone Stufe 4",
+    "note": "Crafting-Version von Wurzelwerfer hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_vm_028",
+    "output_item": "loot_vm_028",
+    "station": "Vehicle-Werkbank",
+    "ingredients": [
+      "Mondglasstaub x12",
+      "Fahrzeugschrott x8",
+      "Regionalmaterial Graumarsch x3"
+    ],
+    "unlock": "Ruf in Graumarsch Stufe 1",
+    "note": "Crafting-Version von Schrapnellorgel hat feste Werte, Drop-Version kann Affixe tragen."
+  },
+  {
+    "id": "recipe_sig_001",
+    "output_item": "loot_char_lyra_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Lyra Dorn x1"
+    ],
+    "unlock": "Lyra Dorn Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_002",
+    "output_item": "loot_char_mira_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Mira Voss x1"
+    ],
+    "unlock": "Mira Voss Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_003",
+    "output_item": "loot_char_tarek_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Tarek al-Sahir x1"
+    ],
+    "unlock": "Tarek al-Sahir Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_004",
+    "output_item": "loot_char_siofra_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Siofra Nhal x1"
+    ],
+    "unlock": "Siofra Nhal Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_005",
+    "output_item": "loot_char_brannok_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Brannok Reef x1"
+    ],
+    "unlock": "Brannok Reef Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_006",
+    "output_item": "loot_char_edda_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Edda Falkenlicht x1"
+    ],
+    "unlock": "Edda Falkenlicht Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_007",
+    "output_item": "loot_char_kael_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Kael Nhar x1"
+    ],
+    "unlock": "Kael Nhar Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_008",
+    "output_item": "loot_char_oren_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Oren Vale x1"
+    ],
+    "unlock": "Oren Vale Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_009",
+    "output_item": "loot_char_yara_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Yara Kest x1"
+    ],
+    "unlock": "Yara Kest Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_010",
+    "output_item": "loot_char_neris_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Neris Vael x1"
+    ],
+    "unlock": "Neris Vael Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_011",
+    "output_item": "loot_char_velka_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Velka Sturmtritt x1"
+    ],
+    "unlock": "Velka Sturmtritt Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  },
+  {
+    "id": "recipe_sig_012",
+    "output_item": "loot_char_cyr_4",
+    "station": "Signatur-Amboss",
+    "ingredients": [
+      "Scherbenglimm x4",
+      "Mondglasstaub x20",
+      "Bindungsmarke Cyr Ohne Gestern x1"
+    ],
+    "unlock": "Cyr Ohne Gestern Bindung 3",
+    "note": "Signaturausruestung ist fokussierbar, damit Charakterbuilds nicht am RNG sterben."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "quest_id": "mq00_funken_im_schlamm",
+    "guaranteed": [
+      "loot_mat_mondglasstaub"
+    ],
+    "choice": [
+      "loot_char_kael_3",
+      "loot_affix_139"
+    ],
+    "bonus": "loot_vm_003",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq01_letzte_laternen",
+    "guaranteed": [
+      "loot_char_mira_6"
+    ],
+    "choice": [
+      "loot_mat_levispan",
+      "loot_affix_135"
+    ],
+    "bonus": "loot_char_tarek_3",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq02_sumpfkathedrale",
+    "guaranteed": [
+      "loot_mat_torfharz"
+    ],
+    "choice": [
+      "loot_vm_004",
+      "loot_vm_033"
+    ],
+    "bonus": "loot_char_neris_3",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq03_salzschuld",
+    "guaranteed": [
+      "loot_vm_033"
+    ],
+    "choice": [
+      "loot_vm_007",
+      "loot_char_cyr_5"
+    ],
+    "bonus": "loot_char_lyra_5",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq04_glasroute",
+    "guaranteed": [
+      "loot_mat_torfharz"
+    ],
+    "choice": [
+      "loot_char_tarek_3",
+      "loot_char_mira_5"
+    ],
+    "bonus": "loot_affix_141",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq05_wald_vergisst",
+    "guaranteed": [
+      "loot_affix_159"
+    ],
+    "choice": [
+      "loot_vm_027",
+      "loot_char_kael_6"
+    ],
+    "bonus": "loot_char_cyr_6",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq06_namenloser_garten",
+    "guaranteed": [
+      "loot_char_kael_3"
+    ],
+    "choice": [
+      "loot_char_neris_3",
+      "loot_house_schachtlampe"
+    ],
+    "bonus": "loot_vm_014",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq07_glocke_brandung",
+    "guaranteed": [
+      "loot_mat_archivlinse"
+    ],
+    "choice": [
+      "loot_affix_153",
+      "loot_cos_lampenlack_gruen"
+    ],
+    "bonus": "loot_char_oren_2",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq08_werftkrieg",
+    "guaranteed": [
+      "loot_affix_138"
+    ],
+    "choice": [
+      "loot_affix_169",
+      "loot_char_lyra_5"
+    ],
+    "bonus": "loot_char_kael_3",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq09_falken_ohne_himmel",
+    "guaranteed": [
+      "loot_affix_153"
+    ],
+    "choice": [
+      "loot_char_cyr_6",
+      "loot_vm_034"
+    ],
+    "bonus": "loot_char_oren_5",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq10_eidbruch",
+    "guaranteed": [
+      "loot_mat_levispan"
+    ],
+    "choice": [
+      "loot_affix_177",
+      "loot_affix_145"
+    ],
+    "bonus": "loot_char_lyra_2",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq11_schacht_null",
+    "guaranteed": [
+      "loot_vm_033"
+    ],
+    "choice": [
+      "loot_vm_006",
+      "loot_mat_wurzelherz"
+    ],
+    "bonus": "loot_char_oren_4",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq12_sankt_ival",
+    "guaranteed": [
+      "loot_char_kael_1"
+    ],
+    "choice": [
+      "loot_char_lyra_1",
+      "loot_vm_019"
+    ],
+    "bonus": "loot_vm_033",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  },
+  {
+    "quest_id": "mq13_stimme_im_glas",
+    "guaranteed": [
+      "loot_vm_041"
+    ],
+    "choice": [
+      "loot_vm_012",
+      "loot_vm_009"
+    ],
+    "bonus": "loot_char_oren_1",
+    "design_note": "Garantiert Fortschritt, Wahlbelohnung fuer Build-Ausdruck, Bonus fuer optionale Ziele."
+  }
+]

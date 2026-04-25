@@ -1,0 +1,174 @@
+asset_id,category,output_type,aspect_ratio,source_doc,notes
+char_lyra_dorn_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_lyra_dorn_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_lyra_dorn_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_lyra_dorn_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_lyra_dorn_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_mira_voss_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_mira_voss_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_mira_voss_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_mira_voss_technique_icon,ability_icon,1:1 transparent,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_mira_voss_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_tarek_al_sahir_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_tarek_al_sahir_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_tarek_al_sahir_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_tarek_al_sahir_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_tarek_al_sahir_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_siofra_nhal_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_siofra_nhal_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_siofra_nhal_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_siofra_nhal_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_siofra_nhal_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_brannok_reef_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_brannok_reef_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_brannok_reef_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_brannok_reef_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_brannok_reef_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_edda_falkenlicht_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_edda_falkenlicht_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_edda_falkenlicht_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_edda_falkenlicht_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_edda_falkenlicht_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+char_kael_nhar_portrait_keyart,character,key_art,4:5,20H_CHARACTER_PAGES.md,Full character portrait
+char_kael_nhar_dialogue_bust,character,dialogue_bust,3:4,20H_CHARACTER_PAGES.md,Dialogue portrait
+char_kael_nhar_passive_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Passive icon
+char_kael_nhar_technique_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Technique icon
+char_kael_nhar_ultimate_icon,ability_icon,icon,1:1 transparent,20H_CHARACTER_PAGES.md,Ultimate icon
+area_graumarsch_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_graumarsch_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_graumarsch_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_sonnenglasweite_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_sonnenglasweite_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_sonnenglasweite_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_wurzelwald_nhal_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_wurzelwald_nhal_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_wurzelwald_nhal_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_eisenbrandkueste_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_eisenbrandkueste_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_eisenbrandkueste_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_hochkamm_eidwacht_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_hochkamm_eidwacht_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_hochkamm_eidwacht_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_dunkelgrund_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_dunkelgrund_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_dunkelgrund_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+area_asterhof_splash_art,region,environment,16:9,20H_REGION_PAGES.md,Region splash
+area_asterhof_deploy_card,region,deploy_card,4:5,20H_REGION_PAGES.md,Deploy card
+area_asterhof_map_tile,region,map_tile,1:1,20H_REGION_PAGES.md,Map tile
+mq00_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq01_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq02_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq03_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq04_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq05_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq06_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq07_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq08_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq09_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq10_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq11_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq12_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq13_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq14_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq15_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq16_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq17_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq18_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq19_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+mq20_keyart,main_quest,key_art,16:9,20H_QUEST_BIBLE.md,Main quest art
+bo_gr_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_gr_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_sg_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_sg_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_wn_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_wn_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_ei_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_ei_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_hk_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_hk_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_dg_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_dg_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_as_01_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+bo_as_02_poster,bounty,poster,4:5,20H_BOUNTY_CATALOG.md,Bounty poster
+status_mondbrand_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_lantern_fire_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_memory_fog_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_deep_mud_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_mirror_bleed_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_saltburn_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_debt_anchor_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_shardstorm_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_rootbound_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_sap_veil_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_smokeblind_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_rustfever_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_chainshock_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_frostbite_mark_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_oath_mark_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_vertigo_wind_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_ash_lung_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_pitch_dark_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_furnace_overheat_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+status_grief_tide_icon,status,icon,1:1 transparent,20H_STATUS_EFFECT_CATALOG.md,Status icon
+enemy_gr_nightflood_shade_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_gr_lanternless_raider_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_gr_mire_skitter_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_sg_debt_collector_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_sg_salt_raider_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_sg_mirror_hound_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_wn_name_husk_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_wn_resin_runner_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_wn_root_warden_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_ei_dock_bruiser_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_ei_bell_disciple_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_ei_guild_breaker_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_hk_oath_guard_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_hk_falcon_lancer_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_hk_silver_thrall_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_dg_shaft_laborer_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_dg_soot_cutter_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_dg_relic_hunter_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_as_archive_echo_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_as_shard_bailiff_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+enemy_as_oath_wraith_portrait,enemy,key_art,4:5,20H_NORMAL_ENEMY_BIBLE.md,Normal enemy portrait
+boss_raincoat_man_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_faceless_archive_warden_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_wet_ensign_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_noret_debt_bookkeeper_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_glass_ray_alpha_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_sap_choirmother_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_hollow_stag_judge_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_wreck_king_harrok_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_brine_gun_matron_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_banner_of_shards_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_white_gale_revenant_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_black_furnace_heart_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_nightmail_conductor_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+boss_aster_crown_widow_portrait,boss,key_art,4:5,20H_REGION_PAGES.md,Boss portrait
+curr_scrap_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Reward icon
+curr_relictech_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Reward icon
+item_moonglass_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_lantern_parts_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_contract_seal_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_root_resin_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_harbor_steel_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_oath_ribbon_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_ash_sigil_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+item_aster_bloom_icon,item,icon,1:1 transparent,20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md,Item icon
+ui_title_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_boot_menu,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_hub_laternenhof,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_deploy_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_quest_log,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_roster_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_shop_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_techlab_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_codex_screen,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_run_hud,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_run_summary,ui,screen_mockup,16:9,COMPLETE_GAME_FUNCTION_SPEC.md,UI mockup
+ui_multiplayer_lobby,ui,screen_mockup,16:9,20H_MULTIPLAYER_WIREFRAMES.md,UI mockup
+ui_settings_accessibility,ui,screen_mockup,16:9,20H_LOCALIZATION_SYSTEMS_DE_EN.md,UI mockup
+wf_party_lobby,wireframe,wireframe,16:9,20H_MULTIPLAYER_WIREFRAMES.md,Wireframe
+wf_matchmaking_queue,wireframe,wireframe,16:9,20H_MULTIPLAYER_WIREFRAMES.md,Wireframe
+wf_post_match_scoreboard,wireframe,wireframe,16:9,20H_MULTIPLAYER_WIREFRAMES.md,Wireframe
+wf_ping_social_panel,wireframe,wireframe,16:9,20H_MULTIPLAYER_WIREFRAMES.md,Wireframe

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "boss_nasser_faehnrich",
+    "name": "Der Nasse Faehnrich",
+    "region": "Graumarsch",
+    "tier": "mini_boss",
+    "hour": "0:45",
+    "fantasy": "Ein gefallener Laternenoffizier, dessen Banner noch immer Befehle an Tote gibt.",
+    "vehicle_required": false
+  },
+  {
+    "id": "boss_laternenwurm_mutter",
+    "name": "Mutter der Laternenwuermer",
+    "region": "Graumarsch",
+    "tier": "story_boss",
+    "hour": "2:40",
+    "fantasy": "Eine Brutkoenigin, die Laternenlicht frisst und in blinde Waerme verwandelt.",
+    "vehicle_required": false
+  },
+  {
+    "id": "boss_noret",
+    "name": "Noret, Schuldbuchhalter aus Glas",
+    "region": "Sonnenglasweite",
+    "tier": "story_boss",
+    "hour": "6:30",
+    "fantasy": "Ein Mensch, der seine Schuld in Vertrage ausgelagert hat; jeder Treffer ist eine Klausel.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_namenloser_garten",
+    "name": "Der Namenlose Garten",
+    "region": "Wurzelwald Nhal",
+    "tier": "story_boss",
+    "hour": "9:10",
+    "fantasy": "Kein einzelnes Monster, sondern ein Ort, der dich aus den Koepfen deiner Freunde schneidet.",
+    "vehicle_required": false
+  },
+  {
+    "id": "boss_tiefenglocke",
+    "name": "Malrec und die Tiefenglocke",
+    "region": "Eisenbrandkueste",
+    "tier": "major_vehicle_boss",
+    "hour": "12:50",
+    "fantasy": "Prediger, Sturmmaschine und Leviathan-Ableger in einem Hafenkrieg.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_falkenlinie",
+    "name": "Fall der Falkenlinie",
+    "region": "Hochkamm der Eidwacht",
+    "tier": "political_boss",
+    "hour": "15:30",
+    "fantasy": "Ein Duell gegen ein Haus, nicht nur gegen einen Ritter: Banner, Schuetzen, Falken und Eidmagie.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_sankt_ival",
+    "name": "Sankt Ival, Maschinenheiliger",
+    "region": "Dunkelgrund",
+    "tier": "dungeon_boss",
+    "hour": "17:50",
+    "fantasy": "Eine alte Reparaturmaschine, die Menschen wie defekte Bauteile sortiert.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_sereth_hand",
+    "name": "Sereths Hand: Die Glaeserne Regentin",
+    "region": "Scherbenkrone",
+    "tier": "midgame_finale",
+    "hour": "19:45",
+    "fantasy": "Ein Avatar des Leeren Archivs, gebaut aus den Entscheidungen, die Spieler bisher getroffen haben.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_schrottkoenig",
+    "name": "Der Schrottkoenig von Ruessmarkt",
+    "region": "Dunkelgrund",
+    "tier": "optional_world_boss",
+    "hour": "optional",
+    "fantasy": "Ein illegaler Arena-Champion, dessen Fahrzeug aus verlorenen Questbelohnungen gebaut ist.",
+    "vehicle_required": true
+  },
+  {
+    "id": "boss_glassrochen_alpha",
+    "name": "Glasrochen Alpha",
+    "region": "Sonnenglasweite",
+    "tier": "optional_mount_boss",
+    "hour": "optional",
+    "fantasy": "Ein halbwilder Rissrochen, den man nicht toetet, sondern durch perfektes Fahren zaehmt.",
+    "vehicle_required": true
+  }
+]

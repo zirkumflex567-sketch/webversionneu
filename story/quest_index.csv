@@ -1,0 +1,24 @@
+id,title,type,region,duration_min,purpose,key_reward
+MQ-00,Der Abend vor dem Regen,Main,Graumarsch/Fackelruh,20-25,"Alltag, Bindung, emotionaler Setup",keine materielle Belohnung
+MQ-01,Wenn die Laterne stirbt,Main,Graumarsch/Fackelruh,25-35,"Nachtflut, Rettungsentscheidung","Funkenstoss, Titel"
+MQ-02,Asche schwimmt nicht,Main,Graumarsch,20,"Flucht, Echo-Lupe",Echo-Lupe
+MQ-03,"Der Hof, der noch brennt",Main,Laternenhof,35-45,Hub-Aufbau,Laternenhof Stufe 1
+MQ-04,Die Sumpfkathedrale,Main,Graumarsch,40-50,"Mira, Archivruine",Mira spielbar
+MQ-05,Drei Dochte fuer eine Flamme,Main,Graumarsch,30-40,"Weltkarte, Laternen","Schnellreise, Weltkarte"
+MQ-06,Der Weg aus Glas,Main,Sonnenglasweite,30,"Tarek, Regionseintritt",Tarek temporär
+MQ-07,Der Preis des Salzes,Main,Sonnenglasweite,55-70,Schuldökonomie,Tarek spielbar
+MQ-08,"Brunnen, die luegen",Main,Sonnenglasweite,35-45,Wasserpolitik,Heiltrank-Upgrade
+MQ-09,Konvoi durch die Glassenke,Main,Sonnenglasweite,25-35,"Karawane, Mount-Probe",Handelsroute
+MQ-10,Wo Namen wurzeln,Main,Wurzelwald,30-40,"Siofra, Namensmagie",Siofra temporär
+MQ-11,"Ein Garten, der Namen frisst",Main,Wurzelwald,55-70,"Ileth, Identität","Siofra spielbar, Alchemie"
+MQ-12,Das Lied unter der Rinde,Main,Wurzelwald,35-45,"Kronenscherbe, Sereth",Kronenscherbe 1
+MQ-13,Rost auf der Zunge,Main,Eisenbrandküste,30-40,"Brannok, Hafenstreik",Brannok temporär
+MQ-14,Die Glocke unter der Brandung,Main,Eisenbrandküste,70-90,"Kult, Werft, Weltzustand",Brannok spielbar
+MQ-15,Eron singt nicht mehr,Main/Companion,Eisenbrandküste,35-45,Brannoks Bruder,Brannok Bindung 2
+MQ-16,Der Pass verlangt Blut,Main,Hochkamm,35-45,"Edda, Passpolitik",Edda temporär
+MQ-17,Falken ohne Himmel,Main,Hochkamm,65-80,"Eidbücher, Machtentscheidung","Edda spielbar, Kronenscherbe 2"
+MQ-18,Der zweite Name,Main,Dunkelgrund,30-40,"Kael, Alias",Rußmarkt-Ruf
+MQ-19,Schacht Null,Main,Dunkelgrund,70-90,"Kael-Schuld, Maschinenheiliger","Kael spielbar/Rivale, Kronenscherbe 3"
+MQ-20,"Drei Scherben, eine Luege",Main,Laternenhof,35-45,Laternen-Twist,Asterhof-Zugang
+MQ-21,Der Asterhof,Main,Scherbenkrone,50-60,Entscheidungen spiegeln,Archivschlüssel
+MQ-22,Die Stimme im Glas,Main,Scherbenkrone,60-75,Midgame-Finale,"Reliktwaffe, Finale-Titel"

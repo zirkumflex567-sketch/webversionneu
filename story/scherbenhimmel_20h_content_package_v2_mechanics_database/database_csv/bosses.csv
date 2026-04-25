@@ -1,0 +1,11 @@
+fantasy,hour,id,name,region,tier,vehicle_required
+"Ein gefallener Laternenoffizier, dessen Banner noch immer Befehle an Tote gibt.",0:45,boss_nasser_faehnrich,Der Nasse Faehnrich,Graumarsch,mini_boss,False
+"Eine Brutkoenigin, die Laternenlicht frisst und in blinde Waerme verwandelt.",2:40,boss_laternenwurm_mutter,Mutter der Laternenwuermer,Graumarsch,story_boss,False
+"Ein Mensch, der seine Schuld in Vertrage ausgelagert hat; jeder Treffer ist eine Klausel.",6:30,boss_noret,"Noret, Schuldbuchhalter aus Glas",Sonnenglasweite,story_boss,True
+"Kein einzelnes Monster, sondern ein Ort, der dich aus den Koepfen deiner Freunde schneidet.",9:10,boss_namenloser_garten,Der Namenlose Garten,Wurzelwald Nhal,story_boss,False
+"Prediger, Sturmmaschine und Leviathan-Ableger in einem Hafenkrieg.",12:50,boss_tiefenglocke,Malrec und die Tiefenglocke,Eisenbrandkueste,major_vehicle_boss,True
+"Ein Duell gegen ein Haus, nicht nur gegen einen Ritter: Banner, Schuetzen, Falken und Eidmagie.",15:30,boss_falkenlinie,Fall der Falkenlinie,Hochkamm der Eidwacht,political_boss,True
+"Eine alte Reparaturmaschine, die Menschen wie defekte Bauteile sortiert.",17:50,boss_sankt_ival,"Sankt Ival, Maschinenheiliger",Dunkelgrund,dungeon_boss,True
+"Ein Avatar des Leeren Archivs, gebaut aus den Entscheidungen, die Spieler bisher getroffen haben.",19:45,boss_sereth_hand,Sereths Hand: Die Glaeserne Regentin,Scherbenkrone,midgame_finale,True
+"Ein illegaler Arena-Champion, dessen Fahrzeug aus verlorenen Questbelohnungen gebaut ist.",optional,boss_schrottkoenig,Der Schrottkoenig von Ruessmarkt,Dunkelgrund,optional_world_boss,True
+"Ein halbwilder Rissrochen, den man nicht toetet, sondern durch perfektes Fahren zaehmt.",optional,boss_glassrochen_alpha,Glasrochen Alpha,Sonnenglasweite,optional_mount_boss,True

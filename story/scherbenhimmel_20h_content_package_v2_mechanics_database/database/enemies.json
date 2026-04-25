@@ -1,0 +1,422 @@
+[
+  {
+    "id": "enemy_1_1",
+    "name": "Graumarsch Schwaermer",
+    "region": "Graumarsch",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Mondbrand",
+    "drop_table": "dt_graumarsch_schwaermer"
+  },
+  {
+    "id": "enemy_1_2",
+    "name": "Graumarsch Brecher",
+    "region": "Graumarsch",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Siegelriss",
+    "drop_table": "dt_graumarsch_brecher"
+  },
+  {
+    "id": "enemy_1_3",
+    "name": "Graumarsch Scharfschuetze",
+    "region": "Graumarsch",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Schuldmarke",
+    "drop_table": "dt_graumarsch_scharfschuetze"
+  },
+  {
+    "id": "enemy_1_4",
+    "name": "Graumarsch Ritualist",
+    "region": "Graumarsch",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Harzbindung",
+    "drop_table": "dt_graumarsch_ritualist"
+  },
+  {
+    "id": "enemy_1_5",
+    "name": "Graumarsch Fahrzeugjaeger",
+    "region": "Graumarsch",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Tiefenruf",
+    "drop_table": "dt_graumarsch_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_1_6",
+    "name": "Graumarsch Elite-Echo",
+    "region": "Graumarsch",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Graumarsch. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_graumarsch_elite-echo"
+  },
+  {
+    "id": "enemy_2_1",
+    "name": "Sonnenglasweite Schwaermer",
+    "region": "Sonnenglasweite",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Siegelriss",
+    "drop_table": "dt_sonnenglasweite_schwaermer"
+  },
+  {
+    "id": "enemy_2_2",
+    "name": "Sonnenglasweite Brecher",
+    "region": "Sonnenglasweite",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Schuldmarke",
+    "drop_table": "dt_sonnenglasweite_brecher"
+  },
+  {
+    "id": "enemy_2_3",
+    "name": "Sonnenglasweite Scharfschuetze",
+    "region": "Sonnenglasweite",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Harzbindung",
+    "drop_table": "dt_sonnenglasweite_scharfschuetze"
+  },
+  {
+    "id": "enemy_2_4",
+    "name": "Sonnenglasweite Ritualist",
+    "region": "Sonnenglasweite",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Tiefenruf",
+    "drop_table": "dt_sonnenglasweite_ritualist"
+  },
+  {
+    "id": "enemy_2_5",
+    "name": "Sonnenglasweite Fahrzeugjaeger",
+    "region": "Sonnenglasweite",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_sonnenglasweite_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_2_6",
+    "name": "Sonnenglasweite Elite-Echo",
+    "region": "Sonnenglasweite",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Sonnenglasweite. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_sonnenglasweite_elite-echo"
+  },
+  {
+    "id": "enemy_3_1",
+    "name": "Wurzelwald Nhal Schwaermer",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Schuldmarke",
+    "drop_table": "dt_wurzelwald_nhal_schwaermer"
+  },
+  {
+    "id": "enemy_3_2",
+    "name": "Wurzelwald Nhal Brecher",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Harzbindung",
+    "drop_table": "dt_wurzelwald_nhal_brecher"
+  },
+  {
+    "id": "enemy_3_3",
+    "name": "Wurzelwald Nhal Scharfschuetze",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Tiefenruf",
+    "drop_table": "dt_wurzelwald_nhal_scharfschuetze"
+  },
+  {
+    "id": "enemy_3_4",
+    "name": "Wurzelwald Nhal Ritualist",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_wurzelwald_nhal_ritualist"
+  },
+  {
+    "id": "enemy_3_5",
+    "name": "Wurzelwald Nhal Fahrzeugjaeger",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_wurzelwald_nhal_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_3_6",
+    "name": "Wurzelwald Nhal Elite-Echo",
+    "region": "Wurzelwald Nhal",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Wurzelwald Nhal. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Wundlicht",
+    "drop_table": "dt_wurzelwald_nhal_elite-echo"
+  },
+  {
+    "id": "enemy_4_1",
+    "name": "Eisenbrandkueste Schwaermer",
+    "region": "Eisenbrandkueste",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Harzbindung",
+    "drop_table": "dt_eisenbrandkueste_schwaermer"
+  },
+  {
+    "id": "enemy_4_2",
+    "name": "Eisenbrandkueste Brecher",
+    "region": "Eisenbrandkueste",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Tiefenruf",
+    "drop_table": "dt_eisenbrandkueste_brecher"
+  },
+  {
+    "id": "enemy_4_3",
+    "name": "Eisenbrandkueste Scharfschuetze",
+    "region": "Eisenbrandkueste",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_eisenbrandkueste_scharfschuetze"
+  },
+  {
+    "id": "enemy_4_4",
+    "name": "Eisenbrandkueste Ritualist",
+    "region": "Eisenbrandkueste",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_eisenbrandkueste_ritualist"
+  },
+  {
+    "id": "enemy_4_5",
+    "name": "Eisenbrandkueste Fahrzeugjaeger",
+    "region": "Eisenbrandkueste",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Wundlicht",
+    "drop_table": "dt_eisenbrandkueste_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_4_6",
+    "name": "Eisenbrandkueste Elite-Echo",
+    "region": "Eisenbrandkueste",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Eisenbrandkueste. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Ueberladung",
+    "drop_table": "dt_eisenbrandkueste_elite-echo"
+  },
+  {
+    "id": "enemy_5_1",
+    "name": "Hochkamm der Eidwacht Schwaermer",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Tiefenruf",
+    "drop_table": "dt_hochkamm_der_eidwacht_schwaermer"
+  },
+  {
+    "id": "enemy_5_2",
+    "name": "Hochkamm der Eidwacht Brecher",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_hochkamm_der_eidwacht_brecher"
+  },
+  {
+    "id": "enemy_5_3",
+    "name": "Hochkamm der Eidwacht Scharfschuetze",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_hochkamm_der_eidwacht_scharfschuetze"
+  },
+  {
+    "id": "enemy_5_4",
+    "name": "Hochkamm der Eidwacht Ritualist",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Wundlicht",
+    "drop_table": "dt_hochkamm_der_eidwacht_ritualist"
+  },
+  {
+    "id": "enemy_5_5",
+    "name": "Hochkamm der Eidwacht Fahrzeugjaeger",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Ueberladung",
+    "drop_table": "dt_hochkamm_der_eidwacht_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_5_6",
+    "name": "Hochkamm der Eidwacht Elite-Echo",
+    "region": "Hochkamm der Eidwacht",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Hochkamm der Eidwacht. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Echohunger",
+    "drop_table": "dt_hochkamm_der_eidwacht_elite-echo"
+  },
+  {
+    "id": "enemy_6_1",
+    "name": "Dunkelgrund Schwaermer",
+    "region": "Dunkelgrund",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Eidmarke",
+    "drop_table": "dt_dunkelgrund_schwaermer"
+  },
+  {
+    "id": "enemy_6_2",
+    "name": "Dunkelgrund Brecher",
+    "region": "Dunkelgrund",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_dunkelgrund_brecher"
+  },
+  {
+    "id": "enemy_6_3",
+    "name": "Dunkelgrund Scharfschuetze",
+    "region": "Dunkelgrund",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Wundlicht",
+    "drop_table": "dt_dunkelgrund_scharfschuetze"
+  },
+  {
+    "id": "enemy_6_4",
+    "name": "Dunkelgrund Ritualist",
+    "region": "Dunkelgrund",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Ueberladung",
+    "drop_table": "dt_dunkelgrund_ritualist"
+  },
+  {
+    "id": "enemy_6_5",
+    "name": "Dunkelgrund Fahrzeugjaeger",
+    "region": "Dunkelgrund",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Echohunger",
+    "drop_table": "dt_dunkelgrund_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_6_6",
+    "name": "Dunkelgrund Elite-Echo",
+    "region": "Dunkelgrund",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Dunkelgrund. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Sturmjagd",
+    "drop_table": "dt_dunkelgrund_elite-echo"
+  },
+  {
+    "id": "enemy_7_1",
+    "name": "Scherbenkrone Schwaermer",
+    "region": "Scherbenkrone",
+    "archetype": "Schwaermer",
+    "hp_role": "low",
+    "mechanics": "Typischer Schwaermer der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Rostbruch",
+    "drop_table": "dt_scherbenkrone_schwaermer"
+  },
+  {
+    "id": "enemy_7_2",
+    "name": "Scherbenkrone Brecher",
+    "region": "Scherbenkrone",
+    "archetype": "Brecher",
+    "hp_role": "high",
+    "mechanics": "Typischer Brecher der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Wundlicht",
+    "drop_table": "dt_scherbenkrone_brecher"
+  },
+  {
+    "id": "enemy_7_3",
+    "name": "Scherbenkrone Scharfschuetze",
+    "region": "Scherbenkrone",
+    "archetype": "Scharfschuetze",
+    "hp_role": "medium",
+    "mechanics": "Typischer Scharfschuetze der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Ueberladung",
+    "drop_table": "dt_scherbenkrone_scharfschuetze"
+  },
+  {
+    "id": "enemy_7_4",
+    "name": "Scherbenkrone Ritualist",
+    "region": "Scherbenkrone",
+    "archetype": "Ritualist",
+    "hp_role": "medium",
+    "mechanics": "Typischer Ritualist der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Echohunger",
+    "drop_table": "dt_scherbenkrone_ritualist"
+  },
+  {
+    "id": "enemy_7_5",
+    "name": "Scherbenkrone Fahrzeugjaeger",
+    "region": "Scherbenkrone",
+    "archetype": "Fahrzeugjaeger",
+    "hp_role": "vehicle",
+    "mechanics": "Typischer Fahrzeugjaeger der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Sturmjagd",
+    "drop_table": "dt_scherbenkrone_fahrzeugjaeger"
+  },
+  {
+    "id": "enemy_7_6",
+    "name": "Scherbenkrone Elite-Echo",
+    "region": "Scherbenkrone",
+    "archetype": "Elite-Echo",
+    "hp_role": "elite",
+    "mechanics": "Typischer Elite-Echo der Region Scherbenkrone. Nutzt regionale Gefahren, reagiert auf Vehicle Combat und traegt mindestens eine Status-Schwachstelle.",
+    "weakness": "Formschock",
+    "drop_table": "dt_scherbenkrone_elite-echo"
+  }
+]

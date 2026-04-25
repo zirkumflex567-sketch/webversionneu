@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "ok": true,
+  "counts": {
+    "characters": 12,
+    "abilities": 156,
+    "upgrades": 144,
+    "loot_items": 187,
+    "drop_tables": 52,
+    "bosses": 10,
+    "combos": 86
+  }
+}

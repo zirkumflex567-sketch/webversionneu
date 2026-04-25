@@ -1,0 +1,104 @@
+{
+  "package": "htown-combat-asset-prompts",
+  "scope": "20h Scherbenhimmel preproduction",
+  "style_source": "docs/assets/asset-prompts/STYLE_GUIDE.md",
+  "promptbook": "docs/assets/asset-prompts/ALL_ASSET_PROMPTS.md",
+  "manifest_csv": "docs/assets/asset-prompts/prompt_manifest.csv",
+  "counts": {
+    "character_and_ability_prompts": 35,
+    "region_prompts": 21,
+    "main_quest_prompts": 21,
+    "bounty_prompts": 14,
+    "status_prompts": 20,
+    "enemy_prompts": 21,
+    "boss_prompts": 14,
+    "item_reward_prompts": 10,
+    "ui_prompts": 13,
+    "wireframe_prompts": 4,
+    "total_prompts": 173
+  },
+  "categories": [
+    {
+      "category": "character",
+      "source_doc": "docs/preproduction/20H_CHARACTER_PAGES.md",
+      "prompt_ids": [
+        "char_lyra_dorn_portrait_keyart",
+        "char_lyra_dorn_dialogue_bust",
+        "char_mira_voss_portrait_keyart",
+        "char_mira_voss_dialogue_bust",
+        "char_tarek_al_sahir_portrait_keyart",
+        "char_tarek_al_sahir_dialogue_bust",
+        "char_siofra_nhal_portrait_keyart",
+        "char_siofra_nhal_dialogue_bust",
+        "char_brannok_reef_portrait_keyart",
+        "char_brannok_reef_dialogue_bust",
+        "char_edda_falkenlicht_portrait_keyart",
+        "char_edda_falkenlicht_dialogue_bust",
+        "char_kael_nhar_portrait_keyart",
+        "char_kael_nhar_dialogue_bust"
+      ]
+    },
+    {
+      "category": "ability_icon",
+      "source_doc": "docs/preproduction/20H_CHARACTER_PAGES.md",
+      "pattern": "char_<character>_<passive|technique|ultimate>_icon",
+      "count": 21
+    },
+    {
+      "category": "region",
+      "source_doc": "docs/preproduction/20H_REGION_PAGES.md",
+      "pattern": "area_<region>_<splash_art|deploy_card|map_tile>",
+      "count": 21
+    },
+    {
+      "category": "main_quest",
+      "source_doc": "docs/preproduction/20H_QUEST_BIBLE.md",
+      "pattern": "mq##_keyart",
+      "count": 21
+    },
+    {
+      "category": "bounty",
+      "source_doc": "docs/preproduction/20H_BOUNTY_CATALOG.md",
+      "pattern": "bo_<area>_##_poster",
+      "count": 14
+    },
+    {
+      "category": "status",
+      "source_doc": "docs/preproduction/20H_STATUS_EFFECT_CATALOG.md",
+      "pattern": "status_<status>_icon",
+      "count": 20
+    },
+    {
+      "category": "enemy",
+      "source_doc": "docs/preproduction/20H_NORMAL_ENEMY_BIBLE.md",
+      "pattern": "enemy_<areaCode>_<slug>_portrait",
+      "count": 21
+    },
+    {
+      "category": "boss",
+      "source_doc": "docs/preproduction/20H_REGION_PAGES.md",
+      "pattern": "boss_<boss>_portrait",
+      "count": 14
+    },
+    {
+      "category": "item_reward",
+      "source_doc": "docs/preproduction/20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md",
+      "pattern": "<currency|item>_<slug>_icon",
+      "count": 10
+    },
+    {
+      "category": "ui_screen",
+      "source_doc": "docs/COMPLETE_GAME_FUNCTION_SPEC.md",
+      "pattern": "ui_<screen>",
+      "count": 13
+    },
+    {
+      "category": "wireframe",
+      "source_doc": "docs/preproduction/20H_MULTIPLAYER_WIREFRAMES.md",
+      "pattern": "wf_<screen>",
+      "count": 4
+    }
+  ],
+  "generation_rule": "Use STYLE_GUIDE.md master style prompt plus the asset-specific prompt in ALL_ASSET_PROMPTS.md unless category is wireframe.",
+  "file_naming_rule": "Generated asset filename should preserve asset_id, for example char_lyra_dorn_portrait_keyart.png."
+}

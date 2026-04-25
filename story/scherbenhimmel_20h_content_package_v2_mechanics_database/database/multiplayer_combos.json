@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "combo_char_lyra_char_mira",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Mira Voss"
+    ],
+    "name": "Lyra + Mira: Mondbrand trifft Siegelriss",
+    "trigger": "Lyra Dorn setzt Mondbrand und Mira Voss trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Controller / Runenbrecherin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Archivspinne ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_tarek",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Tarek al-Sahir"
+    ],
+    "name": "Lyra + Tarek: Mondbrand trifft Schuldmarke",
+    "trigger": "Lyra Dorn setzt Mondbrand und Tarek al-Sahir trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Skirmisher / Taeuscher: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Glasfuchs ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_siofra",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Siofra Nhal"
+    ],
+    "name": "Lyra + Siofra: Mondbrand trifft Harzbindung",
+    "trigger": "Lyra Dorn setzt Mondbrand und Siofra Nhal trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Ranger / Fallenbinderin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Moorkaefer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_brannok",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Brannok Reef"
+    ],
+    "name": "Lyra + Brannok: Mondbrand trifft Tiefenruf",
+    "trigger": "Lyra Dorn setzt Mondbrand und Brannok Reef trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Bruiser / Harpunierer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Riffbrecher ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_edda",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Edda Falkenlicht"
+    ],
+    "name": "Lyra + Edda: Mondbrand trifft Eidmarke",
+    "trigger": "Lyra Dorn setzt Mondbrand und Edda Falkenlicht trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Tank / Bannstandarte: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Eidpanzer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_kael",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Kael Nhar"
+    ],
+    "name": "Lyra + Kael: Mondbrand trifft Rostbruch",
+    "trigger": "Lyra Dorn setzt Mondbrand und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_oren",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Oren Vale"
+    ],
+    "name": "Lyra + Oren: Mondbrand trifft Wundlicht",
+    "trigger": "Lyra Dorn setzt Mondbrand und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_yara",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Yara Kest"
+    ],
+    "name": "Lyra + Yara: Mondbrand trifft Ueberladung",
+    "trigger": "Lyra Dorn setzt Mondbrand und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_neris",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Neris Vael"
+    ],
+    "name": "Lyra + Neris: Mondbrand trifft Echohunger",
+    "trigger": "Lyra Dorn setzt Mondbrand und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_velka",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Velka Sturmtritt"
+    ],
+    "name": "Lyra + Velka: Mondbrand trifft Sturmjagd",
+    "trigger": "Lyra Dorn setzt Mondbrand und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_lyra_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Lyra Dorn",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Lyra + Cyr: Mondbrand trifft Formschock",
+    "trigger": "Lyra Dorn setzt Mondbrand und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Interceptor / Duellantin mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Dornwolf und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_tarek",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Tarek al-Sahir"
+    ],
+    "name": "Mira + Tarek: Siegelriss trifft Schuldmarke",
+    "trigger": "Mira Voss setzt Siegelriss und Tarek al-Sahir trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Skirmisher / Taeuscher: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Glasfuchs ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_siofra",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Siofra Nhal"
+    ],
+    "name": "Mira + Siofra: Siegelriss trifft Harzbindung",
+    "trigger": "Mira Voss setzt Siegelriss und Siofra Nhal trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Ranger / Fallenbinderin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Moorkaefer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_brannok",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Brannok Reef"
+    ],
+    "name": "Mira + Brannok: Siegelriss trifft Tiefenruf",
+    "trigger": "Mira Voss setzt Siegelriss und Brannok Reef trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Bruiser / Harpunierer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Riffbrecher ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_edda",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Edda Falkenlicht"
+    ],
+    "name": "Mira + Edda: Siegelriss trifft Eidmarke",
+    "trigger": "Mira Voss setzt Siegelriss und Edda Falkenlicht trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Tank / Bannstandarte: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Eidpanzer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_kael",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Kael Nhar"
+    ],
+    "name": "Mira + Kael: Siegelriss trifft Rostbruch",
+    "trigger": "Mira Voss setzt Siegelriss und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_oren",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Oren Vale"
+    ],
+    "name": "Mira + Oren: Siegelriss trifft Wundlicht",
+    "trigger": "Mira Voss setzt Siegelriss und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_yara",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Yara Kest"
+    ],
+    "name": "Mira + Yara: Siegelriss trifft Ueberladung",
+    "trigger": "Mira Voss setzt Siegelriss und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_neris",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Neris Vael"
+    ],
+    "name": "Mira + Neris: Siegelriss trifft Echohunger",
+    "trigger": "Mira Voss setzt Siegelriss und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_velka",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Velka Sturmtritt"
+    ],
+    "name": "Mira + Velka: Siegelriss trifft Sturmjagd",
+    "trigger": "Mira Voss setzt Siegelriss und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_mira_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Mira Voss",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Mira + Cyr: Siegelriss trifft Formschock",
+    "trigger": "Mira Voss setzt Siegelriss und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Controller / Runenbrecherin mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Archivspinne und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_siofra",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Siofra Nhal"
+    ],
+    "name": "Tarek + Siofra: Schuldmarke trifft Harzbindung",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Siofra Nhal trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Ranger / Fallenbinderin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Moorkaefer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_brannok",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Brannok Reef"
+    ],
+    "name": "Tarek + Brannok: Schuldmarke trifft Tiefenruf",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Brannok Reef trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Bruiser / Harpunierer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Riffbrecher ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_edda",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Edda Falkenlicht"
+    ],
+    "name": "Tarek + Edda: Schuldmarke trifft Eidmarke",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Edda Falkenlicht trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Tank / Bannstandarte: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Eidpanzer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_kael",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Kael Nhar"
+    ],
+    "name": "Tarek + Kael: Schuldmarke trifft Rostbruch",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_oren",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Oren Vale"
+    ],
+    "name": "Tarek + Oren: Schuldmarke trifft Wundlicht",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_yara",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Yara Kest"
+    ],
+    "name": "Tarek + Yara: Schuldmarke trifft Ueberladung",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_neris",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Neris Vael"
+    ],
+    "name": "Tarek + Neris: Schuldmarke trifft Echohunger",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_velka",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Velka Sturmtritt"
+    ],
+    "name": "Tarek + Velka: Schuldmarke trifft Sturmjagd",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_tarek_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Tarek al-Sahir",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Tarek + Cyr: Schuldmarke trifft Formschock",
+    "trigger": "Tarek al-Sahir setzt Schuldmarke und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Skirmisher / Taeuscher mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Glasfuchs und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_brannok",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Brannok Reef"
+    ],
+    "name": "Siofra + Brannok: Harzbindung trifft Tiefenruf",
+    "trigger": "Siofra Nhal setzt Harzbindung und Brannok Reef trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Bruiser / Harpunierer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Riffbrecher ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_edda",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Edda Falkenlicht"
+    ],
+    "name": "Siofra + Edda: Harzbindung trifft Eidmarke",
+    "trigger": "Siofra Nhal setzt Harzbindung und Edda Falkenlicht trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Tank / Bannstandarte: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Eidpanzer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_kael",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Kael Nhar"
+    ],
+    "name": "Siofra + Kael: Harzbindung trifft Rostbruch",
+    "trigger": "Siofra Nhal setzt Harzbindung und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_oren",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Oren Vale"
+    ],
+    "name": "Siofra + Oren: Harzbindung trifft Wundlicht",
+    "trigger": "Siofra Nhal setzt Harzbindung und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_yara",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Yara Kest"
+    ],
+    "name": "Siofra + Yara: Harzbindung trifft Ueberladung",
+    "trigger": "Siofra Nhal setzt Harzbindung und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_neris",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Neris Vael"
+    ],
+    "name": "Siofra + Neris: Harzbindung trifft Echohunger",
+    "trigger": "Siofra Nhal setzt Harzbindung und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_velka",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Velka Sturmtritt"
+    ],
+    "name": "Siofra + Velka: Harzbindung trifft Sturmjagd",
+    "trigger": "Siofra Nhal setzt Harzbindung und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_siofra_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Siofra Nhal",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Siofra + Cyr: Harzbindung trifft Formschock",
+    "trigger": "Siofra Nhal setzt Harzbindung und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Ranger / Fallenbinderin mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Moorkaefer und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_edda",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Edda Falkenlicht"
+    ],
+    "name": "Brannok + Edda: Tiefenruf trifft Eidmarke",
+    "trigger": "Brannok Reef setzt Tiefenruf und Edda Falkenlicht trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Tank / Bannstandarte: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Eidpanzer ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_kael",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Kael Nhar"
+    ],
+    "name": "Brannok + Kael: Tiefenruf trifft Rostbruch",
+    "trigger": "Brannok Reef setzt Tiefenruf und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_oren",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Oren Vale"
+    ],
+    "name": "Brannok + Oren: Tiefenruf trifft Wundlicht",
+    "trigger": "Brannok Reef setzt Tiefenruf und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_yara",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Yara Kest"
+    ],
+    "name": "Brannok + Yara: Tiefenruf trifft Ueberladung",
+    "trigger": "Brannok Reef setzt Tiefenruf und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_neris",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Neris Vael"
+    ],
+    "name": "Brannok + Neris: Tiefenruf trifft Echohunger",
+    "trigger": "Brannok Reef setzt Tiefenruf und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_velka",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Velka Sturmtritt"
+    ],
+    "name": "Brannok + Velka: Tiefenruf trifft Sturmjagd",
+    "trigger": "Brannok Reef setzt Tiefenruf und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_brannok_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Brannok Reef",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Brannok + Cyr: Tiefenruf trifft Formschock",
+    "trigger": "Brannok Reef setzt Tiefenruf und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Bruiser / Harpunierer mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Riffbrecher und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_kael",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Kael Nhar"
+    ],
+    "name": "Edda + Kael: Eidmarke trifft Rostbruch",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Kael Nhar trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Assassin / Debuffer: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Schachtmaus ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_oren",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Oren Vale"
+    ],
+    "name": "Edda + Oren: Eidmarke trifft Wundlicht",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_yara",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Yara Kest"
+    ],
+    "name": "Edda + Yara: Eidmarke trifft Ueberladung",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_neris",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Neris Vael"
+    ],
+    "name": "Edda + Neris: Eidmarke trifft Echohunger",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_velka",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Velka Sturmtritt"
+    ],
+    "name": "Edda + Velka: Eidmarke trifft Sturmjagd",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_edda_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Edda Falkenlicht",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Edda + Cyr: Eidmarke trifft Formschock",
+    "trigger": "Edda Falkenlicht setzt Eidmarke und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Tank / Bannstandarte mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Eidpanzer und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_kael_char_oren",
+    "type": "duo",
+    "participants": [
+      "Kael Nhar",
+      "Oren Vale"
+    ],
+    "name": "Kael + Oren: Rostbruch trifft Wundlicht",
+    "trigger": "Kael Nhar setzt Rostbruch und Oren Vale trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Assassin / Debuffer mit Support / Heiler-Monk: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Schachtmaus und Pilgerglocke ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_kael_char_yara",
+    "type": "duo",
+    "participants": [
+      "Kael Nhar",
+      "Yara Kest"
+    ],
+    "name": "Kael + Yara: Rostbruch trifft Ueberladung",
+    "trigger": "Kael Nhar setzt Rostbruch und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Assassin / Debuffer mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Schachtmaus und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_kael_char_neris",
+    "type": "duo",
+    "participants": [
+      "Kael Nhar",
+      "Neris Vael"
+    ],
+    "name": "Kael + Neris: Rostbruch trifft Echohunger",
+    "trigger": "Kael Nhar setzt Rostbruch und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Assassin / Debuffer mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Schachtmaus und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_kael_char_velka",
+    "type": "duo",
+    "participants": [
+      "Kael Nhar",
+      "Velka Sturmtritt"
+    ],
+    "name": "Kael + Velka: Rostbruch trifft Sturmjagd",
+    "trigger": "Kael Nhar setzt Rostbruch und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Assassin / Debuffer mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Schachtmaus und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_kael_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Kael Nhar",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Kael + Cyr: Rostbruch trifft Formschock",
+    "trigger": "Kael Nhar setzt Rostbruch und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Assassin / Debuffer mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Schachtmaus und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_oren_char_yara",
+    "type": "duo",
+    "participants": [
+      "Oren Vale",
+      "Yara Kest"
+    ],
+    "name": "Oren + Yara: Wundlicht trifft Ueberladung",
+    "trigger": "Oren Vale setzt Wundlicht und Yara Kest trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Support / Heiler-Monk mit Engineer / Drohnenkern: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Pilgerglocke und Kranhexe ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_oren_char_neris",
+    "type": "duo",
+    "participants": [
+      "Oren Vale",
+      "Neris Vael"
+    ],
+    "name": "Oren + Neris: Wundlicht trifft Echohunger",
+    "trigger": "Oren Vale setzt Wundlicht und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Support / Heiler-Monk mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Pilgerglocke und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_oren_char_velka",
+    "type": "duo",
+    "participants": [
+      "Oren Vale",
+      "Velka Sturmtritt"
+    ],
+    "name": "Oren + Velka: Wundlicht trifft Sturmjagd",
+    "trigger": "Oren Vale setzt Wundlicht und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Support / Heiler-Monk mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Pilgerglocke und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_oren_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Oren Vale",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Oren + Cyr: Wundlicht trifft Formschock",
+    "trigger": "Oren Vale setzt Wundlicht und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Support / Heiler-Monk mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Pilgerglocke und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_yara_char_neris",
+    "type": "duo",
+    "participants": [
+      "Yara Kest",
+      "Neris Vael"
+    ],
+    "name": "Yara + Neris: Ueberladung trifft Echohunger",
+    "trigger": "Yara Kest setzt Ueberladung und Neris Vael trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Engineer / Drohnenkern mit Echo-Mage / Opfermagie: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Kranhexe und Traumsaege ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_yara_char_velka",
+    "type": "duo",
+    "participants": [
+      "Yara Kest",
+      "Velka Sturmtritt"
+    ],
+    "name": "Yara + Velka: Ueberladung trifft Sturmjagd",
+    "trigger": "Yara Kest setzt Ueberladung und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Engineer / Drohnenkern mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Kranhexe und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_yara_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Yara Kest",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Yara + Cyr: Ueberladung trifft Formschock",
+    "trigger": "Yara Kest setzt Ueberladung und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Engineer / Drohnenkern mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Kranhexe und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_neris_char_velka",
+    "type": "duo",
+    "participants": [
+      "Neris Vael",
+      "Velka Sturmtritt"
+    ],
+    "name": "Neris + Velka: Echohunger trifft Sturmjagd",
+    "trigger": "Neris Vael setzt Echohunger und Velka Sturmtritt trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Echo-Mage / Opfermagie mit Lancer / Verfolgerin: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Traumsaege und Sturmwidder ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_neris_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Neris Vael",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Neris + Cyr: Echohunger trifft Formschock",
+    "trigger": "Neris Vael setzt Echohunger und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Echo-Mage / Opfermagie mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Traumsaege und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_char_velka_char_cyr",
+    "type": "duo",
+    "participants": [
+      "Velka Sturmtritt",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Velka + Cyr: Sturmjagd trifft Formschock",
+    "trigger": "Velka Sturmtritt setzt Sturmjagd und Cyr Ohne Gestern trifft innerhalb von 3 Sekunden mit einer Kerntechnik.",
+    "effect": "Kombiniert Lancer / Verfolgerin mit Adaptive / Formwechsel: erzeugt Extra-Stagger, ein kurzes Zeitlupenfenster und einen Teamfunken. Im Vehicle Combat koppeln Sturmwidder und Namenloser Kern ihre Module fuer ein Konvoi-Manoever.",
+    "reward_note": "Zaehlt fuer Bindungsfortschritt beider Figuren und kann spezielle Banter ausloesen."
+  },
+  {
+    "id": "combo_trio_01",
+    "type": "trio",
+    "participants": [
+      "Lyra Dorn",
+      "Mira Voss",
+      "Tarek al-Sahir"
+    ],
+    "name": "Letzte Laternen Dreieck",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Mira fixiert die Arena, Tarek legt Koeder, Lyra springt durch die Luecke. Ideal gegen schnelle Bosse.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_02",
+    "type": "trio",
+    "participants": [
+      "Siofra Nhal",
+      "Brannok Reef",
+      "Yara Kest"
+    ],
+    "name": "Wald und Werft",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Harz bindet, Harpune zieht, Drohne nietet. Vehicle-Variante baut eine mobile Barrikade.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_03",
+    "type": "trio",
+    "participants": [
+      "Edda Falkenlicht",
+      "Kael Nhar",
+      "Oren Vale"
+    ],
+    "name": "Eidbruch-Konvoi",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Edda haelt Eidwand, Kael schneidet Reparaturen, Oren wandelt Schaden in Wundlicht.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_04",
+    "type": "trio",
+    "participants": [
+      "Velka Sturmtritt",
+      "Tarek al-Sahir",
+      "Brannok Reef"
+    ],
+    "name": "Sturm ueber Glas",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Hochgeschwindigkeits-Verfolgung: Koeder, Jagdmarke, Harpunenramme.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_05",
+    "type": "trio",
+    "participants": [
+      "Neris Vael",
+      "Mira Voss",
+      "Cyr Ohne Gestern"
+    ],
+    "name": "Namenloses Archiv",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Echo, Sigil und Formwechsel destabilisieren Archivgegner. Sehr stark, aber riskant.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_06",
+    "type": "trio",
+    "participants": [
+      "Kael Nhar",
+      "Yara Kest",
+      "Mira Voss"
+    ],
+    "name": "Schacht-Notdienst",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Tunnelkontrolle, Drohnenreparatur und Runenminen fuer Dungeon-Engstellen.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_07",
+    "type": "trio",
+    "participants": [
+      "Lyra Dorn",
+      "Velka Sturmtritt",
+      "Edda Falkenlicht"
+    ],
+    "name": "Fackelruh-Rache",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Jagd, Frontlinie und Duellschaden. Perfekt fuer offene Feldbosse.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_trio_08",
+    "type": "trio",
+    "participants": [
+      "Oren Vale",
+      "Yara Kest",
+      "Sankt Ival-Splitter"
+    ],
+    "name": "Barmherzige Maschine",
+    "trigger": "Drei Spieler oder zwei Spieler plus Companion-AI treffen ihre Callout-Fenster in richtiger Reihenfolge.",
+    "effect": "Post-Boss-Tech: Reparatur wird zu Heilung, Heilung zu Schild, Schild zu Rammschaden.",
+    "reward_note": "Gibt eine sichtbare Kampfansage und kann als Meisterschaftsziel im Journal erscheinen."
+  },
+  {
+    "id": "combo_convoy_01",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Laternenzug",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Drei Fahrzeuge fahren innerhalb einer Laternenbarriere. Der vorderste blockt Projektile, die hinteren laden Ultimates.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_02",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Harpunenkarussell",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Zwei Harpunenfahrzeuge verankern ein Bossfahrzeug, ein drittes rammt durch den Zugwinkel.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_03",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Spiegelgasse",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Runenminen und Spiegelkoeder bauen eine falsche Strasse, in die Verfolger hineinbremsen.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_04",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Schachtquetsche",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Kettenbohrer oeffnet Engstelle, Eidpanzer versperrt Rueckweg, Schrottnebel nimmt Reparatur.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_05",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Brandungsbrecher",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Riffbrecher schiebt Gegner in Wasserlinien, Siofra bindet, Yara ueberlaedt.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_06",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Falkensturz-Konvoi",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Edda markiert von oben, Velka jagt, Lyra schliesst mit Rissdrift.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_07",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Echo-Umleitung",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Neris oeffnet Echoportal, Cyr kopiert das Modul, Mira fixiert Ausstieg.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_08",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Rettungsleine",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Oren verbindet ein zerstoertes Fahrzeug mit seinem Support-Rig und zieht es aus der Todeszone.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_09",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Salzsturm-Sprint",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Tarek fuehrt durch Blindzonen, alle Fahrzeuge erhalten Boost, aber Sicht ist reduziert.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_10",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Dammbruch",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Graumarsch-Konvoi bricht Barrikade, Wasserstrom wird kurz zur Waffe.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_11",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Glockenritt",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Tiefenglocken-Kern zieht Schwarmgegner an, dann loesen alle AoE-Module aus.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  },
+  {
+    "id": "combo_convoy_12",
+    "type": "vehicle_convoy",
+    "participants": [
+      "beliebige Fahrzeuge mit passenden Slots"
+    ],
+    "name": "Asterhof-Spindel",
+    "trigger": "Positionierung, Geschwindigkeit und Modul-Timing innerhalb eines 6-Sekunden-Fensters.",
+    "effect": "Endgame-Manoever: Vier Fahrzeuge aktivieren nacheinander Gravitationstore.",
+    "reward_note": "Konvoi-Meisterschaften geben Kosmetik, Titel und Vehicle-Mod-Fokusbeute."
+  }
+]

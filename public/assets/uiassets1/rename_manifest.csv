@@ -1,0 +1,107 @@
+status,original_filename,new_filename,category,asset,state,label
+mapped,Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_2.jpeg,buttons/deploy_button/deploy_button__01__base.jpeg,Buttons,DEPLOY Button,Base,DEPLOY Button — Base
+mapped,Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_3.jpeg,buttons/deploy_button/deploy_button__02__hover.jpeg,Buttons,DEPLOY Button,Hover,DEPLOY Button — Hover
+mapped,Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_4.jpeg,buttons/deploy_button/deploy_button__03__pressed.jpeg,Buttons,DEPLOY Button,Pressed,DEPLOY Button — Pressed
+mapped,Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326_5.jpeg,buttons/deploy_button/deploy_button__04__disabled.jpeg,Buttons,DEPLOY Button,Disabled,DEPLOY Button — Disabled
+mapped,Kopie_von_#U201eDeploy_button_wasteland_202604230105.jpeg#U201c_202604230326.jpeg,buttons/deploy_button/deploy_button__05__active_armed.jpeg,Buttons,DEPLOY Button,Active/Armed,DEPLOY Button — Active/Armed
+mapped,Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_2.jpeg,buttons/abort_button/abort_button__01__base.jpeg,Buttons,ABORT Button,Base,ABORT Button — Base
+mapped,Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_3.jpeg,buttons/abort_button/abort_button__02__hover.jpeg,Buttons,ABORT Button,Hover,ABORT Button — Hover
+mapped,Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_4.jpeg,buttons/abort_button/abort_button__03__pressed.jpeg,Buttons,ABORT Button,Pressed,ABORT Button — Pressed
+mapped,Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326_5.jpeg,buttons/abort_button/abort_button__04__disabled.jpeg,Buttons,ABORT Button,Disabled,ABORT Button — Disabled
+mapped,Kopie_von_#U201eEmergency_abort_button_202604230105.jpeg#U201c_202604230326.jpeg,buttons/abort_button/abort_button__05__critical_alert.jpeg,Buttons,ABORT Button,Critical Alert,ABORT Button — Critical Alert
+mapped,Kopie_von_#U201eCircular_202604230326_2.jpeg,buttons/settings_button/settings_button__01__base.jpeg,Buttons,SETTINGS Button,Base,SETTINGS Button — Base
+mapped,Kopie_von_#U201eCircular_202604230326_3.jpeg,buttons/settings_button/settings_button__02__hover.jpeg,Buttons,SETTINGS Button,Hover,SETTINGS Button — Hover
+mapped,Kopie_von_#U201eCircular_202604230326_4.jpeg,buttons/settings_button/settings_button__03__pressed.jpeg,Buttons,SETTINGS Button,Pressed,SETTINGS Button — Pressed
+mapped,Circular_gear_settings_202604230326.jpeg,buttons/settings_button/settings_button__04__disabled.jpeg,Buttons,SETTINGS Button,Disabled,SETTINGS Button — Disabled
+mapped,Kopie_von_#U201eCircular_202604230326.jpeg,buttons/settings_button/settings_button__05__open_active.jpeg,Buttons,SETTINGS Button,Open/Active,SETTINGS Button — Open/Active
+mapped,Kopie_von_#U201eOrange_202604230326_2.jpeg,buttons/logout_button/logout_button__01__base.jpeg,Buttons,LOGOUT Button,Base,LOGOUT Button — Base
+mapped,Kopie_von_#U201eOrange_202604230326_3.jpeg,buttons/logout_button/logout_button__02__hover.jpeg,Buttons,LOGOUT Button,Hover,LOGOUT Button — Hover
+mapped,Kopie_von_#U201eOrange_202604230326.jpeg,buttons/logout_button/logout_button__03__pressed.jpeg,Buttons,LOGOUT Button,Pressed,LOGOUT Button — Pressed
+mapped,Orange_industrial_logout_202604230326.jpeg,buttons/logout_button/logout_button__04__disabled.jpeg,Buttons,LOGOUT Button,Disabled,LOGOUT Button — Disabled
+mapped,Kopie_von_#U201eUpgrade_202604230326_2.jpeg,buttons/upgrade_button/upgrade_button__01__base.jpeg,Buttons,UPGRADE Button,Base,UPGRADE Button — Base
+mapped,Kopie_von_#U201eUpgrade_202604230326_3.jpeg,buttons/upgrade_button/upgrade_button__02__hover.jpeg,Buttons,UPGRADE Button,Hover,UPGRADE Button — Hover
+mapped,Kopie_von_#U201eUpgrade_202604230326_4.jpeg,buttons/upgrade_button/upgrade_button__03__pressed.jpeg,Buttons,UPGRADE Button,Pressed,UPGRADE Button — Pressed
+mapped,Kopie_von_#U201eUpgrade_202604230326.jpeg,buttons/upgrade_button/upgrade_button__04__disabled.jpeg,Buttons,UPGRADE Button,Disabled,UPGRADE Button — Disabled
+mapped,Upgrade_button_with_202604230326.jpeg,buttons/upgrade_button/upgrade_button__05__available_ready.jpeg,Buttons,UPGRADE Button,Available/Ready,UPGRADE Button — Available/Ready
+mapped,Kopie_von_#U201eAcquire_202604230326_2.jpeg,buttons/acquire_button/acquire_button__01__base.jpeg,Buttons,ACQUIRE Button,Base,ACQUIRE Button — Base
+mapped,Kopie_von_#U201eAcquire_202604230326_3.jpeg,buttons/acquire_button/acquire_button__02__hover.jpeg,Buttons,ACQUIRE Button,Hover,ACQUIRE Button — Hover
+mapped,Kopie_von_#U201eAcquire_202604230326_4.jpeg,buttons/acquire_button/acquire_button__03__pressed.jpeg,Buttons,ACQUIRE Button,Pressed,ACQUIRE Button — Pressed
+mapped,Kopie_von_#U201eAcquire_202604230326_5.jpeg,buttons/acquire_button/acquire_button__04__disabled.jpeg,Buttons,ACQUIRE Button,Disabled,ACQUIRE Button — Disabled
+mapped,Kopie_von_#U201eAcquire_202604230326.jpeg,buttons/acquire_button/acquire_button__05__reward_ready.jpeg,Buttons,ACQUIRE Button,Reward Ready,ACQUIRE Button — Reward Ready
+mapped,Kopie_von_#U201eMetal_202604230326_4.jpeg,icons/back_arrow/back_arrow__01__base.jpeg,Icons,BACK Arrow,Base,BACK Arrow — Base
+mapped,Kopie_von_#U201eMetal_202604230326_5.jpeg,icons/back_arrow/back_arrow__02__hover.jpeg,Icons,BACK Arrow,Hover,BACK Arrow — Hover
+mapped,Kopie_von_#U201eMetal_202604230326_6.jpeg,icons/back_arrow/back_arrow__03__pressed.jpeg,Icons,BACK Arrow,Pressed,BACK Arrow — Pressed
+mapped,Metal_arrow_UI_202604230326.jpeg,icons/back_arrow/back_arrow__04__disabled.jpeg,Icons,BACK Arrow,Disabled,BACK Arrow — Disabled
+mapped,Kopie_von_#U201eCheckmark_202604230326_2.jpeg,icons/confirm_checkmark/confirm_checkmark__01__base.jpeg,Icons,CONFIRM Checkmark,Base,CONFIRM Checkmark — Base
+mapped,Kopie_von_#U201eCheckmark_202604230326_3.jpeg,icons/confirm_checkmark/confirm_checkmark__02__hover.jpeg,Icons,CONFIRM Checkmark,Hover,CONFIRM Checkmark — Hover
+mapped,Kopie_von_#U201eCheckmark_202604230326_4.jpeg,icons/confirm_checkmark/confirm_checkmark__03__pressed.jpeg,Icons,CONFIRM Checkmark,Pressed,CONFIRM Checkmark — Pressed
+mapped,Kopie_von_#U201eCheckmark_202604230326_5.jpeg,icons/confirm_checkmark/confirm_checkmark__04__disabled.jpeg,Icons,CONFIRM Checkmark,Disabled,CONFIRM Checkmark — Disabled
+mapped,Kopie_von_#U201eCheckmark_202604230326.jpeg,icons/confirm_checkmark/confirm_checkmark__05__success_flash.jpeg,Icons,CONFIRM Checkmark,Success Flash,CONFIRM Checkmark — Success Flash
+mapped,Kopie_von_#U201eHealth_202604230326_2.jpeg,hud_elements/health_bar_frame/health_bar_frame__01__base.jpeg,HUD Elements,Health Bar Frame,Base,Health Bar Frame — Base
+mapped,Kopie_von_#U201eHealth_202604230326_3.jpeg,hud_elements/health_bar_frame/health_bar_frame__02__empty.jpeg,HUD Elements,Health Bar Frame,Empty,Health Bar Frame — Empty
+mapped,Kopie_von_#U201eHealth_202604230326_4.jpeg,hud_elements/health_bar_frame/health_bar_frame__03__low.jpeg,HUD Elements,Health Bar Frame,Low,Health Bar Frame — Low
+mapped,Kopie_von_#U201eHealth_202604230326_5.jpeg,hud_elements/health_bar_frame/health_bar_frame__04__half_full.jpeg,HUD Elements,Health Bar Frame,Half Full,Health Bar Frame — Half Full
+mapped,Kopie_von_#U201eHealth_202604230326_6.jpeg,hud_elements/health_bar_frame/health_bar_frame__05__full.jpeg,HUD Elements,Health Bar Frame,Full,Health Bar Frame — Full
+mapped,Health_bar_frame_202604230326.jpeg,hud_elements/health_bar_frame/health_bar_frame__06__critical_warning.jpeg,HUD Elements,Health Bar Frame,Critical Warning,Health Bar Frame — Critical Warning
+mapped,Kopie_von_#U201eHealth_202604230326.jpeg,hud_elements/health_bar_frame/health_bar_frame__07__damaged_frame.jpeg,HUD Elements,Health Bar Frame,Damaged Frame,Health Bar Frame — Damaged Frame
+mapped,Kopie_von_#U201eShield_202604230326_2.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__01__base.jpeg,HUD Elements,Shield Bar Frame,Base,Shield Bar Frame — Base
+mapped,Kopie_von_#U201eShield_202604230326_3.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__02__empty.jpeg,HUD Elements,Shield Bar Frame,Empty,Shield Bar Frame — Empty
+mapped,Kopie_von_#U201eShield_202604230326_4.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__03__low.jpeg,HUD Elements,Shield Bar Frame,Low,Shield Bar Frame — Low
+mapped,Kopie_von_#U201eShield_202604230326_5.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__04__half_full.jpeg,HUD Elements,Shield Bar Frame,Half Full,Shield Bar Frame — Half Full
+mapped,Kopie_von_#U201eShield_202604230326_6.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__05__full.jpeg,HUD Elements,Shield Bar Frame,Full,Shield Bar Frame — Full
+mapped,Kopie_von_#U201eShield_202604230326.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__06__overcharged.jpeg,HUD Elements,Shield Bar Frame,Overcharged,Shield Bar Frame — Overcharged
+mapped,Shield_bar_frame_202604230326.jpeg,hud_elements/shield_bar_frame/shield_bar_frame__07__broken.jpeg,HUD Elements,Shield Bar Frame,Broken,Shield Bar Frame — Broken
+mapped,Kopie_von_#U201eSpeedometer_202604230326_2.jpeg,hud_elements/speedometer_frame/speedometer_frame__01__base.jpeg,HUD Elements,Speedometer Frame,Base,Speedometer Frame — Base
+mapped,Kopie_von_#U201eSpeedometer_202604230326_3.jpeg,hud_elements/speedometer_frame/speedometer_frame__02__idle.jpeg,HUD Elements,Speedometer Frame,Idle,Speedometer Frame — Idle
+mapped,Kopie_von_#U201eSpeedometer_202604230326_4.jpeg,hud_elements/speedometer_frame/speedometer_frame__03__low_speed.jpeg,HUD Elements,Speedometer Frame,Low Speed,Speedometer Frame — Low Speed
+mapped,Kopie_von_#U201eSpeedometer_202604230326_5.jpeg,hud_elements/speedometer_frame/speedometer_frame__04__mid_speed.jpeg,HUD Elements,Speedometer Frame,Mid Speed,Speedometer Frame — Mid Speed
+mapped,Kopie_von_#U201eSpeedometer_202604230326_6.jpeg,hud_elements/speedometer_frame/speedometer_frame__05__high_speed.jpeg,HUD Elements,Speedometer Frame,High Speed,Speedometer Frame — High Speed
+mapped,Kopie_von_#U201eSpeedometer_202604230326.jpeg,hud_elements/speedometer_frame/speedometer_frame__06__nitro_maxed.jpeg,HUD Elements,Speedometer Frame,Nitro/Maxed,Speedometer Frame — Nitro/Maxed
+mapped,Speedometer_frame_industrial_202604230326.jpeg,hud_elements/speedometer_frame/speedometer_frame__07__broken.jpeg,HUD Elements,Speedometer Frame,Broken,Speedometer Frame — Broken
+mapped,Kopie_von_#U201eSquare_202604230326_2.jpeg,hud_elements/ability_slot/ability_slot__01__base.jpeg,HUD Elements,Ability Slot,Base,Ability Slot — Base
+mapped,Kopie_von_#U201eSquare_202604230326_3.jpeg,hud_elements/ability_slot/ability_slot__02__empty.jpeg,HUD Elements,Ability Slot,Empty,Ability Slot — Empty
+mapped,Kopie_von_#U201eSquare_202604230326_4.jpeg,hud_elements/ability_slot/ability_slot__03__hover.jpeg,HUD Elements,Ability Slot,Hover,Ability Slot — Hover
+mapped,Kopie_von_#U201eSquare_202604230326_5.jpeg,hud_elements/ability_slot/ability_slot__04__selected.jpeg,HUD Elements,Ability Slot,Selected,Ability Slot — Selected
+mapped,Kopie_von_#U201eSquare_202604230326_6.jpeg,hud_elements/ability_slot/ability_slot__05__cooldown.jpeg,HUD Elements,Ability Slot,Cooldown,Ability Slot — Cooldown
+mapped,Kopie_von_#U201eSquare_202604230326.jpeg,hud_elements/ability_slot/ability_slot__06__locked.jpeg,HUD Elements,Ability Slot,Locked,Ability Slot — Locked
+mapped,Square_ability_slot_202604230326.jpeg,hud_elements/ability_slot/ability_slot__07__ready_charged.jpeg,HUD Elements,Ability Slot,Ready/Charged,Ability Slot — Ready/Charged
+mapped,Kopie_von_#U201eDigital_202604230326_2.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__01__base.jpeg,HUD Elements,Wave Counter Frame,Base,Wave Counter Frame — Base
+mapped,Kopie_von_#U201eDigital_202604230326_3.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__02__idle.jpeg,HUD Elements,Wave Counter Frame,Idle,Wave Counter Frame — Idle
+mapped,Kopie_von_#U201eDigital_202604230326_4.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__03__active.jpeg,HUD Elements,Wave Counter Frame,Active,Wave Counter Frame — Active
+mapped,Kopie_von_#U201eDigital_202604230326_5.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__04__warning.jpeg,HUD Elements,Wave Counter Frame,Warning,Wave Counter Frame — Warning
+mapped,Digital_display_frame_202604230326.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__05__critical_final_wave.jpeg,HUD Elements,Wave Counter Frame,Critical/Final Wave,Wave Counter Frame — Critical/Final Wave
+mapped,Kopie_von_#U201eDigital_202604230326.jpeg,hud_elements/wave_counter_frame/wave_counter_frame__06__broken.jpeg,HUD Elements,Wave Counter Frame,Broken,Wave Counter Frame — Broken
+mapped,Kopie_von_#U201eScrap_202604230326_2.jpeg,icons/scrap_icon/scrap_icon__01__base.jpeg,Icons,Scrap Icon,Base,Scrap Icon — Base
+mapped,Kopie_von_#U201eScrap_202604230326_3.jpeg,icons/scrap_icon/scrap_icon__02__highlighted.jpeg,Icons,Scrap Icon,Highlighted,Scrap Icon — Highlighted
+mapped,Kopie_von_#U201eScrap_202604230326.jpeg,icons/scrap_icon/scrap_icon__03__disabled.jpeg,Icons,Scrap Icon,Disabled,Scrap Icon — Disabled
+mapped,Kopie_von_#U201eGlowing_202604230326_2.jpeg,icons/tech_parts_icon/tech_parts_icon__01__base.jpeg,Icons,Tech-Parts Icon,Base,Tech-Parts Icon — Base
+mapped,Glowing_green_motherboard_202604230326.jpeg,icons/tech_parts_icon/tech_parts_icon__02__highlighted.jpeg,Icons,Tech-Parts Icon,Highlighted,Tech-Parts Icon — Highlighted
+mapped,Kopie_von_#U201eGlowing_202604230326.jpeg,icons/tech_parts_icon/tech_parts_icon__03__disabled.jpeg,Icons,Tech-Parts Icon,Disabled,Tech-Parts Icon — Disabled
+missing_prompt_output,,,Icons,Tech-Parts Icon,Rare,Tech-Parts Icon — Rare
+mapped,Kopie_von_#U201eBlue_202604230326_2.jpeg,icons/nitro_icon/nitro_icon__01__base.jpeg,Icons,Nitro Icon,Base,Nitro Icon — Base
+mapped,Kopie_von_#U201eBlue_202604230326_3.jpeg,icons/nitro_icon/nitro_icon__02__highlighted.jpeg,Icons,Nitro Icon,Highlighted,Nitro Icon — Highlighted
+mapped,Blue_gas_canister_202604230326.jpeg,icons/nitro_icon/nitro_icon__03__disabled.jpeg,Icons,Nitro Icon,Disabled,Nitro Icon — Disabled
+mapped,Kopie_von_#U201eBlue_202604230326.jpeg,icons/nitro_icon/nitro_icon__04__boost_ready.jpeg,Icons,Nitro Icon,Boost Ready,Nitro Icon — Boost Ready
+mapped,Kopie_von_#U201eMetal_202604230326_2.jpeg,icons/repair_kit_icon/repair_kit_icon__01__base.jpeg,Icons,Repair-Kit Icon,Base,Repair-Kit Icon — Base
+mapped,Kopie_von_#U201eMetal_202604230326_3.jpeg,icons/repair_kit_icon/repair_kit_icon__02__highlighted.jpeg,Icons,Repair-Kit Icon,Highlighted,Repair-Kit Icon — Highlighted
+mapped,Kopie_von_#U201eMetal_202604230326.jpeg,icons/repair_kit_icon/repair_kit_icon__03__disabled.jpeg,Icons,Repair-Kit Icon,Disabled,Repair-Kit Icon — Disabled
+mapped,Metal_toolbox_with_202604230326.jpeg,icons/repair_kit_icon/repair_kit_icon__04__premium.jpeg,Icons,Repair-Kit Icon,Premium,Repair-Kit Icon — Premium
+mapped,Kopie_von_#U201eHeavy_202604230326_2.jpeg,icons/ammo_icon/ammo_icon__01__base.jpeg,Icons,Ammo Icon,Base,Ammo Icon — Base
+mapped,Kopie_von_#U201eHeavy_202604230326_3.jpeg,icons/ammo_icon/ammo_icon__02__highlighted.jpeg,Icons,Ammo Icon,Highlighted,Ammo Icon — Highlighted
+mapped,Heavy_ammunition_crate_202604230326.jpeg,icons/ammo_icon/ammo_icon__03__disabled.jpeg,Icons,Ammo Icon,Disabled,Ammo Icon — Disabled
+mapped,Kopie_von_#U201eHeavy_202604230326.jpeg,icons/ammo_icon/ammo_icon__04__rare_explosive.jpeg,Icons,Ammo Icon,Rare/Explosive,Ammo Icon — Rare/Explosive
+mapped,Kopie_von_#U201eFive-pointed_202604230326_2.jpeg,icons/skill_star/skill_star__01__base.jpeg,Icons,Skill Star,Base,Skill Star — Base
+mapped,Kopie_von_#U201eFive-pointed_202604230326_3.jpeg,icons/skill_star/skill_star__02__highlighted.jpeg,Icons,Skill Star,Highlighted,Skill Star — Highlighted
+mapped,Five-pointed_star_game_202604230326.jpeg,icons/skill_star/skill_star__03__disabled.jpeg,Icons,Skill Star,Disabled,Skill Star — Disabled
+mapped,Kopie_von_#U201eFive-pointed_202604230326.jpeg,icons/skill_star/skill_star__04__legendary.jpeg,Icons,Skill Star,Legendary,Skill Star — Legendary
+mapped,Kopie_von_#U201eUI_202604230326_2.jpeg,menu_frames/main_menu_frame/main_menu_frame__01__base.jpeg,Menu Frames,Main Menu Frame,Base,Main Menu Frame — Base
+mapped,Kopie_von_#U201eUI_202604230326_3.jpeg,menu_frames/main_menu_frame/main_menu_frame__02__focused.jpeg,Menu Frames,Main Menu Frame,Focused,Main Menu Frame — Focused
+mapped,Kopie_von_#U201eUI_202604230326_4.jpeg,menu_frames/main_menu_frame/main_menu_frame__03__alert.jpeg,Menu Frames,Main Menu Frame,Alert,Main Menu Frame — Alert
+mapped,Kopie_von_#U201eUI_202604230326.jpeg,menu_frames/main_menu_frame/main_menu_frame__04__disabled_offline.jpeg,Menu Frames,Main Menu Frame,Disabled/Offline,Main Menu Frame — Disabled/Offline
+mapped,UI_frame_industrial_202604230326.jpeg,menu_frames/main_menu_frame/main_menu_frame__05__damaged.jpeg,Menu Frames,Main Menu Frame,Damaged,Main Menu Frame — Damaged
+mapped,Kopie_von_#U201eWasteland_202604230326_2.jpeg,menu_frames/small_dialog_frame/small_dialog_frame__01__base.jpeg,Menu Frames,Small Dialog Frame,Base,Small Dialog Frame — Base
+mapped,Kopie_von_#U201eWasteland_202604230326_3.jpeg,menu_frames/small_dialog_frame/small_dialog_frame__02__focused.jpeg,Menu Frames,Small Dialog Frame,Focused,Small Dialog Frame — Focused
+mapped,Kopie_von_#U201eWasteland_202604230326_4.jpeg,menu_frames/small_dialog_frame/small_dialog_frame__03__warning.jpeg,Menu Frames,Small Dialog Frame,Warning,Small Dialog Frame — Warning
+mapped,Kopie_von_#U201eWasteland_202604230326.jpeg,menu_frames/small_dialog_frame/small_dialog_frame__04__disabled.jpeg,Menu Frames,Small Dialog Frame,Disabled,Small Dialog Frame — Disabled
+mapped,Wasteland_game_UI_202604230326.jpeg,menu_frames/small_dialog_frame/small_dialog_frame__05__damaged.jpeg,Menu Frames,Small Dialog Frame,Damaged,Small Dialog Frame — Damaged
+unmatched_extra,Deploy_button_wasteland_202604230105.jpeg_202604230326.jpeg,unmatched/unmatched__01__deploy_button_wasteland_202604230105_jpeg_202604230326.jpeg,,,,

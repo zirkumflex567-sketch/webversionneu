@@ -1,0 +1,457 @@
+drop_table_id,item_id,owner,owner_type,pity_rule,region,weight
+dt_graumarsch_schwaermer,loot_vm_007,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_schwaermer,loot_vm_014,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_schwaermer,loot_char_lyra_2,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_schwaermer,loot_mat_torfharz,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_schwaermer,loot_affix_134,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_schwaermer,loot_vm_021,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_schwaermer,loot_char_lyra_4,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_schwaermer,loot_house_torfbank,Graumarsch Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_brecher,loot_affix_138,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_brecher,loot_affix_136,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_brecher,loot_vm_014,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_brecher,loot_affix_139,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,2
+dt_graumarsch_brecher,loot_house_torfbank,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_brecher,loot_affix_132,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_brecher,loot_affix_135,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_brecher,loot_char_lyra_1,Graumarsch Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_scharfschuetze,loot_vm_035,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_scharfschuetze,loot_affix_136,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_scharfschuetze,loot_mat_mondglasstaub,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_scharfschuetze,loot_affix_134,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_scharfschuetze,loot_mat_torfharz,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_scharfschuetze,loot_char_lyra_1,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_scharfschuetze,loot_vm_014,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_scharfschuetze,loot_char_lyra_6,Graumarsch Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,1
+dt_graumarsch_ritualist,loot_char_lyra_5,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,2
+dt_graumarsch_ritualist,loot_affix_138,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_ritualist,loot_char_lyra_3,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_ritualist,loot_vm_028,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_ritualist,loot_vm_035,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_ritualist,loot_affix_133,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_ritualist,loot_char_lyra_2,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_ritualist,loot_affix_136,Graumarsch Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_fahrzeugjaeger,loot_mat_torfharz,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_fahrzeugjaeger,loot_char_lyra_2,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_fahrzeugjaeger,loot_char_lyra_3,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_fahrzeugjaeger,loot_affix_133,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_fahrzeugjaeger,loot_vm_021,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_fahrzeugjaeger,loot_affix_137,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_fahrzeugjaeger,loot_affix_135,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_graumarsch_fahrzeugjaeger,loot_vm_028,Graumarsch Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_elite-echo,loot_vm_028,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,5
+dt_graumarsch_elite-echo,loot_affix_139,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,2
+dt_graumarsch_elite-echo,loot_affix_132,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_elite-echo,loot_char_lyra_6,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,1
+dt_graumarsch_elite-echo,loot_mat_mondglasstaub,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_elite-echo,loot_vm_014,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,25
+dt_graumarsch_elite-echo,loot_vm_007,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,40
+dt_graumarsch_elite-echo,loot_affix_135,Graumarsch Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Graumarsch,12
+dt_sonnenglasweite_schwaermer,loot_char_tarek_3,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_schwaermer,loot_vm_008,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_schwaermer,loot_vm_015,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_schwaermer,loot_affix_144,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_schwaermer,loot_house_spiegelteppich,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_schwaermer,loot_vm_029,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_schwaermer,loot_affix_145,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_schwaermer,loot_affix_140,Sonnenglasweite Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_brecher,loot_affix_143,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_brecher,loot_cos_salzbanner,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_brecher,loot_vm_029,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_brecher,loot_vm_036,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,2
+dt_sonnenglasweite_brecher,loot_affix_144,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_brecher,loot_char_tarek_6,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,1
+dt_sonnenglasweite_brecher,loot_char_tarek_2,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_brecher,loot_char_tarek_3,Sonnenglasweite Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_scharfschuetze,loot_affix_146,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_scharfschuetze,loot_affix_142,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_scharfschuetze,loot_cos_salzbanner,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_scharfschuetze,loot_vm_001,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_scharfschuetze,loot_char_tarek_6,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,1
+dt_sonnenglasweite_scharfschuetze,loot_char_tarek_3,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_scharfschuetze,loot_house_spiegelteppich,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_scharfschuetze,loot_char_tarek_4,Sonnenglasweite Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_ritualist,loot_char_tarek_6,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,1
+dt_sonnenglasweite_ritualist,loot_cos_salzbanner,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_ritualist,loot_vm_001,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_ritualist,loot_affix_145,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_ritualist,loot_vm_015,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_ritualist,loot_affix_143,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_ritualist,loot_char_tarek_1,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_ritualist,loot_char_tarek_4,Sonnenglasweite Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_fahrzeugjaeger,loot_house_spiegelteppich,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_sonnenglasweite_fahrzeugjaeger,loot_char_tarek_3,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_fahrzeugjaeger,loot_char_tarek_4,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,5
+dt_sonnenglasweite_fahrzeugjaeger,loot_cos_salzbanner,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_fahrzeugjaeger,loot_char_tarek_5,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,2
+dt_sonnenglasweite_fahrzeugjaeger,loot_vm_008,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_fahrzeugjaeger,loot_mat_salzsplitter,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_fahrzeugjaeger,loot_affix_143,Sonnenglasweite Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_elite-echo,loot_affix_146,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_elite-echo,loot_mat_mondglasstaub,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_elite-echo,loot_char_tarek_1,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_elite-echo,loot_char_tarek_5,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,2
+dt_sonnenglasweite_elite-echo,loot_vm_036,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,2
+dt_sonnenglasweite_elite-echo,loot_vm_022,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,12
+dt_sonnenglasweite_elite-echo,loot_vm_001,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,40
+dt_sonnenglasweite_elite-echo,loot_char_tarek_2,Sonnenglasweite Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Sonnenglasweite,25
+dt_wurzelwald_nhal_schwaermer,loot_house_wurzelgarten,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_schwaermer,loot_char_siofra_4,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_schwaermer,loot_mat_mondglasstaub,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_schwaermer,loot_affix_149,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_schwaermer,loot_affix_152,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_schwaermer,loot_char_siofra_6,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,1
+dt_wurzelwald_nhal_schwaermer,loot_affix_151,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_schwaermer,loot_char_siofra_3,Wurzelwald Nhal Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_affix_153,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_brecher,loot_affix_150,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_char_siofra_3,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_affix_149,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_brecher,loot_affix_154,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_affix_151,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_cos_harzmaske,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_brecher,loot_char_siofra_2,Wurzelwald Nhal Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_scharfschuetze,loot_mat_mondglasstaub,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_scharfschuetze,loot_char_siofra_4,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_scharfschuetze,loot_affix_155,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,2
+dt_wurzelwald_nhal_scharfschuetze,loot_char_siofra_2,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_scharfschuetze,loot_affix_152,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_scharfschuetze,loot_cos_harzmaske,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_scharfschuetze,loot_char_siofra_1,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_scharfschuetze,loot_affix_148,Wurzelwald Nhal Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_ritualist,loot_char_siofra_2,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_ritualist,loot_char_siofra_4,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_ritualist,loot_affix_152,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_ritualist,loot_char_siofra_5,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,2
+dt_wurzelwald_nhal_ritualist,loot_char_siofra_6,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,1
+dt_wurzelwald_nhal_ritualist,loot_affix_148,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_ritualist,loot_affix_150,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_ritualist,loot_char_siofra_3,Wurzelwald Nhal Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_char_siofra_3,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_affix_155,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,2
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_affix_153,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_mat_mondglasstaub,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_char_siofra_4,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_house_wurzelgarten,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_mat_wurzelherz,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_fahrzeugjaeger,loot_affix_149,Wurzelwald Nhal Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_elite-echo,loot_mat_wurzelherz,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_elite-echo,loot_char_siofra_5,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,2
+dt_wurzelwald_nhal_elite-echo,loot_affix_149,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_wurzelwald_nhal_elite-echo,loot_affix_150,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,12
+dt_wurzelwald_nhal_elite-echo,loot_affix_152,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,5
+dt_wurzelwald_nhal_elite-echo,loot_char_siofra_6,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,1
+dt_wurzelwald_nhal_elite-echo,loot_affix_148,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,40
+dt_wurzelwald_nhal_elite-echo,loot_affix_153,Wurzelwald Nhal Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Wurzelwald Nhal,25
+dt_eisenbrandkueste_schwaermer,loot_vm_038,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_schwaermer,loot_char_yara_2,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_schwaermer,loot_char_yara_6,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,1
+dt_eisenbrandkueste_schwaermer,loot_affix_158,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_schwaermer,loot_affix_163,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_schwaermer,loot_house_werftkran,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_schwaermer,loot_char_brannok_4,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_schwaermer,loot_char_yara_5,Eisenbrandkueste Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_brecher,loot_affix_157,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_brecher,loot_char_yara_2,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_brecher,loot_char_brannok_2,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_brecher,loot_vm_010,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_brecher,loot_char_yara_5,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_brecher,loot_char_brannok_4,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_brecher,loot_char_yara_6,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,1
+dt_eisenbrandkueste_brecher,loot_vm_003,Eisenbrandkueste Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,40
+dt_eisenbrandkueste_scharfschuetze,loot_affix_157,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_scharfschuetze,loot_char_yara_3,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_scharfschuetze,loot_vm_017,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_scharfschuetze,loot_vm_031,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_scharfschuetze,loot_char_yara_2,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_scharfschuetze,loot_char_yara_4,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_scharfschuetze,loot_affix_161,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_scharfschuetze,loot_affix_163,Eisenbrandkueste Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_ritualist,loot_char_brannok_1,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,40
+dt_eisenbrandkueste_ritualist,loot_affix_161,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_ritualist,loot_affix_156,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,40
+dt_eisenbrandkueste_ritualist,loot_char_yara_6,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,1
+dt_eisenbrandkueste_ritualist,loot_vm_010,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_ritualist,loot_vm_031,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_ritualist,loot_char_yara_2,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_ritualist,loot_vm_017,Eisenbrandkueste Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_fahrzeugjaeger,loot_char_yara_5,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_fahrzeugjaeger,loot_affix_159,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_fahrzeugjaeger,loot_affix_162,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_fahrzeugjaeger,loot_affix_157,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_fahrzeugjaeger,loot_affix_161,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_fahrzeugjaeger,loot_affix_158,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_fahrzeugjaeger,loot_vm_031,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_eisenbrandkueste_fahrzeugjaeger,loot_char_yara_3,Eisenbrandkueste Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_elite-echo,loot_mat_mondglasstaub,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,40
+dt_eisenbrandkueste_elite-echo,loot_char_brannok_5,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_elite-echo,loot_affix_163,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,2
+dt_eisenbrandkueste_elite-echo,loot_char_brannok_2,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_elite-echo,loot_affix_162,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_elite-echo,loot_affix_159,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,12
+dt_eisenbrandkueste_elite-echo,loot_vm_010,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,25
+dt_eisenbrandkueste_elite-echo,loot_house_werftkran,Eisenbrandkueste Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Eisenbrandkueste,5
+dt_hochkamm_der_eidwacht_schwaermer,loot_mat_mondglasstaub,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_schwaermer,loot_char_edda_4,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_170,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_164,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_166,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_169,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_167,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_schwaermer,loot_affix_171,Hochkamm der Eidwacht Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_brecher,loot_affix_170,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_brecher,loot_char_edda_4,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_brecher,loot_char_edda_1,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_brecher,loot_char_edda_2,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_brecher,loot_affix_169,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_brecher,loot_affix_164,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_brecher,loot_char_edda_5,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_brecher,loot_affix_168,Hochkamm der Eidwacht Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_affix_167,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_affix_165,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_affix_171,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_char_edda_6,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,1
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_affix_170,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_house_eidtafel,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_char_edda_5,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_scharfschuetze,loot_char_edda_4,Hochkamm der Eidwacht Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_ritualist,loot_affix_168,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_ritualist,loot_char_edda_1,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_ritualist,loot_affix_165,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_ritualist,loot_house_eidtafel,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_ritualist,loot_char_edda_3,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_ritualist,loot_char_edda_2,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_ritualist,loot_mat_mondglasstaub,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_ritualist,loot_affix_167,Hochkamm der Eidwacht Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_char_edda_5,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_mat_eidsilber,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_char_edda_2,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_affix_171,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_house_eidtafel,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_affix_164,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_affix_165,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_fahrzeugjaeger,loot_affix_166,Hochkamm der Eidwacht Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_elite-echo,loot_affix_165,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,25
+dt_hochkamm_der_eidwacht_elite-echo,loot_mat_mondglasstaub,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_elite-echo,loot_char_edda_1,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_elite-echo,loot_affix_168,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,5
+dt_hochkamm_der_eidwacht_elite-echo,loot_affix_171,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,2
+dt_hochkamm_der_eidwacht_elite-echo,loot_house_eidtafel,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_hochkamm_der_eidwacht_elite-echo,loot_affix_164,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,40
+dt_hochkamm_der_eidwacht_elite-echo,loot_affix_166,Hochkamm der Eidwacht Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Hochkamm der Eidwacht,12
+dt_dunkelgrund_schwaermer,loot_char_kael_2,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_schwaermer,loot_affix_176,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_schwaermer,loot_vm_005,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_schwaermer,loot_char_kael_5,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_schwaermer,loot_affix_177,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_schwaermer,loot_house_schachtlampe,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_schwaermer,loot_affix_174,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_schwaermer,loot_vm_012,Dunkelgrund Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_brecher,loot_char_kael_2,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_brecher,loot_affix_173,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_brecher,loot_affix_179,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_brecher,loot_char_kael_4,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_brecher,loot_vm_026,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_brecher,loot_affix_172,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_brecher,loot_affix_177,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_brecher,loot_affix_174,Dunkelgrund Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_scharfschuetze,loot_vm_005,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_scharfschuetze,loot_char_kael_2,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_scharfschuetze,loot_affix_172,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_scharfschuetze,loot_affix_179,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_scharfschuetze,loot_char_kael_3,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_scharfschuetze,loot_vm_033,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_scharfschuetze,loot_mat_schachtkern,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_scharfschuetze,loot_affix_173,Dunkelgrund Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_ritualist,loot_char_kael_4,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_ritualist,loot_affix_172,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_ritualist,loot_vm_005,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_ritualist,loot_char_kael_3,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_ritualist,loot_char_kael_6,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,1
+dt_dunkelgrund_ritualist,loot_affix_176,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_ritualist,loot_vm_040,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_ritualist,loot_affix_175,Dunkelgrund Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_fahrzeugjaeger,loot_char_kael_4,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_fahrzeugjaeger,loot_affix_179,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_fahrzeugjaeger,loot_char_kael_1,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_fahrzeugjaeger,loot_vm_019,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_fahrzeugjaeger,loot_char_kael_5,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_fahrzeugjaeger,loot_char_kael_2,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_fahrzeugjaeger,loot_vm_012,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_fahrzeugjaeger,loot_char_kael_3,Dunkelgrund Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_elite-echo,loot_vm_005,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,40
+dt_dunkelgrund_elite-echo,loot_affix_175,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_elite-echo,loot_affix_174,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_elite-echo,loot_affix_177,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,25
+dt_dunkelgrund_elite-echo,loot_affix_176,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_dunkelgrund_elite-echo,loot_mat_schachtkern,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,12
+dt_dunkelgrund_elite-echo,loot_affix_179,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,2
+dt_dunkelgrund_elite-echo,loot_vm_033,Dunkelgrund Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Dunkelgrund,5
+dt_scherbenkrone_schwaermer,loot_affix_184,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_schwaermer,loot_char_cyr_4,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_schwaermer,loot_affix_183,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_schwaermer,loot_mat_archivlinse,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_schwaermer,loot_vm_006,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_schwaermer,loot_char_cyr_5,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_schwaermer,loot_affix_180,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_schwaermer,loot_char_cyr_6,Scherbenkrone Schwaermer,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,1
+dt_scherbenkrone_brecher,loot_char_cyr_1,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_brecher,loot_affix_184,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_brecher,loot_char_cyr_6,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,1
+dt_scherbenkrone_brecher,loot_vm_034,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_brecher,loot_affix_186,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_brecher,loot_affix_183,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_brecher,loot_char_cyr_2,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_brecher,loot_affix_181,Scherbenkrone Brecher,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_scharfschuetze,loot_affix_180,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_scharfschuetze,loot_vm_013,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_scharfschuetze,loot_vm_034,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_scharfschuetze,loot_vm_041,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_scharfschuetze,loot_vm_020,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_scharfschuetze,loot_vm_006,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_scharfschuetze,loot_affix_181,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_scharfschuetze,loot_affix_187,Scherbenkrone Scharfschuetze,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_ritualist,loot_affix_185,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_ritualist,loot_char_cyr_4,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_ritualist,loot_vm_041,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_ritualist,loot_vm_020,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_ritualist,loot_vm_034,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_ritualist,loot_char_cyr_1,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_ritualist,loot_vm_006,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_ritualist,loot_affix_186,Scherbenkrone Ritualist,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_fahrzeugjaeger,loot_vm_027,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_fahrzeugjaeger,loot_affix_187,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_fahrzeugjaeger,loot_char_cyr_5,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_fahrzeugjaeger,loot_affix_181,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_fahrzeugjaeger,loot_affix_184,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_fahrzeugjaeger,loot_vm_013,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_fahrzeugjaeger,loot_vm_034,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_fahrzeugjaeger,loot_vm_020,Scherbenkrone Fahrzeugjaeger,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_scherbenkrone_elite-echo,loot_affix_180,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_elite-echo,loot_affix_181,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_elite-echo,loot_mat_mondglasstaub,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,40
+dt_scherbenkrone_elite-echo,loot_affix_185,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_elite-echo,loot_vm_041,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,2
+dt_scherbenkrone_elite-echo,loot_char_cyr_4,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,5
+dt_scherbenkrone_elite-echo,loot_vm_013,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,25
+dt_scherbenkrone_elite-echo,loot_vm_020,Scherbenkrone Elite-Echo,enemy,Nach 12 Elitekills ohne seltenen Drop garantiert ein seltener oder besserer Drop aus derselben Region.,Scherbenkrone,12
+dt_boss_nasser_faehnrich,loot_affix_163,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_nasser_faehnrich,loot_vm_027,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_affix_184,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_vm_033,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_char_velka_5,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_nasser_faehnrich,loot_char_neris_6,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,2
+dt_boss_nasser_faehnrich,loot_char_oren_4,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_vm_034,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_vm_032,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_vm_031,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_nasser_faehnrich,loot_char_cyr_6,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,2
+dt_boss_nasser_faehnrich,loot_vm_028,Der Nasse Faehnrich,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_laternenwurm_mutter,loot_vm_029,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_laternenwurm_mutter,loot_affix_135,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,18
+dt_boss_laternenwurm_mutter,loot_char_oren_5,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_laternenwurm_mutter,loot_mat_archivlinse,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_laternenwurm_mutter,loot_vm_036,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_laternenwurm_mutter,loot_char_cyr_4,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_laternenwurm_mutter,loot_affix_144,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_laternenwurm_mutter,loot_char_edda_6,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,2
+dt_boss_laternenwurm_mutter,loot_char_tarek_5,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,6
+dt_boss_laternenwurm_mutter,loot_char_brannok_6,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,2
+dt_boss_laternenwurm_mutter,loot_char_neris_6,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,2
+dt_boss_laternenwurm_mutter,loot_char_brannok_4,Mutter der Laternenwuermer,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Graumarsch,10
+dt_boss_noret,loot_vm_022,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,18
+dt_boss_noret,loot_cos_glockenhupe,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_noret,loot_char_mira_5,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_noret,loot_vm_028,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_noret,loot_char_kael_5,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_noret,loot_mat_archivlinse,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_noret,loot_char_velka_6,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,2
+dt_boss_noret,loot_affix_152,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_noret,loot_affix_176,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_noret,loot_affix_163,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_noret,loot_affix_160,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_noret,loot_affix_171,"Noret, Schuldbuchhalter aus Glas",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_namenloser_garten,loot_house_werftkran,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_cos_glockenhupe,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_vm_038,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,6
+dt_boss_namenloser_garten,loot_affix_168,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_char_lyra_4,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_affix_187,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,6
+dt_boss_namenloser_garten,loot_char_tarek_4,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_char_brannok_6,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,2
+dt_boss_namenloser_garten,loot_cos_harzmaske,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,18
+dt_boss_namenloser_garten,loot_char_oren_4,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_namenloser_garten,loot_mat_archivlinse,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,6
+dt_boss_namenloser_garten,loot_vm_033,Der Namenlose Garten,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Wurzelwald Nhal,10
+dt_boss_tiefenglocke,loot_vm_033,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,10
+dt_boss_tiefenglocke,loot_char_neris_6,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,2
+dt_boss_tiefenglocke,loot_mat_levispan,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,18
+dt_boss_tiefenglocke,loot_char_brannok_2,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,22
+dt_boss_tiefenglocke,loot_char_siofra_6,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,2
+dt_boss_tiefenglocke,loot_affix_157,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,22
+dt_boss_tiefenglocke,loot_char_brannok_1,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,20
+dt_boss_tiefenglocke,loot_char_yara_6,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,2
+dt_boss_tiefenglocke,loot_char_lyra_6,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,2
+dt_boss_tiefenglocke,loot_affix_144,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,10
+dt_boss_tiefenglocke,loot_vm_031,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,10
+dt_boss_tiefenglocke,loot_vm_027,Malrec und die Tiefenglocke,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Eisenbrandkueste,10
+dt_boss_falkenlinie,loot_affix_164,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,20
+dt_boss_falkenlinie,loot_char_cyr_5,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,6
+dt_boss_falkenlinie,loot_char_siofra_5,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,6
+dt_boss_falkenlinie,loot_char_oren_4,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_falkenlinie,loot_affix_144,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_falkenlinie,loot_char_yara_4,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_falkenlinie,loot_affix_169,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,22
+dt_boss_falkenlinie,loot_char_siofra_6,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,2
+dt_boss_falkenlinie,loot_vm_033,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_falkenlinie,loot_mat_archivlinse,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,6
+dt_boss_falkenlinie,loot_vm_030,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_falkenlinie,loot_char_lyra_4,Fall der Falkenlinie,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Hochkamm der Eidwacht,10
+dt_boss_sankt_ival,loot_char_yara_4,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_sankt_ival,loot_char_lyra_5,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_sankt_ival,loot_char_cyr_4,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_sankt_ival,loot_mat_archivlinse,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_sankt_ival,loot_char_mira_6,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_sankt_ival,loot_char_neris_6,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_sankt_ival,loot_vm_032,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_sankt_ival,loot_char_neris_5,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_sankt_ival,loot_house_werftkran,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_sankt_ival,loot_affix_176,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_sankt_ival,loot_mat_schachtkern,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,18
+dt_boss_sankt_ival,loot_char_tarek_5,"Sankt Ival, Maschinenheiliger",boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_sereth_hand,loot_char_tarek_6,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,2
+dt_boss_sereth_hand,loot_char_tarek_5,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_sereth_hand,loot_affix_136,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,10
+dt_boss_sereth_hand,loot_char_brannok_5,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_sereth_hand,loot_mat_archivlinse,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_sereth_hand,loot_char_cyr_6,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,2
+dt_boss_sereth_hand,loot_char_mira_5,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_sereth_hand,loot_char_siofra_6,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,2
+dt_boss_sereth_hand,loot_vm_038,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_sereth_hand,loot_char_cyr_3,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,18
+dt_boss_sereth_hand,loot_char_oren_4,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,10
+dt_boss_sereth_hand,loot_char_lyra_5,Sereths Hand: Die Glaeserne Regentin,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Scherbenkrone,6
+dt_boss_schrottkoenig,loot_vm_019,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,18
+dt_boss_schrottkoenig,loot_vm_036,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_schrottkoenig,loot_char_tarek_6,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_schrottkoenig,loot_char_neris_5,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_schrottkoenig,loot_char_neris_4,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_schrottkoenig,loot_char_velka_6,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_schrottkoenig,loot_char_lyra_6,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_schrottkoenig,loot_char_oren_6,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,2
+dt_boss_schrottkoenig,loot_vm_041,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,6
+dt_boss_schrottkoenig,loot_vm_035,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,10
+dt_boss_schrottkoenig,loot_vm_005,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,20
+dt_boss_schrottkoenig,loot_affix_174,Der Schrottkoenig von Ruessmarkt,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Dunkelgrund,18
+dt_boss_glassrochen_alpha,loot_cos_salzbanner,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,18
+dt_boss_glassrochen_alpha,loot_vm_035,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_glassrochen_alpha,loot_char_oren_5,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_glassrochen_alpha,loot_char_neris_5,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_glassrochen_alpha,loot_affix_139,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_glassrochen_alpha,loot_char_kael_4,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_glassrochen_alpha,loot_vm_028,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,10
+dt_boss_glassrochen_alpha,loot_char_brannok_5,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
+dt_boss_glassrochen_alpha,loot_house_spiegelteppich,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,22
+dt_boss_glassrochen_alpha,loot_char_neris_6,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,2
+dt_boss_glassrochen_alpha,loot_char_tarek_3,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,18
+dt_boss_glassrochen_alpha,loot_char_cyr_5,Glasrochen Alpha,boss,Boss gibt immer ein Fragment. 5 Fragmente kaufen ein fokussiertes Relikt aus seiner Tabelle.,Sonnenglasweite,6
