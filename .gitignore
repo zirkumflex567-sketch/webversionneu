@@ -1,0 +1,53 @@
+﻿# node_modules
+node_modules/
+.next/
+dist/
+build/
+!src/build/
+!src/build/**
+out/
+.vercel
+.terraform
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+tmp/
+.antigravity*
+artifacts/
+*.tar.gz
+tools/.flow_profile/
+
+# Clean-room hard exclusions
+node_modules/
+.next/
+tmp/
+artifacts/
+tools/
+.chatgpt/
+.claude/
+.data/
+.obsidian/
+*.log
+*.tmp
+*.zip
+tsconfig.tsbuildinfo
