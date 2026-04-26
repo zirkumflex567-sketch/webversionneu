@@ -35,7 +35,7 @@ export default function Hub() {
   if (phase !== "Hub") return null
 
   const toggleBounty = (id: string) => {
-    setSelectedBounties(cur => cur.includes(id) ? cur.filter(b => b !== id) : (cur.length < 2 ? [...cur, id] : cur))
+    setSelectedBounties(cur => cur.includes(id) ? [] : [id])
   }
 
   const deploy = () => {
@@ -180,7 +180,7 @@ export default function Hub() {
             <div className="sm:pl-6 lg:pl-12 sm:border-l-4 border-black">
               <div className="text-[10px] text-[#ffaa00] font-black tracking-[0.4em] mb-1">{t("ui.hub.active_contracts")}</div>
               <div className="font-bebas text-lg sm:text-xl text-[#ffaa00] uppercase tracking-[0.12em] sm:tracking-widest break-words">
-                {selectedBounties.map(id => (id ?? "").replace("bounty_","")).join(" + ")}
+                {selectedBounties.map(id => t((BOUNTIES.find((b) => b.id === id)?.displayNameKey ?? "ui.bounty.one_only") as never)).join(" + ")}
               </div>
             </div>
           )}
@@ -531,7 +531,7 @@ function ContractsTab({ selected, toggle, meta }: ContractsTabProps) {
     <div className="space-y-8">
       <div>
         <SectionHeader>{t("ui.hub.section.active_bounties")}</SectionHeader>
-        <p className="text-xs text-white/30 tracking-widest uppercase mb-6">{t("ui.hub.bounties.subtitle")}</p>
+        <p className="text-xs text-white/30 tracking-widest uppercase mb-6">{t("ui.hub.bounties.subtitle_single")}</p>
         <div className="grid grid-cols-3 gap-6">
           {BOUNTIES.map(b => {
             const active = selected.includes(b.id)
@@ -748,21 +748,21 @@ function EquipButton({ item, owned, active, onSelect }: EquipButtonProps) {
 function ArchivesTab() {
   const t = useT()
   const flags = useStoryStore((s) => s.worldState.flags)
-  
+
   const loreItems = [
-    { id: 'l1', title: 'DIE ERSTE LATERNE', description: 'Ein Bericht über die Gründung von Fackelruh.', unlocked: true },
-    { id: 'l2', title: 'GLAS-ANATOMIE', description: 'Skizzen der Glasbestie aus der Sumpfkathedrale.', unlocked: flags.mq04_boss_defeated },
-    { id: 'l3', title: 'DREI DOCHTE', description: 'Eine Anleitung zum Entzünden der Außenposten.', unlocked: flags.mq03_hub_rebuilt }
+    { id: "l1", titleKey: "ui.hub.archives.l1.title", descriptionKey: "ui.hub.archives.l1.description", unlocked: true },
+    { id: "l2", titleKey: "ui.hub.archives.l2.title", descriptionKey: "ui.hub.archives.l2.description", unlocked: flags.mq04_boss_defeated },
+    { id: "l3", titleKey: "ui.hub.archives.l3.title", descriptionKey: "ui.hub.archives.l3.description", unlocked: flags.mq03_hub_rebuilt },
   ]
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {loreItems.map(item => (
         <div key={item.id} className={`panel-wasteland p-6 border-4 ${item.unlocked ? 'border-cyan-500/40 bg-black/60' : 'border-white/5 bg-black/20 opacity-40'}`}>
-          <div className="text-[10px] font-black text-cyan-400 mb-2">LORE_DATA // {item.id}</div>
-          <div className="font-bebas text-2xl text-white mb-2">{item.unlocked ? item.title : t("ui.hub.archives.locked")}</div>
+          <div className="text-[10px] font-black text-cyan-400 mb-2">{t("ui.hub.archives.lore_data")} // {item.id}</div>
+          <div className="font-bebas text-2xl text-white mb-2">{item.unlocked ? t(item.titleKey as never) : t("ui.hub.archives.locked")}</div>
           <p className="text-xs text-white/40 uppercase tracking-widest leading-relaxed">
-            {item.unlocked ? item.description : t("ui.hub.archives.missing_fragments")}
+            {item.unlocked ? t(item.descriptionKey as never) : t("ui.hub.archives.missing_fragments")}
           </p>
         </div>
       ))}
@@ -771,6 +771,7 @@ function ArchivesTab() {
 }
 
 function HubDeco() {
+  const t = useT()
   const flags = useStoryStore((s) => s.worldState.flags)
   
   return (
@@ -778,19 +779,19 @@ function HubDeco() {
       {flags.mq01_saved_school && (
         <div className="absolute top-20 left-10 animate-bounce">
           <div className="text-[40px]">🎒</div>
-          <div className="text-[10px] font-black text-cyan-400 bg-black/80 px-2 py-1 mt-2">SCHULE_GERETTET</div>
+          <div className="text-[10px] font-black text-cyan-400 bg-black/80 px-2 py-1 mt-2">{t("ui.hub.deco.school_saved")}</div>
         </div>
       )}
       {flags.mq01_saved_smokehouse && (
         <div className="absolute top-20 right-10 animate-pulse">
           <div className="text-[40px]">🐟</div>
-          <div className="text-[10px] font-black text-orange-400 bg-black/80 px-2 py-1 mt-2">VORRÄTE_GESICHERT</div>
+          <div className="text-[10px] font-black text-orange-400 bg-black/80 px-2 py-1 mt-2">{t("ui.hub.deco.supplies_secured")}</div>
         </div>
       )}
       {flags.mq03_hub_rebuilt && (
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
           <div className="w-[80vw] h-1 bg-cyan-500/20 toxic-glow"></div>
-          <div className="text-[10px] text-center font-black text-cyan-500 mt-2 tracking-[1em]">LATERNENHOF_SYNCHRONISIERT</div>
+          <div className="text-[10px] text-center font-black text-cyan-500 mt-2 tracking-[1em]">{t("ui.hub.deco.lanternhof_synced")}</div>
         </div>
       )}
     </div>

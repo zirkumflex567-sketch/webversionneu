@@ -1,147 +1,113 @@
-import React, { useState } from 'react'
-import { useGameStore } from '../store'
-import { FURNITURE_CATALOG, HOUSING_GRID, type FurnitureItem } from '../data/HousingData'
-import '../styles/HousingUI.css'
+import React, { useState } from "react"
+import { useGameStore } from "../store"
+import { FURNITURE_CATALOG, HOUSING_GRID, type FurnitureItem } from "../data/HousingData"
+import { useT } from "../i18n/useT"
+import type { TranslationKey } from "../i18n"
+import "../styles/HousingUI.css"
 
 interface HousingUIProps {
   onClose?: () => void
 }
 
+const CATEGORIES = ["all", "seating", "decor", "lighting", "tech", "storage"] as const
+type HousingCategory = (typeof CATEGORIES)[number]
+
 export const HousingUI: React.FC<HousingUIProps> = ({ onClose }) => {
+  const t = useT()
   const { meta } = useGameStore()
-  const [selectedCategory, setSelectedCategory] = useState<'all' | 'seating' | 'decor' | 'lighting' | 'tech' | 'storage'>('all')
+  const [selectedCategory, setSelectedCategory] = useState<HousingCategory>("all")
   const [previewItem, setPreviewItem] = useState<FurnitureItem | null>(null)
 
   const scrap = meta?.totalScrap || 0
   const tech = meta?.totalTech || 0
-
-  const filteredFurniture =
-    selectedCategory === 'all'
-      ? FURNITURE_CATALOG
-      : FURNITURE_CATALOG.filter(f => f.category === selectedCategory)
-
+  const filteredFurniture = selectedCategory === "all" ? FURNITURE_CATALOG : FURNITURE_CATALOG.filter((f) => f.category === selectedCategory)
   const canAfford = (item: FurnitureItem) => scrap >= item.scrapCost && tech >= item.techCost
-
-  const categories = ['all', 'seating', 'decor', 'lighting', 'tech', 'storage'] as const
+  const categoryKey = (cat: HousingCategory) => `ui.housing.category.${cat}` as TranslationKey
 
   return (
     <div className="housing-ui">
       <div className="housing-header">
-        <h2>GARAGE CUSTOMIZATION</h2>
+        <h2>{t("ui.housing.title")}</h2>
         <div className="housing-resources">
-          <span className="resource scrap">🔩 {scrap} Scrap</span>
-          <span className="resource tech">⚡ {tech} Tech</span>
+          <span>{t("ui.housing.scrap")}: {scrap}</span>
+          <span>{t("ui.housing.tech")}: {tech}</span>
         </div>
       </div>
 
-      {/* Category Tabs */}
       <div className="housing-categories">
-        {categories.map(cat => (
+        {CATEGORIES.map((cat) => (
           <button
             key={cat}
-            className={`category-btn ${selectedCategory === cat ? 'active' : ''}`}
+            className={selectedCategory === cat ? "active" : ""}
             onClick={() => setSelectedCategory(cat)}
           >
-            {cat.toUpperCase()}
+            {t(categoryKey(cat))}
           </button>
         ))}
       </div>
 
       <div className="housing-content">
-        {/* Furniture Grid */}
-        <div className="furniture-grid">
-          <h3>Available Items</h3>
-          <div className="items-list">
-            {filteredFurniture.map(item => (
-              <div
-                key={item.id}
-                className={`furniture-card ${!canAfford(item) ? 'unaffordable' : ''}`}
-                onClick={() => setPreviewItem(item)}
-              >
-                <div className="item-icon">{item.icon}</div>
-                <div className="item-info">
-                  <div className="item-name">{item.name}</div>
-                  <div className="item-cost">
-                    <span className="cost-scrap">{item.scrapCost}</span>
-                    <span className="cost-tech">{item.techCost}</span>
-                  </div>
+        <section className="furniture-list">
+          <h3>{t("ui.housing.available_items")}</h3>
+          <div className="furniture-grid">
+            {filteredFurniture.map((item) => (
+              <button key={item.id} className="furniture-card" onClick={() => setPreviewItem(item)}>
+                <div className="furniture-icon">{item.icon || t("ui.housing.item_icon_fallback")}</div>
+                <div className="furniture-name">{t(item.nameKey)}</div>
+                <div className="furniture-cost">
+                  {item.scrapCost} {t("ui.housing.scrap_short")} / {item.techCost} {t("ui.housing.tech_short")}
                 </div>
-                <div className="item-dimensions">
-                  {item.width}×{item.height}
-                </div>
-              </div>
+                <div className="furniture-size">{item.width}x{item.height}</div>
+              </button>
             ))}
           </div>
-        </div>
+        </section>
 
-        {/* Preview Panel */}
         {previewItem && (
-          <div className="preview-panel">
-            <h3>PREVIEW</h3>
-            <div className="preview-display">
-              <div className="preview-icon">{previewItem.icon}</div>
-              <div className="preview-grid">
-                {Array.from({ length: HOUSING_GRID.width * HOUSING_GRID.height }).map((_, i) => {
-                  const x = i % HOUSING_GRID.width
-                  const y = Math.floor(i / HOUSING_GRID.width)
-                  const isPreview =
-                    x >= 1 &&
-                    x < 1 + previewItem.width &&
-                    y >= 1 &&
-                    y < 1 + previewItem.height
-                  return (
-                    <div
-                      key={i}
-                      className={`grid-cell ${isPreview ? 'preview' : ''}`}
-                      style={{
-                        width: HOUSING_GRID.cellSize,
-                        height: HOUSING_GRID.cellSize,
-                        backgroundColor: isPreview
-                          ? `rgba(${(previewItem.color || 0x00ffaa) >> 16}, ${((previewItem.color || 0x00ffaa) >> 8) & 255}, ${(previewItem.color || 0x00ffaa) & 255}, 0.3)`
-                          : 'transparent',
-                      }}
-                    />
-                  )
-                })}
-              </div>
+          <section className="preview-panel">
+            <h3>{t("ui.housing.preview")}</h3>
+            <div className="preview-icon">{previewItem.icon || t("ui.housing.item_icon_fallback")}</div>
+            <div className="garage-grid">
+              {Array.from({ length: HOUSING_GRID.width * HOUSING_GRID.height }).map((_, i) => {
+                const x = i % HOUSING_GRID.width
+                const y = Math.floor(i / HOUSING_GRID.width)
+                const isPreview = x >= 1 && x < 1 + previewItem.width && y >= 1 && y < 1 + previewItem.height
+                const color = previewItem.color || 0x00ffaa
+                return (
+                  <div
+                    key={i}
+                    className="grid-cell"
+                    style={{
+                      backgroundColor: isPreview
+                        ? `rgba(${(color >> 16) & 255}, ${(color >> 8) & 255}, ${color & 255}, 0.3)`
+                        : "transparent",
+                    }}
+                  />
+                )
+              })}
             </div>
 
-            <div className="preview-info">
-              <div className="info-section">
-                <span className="label">Name:</span>
-                <span className="value">{previewItem.name}</span>
-              </div>
-              <div className="info-section">
-                <span className="label">Description:</span>
-                <span className="value">{previewItem.description}</span>
-              </div>
-              <div className="info-section">
-                <span className="label">Size:</span>
-                <span className="value">
-                  {previewItem.width}×{previewItem.height} grid cells
-                </span>
-              </div>
-              <div className="info-section">
-                <span className="label">Cost:</span>
-                <span className="value">
-                  {previewItem.scrapCost} Scrap, {previewItem.techCost} Tech
-                </span>
-              </div>
+            <dl className="preview-details">
+              <dt>{t("ui.housing.name")}</dt>
+              <dd>{t(previewItem.nameKey)}</dd>
+              <dt>{t("ui.housing.description")}</dt>
+              <dd>{t(previewItem.descriptionKey)}</dd>
+              <dt>{t("ui.housing.size")}</dt>
+              <dd>{t("ui.housing.grid_cells", { width: previewItem.width, height: previewItem.height })}</dd>
+              <dt>{t("ui.housing.cost")}</dt>
+              <dd>{t("ui.housing.cost_values", { scrap: previewItem.scrapCost, tech: previewItem.techCost })}</dd>
+            </dl>
 
-              <button
-                className={`place-btn ${!canAfford(previewItem) ? 'disabled' : ''}`}
-                disabled={!canAfford(previewItem)}
-              >
-                {canAfford(previewItem) ? 'PLACE ITEM' : 'INSUFFICIENT RESOURCES'}
-              </button>
-            </div>
-          </div>
+            <button className="place-item-button" disabled={!canAfford(previewItem)}>
+              {canAfford(previewItem) ? t("ui.housing.place_item") : t("ui.housing.insufficient_resources")}
+            </button>
+          </section>
         )}
       </div>
 
       {onClose && (
-        <button className="close-btn" onClick={onClose}>
-          CLOSE
+        <button className="housing-close" onClick={onClose}>
+          {t("ui.common.close")}
         </button>
       )}
     </div>

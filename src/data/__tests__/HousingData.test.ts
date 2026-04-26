@@ -16,8 +16,8 @@ describe('HousingData', () => {
     it('should have all required properties on furniture items', () => {
       for (const item of FURNITURE_CATALOG) {
         expect(item.id).toBeDefined()
-        expect(item.name).toBeDefined()
-        expect(item.description).toBeDefined()
+        expect(item.nameKey).toBeDefined()
+        expect(item.descriptionKey).toBeDefined()
         expect(item.category).toBeDefined()
         expect(item.scrapCost).toBeGreaterThan(0)
         expect(item.techCost).toBeGreaterThanOrEqual(0)

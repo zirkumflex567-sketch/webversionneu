@@ -13,7 +13,8 @@
     "legacy:scan": "node scripts/legacy-scan.mjs",
     "i18n:check": "node scripts/i18n-check.mjs",
     "docs:lint": "node scripts/docs-lint.mjs",
-    "verify": "npm run legacy:scan && npm run i18n:check && npm run docs:lint"
+    "verify": "npm run legacy:scan && npm run i18n:check:block && npm run docs:lint && npm run lint && npm run test",
+    "i18n:check:block": "node scripts/i18n-check-block.mjs"
   },
   "dependencies": {
     "@react-oauth/google": "^0.13.5",

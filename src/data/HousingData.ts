@@ -1,19 +1,22 @@
 /**
  * Housing System Data
- * Garage furniture and customization items for player cosmetics
+ * Garage furniture and customization items for player cosmetics.
+ *
+ * Player-facing labels live in src/i18n/index.ts. Data keeps stable keys only.
  */
+import type { TranslationKey } from "../i18n"
 
 export interface FurnitureItem {
   id: string
-  name: string
-  description: string
-  category: 'seating' | 'decor' | 'lighting' | 'tech' | 'storage'
+  nameKey: TranslationKey
+  descriptionKey: TranslationKey
+  category: "seating" | "decor" | "lighting" | "tech" | "storage"
   scrapCost: number
   techCost: number
-  icon: string // emoji or asset path
-  width: number // grid units
-  height: number // grid units
-  color?: number // hex color for preview
+  icon: string
+  width: number
+  height: number
+  color?: number
 }
 
 export interface PlacedFurniture {
@@ -21,169 +24,154 @@ export interface PlacedFurniture {
   furnitureId: string
   x: number
   y: number
-  rotation: number // 0, 90, 180, 270
+  rotation: number
 }
 
 export const FURNITURE_CATALOG: FurnitureItem[] = [
-  // Seating
   {
-    id: 'seat_chrome',
-    name: 'Chrome Throne',
-    description: 'High-tech pilot seat with servo motors',
-    category: 'seating',
+    id: "seat_chrome",
+    nameKey: "housing.item.seat_chrome.name",
+    descriptionKey: "housing.item.seat_chrome.description",
+    category: "seating",
     scrapCost: 250,
     techCost: 15,
-    icon: '🪑',
+    icon: "",
     width: 1,
     height: 1,
     color: 0xcccccc,
   },
   {
-    id: 'seat_wasteland',
-    name: 'Salvage Bench',
-    description: 'Welded from scrap metal and worn leather',
-    category: 'seating',
+    id: "seat_wasteland",
+    nameKey: "housing.item.seat_wasteland.name",
+    descriptionKey: "housing.item.seat_wasteland.description",
+    category: "seating",
     scrapCost: 100,
     techCost: 5,
-    icon: '🪑',
+    icon: "",
     width: 2,
     height: 1,
     color: 0x664422,
   },
-
-  // Lighting
   {
-    id: 'light_neon_cyan',
-    name: 'Neon Glow (Cyan)',
-    description: 'H-Town signature cyan lighting strip',
-    category: 'lighting',
+    id: "light_neon_cyan",
+    nameKey: "housing.item.light_neon_cyan.name",
+    descriptionKey: "housing.item.light_neon_cyan.description",
+    category: "lighting",
     scrapCost: 150,
     techCost: 10,
-    icon: '💡',
+    icon: "",
     width: 1,
     height: 1,
     color: 0x00ffaa,
   },
   {
-    id: 'light_neon_red',
-    name: 'Neon Glow (Red)',
-    description: 'Warning red neon strip for danger aesthetic',
-    category: 'lighting',
+    id: "light_neon_red",
+    nameKey: "housing.item.light_neon_red.name",
+    descriptionKey: "housing.item.light_neon_red.description",
+    category: "lighting",
     scrapCost: 150,
     techCost: 10,
-    icon: '💡',
+    icon: "",
     width: 1,
     height: 1,
     color: 0xff0000,
   },
-
-  // Decorative
   {
-    id: 'decor_vehicle_chassis',
-    name: 'Vehicle Chassis Wall',
-    description: 'Mounted vehicle frame as wall art',
-    category: 'decor',
+    id: "decor_vehicle_chassis",
+    nameKey: "housing.item.decor_vehicle_chassis.name",
+    descriptionKey: "housing.item.decor_vehicle_chassis.description",
+    category: "decor",
     scrapCost: 300,
     techCost: 20,
-    icon: '🚗',
+    icon: "",
     width: 2,
     height: 2,
     color: 0x333333,
   },
   {
-    id: 'decor_weapons_rack',
-    name: 'Weapons Rack',
-    description: 'Display stand for arsenal collection',
-    category: 'decor',
+    id: "decor_weapons_rack",
+    nameKey: "housing.item.decor_weapons_rack.name",
+    descriptionKey: "housing.item.decor_weapons_rack.description",
+    category: "decor",
     scrapCost: 200,
     techCost: 12,
-    icon: '🔫',
+    icon: "",
     width: 1,
     height: 2,
     color: 0x666666,
   },
   {
-    id: 'decor_tech_billboard',
-    name: 'Tech Billboard',
-    description: 'Holographic display with cycle animations',
-    category: 'decor',
+    id: "decor_tech_billboard",
+    nameKey: "housing.item.decor_tech_billboard.name",
+    descriptionKey: "housing.item.decor_tech_billboard.description",
+    category: "decor",
     scrapCost: 400,
     techCost: 30,
-    icon: '📺',
+    icon: "",
     width: 2,
     height: 1,
     color: 0x0099ff,
   },
-
-  // Storage
   {
-    id: 'storage_locker',
-    name: 'Equipment Locker',
-    description: 'Steel storage cabinet for supplies',
-    category: 'storage',
+    id: "storage_locker",
+    nameKey: "housing.item.storage_locker.name",
+    descriptionKey: "housing.item.storage_locker.description",
+    category: "storage",
     scrapCost: 180,
     techCost: 8,
-    icon: '🔒',
+    icon: "",
     width: 1,
     height: 1,
     color: 0x444444,
   },
   {
-    id: 'storage_shelving',
-    name: 'Industrial Shelving',
-    description: 'Multi-tier storage unit for organization',
-    category: 'storage',
+    id: "storage_shelving",
+    nameKey: "housing.item.storage_shelving.name",
+    descriptionKey: "housing.item.storage_shelving.description",
+    category: "storage",
     scrapCost: 250,
     techCost: 12,
-    icon: '📦',
+    icon: "",
     width: 1,
     height: 2,
     color: 0x555555,
   },
-
-  // Tech
   {
-    id: 'tech_server_tower',
-    name: 'Server Tower',
-    description: 'Processing unit with cooling systems',
-    category: 'tech',
+    id: "tech_server_tower",
+    nameKey: "housing.item.tech_server_tower.name",
+    descriptionKey: "housing.item.tech_server_tower.description",
+    category: "tech",
     scrapCost: 500,
     techCost: 40,
-    icon: '🖥️',
+    icon: "SRV",
     width: 1,
     height: 2,
     color: 0x00ff00,
   },
   {
-    id: 'tech_workbench',
-    name: 'Tech Workbench',
-    description: 'Advanced maintenance and upgrade station',
-    category: 'tech',
+    id: "tech_workbench",
+    nameKey: "housing.item.tech_workbench.name",
+    descriptionKey: "housing.item.tech_workbench.description",
+    category: "tech",
     scrapCost: 350,
     techCost: 25,
-    icon: '⚙️',
+    icon: "GEAR",
     width: 2,
     height: 1,
     color: 0xff9900,
   },
 ]
 
-/**
- * Default garage layout for new players
- */
 export function getDefaultHousing(): PlacedFurniture[] {
   return [
-    { id: '1', furnitureId: 'seat_chrome', x: 1, y: 1, rotation: 0 },
-    { id: '2', furnitureId: 'light_neon_cyan', x: 0, y: 0, rotation: 0 },
-    { id: '3', furnitureId: 'storage_locker', x: 3, y: 0, rotation: 0 },
+    { id: "1", furnitureId: "seat_chrome", x: 1, y: 1, rotation: 0 },
+    { id: "2", furnitureId: "light_neon_cyan", x: 0, y: 0, rotation: 0 },
+    { id: "3", furnitureId: "storage_locker", x: 3, y: 0, rotation: 0 },
   ]
 }
 
-/**
- * Garage grid dimensions
- */
 export const HOUSING_GRID = {
   width: 6,
   height: 5,
-  cellSize: 80, // pixels per cell in UI
+  cellSize: 80,
 }
