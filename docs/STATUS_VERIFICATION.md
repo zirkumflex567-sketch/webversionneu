@@ -43,3 +43,14 @@ Repo root: C:\Users\Shadow\2\2\NEUEWEBVERSION\webversionneu
   - Next.js plugin-detection warning remains informational.
 - Convergence follow-up (same date): additional UI localization migration landed for Auth/Profile/StoryPanel/Settings/QuestTracker/LoginView/ThemeDemo/FPS overlay.
 - Remaining i18n warnings are now concentrated in HUD/Overlays/DebugSuite and selected legacy UI modules.
+
+## 2026-04-26 Live Runtime Hotfix (/combat)
+- Symptom: intermittent black screen on `https://h-town.duckdns.org/combat` due to runtime chunk delivery mismatch (`/combat/_next/static/chunks/webpack-*.js` not consistently served).
+- Live remediation:
+  - nginx routing hardened for `/combat/_next` static delivery path;
+  - portrait rendering stabilized with fallback mapping (`rixa`/`marek`) in Hub/Profile to prevent broken image tiles.
+- Verification snapshot:
+  - `GET /combat` -> `200`
+  - `GET /combat/_next/static/chunks/webpack-*.js` -> `200`
+  - `GET /combat/_next/static/css/*.css` -> `200`
+  - `GET /combat/assets/ui/portrait_rixa.png` -> `200`

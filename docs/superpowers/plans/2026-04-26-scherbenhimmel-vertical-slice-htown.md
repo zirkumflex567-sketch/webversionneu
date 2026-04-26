@@ -17,7 +17,7 @@
 
 ## 3) UI / Flow
 - [x] 3.1 Integrate map/area state labels (locked/active/cleared) with i18n.
-- [ ] 3.2 Integrate story tab type badges (main/side/companion) with i18n labels.
+- [x] 3.2 Integrate story tab type badges (main/side/companion) with i18n labels.
 - [x] 3.3 Ensure bounty selection UI communicates one-active-contract rule (localized).
 
 ## 4) Validation / QA
@@ -31,3 +31,8 @@
 - [x] 5.1 Commit docs/contracts + i18n updates.
 - [x] 5.2 Commit domain/data + tests updates.
 - [x] 5.3 Commit QA/status docs updates.
+
+## Live Hotfix (2026-04-26)
+- [x] Fix `/combat` black screen caused by missing `_next` runtime chunk delivery in live nginx pathing.
+- [x] Restore missing UI portrait robustness with fallback mapping (`rixa`/`marek`) to avoid broken-image placeholders.
+- [x] Validate live endpoints (`/combat`, `/_next` chunks/css, `/combat/assets/ui/portrait_rixa.png`) return `200`.

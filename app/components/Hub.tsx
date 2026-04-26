@@ -235,6 +235,8 @@ interface PilotTabProps {
 function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedVehicle, selectedWeapon, setSelectedWeapon, unlockedVehicles, unlockedWeapons, unlockedCharacters }: PilotTabProps) {
   const t = useT()
   const char = CHARACTERS[selectedChar as CharacterId]
+  const portraitId = (id: CharacterId): CharacterId => (id === "rixa" || id === "marek" ? id : "rixa")
+  const portraitPath = (id: CharacterId): string => assetPath(`/assets/ui/portrait_${portraitId(id)}.png`)
 
   return (
     <div className="grid grid-cols-1 xl:grid-cols-12 gap-4 sm:gap-6 lg:gap-8 h-full">
@@ -245,7 +247,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
           const c = CHARACTERS[id]
           const active = selectedChar === id
           const isUnlocked = unlockedCharacters.includes(id)
-          const portrait = assetPath(`/assets/ui/portrait_${id}.png`)
+          const portrait = portraitPath(id)
           return (
             <button
               key={id}
@@ -276,7 +278,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
           <div className="space-y-6">
             <div className="relative w-full aspect-[4/3] overflow-hidden border-2 border-[#00ffaa]/30 bg-black">
               <Image
-                src={assetPath(`/assets/ui/portrait_${selectedChar}.png`)}
+                src={portraitPath(selectedChar)}
                 fill
                 sizes="(max-width: 1280px) 100vw, 33vw"
                 className="w-full h-full object-cover"

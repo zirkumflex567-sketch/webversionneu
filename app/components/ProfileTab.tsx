@@ -15,7 +15,7 @@ export default function ProfileTab() {
   // Calculate some fun mock stats based on scrap/tech
   const runsCompleted = Math.floor(meta.totalScrap / 150) + 12;
   const totalKills = Math.floor(meta.totalScrap * 1.5) + 340;
-  const portraitSrc = `/assets/ui/portraits/${selectedChar}.png`;
+  const portraitSrc = `/combat/assets/ui/portrait_${selectedChar === "rixa" || selectedChar === "marek" ? selectedChar : "rixa"}.png`;
 
   return (
     <div className="flex flex-col gap-8 max-w-5xl mx-auto h-full text-white pb-24 font-inter relative z-20">
