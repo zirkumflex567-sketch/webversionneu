@@ -4,6 +4,7 @@ import { Vehicle } from './Vehicle'
 import { FXManager } from './FXManager'
 import { Enemy } from './Enemy'
 import { useGameStore } from '../store'
+import { t } from '../i18n'
 
 export class GlassBeast extends Boss {
   private shardTimer = 3.0
@@ -43,13 +44,15 @@ export class GlassBeast extends Boss {
     
     // In a real implementation, we would spawn actual shard projectiles here
     // For the prototype, we trigger a warning callout
-    useGameStore.getState().showCallout("GLASBESTIE: SPLITTER-REGEN!", 2000, 'warning')
+    const locale = useGameStore.getState().locale
+    useGameStore.getState().showCallout(t("callout.glassbeast.shard", undefined, locale), 2000, 'warning')
   }
 
   private toggleReflect() {
     this.isReflecting = !this.isReflecting
     if (this.isReflecting) {
-      useGameStore.getState().showCallout("GLASBESTIE: REFLEKTIONS-SCHILD AKTIV!", 3000, 'boss')
+      const locale = useGameStore.getState().locale
+      useGameStore.getState().showCallout(t("callout.glassbeast.reflect", undefined, locale), 3000, 'boss')
       // Change color or add FX
       setTimeout(() => { this.isReflecting = false }, 3000)
     }

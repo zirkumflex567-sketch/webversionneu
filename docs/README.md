@@ -83,6 +83,7 @@ Use `docs/SOURCE_OF_TRUTH.md` for document authority ranking.
 - [Doc Conflict Register](audit/DOC_CONFLICT_REGISTER.md)
 - [Code Doc Traceability Matrix](audit/CODE_DOC_TRACEABILITY_MATRIX.md)
 - [Doc Inventory](audit/DOC_INVENTORY.md)
+- [Hard Pivot Audit 2026-04-26](audit/HARD_PIVOT_AUDIT_2026-04-26.md)
 - [Full Repo Docs Code Audit 2026-04-26](audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-26.md)
 - [Full Repo Docs Code Audit 2026-04-25](audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-25.md)
 

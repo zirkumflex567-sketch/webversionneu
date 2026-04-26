@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import { Vehicle } from './Vehicle'
 import { useGameStore } from '../store'
 import { AssetManager } from './AssetManager'
+import { t } from '../i18n'
 
 export class Scrap {
   readonly group = new THREE.Group()
@@ -49,7 +50,8 @@ export class Scrap {
     // Slight random offset from center
     const offset = new THREE.Vector3((Math.random() - 0.5), 0, (Math.random() - 0.5))
     if (isLegendary) {
-      useGameStore.getState().showCallout("LEGENDARY SCRAP DROPPED!", 3000)
+      const locale = useGameStore.getState().locale
+      useGameStore.getState().showCallout(t("callout.scrap.legendary", undefined, locale), 3000)
     }
     
     this.group.position.copy(startPos).add(offset)

@@ -155,3 +155,14 @@ Last updated: 2026-04-26
 - Files changed: runtime and config files above, plus naming/audit docs.
 - Evidence / command output: pre/post `rg -n "REDLINE FC|bifa-web-app" app src package.json`.
 - Remaining follow-up: keep naming checks in future audit passes.
+
+## C-015
+
+- Severity: high
+- Files involved: `src/game/Game.ts`, `src/game/Vehicle.ts`, `src/game/Projectile.ts`, `app/components/MapTab.tsx`, `src/game/OpenWorld.ts`
+- Conflicting statements: active runtime still wired to open-world streaming while preproduction contracts require area-instance progression.
+- Current authoritative answer: open-world runtime integration is removed from active flow; canonical area selection uses dedicated area definitions.
+- Decision made: removed active `OpenWorld` imports/usage, decoupled map UI from `OPEN_WORLD_ZONES`, and moved legacy open-world implementation to `src/legacy/OpenWorldLegacy.ts`.
+- Files changed: runtime + UI files above, plus architecture docs and hard-pivot audit.
+- Evidence / command output: `rg -n OpenWorldManager|OPEN_WORLD_ZONES src app` now returns only legacy/archive references.
+- Remaining follow-up: optional cleanup of legacy file once no historical need remains.

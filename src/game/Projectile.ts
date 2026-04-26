@@ -1,7 +1,6 @@
 import * as THREE from 'three'
 import { Enemy } from './Enemy'
 import { useGameStore } from '../store'
-import { OpenWorldManager } from './OpenWorld'
 
 export class Projectile {
   readonly group = new THREE.Group()
@@ -26,15 +25,9 @@ export class Projectile {
     this.velocity = direction.normalize().multiplyScalar(60) // Fast tracer
   }
 
-  update(delta: number, enemies: Enemy[], openWorld: OpenWorldManager): void {
+  update(delta: number, enemies: Enemy[]): void {
     // 1. Move
     this.group.position.addScaledVector(this.velocity, delta)
-
-    // Check Open World Environment Collision (City Buildings)
-    if (openWorld.checkCollision(this.group.position, 0.5)) {
-        this.isDead = true;
-        return;
-    }
 
     // 2. Lifetime
     this.lifeTime -= delta

@@ -1,5 +1,5 @@
 /**
- * BIFA Balance Configuration
+ * H-Town Combat balance configuration
  * Centralized tuning for character damage, cooldowns, wave difficulty, boss scaling, and loot rates.
  * All values in milliseconds (time) or percentages (multipliers) unless noted.
  */

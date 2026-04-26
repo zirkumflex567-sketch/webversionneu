@@ -9,6 +9,7 @@ import { UpgradeData, UPGRADE_POOL, rollRandomUpgrades } from './data/UpgradeDat
 import { authAPI } from './auth/AuthAPI'
 import { useAuthStore } from './auth/AuthStore'
 import { getSocket } from './multiplayerStore'
+import { t, type Locale } from './i18n'
 
 export type GamePhase =
   | "Auth"               // Login gate
@@ -143,6 +144,7 @@ export interface GameState {
   enemyTelemetry: EnemyTelemetry
 
   // Settings
+  locale: Locale
   polygonMode: boolean
   audioEnabled: boolean
   volume: number
@@ -187,6 +189,7 @@ export interface GameState {
   isSettingsOpen: boolean
   setPolygonMode: (enabled: boolean) => void
   setAudioEnabled: (enabled: boolean) => void
+  setLocale: (locale: Locale) => void
   toggleSettings: () => void
   togglePause: () => void
   useAbility: () => CharacterId | null
@@ -240,6 +243,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   calloutVariant: 'normal',
   enemyTelemetry: defaultEnemyTelemetry(),
 
+  locale: "de",
   polygonMode: false,
   audioEnabled: true,
   volume: 0.5,
@@ -356,8 +360,8 @@ export const useGameStore = create<GameState>((set, get) => ({
     })
     state.showCallout(
       extracted
-        ? `EXTRACTED — +${banked.scrap} scrap (+${banked.extractionBonus} wave bonus), +${banked.tech} tech`
-        : `WIPED — banked ${banked.scrap} scrap, lost ${banked.techLost} tech`,
+        ? t("callout.run.extracted", { scrap: banked.scrap, bonus: banked.extractionBonus, tech: banked.tech }, state.locale)
+        : t("callout.run.wiped", { scrap: banked.scrap, techLost: banked.techLost }, state.locale),
       4000,
     )
   },
@@ -470,6 +474,7 @@ export const useGameStore = create<GameState>((set, get) => ({
 
   setPolygonMode: (enabled: boolean) => set({ polygonMode: enabled }),
   setAudioEnabled: (enabled: boolean) => set({ audioEnabled: enabled }),
+  setLocale: (locale: Locale) => set({ locale }),
   toggleSettings: () => set((state) => ({ isSettingsOpen: !state.isSettingsOpen })),
   togglePause: () => {
     const { phase, isPaused } = get()

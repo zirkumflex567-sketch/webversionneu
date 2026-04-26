@@ -2,7 +2,6 @@ import * as THREE from 'three'
 import { Input } from './Input'
 import { Vehicle } from './Vehicle'
 import { HUD } from './HUD'
-import { OpenWorldManager } from './OpenWorld'
 import { useGameStore, EnemyTelemetry } from '../store'
 import { HordeDirector } from './HordeDirector'
 import { Enemy } from './Enemy'
@@ -26,6 +25,7 @@ import { ParticleSystem } from '../rendering/particles/ParticleSystem'
 import { ParticleMaterial } from '../rendering/particles/ParticleMaterial'
 import { ParticleLOD } from '../rendering/particles/ParticleLOD'
 import { PerformanceMonitor } from '../rendering/performance/PerformanceMonitor'
+import { t } from '../i18n'
 
 const EMPTY_TELEMETRY: EnemyTelemetry = {
   total: 0,
@@ -73,7 +73,6 @@ export class Game {
   private readonly sentries: Sentry[] = []
   private minefield!: Minefield
   private networkManager!: NetworkManager
-  private openWorld!: OpenWorldManager
 
   private particleSystem!: ParticleSystem
   private particleMesh!: THREE.Points
@@ -143,7 +142,6 @@ export class Game {
     // 1. Scene setup
     this.scene = new THREE.Scene()
     ;(window as unknown as { __GAME_SCENE__?: THREE.Scene }).__GAME_SCENE__ = this.scene
-    this.openWorld = new OpenWorldManager(this.scene)
 
     // 2. Camera setup
     this.camera = new THREE.PerspectiveCamera(40, 1, 2.0, 500)
@@ -499,7 +497,6 @@ export class Game {
       // -- FX Update --
       FXManager.getInstance().update(scaledDelta)
       this.particleSystem.update(scaledDelta)
-      this.openWorld.update(this.vehicle.position)
 
       // Update LOD based on camera position
       this.particleLOD.setCameraPosition(this.camera.position)
@@ -520,7 +517,7 @@ export class Game {
         if (actingChar === "rixa") {
           // Rixa: "Chrom-Alchemie" Blast (15 aoe damage, 10 radius)
           this.cameraShakeIntensity = Math.max(this.cameraShakeIntensity, 0.4)
-          useGameStore.getState().showCallout("CHROM-ALCHEMIE!", 1500)
+          useGameStore.getState().showCallout(t("callout.ability.rixa", undefined, useGameStore.getState().locale), 1500)
           
           // FX: Radioactive Green Blast
           AssetManager.getInstance().playSound('levelup') // Heavy boom
@@ -549,7 +546,7 @@ export class Game {
         } else if (actingChar === "marek") {
           // Marek: "DROHNEN-WACHT" — deploy a sentry turret + magnetic pulse
           this.cameraShakeIntensity = Math.max(this.cameraShakeIntensity, 0.5)
-          useGameStore.getState().showCallout("DROHNEN-WACHT!", 1500)
+          useGameStore.getState().showCallout(t("callout.ability.marek", undefined, useGameStore.getState().locale), 1500)
 
           AssetManager.getInstance().playSound('levelup')
           FXManager.getInstance().spawnExplosion(this.vehicle.position, 0xc9b7ff, true)
@@ -571,7 +568,7 @@ export class Game {
         }
       }
 
-      this.vehicle.update(scaledDelta, this.input, this.openWorld)
+      this.vehicle.update(scaledDelta, this.input)
 
       // Sync network
       this.networkManager.sendUpdate(this.vehicle.position, this.vehicle.quaternion)
@@ -596,7 +593,7 @@ export class Game {
       // Update Projectiles
       for (let i = this.projectiles.length - 1; i >= 0; i--) {
         const p = this.projectiles[i]
-        p.update(scaledDelta, this.hordeDirector.enemies, this.openWorld)
+        p.update(scaledDelta, this.hordeDirector.enemies)
         if (p.isDead) {
           this.scene.remove(p.group)
           this.projectiles.splice(i, 1)

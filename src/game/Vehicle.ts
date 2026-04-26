@@ -4,7 +4,6 @@ import { Input } from './Input'
 import { AssetManager } from './AssetManager'
 import { FXManager } from './FXManager'
 import { SpriteEntity } from './SpriteEntity'
-import { OpenWorldManager } from './OpenWorld'
 import { useGameStore } from '../store'
 import { getCelPalette, getPaintFinish } from '../config/CelShadingConfig'
 import { CelShadingMaterial } from '../rendering/shaders/CelShadingMaterial'
@@ -128,7 +127,7 @@ export class Vehicle {
     return new THREE.Vector3(Math.sin(this.facingAngle), 0, Math.cos(this.facingAngle))
   }
 
-  update(delta: number, input: Input, openWorld: OpenWorldManager): void {
+  update(delta: number, input: Input): void {
     // Update animations each frame
     this.updateAnimations(delta)
 
@@ -205,15 +204,7 @@ export class Vehicle {
     }
     this.group.rotation.y = 0 
     const moveDir = this.facingDir.clone().multiplyScalar(this.speed * delta)
-    const oldPos = this.group.position.clone()
     this.group.position.add(moveDir)
-
-    // Check Open World Building Collision (O(1) Grid Math)
-    if (openWorld.checkCollision(this.group.position, 2.5)) {
-        // Stop the car dead in its tracks and push back
-        this.group.position.copy(oldPos)
-        this.speed = 0
-    }
 
     // 5. FX: Sand trails
     if (Math.abs(this.speed) > 2) {

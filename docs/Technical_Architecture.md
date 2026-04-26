@@ -140,9 +140,9 @@ Rules:
 
 Current note:
 
-- The runtime still uses `OpenWorldManager` naming inside area instances.
-- This is a legacy class name and does not imply seamless campaign traversal.
-- Campaign progression remains hub-driven and area-instanced by contract.
+- The active runtime no longer imports or updates `OpenWorldManager`.
+- Former open-world streaming code was moved to `src/legacy/OpenWorldLegacy.ts`.
+- Campaign progression is hub-driven and area-instanced by contract and by runtime wiring.
 
 ### 5.4 UI Layer
 

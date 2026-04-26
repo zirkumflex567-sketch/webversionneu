@@ -1,5 +1,5 @@
 /**
- * Animation clip definitions for BIFA characters, enemies, vehicles, and abilities.
+ * Animation clip definitions for characters, enemies, vehicles, and abilities.
  * These constants ensure consistent animation naming across the game.
  */
 

@@ -1,0 +1,23 @@
+Die neue Dokumentation stellt deutlich klarere Regeln und Strukturen auf: In den zentralen preproduction‑Dokumenten wird ausdrücklich festgelegt, dass „Scherbenhimmel“ **kein nahtloses Open‑World‑Spiel** ist, sondern einem festen Zyklus Hub → Quest → Area‑Instanz → Extraction → Hub folgt. Entwickler sollen daher **keine offene Welt implementieren**, sondern das Gebiet in diskrete Areale aufteilen. Zudem muss jede für Spieler sichtbare Zeichenkette über stabile DE/EN‑Lokalisierungsschlüssel abgewickelt werden; **hartcodierter Text ist verboten**. Das System‑ und Daten‑Contract‑Dokument bekräftigt diese Regeln und fordert ein fallback‑sicheres Logging bei fehlenden Keys.
+
+Die Codebasis befolgt einige dieser Vorgaben (z. B. ist die Hub‑/Quest‑Struktur in Teilen implementiert), aber es gibt weiterhin Abweichungen:
+
+* **Open‑World‑Code:** Trotz des Dokuments, dass keine Seamless‑Open‑World vorgesehen ist, enthält `src/game/OpenWorld.ts` ein vollständiges Zonen‑Streaming‑System. Der `OpenWorldManager` lädt und entlädt Zonen dynamisch entsprechend der Fahrzeugposition. Dieser Manager wird in der zentralen `Game.ts` weiterhin instanziiert und im Spiel‑Loop bei jeder Frame‑Aktualisierung aufgerufen, wodurch faktisch ein offenes Areal mit Übergängen entsteht. Die Dokumentation bezeichnet den Klassennamen zwar als Legacy‑Artefakt, doch die laufende Integration spricht dafür, dass das Konzept noch aktiv genutzt wird – ein klarer Widerspruch zum geforderten Areal‑Modell.
+
+* **Lokalisierung:** In mehreren React‑Komponenten (u. a. `Hub.tsx`, `MapTab.tsx`, `MultiplayerTab.tsx`) werden weiterhin deutsch‑ oder englischsprachige Strings direkt im Quellcode eingebettet, z. B. „DIE GARAGE“, „PILOT WÄHLEN“ und „The Fracture – World Map“. Es gibt keine Nutzung der in `20H_LOCALIZATION_DE_EN.md` bzw. `20H_LOCALIZATION_SYSTEMS_DE_EN.md` definierten Schlüssel. Damit werden die Lokalisierungsregeln verletzt und das Risiko erhöht, dass Sprachänderungen nicht zentral gepflegt werden können.
+
+* **Map‑/Open‑World‑UI:** Das `MapTab.tsx` greift auf `OPEN_WORLD_ZONES` aus `OpenWorld.ts` zu, zeigt eine Weltkarte und erlaubt das Setzen von Wegpunkten und das direkte Deployen in eine Zone. Dieses UI‑Verhalten passt zu einem open‑world‑zentrierten Design, nicht zum im Dokument geforderten hub‑gesteuerten Area‑Instanz‑Modell.
+
+* **Naming und Legacy‑Reste:** Die Audit‑Dokumente weisen weiterhin auf ältere Namensräume wie „REDLINE FC“ und „BIFA: Scherbenhimmel“ hin, die teilweise in der Lokalisierungs‑Bibel auftauchen und bereinigt werden sollen.
+
+* **Tests und Infrastruktur:** Die Status‑Verifikationsdokumente attestieren, dass `npm test` sowie Build‑ und Audit‑Skripte zwar durchlaufen, aber moderate Sicherheits‑Advisories bestehen und der neue Projekt‑Ordner `app/` teilweise noch auf alte Pfade (`src/app`) verweist. Zudem fehlen Integrations‑Gate‑Skripte, um Lokalisierungs‑Schlüsselvollständigkeit sicherzustellen.
+
+**Fazit:** Die neue Dokumentationsbasis ist umfangreich und liefert klare technische Vorgaben, die meisten Kernfehler (z. B. fehlende Dokumentation) wurden behoben. Allerdings setzt die Codebasis diese Vorgaben noch nicht konsequent um. Besonders gravierend sind das weiterhin vorhandene Open‑World‑Streaming‑System und die zahlreichen hartcodierten Spieler‑Texte. Um vollständige Übereinstimmung zu erreichen, sollte das Team:
+
+1. Den Open‑World‑Manager und sämtliche Weltkartenfunktionen entfernen oder in das geforderte Area‑Instance‑Modell umbauen.
+2. Das Lokalisierungssystem implementieren: Alle UI‑ und Fehlermeldungstexte müssen ausschließlich über DE/EN‑Schlüssel aus den YAML‑Dateien geladen werden.
+3. Die Legacy‑Bezeichnungen (BIFA/REDLINE) aus Dokumenten und Code entfernen.
+4. Ein automatisches Prüfskript integrieren, das fehlende Lokalisierungs‑Keys und offene Legacy‑Artefakte beim Build erkennt, wie es das Traceability‑Matrix‑Dokument empfiehlt.
+5. Die Status‑Verifikations‑Dokumente regelmäßig aktualisieren, um moderate Security‑Advisories und Multi‑Project‑Konfigurationen (z. B. CORS in `update_nginx.sh`) weiter abzubauen.
+
+Erst wenn diese Punkte abgearbeitet sind, wird die Codebasis vollständig im Einklang mit der vorliegenden Dokumentation stehen.

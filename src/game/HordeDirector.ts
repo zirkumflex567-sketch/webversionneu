@@ -11,6 +11,7 @@ import { SFX } from '../audio/SFX'
 import { NightmareEnemy } from './NightmareEnemy'
 import { useStoryStore } from '../store/StoryStore'
 import { GlassShard, CrystalFiend } from './GlassEnemy'
+import { t } from '../i18n'
 
 export interface HordeOptions {
   /** Stress mode: seed wave 4 + pre-burst maxAlive enemies + spawn boss + disable auto-extraction. */
@@ -194,11 +195,13 @@ export class HordeDirector {
     // spawning waves indefinitely so pressure continues while the player holds.
 
     if (this.wave === 3 || this.wave % 10 === 0) {
-      useGameStore.getState().showCallout(`BOSS INCOMING!`, 4000, 'boss')
+      const locale = useGameStore.getState().locale
+      useGameStore.getState().showCallout(t("callout.boss.incoming", undefined, locale), 4000, 'boss')
       try { SFX.bossSting() } catch { /* audio not ready */ }
       this.spawnBoss()
     } else {
-      useGameStore.getState().showCallout(`WAVE ${this.wave}`, 2000)
+      const locale = useGameStore.getState().locale
+      useGameStore.getState().showCallout(t("callout.wave.number", { wave: this.wave }, locale), 2000)
     }
   }
 
@@ -248,7 +251,8 @@ export class HordeDirector {
     
     if (newHealth <= 0) {
       useGameStore.getState().setMatchState({ health: 0 })
-      useGameStore.getState().showCallout("VEHICLE DESTROYED", 3000)
+      const locale = useGameStore.getState().locale
+      useGameStore.getState().showCallout(t("callout.vehicle.destroyed", undefined, locale), 3000)
       useGameStore.getState().endRun("Died")
     } else {
       useGameStore.getState().setMatchState({ health: newHealth })

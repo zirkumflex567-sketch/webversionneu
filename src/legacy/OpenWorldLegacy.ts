@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { AssetManager } from './AssetManager';
-import { StoryManager } from './StoryManager';
+import { AssetManager } from '../game/AssetManager';
+import { StoryManager } from '../game/StoryManager';
 import { useStoryStore } from '../store/StoryStore';
 
 export type BiomeType = 'wasteland' | 'street_racer' | 'elven' | 'scifi' | 'dungeon' | 'space' | 'glass_plains';

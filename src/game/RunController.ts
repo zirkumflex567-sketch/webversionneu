@@ -3,6 +3,7 @@ import { HordeDirector } from './HordeDirector'
 import { ExtractionZone } from './ExtractionZone'
 import { useGameStore } from '../store'
 import { SFX } from '../audio/SFX'
+import { t } from '../i18n'
 
 export class RunController {
   private hordeDirector: HordeDirector
@@ -30,7 +31,8 @@ export class RunController {
         const pos = new THREE.Vector3(Math.cos(angle) * radius, 0, Math.sin(angle) * radius)
         this.extractionZone.activate(pos)
         this.hordeDirector.spawnBoss() // Extraction Guardian
-        useGameStore.getState().showCallout("EXTRACTION GUARDIAN INCOMING!", 4000, 'boss')
+        const locale = useGameStore.getState().locale
+        useGameStore.getState().showCallout(t("callout.run.guardian", undefined, locale), 4000, 'boss')
         try { SFX.bossSting() } catch { /* audio not ready */ }
       }
       

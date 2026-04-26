@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run verify && next build",
     "start": "node multiplayer-server.mjs & next start",
     "lint": "next lint",
     "test": "vitest run",
     "test:viewport": "node tests/viewport-smoke.mjs",
-    "test:fps": "node tests/fps-profile-real.mjs"
+    "test:fps": "node tests/fps-profile-real.mjs",
+    "legacy:scan": "node scripts/legacy-scan.mjs",
+    "i18n:check": "node scripts/i18n-check.mjs",
+    "docs:lint": "node scripts/docs-lint.mjs",
+    "verify": "npm run legacy:scan && npm run i18n:check && npm run docs:lint"
   },
   "dependencies": {
     "@react-oauth/google": "^0.13.5",

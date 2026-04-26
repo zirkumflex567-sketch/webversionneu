@@ -3,6 +3,7 @@ import { Vehicle } from './Vehicle'
 import { FXManager } from './FXManager'
 import { AssetManager } from './AssetManager'
 import { useGameStore } from '../store'
+import { t } from '../i18n'
 
 const MINE_RADIUS    = 1.2   // trigger distance
 const MINE_DAMAGE    = 25
@@ -116,7 +117,7 @@ export class Minefield {
     const state = useGameStore.getState()
     const newHealth = Math.max(0, state.health - MINE_DAMAGE)
     state.setMatchState({ health: newHealth })
-    state.showCallout("MINE!", 800)
+    state.showCallout(t("callout.mine.warning", undefined, state.locale), 800)
 
     // FX
     FXManager.getInstance().spawnExplosion(mine.pos, 0xff4400, false)
