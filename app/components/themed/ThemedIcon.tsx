@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 import { useTheme } from "@/src/theme/useTheme"
 import { assetPath } from "@/src/theme/assetPaths"
 
@@ -22,9 +23,11 @@ export function ThemedIcon({
   if (uiTheme === 'new') {
     const imagePath = assetPath.icon[iconType as IconType]('base')
     return (
-      <img
+      <Image
         src={imagePath}
         alt={alt}
+        width={24}
+        height={24}
         className={`object-cover ${className}`}
       />
     )

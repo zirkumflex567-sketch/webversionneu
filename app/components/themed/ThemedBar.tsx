@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 import { useTheme } from "@/src/theme/useTheme"
 import { assetPath } from "@/src/theme/assetPaths"
 import { WastelandBar } from "../UIElements"
@@ -42,9 +43,11 @@ export function ThemedBar({
 
     return (
       <div className={`relative h-16 bg-cover bg-center overflow-hidden ${className}`}>
-        <img
+        <Image
           src={getFramePath()}
           alt={barType}
+          fill
+          sizes="100vw"
           className="absolute inset-0 w-full h-full object-cover"
         />
 

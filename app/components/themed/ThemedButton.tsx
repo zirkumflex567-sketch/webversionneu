@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
+import Image from "next/image"
 import { useTheme } from "@/src/theme/useTheme"
 import { assetPath } from "@/src/theme/assetPaths"
 
@@ -42,9 +43,11 @@ export function ThemedButton({
         onMouseDown={() => !disabled && setHoverState('pressed')}
         onMouseUp={() => !disabled && setHoverState('hover')}
       >
-        <img
+        <Image
           src={getImagePath()}
           alt={buttonType}
+          width={512}
+          height={256}
           className="w-full h-full object-cover"
         />
         {children && (

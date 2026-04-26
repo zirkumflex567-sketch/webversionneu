@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { useGameStore } from '../../src/store';
 import { CHARACTERS } from '../../src/data/CharacterData';
 
@@ -12,6 +13,7 @@ export default function ProfileTab() {
   // Calculate some fun mock stats based on scrap/tech
   const runsCompleted = Math.floor(meta.totalScrap / 150) + 12;
   const totalKills = Math.floor(meta.totalScrap * 1.5) + 340;
+  const portraitSrc = `/assets/ui/portraits/${selectedChar}.png`;
 
   return (
     <div className="flex flex-col gap-8 max-w-5xl mx-auto h-full text-white pb-24 font-inter relative z-20">
@@ -19,7 +21,7 @@ export default function ProfileTab() {
       {/* HEADER SECTION */}
       <div className="flex items-end gap-6 border-b-4 border-white/20 pb-6">
         <div className="w-32 h-32 bg-black border-4 border-[#00ffaa] flex items-center justify-center overflow-hidden shadow-[4px_4px_0_0_#000] relative group">
-           <img src={`/assets/ui/portraits/${selectedChar}.png`} alt="Pilot" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500 mix-blend-screen" onError={(e) => { e.currentTarget.src = 'https://via.placeholder.com/150/000000/00ffaa?text=PILOT' }} />
+           <Image src={portraitSrc} alt="Pilot" fill sizes="128px" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500 mix-blend-screen" />
            <div className="absolute inset-0 border-2 border-dashed border-[#00ffaa]/50 pointer-events-none"></div>
         </div>
         
@@ -85,7 +87,7 @@ export default function ProfileTab() {
            <div className="flex flex-col gap-4">
              <div className="flex items-center gap-4 bg-black/40 p-3 border border-white/10">
                 <div className="w-12 h-12 bg-white/5 flex flex-shrink-0">
-                  <img src={`/assets/ui/portraits/${selectedChar}.png`} className="object-cover w-full h-full mix-blend-screen opacity-70" onError={(e) => { e.currentTarget.style.display='none' }} />
+                  <Image src={portraitSrc} alt="Pilot portrait" width={48} height={48} className="object-cover w-full h-full mix-blend-screen opacity-70" />
                 </div>
                 <div>
                   <div className="text-[10px] text-white/40 uppercase font-black tracking-widest">Pilot</div>

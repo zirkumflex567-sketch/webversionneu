@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useMemo, ReactNode } from "react"
+import Image from "next/image"
 import { useGameStore } from "../../src/store"
 import { CHARACTERS } from "../../src/data/CharacterData"
 import { SHOP_ITEMS, ShopItem } from "../../src/data/ShopData"
@@ -201,11 +202,13 @@ function ResourceBox({ label, value, color, icon }: { label: string, value: numb
   return (
     <div className="flex gap-2 sm:gap-4 items-center bg-black/40 p-1 pr-2 sm:pr-4 border-2 border-black shadow-[2px_2px_0_0_#000]">
       <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center bg-black/60">
-        <img 
-          src={assetPath("/assets/ui/currencies.png")} 
-          className="w-8 h-8 sm:w-10 sm:h-10 object-contain" 
-          style={{ objectPosition: icon === "tech" ? "-100% 0" : "0 0" }} // Placeholder split
-          alt={label} 
+        <Image
+          src={assetPath("/assets/ui/currencies.png")}
+          width={40}
+          height={40}
+          className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+          style={{ objectPosition: icon === "tech" ? "-100% 0" : "0 0" }}
+          alt={label}
         />
       </div>
       <div className="flex flex-col">
@@ -249,8 +252,8 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
                 active ? "bg-[#00ffaa]/10 border-[#00ffaa] translate-x-1" : "bg-white/5 border-black hover:border-white/20"
               } ${!isUnlocked ? 'opacity-40 cursor-not-allowed' : ''}`}
             >
-              <div className={`w-16 h-16 flex-shrink-0 bg-black border-2 ${active ? "border-[#00ffaa]" : "border-white/10"} overflow-hidden`}>
-                <img src={portrait} className="w-full h-full object-cover" alt={c.displayName} />
+              <div className={`w-16 h-16 flex-shrink-0 bg-black border-2 ${active ? "border-[#00ffaa]" : "border-white/10"} overflow-hidden relative`}>
+                <Image src={portrait} alt={c.displayName} fill sizes="64px" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col items-start flex-1 min-w-0">
                 <div className="font-bebas text-3xl text-white tracking-widest group-hover:text-[#00ffaa]">{c.displayName}</div>
@@ -269,8 +272,10 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
         <div className="flex-1 panel-wasteland bg-[#0a111f] p-8 inner-glow-toxic">
           <div className="space-y-6">
             <div className="relative w-full aspect-[4/3] overflow-hidden border-2 border-[#00ffaa]/30 bg-black">
-              <img
+              <Image
                 src={assetPath(`/assets/ui/portrait_${selectedChar}.png`)}
+                fill
+                sizes="(max-width: 1280px) 100vw, 33vw"
                 className="w-full h-full object-cover"
                 alt={char.displayName}
               />
@@ -371,8 +376,8 @@ function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTa
         {char.branches.map(branch => (
           <div key={branch.id} className="relative flex flex-col gap-6">
             <div className="flex items-center gap-4 border-l-4 border-[#c9b7ff] pl-4">
-              <div className="w-14 h-14 bg-black border-2 border-[#c9b7ff] p-1 flex items-center justify-center overflow-hidden">
-                <img src={branchIcons[branch.id]} className="w-full h-full object-cover scale-150 rotate-[-15deg]" alt="" />
+              <div className="w-14 h-14 bg-black border-2 border-[#c9b7ff] p-1 flex items-center justify-center overflow-hidden relative">
+                <Image src={branchIcons[branch.id]} alt="" fill sizes="56px" className="w-full h-full object-cover scale-150 rotate-[-15deg]" />
               </div>
               <div>
                 <div className="font-bebas text-3xl text-white tracking-widest leading-none">{branch.name}</div>
@@ -404,7 +409,7 @@ function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTa
                     <div className="flex justify-between items-center pt-4 border-t border-white/5">
                       <div className="flex items-center gap-3">
                         <div className="w-8 h-8 bg-[#c9b7ff]/10 flex items-center justify-center">
-                           <img src={assetPath("/assets/ui/currencies.png")} className="w-6 h-6 object-contain hue-rotate-[240deg]" style={{ objectPosition: "-50px 0" }} alt="" />
+                           <Image src={assetPath("/assets/ui/currencies.png")} alt="" width={24} height={24} className="w-6 h-6 object-contain hue-rotate-[240deg]" style={{ objectPosition: "-50px 0" }} />
                         </div>
                         <div className="flex flex-col">
                            <span className="text-[9px] font-black text-white/20 tracking-widest uppercase">Input Req</span>

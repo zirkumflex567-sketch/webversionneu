@@ -1,6 +1,25 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Bebas_Neue, Outfit, Rajdhani } from 'next/font/google';
 import { GoogleAuthProvider } from '../src/auth/GoogleAuthProvider';
+
+const bebasNeue = Bebas_Neue({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-bebas-neue',
+});
+
+const rajdhani = Rajdhani({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-rajdhani',
+});
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '600', '800', '900'],
+  variable: '--font-outfit',
+});
 
 export const metadata: Metadata = {
   title: 'H-Town Combat 67',
@@ -13,15 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&family=Outfit:wght@400;600;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="en" className={`dark ${bebasNeue.variable} ${rajdhani.variable} ${outfit.variable}`}>
       <body>
         <GoogleAuthProvider>
           {children}
