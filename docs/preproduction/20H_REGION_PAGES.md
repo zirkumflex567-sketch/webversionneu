@@ -399,3 +399,19 @@ Laternenhof changes tone. Ivara confrontation unlocks. Midgame loop opens with S
 - Loot bias is reflected in reward tables.
 - World-state changes alter at least one visible NPC, prop, route, vendor, or dialogue.
 - Codex entries unlock without spoilers before trigger.
+
+## Vertical Slice Add-on: Graumarsch - Chemiefabrik
+- Instance ID: 
+- Hazards: , 
+- Boss pool add-on: 
+- Loot bias: +tech cache probability, -scrap crates
+- Extraction modifier: enemy pressure +10% while extraction channeling
+- Active content links: , 
+
+## Vertical Slice Add-on: Graumarsch - Chemiefabrik
+- Instance ID: graumarsch-chemiefabrik
+- Hazards: haz_chemfog_tick, haz_overpressure_valve
+- Boss pool add-on: boss_chemwarden
+- Loot bias: +tech cache probability, -scrap crates
+- Extraction modifier: enemy pressure +10% while extraction channeling
+- Active content links: SQ-GM-01, bounty_chemfog_blackout

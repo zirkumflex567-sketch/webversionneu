@@ -1208,3 +1208,15 @@ This file pre-produces the required first-pass text layer for:
 - Errors and Debug Suite
 
 Future implementation may add more granular banter, alternate branch lines, NPC ambient lines, item flavor, and full Codex entries. Those additions must follow the same DE/EN key structure.
+
+## Vertical Slice Localization Keys
+-  (DE/EN)
+-  (DE/EN)
+-  (DE/EN)
+-  selected/confirm/single-contract messaging
+
+## Vertical Slice Localization Keys
+- area.graumarsch_chemiefabrik.name (DE/EN)
+- area.graumarsch_chemiefabrik.description (DE/EN)
+- ui.map.state.* (DE/EN)
+- ui.bounty.* selected/confirm/single-contract messaging

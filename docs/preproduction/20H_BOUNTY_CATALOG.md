@@ -312,3 +312,25 @@ No. But it is proof that someone refused to let them disappear quietly.
 - Run Summary separates objective completion from reward banking.
 - First completion triggers unique dialogue/codex once.
 - Repeatable completion uses repeat text and does not duplicate unique rewards.
+
+## Vertical Slice Add-on Contract
+- id: 
+- nameKey: 
+- descriptionKey: 
+- unlockConditions: 
+- difficulty: high
+- runModifier: , 
+- failureConditions: player defeated, no extraction
+- rewards: extraction-only tech package + completion scrap
+- extractionDependency: extraction
+
+## Vertical Slice Add-on Contract
+- id: bounty_chemfog_blackout
+- nameKey: bounty.chemfog_blackout.title
+- descriptionKey: bounty.chemfog_blackout.description
+- unlockConditions: sq_graumarsch_chemfog_complete
+- difficulty: high
+- runModifier: IncomingDamageMultiplier=1.25, TechMultiplier=1.50
+- failureConditions: player defeated, no extraction
+- rewards: extraction-only tech package + completion scrap
+- extractionDependency: extraction

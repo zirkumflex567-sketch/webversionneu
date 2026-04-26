@@ -268,3 +268,15 @@ Any document that mentions regions, quests, map, travel, free runs, world-state,
 When in doubt, write:
 
 > The player accepts/chooses the mission in the Hub, launches an area instance through Deploy, completes objectives inside that instance, resolves extraction, then returns to the Hub. Cleared areas become available for Free Run and farming variants.
+
+## Vertical Slice Instance Progression
+- New instance: 
+- State model: 
+- Story entry: Side Quest 
+- Bounty availability: after side quest completion and extraction
+
+## Vertical Slice Instance Progression
+- New instance: graumarsch-chemiefabrik
+- State model: locked -> active_quest -> cleared_free_run
+- Story entry: Side Quest SQ-GM-01
+- Bounty availability: after side quest completion and extraction

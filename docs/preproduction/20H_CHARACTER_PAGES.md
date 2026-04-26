@@ -387,3 +387,13 @@ Brannok’s brother. Member of Tiefenglocke cult by conviction, not brainwashing
 - Companion quest starts only after unlock and required trust.
 - Run Summary attributes stats to character abilities.
 - Dialogue variants account for major choices that affect that character.
+
+## Vertical Slice Companion Hook (Edda)
+- companionQuestId: 
+- unlock node: 
+- narrative theme: duty vs responsibility under failing infrastructure
+
+## Vertical Slice Companion Hook (Edda)
+- companionQuestId: CQ-EDDA-01
+- unlock node: char_edda_overdrive_node_1
+- narrative theme: duty vs responsibility under failing infrastructure

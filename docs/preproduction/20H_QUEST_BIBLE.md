@@ -1054,3 +1054,53 @@ Major choice flags:
 - Dialogue choices with consequences preview consequence category, not exact spoiler.
 - All companion quests can be completed before MQ-20 but are not mandatory.
 - MQ-20 finale accounts for at least five major prior choices in dialogue or encounter modifiers.
+
+## Vertical Slice 2026-04-26 (HTown)
+
+### SQ-GM-01 — Chemischer Morgen
+- Type: side
+- Area:  / 
+- Unlock:  completed
+- Objectives: Collect filter spools, then extract payload
+- requiresExtractionForCompletion: true
+- Rewards:
+  - immediate: codex note unlock
+  - completion: 300 scrap
+  - extraction: 2 tech
+  - lost-on-defeat: payload tech cache
+- Flags: 
+
+### CQ-EDDA-01 — Funken unter Schnee
+- Type: companion
+- Area: hochkamm relay sector
+- Unlock:  completed + Edda recruited
+- Objectives: Escort Edda, stabilize core
+- requiresExtractionForCompletion: false
+- Rewards:
+  - completion: unlock 
+  - completion: reputation +1 Falkenlicht
+
+## Vertical Slice 2026-04-26 (HTown)
+
+### SQ-GM-01 - Chemischer Morgen
+- Type: side
+- Area: area_graumarsch / graumarsch-chemiefabrik
+- Unlock: MQ-05 completed
+- Objectives: Collect filter spools, then extract payload
+- requiresExtractionForCompletion: true
+- Rewards:
+  - immediate: codex note unlock
+  - completion: 300 scrap
+  - extraction: 2 tech
+  - lost-on-defeat: payload tech cache
+- Flags: sq_graumarsch_chemfog_complete
+
+### CQ-EDDA-01 - Funken unter Schnee
+- Type: companion
+- Area: hochkamm relay sector
+- Unlock: MQ-15 completed + Edda recruited
+- Objectives: Escort Edda, stabilize core
+- requiresExtractionForCompletion: false
+- Rewards:
+  - completion: unlock char_edda_overdrive_node_1
+  - completion: reputation +1 Falkenlicht
