@@ -8,8 +8,8 @@ Checked from the repository on `main` before this branch:
 
 | Area | Existing source | Status | Action in this spec |
 |---|---|---:|---|
-| Project overview | `README.md`, `MASTER_DOCUMENTATION.md` | Present | Keep as index / overview. |
-| Core loop | `MASTER_DOCUMENTATION.md`, `docs/GDD.md` | Present but too brief | Define exact run states, extraction, reward banking. |
+| Project overview | `README.md`, `docs/archive/2026-04-26/docs-cleanup/MASTER_DOCUMENTATION.md` | Present | Keep as index / overview. |
+| Core loop | `docs/archive/2026-04-26/docs-cleanup/MASTER_DOCUMENTATION.md`, `docs/GDD.md` | Present but too brief | Define exact run states, extraction, reward banking. |
 | Menus | scattered README / Garage descriptions | Incomplete | Define every required screen and transitions. |
 | Extraction | overview only | Incomplete | Define trigger, zone behavior, hold rules, success/failure, multiplayer contesting. |
 | Shop / Tech-Lab | overview only | Incomplete | Define cards, validation, purchase/unlock outcomes. |

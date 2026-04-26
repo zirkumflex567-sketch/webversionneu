@@ -1,7 +1,7 @@
 # H-Town Combat 67 — MVP Scope
 
 **Stack:** TypeScript + Next.js 15 + React 19 + Three.js 0.183 + Zustand + Vitest + Playwright
-**Status (2026-04-22):** Phase 1 complete, Phase 2 sprint complete. See [ROADMAP.md](ROADMAP.md), [ROADMAP_NEXT.md](ROADMAP_NEXT.md), [PHASE_1_STATUS.md](PHASE_1_STATUS.md).
+**Status (2026-04-22):** Phase 1 complete, Phase 2 sprint complete. See [ROADMAP.md](ROADMAP.md), [ROADMAP_DETAILED.md](../ROADMAP_DETAILED.md), [STATUS_VERIFICATION.md](STATUS_VERIFICATION.md).
 
 > Historical note: previous revisions of this file described a Unity-era "REDLINE FC" arcade-football MVP. That direction was retired — see [adr/0001-move-from-unity-to-web-stack.md](adr/0001-move-from-unity-to-web-stack.md). Legacy text is archived in git history.
 
@@ -77,7 +77,7 @@ See [ROADMAP.md](ROADMAP.md):
 - Phase 3: Cel-shading shader pipeline, GPU particle pools, 3D positional audio
 - Phase 4: WebSocket sync, 2v2 matchmaking, leaderboards, mobile touch controls
 
-## 7. Known Gaps (tracked in [KNOWN_ISSUES.md](../KNOWN_ISSUES.md))
+## 7. Known Gaps (tracked in [STATUS_VERIFICATION.md](STATUS_VERIFICATION.md))
 - Mobile layout validation on real hardware (Firefox/Safari/Edge + physical devices)
 - In-match FPS profiling under heavy load
 - Game-loop / store integration test coverage

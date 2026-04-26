@@ -1,6 +1,6 @@
 # Source of Truth Hierarchy
 
-Last updated: 2026-04-25
+Last updated: 2026-04-26
 
 This file defines which documents are authoritative when statements conflict.
 
@@ -15,9 +15,8 @@ This file defines which documents are authoritative when statements conflict.
 7. Feature-specific `docs/preproduction/*` owner docs
 8. `README.md` (repo summary only)
 9. `ROADMAP_DETAILED.md` (planning/status tracker only)
-10. `MASTER_DOCUMENTATION.md` (non-authoritative overview; may be stale)
-11. `story/*` legacy content only when compatible with active contracts
-12. `docs/archive/**` historical only; never authoritative
+10. `story/*` legacy content only when compatible with active contracts
+11. `docs/archive/**` historical only; never authoritative
 
 ## Conflict Resolution Rule
 
@@ -31,4 +30,5 @@ If two files conflict:
 ## Notes on Summary Documents
 
 - `README.md` is a convenience overview and onboarding summary.
-- `MASTER_DOCUMENTATION.md` and `ROADMAP_DETAILED.md` are retained for context and planning history; they do not override owner contracts.
+- `ROADMAP_DETAILED.md` is retained for planning history; it does not override owner contracts.
+- Legacy summary and duplicate status docs were moved to `docs/archive/2026-04-26/docs-cleanup/`.

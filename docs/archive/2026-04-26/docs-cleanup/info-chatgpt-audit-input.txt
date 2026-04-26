@@ -1,0 +1,540 @@
+# Dokumentationsaudit und Bereinigungsplan für H-Town Combat 67
+
+## Executive Summary
+
+Ich konnte den bereitgestellten Google-Drive-Ordner über den aktivierten Connector inventarisieren; es liegen dort **53 Markdown-Dateien** vor. Der bereitgestellte GitHub-Repo-Link ließ sich mit den hier verfügbaren Mitteln **nicht direkt als vollständiger Dateibaum enumerieren**. Deshalb ist die folgende Repo-Pfad-Spalte dort, wo möglich, **aus internen Relativlinks der Dokumente erschlossen**; wo das nicht belastbar möglich war, ist der Pfad als **unspecified** markiert. Die Connector-Ergebnisse zeigen außerdem nur **Google Drive** als nutzbaren verbundenen Dokumenten-Connector in diesem Auftrag. 
+
+Die Dokumentation ist inhaltlich **stark und tief**: Es gibt bereits einen klaren **kanonischen Kern** aus `20H_DOCUMENTATION_INDEX`, `20H_AREA_PROGRESSION_MODEL`, `Technical_Architecture`, `COMPLETE_GAME_FUNCTION_SPEC` sowie den 20H-Content-Verträgen für Systeme, Content-Schema, Quests, Regionen, Status, Multiplayer und Lokalisierung. Dieser Kern ist für Implementierung und Review grundsätzlich tragfähig. fileciteturn1file1 fileciteturn2file1 fileciteturn8file0
+
+Das Hauptproblem ist nicht fehlende Tiefe, sondern **mangelnde Kuratierung**: Aktive, aktuelle Spezifikationen liegen im selben Sichtfeld wie alte Unity-/Football-/REDLINE-FC-Artefakte, mehrere Status- und Roadmap-Dateien widersprechen einander, technische Aussagen driften auseinander, und die Dokumentationsoberfläche ist für neue Bearbeiter unnötig schwer lesbar. Besonders problematisch sind der Konflikt zwischen **30 Sekunden vs. 3,0 Sekunden Extraktionshaltezeit**, der Konflikt **React 19 vs. React 18**, die Vermischung von **Next.js-App-Router-Architektur mit Vite-Build-Aussagen**, sowie der fortbestehende Namens- und Scope-Leak von **REDLINE FC / Arcade Football / Unity** in aktiven oder halbaktiven Dateien. fileciteturn8file0 fileciteturn10file0 fileciteturn6file1 fileciteturn2file1 fileciteturn8file1 fileciteturn1file0 fileciteturn9file1 fileciteturn9file2
+
+Die empfohlene Bereinigung ist klar: **kanonische Spine behalten**, **Status/QA/Operations konsolidieren**, **Legacy hart archivieren**, **Dateinamen/Front Matter standardisieren**, **automatisierte Checks verpflichtend machen**, und **eine kleine Zahl neuer “Owner”-Dokumente** einführen, damit künftig nicht wieder parallele Wahrheiten entstehen. Die wichtigste organisatorische Änderung ist: `README.md` wird wieder zu einer **schlanken Einstiegseite**, während `docs/project/status.md`, `docs/project/roadmap.md`, `docs/qa/*` und `docs/deployment/*` die operative Last übernehmen. Diese Richtung passt auch zur bestehenden Source-of-Truth-Hierarchie im Dokumentationsindex und schließt die vom eigenen Audit bereits benannten Restlücken systematisch. fileciteturn1file1 fileciteturn2file2
+
+## Quellenlage und Inventar
+
+Die folgende Vollinventur basiert auf dem **Google-Drive-Connector**. Alle gelisteten Dateien wurden im Drive-Ordner als `text/markdown` erkannt. **Dateigrößen wurden vom Connector nicht geliefert**; ich markiere sie deshalb als **unspecified**. Die in der Tabelle angegebene Änderungszeit ist die vom Connector gelieferte Zeit. Der Repo-Pfad ist **erschlossen**, sofern er durch interne Links in der Doku sichtbar war; sonst **unspecified**.
+
+### Kern- und Preproduction-Dokumente
+
+| Datei | Repo-Pfad | Typ | Größe | Letzte Änderung |
+|---|---|---:|---:|---|
+| README.md | `/README.md` | md | unspecified | 2026-04-26 05:12Z |
+| GDD.md | `/docs/GDD.md` | md | unspecified | 2026-04-26 05:12Z |
+| Technical_Architecture.md | `/docs/Technical_Architecture.md` | md | unspecified | 2026-04-26 05:12Z |
+| COMPLETE_GAME_FUNCTION_SPEC.md | `/docs/COMPLETE_GAME_FUNCTION_SPEC.md` | md | unspecified | 2026-04-26 05:12Z |
+| MVP_Scope.md | `/docs/MVP_Scope.md` | md | unspecified | 2026-04-26 05:12Z |
+| PHASE_1_STATUS.md | `/docs/PHASE_1_STATUS.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_AGENT_IMPLEMENTATION_PLAYBOOK.md | `/docs/preproduction/20H_AGENT_IMPLEMENTATION_PLAYBOOK.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_AREA_MODEL_DOCUMENT_AUDIT.md | `/docs/preproduction/20H_AREA_MODEL_DOCUMENT_AUDIT.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_AREA_PROGRESSION_MODEL.md | `/docs/preproduction/20H_AREA_PROGRESSION_MODEL.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_BOUNTY_CATALOG.md | `/docs/preproduction/20H_BOUNTY_CATALOG.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_CHARACTER_PAGES.md | `/docs/preproduction/20H_CHARACTER_PAGES.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md | `/docs/preproduction/20H_CONTENT_DATABASE_SCHEMA_AND_SEEDS.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_DOCUMENTATION_INDEX.md | `/docs/preproduction/20H_DOCUMENTATION_INDEX.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_IMPLEMENTATION_EXAMPLES_AND_ANTI_PATTERNS.md | `/docs/preproduction/20H_IMPLEMENTATION_EXAMPLES_AND_ANTI_PATTERNS.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_LOCALIZATION_DE_EN.md | `/docs/preproduction/20H_LOCALIZATION_DE_EN.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_LOCALIZATION_SYSTEMS_DE_EN.md | `/docs/preproduction/20H_LOCALIZATION_SYSTEMS_DE_EN.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_LORE_CODEX_DE_EN.md | `/docs/preproduction/20H_LORE_CODEX_DE_EN.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_MULTIPLAYER_WIREFRAMES.md | `/docs/preproduction/20H_MULTIPLAYER_WIREFRAMES.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_NORMAL_ENEMY_BIBLE.md | `/docs/preproduction/20H_NORMAL_ENEMY_BIBLE.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_QUEST_BIBLE.md | `/docs/preproduction/20H_QUEST_BIBLE.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_REGION_PAGES.md | `/docs/preproduction/20H_REGION_PAGES.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_STATUS_EFFECT_CATALOG.md | `/docs/preproduction/20H_STATUS_EFFECT_CATALOG.md` | md | unspecified | 2026-04-26 05:12Z |
+| 20H_SYSTEMS_AND_DATA_CONTRACTS.md | `/docs/preproduction/20H_SYSTEMS_AND_DATA_CONTRACTS.md` | md | unspecified | 2026-04-26 05:12Z |
+
+### Projekt-, Status-, QA- und Betriebsdokumente
+
+| Datei | Repo-Pfad | Typ | Größe | Letzte Änderung |
+|---|---|---:|---:|---|
+| MASTER_DOCUMENTATION.md | `/MASTER_DOCUMENTATION.md` | md | unspecified | 2026-04-26 05:12Z |
+| DOCUMENTATION_COMPLETENESS_AUDIT.md | `/docs/DOCUMENTATION_COMPLETENESS_AUDIT.md` | md | unspecified | 2026-04-26 05:12Z |
+| IMPLEMENTATION_GUIDE.md | `/docs/IMPLEMENTATION_GUIDE.md` | md | unspecified | 2026-04-26 05:12Z |
+| ROADMAP.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| ROADMAP_NEXT.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| ROADMAP_DETAILED.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| repo-status.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| Repo_Setup_Status.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| VALIDATION_REPORT.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| web-release-checklist.md | `/docs/web-release-checklist.md` | md | unspecified | 2026-04-26 05:12Z |
+| manual-test-checklist.md | `/docs/manual-test-checklist.md` | md | unspecified | 2026-04-26 05:12Z |
+| viewport-validation-matrix.md | `/docs/viewport-validation-matrix.md` | md | unspecified | 2026-04-26 05:12Z |
+| performance-baseline.md | `/docs/performance-baseline.md` | md | unspecified | 2026-04-26 05:12Z |
+| bundle-size-history.md | `/docs/bundle-size-history.md` | md | unspecified | 2026-04-26 05:12Z |
+| HTOWN_DEPLOY_STANDARD.md | `/docs/HTOWN_DEPLOY_STANDARD.md` | md | unspecified | 2026-04-26 05:12Z |
+
+### Asset-, Prompt- und Hilfsdokumente
+
+| Datei | Repo-Pfad | Typ | Größe | Letzte Änderung |
+|---|---|---:|---:|---|
+| ASSET_MANIFEST.md | `/docs/ASSET_MANIFEST.md` | md | unspecified | 2026-04-26 05:12Z |
+| ASSET_GENERATION_REPORT.md | `/docs/ASSET_GENERATION_REPORT.md` | md | unspecified | 2026-04-26 05:12Z |
+| AI_MEGA_PROMPT.md | `/docs/AI_MEGA_PROMPT.md` | md | unspecified | 2026-04-26 05:12Z |
+| NAMING_AUDIT_H_TOWN_COMBAT_67.md | `/docs/NAMING_AUDIT_H_TOWN_COMBAT_67.md` | md | unspecified | 2026-04-26 05:12Z |
+| migration-playbook.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| stack-evaluation.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| Execution_Backlog_4_Sprints.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+
+### Legacy-, Altlast- und unklare Dokumente
+
+| Datei | Repo-Pfad | Typ | Größe | Letzte Änderung |
+|---|---|---:|---:|---|
+| Coding_Conventions.md | `/docs/Coding_Conventions.md` | md | unspecified | 2026-04-26 05:12Z |
+| Complete_Game_Development_Checklist.md | `/docs/Complete_Game_Development_Checklist.md` | md | unspecified | 2026-04-26 05:12Z |
+| PreProduction_MasterDoc.md | `/docs/PreProduction_MasterDoc.md` | md | unspecified | 2026-04-26 05:12Z |
+| Project_Settings_Policy.md | `/docs/Project_Settings_Policy.md` | md | unspecified | 2026-04-26 05:12Z |
+| Unity_Script_Scaffold_Index.md | `/docs/Unity_Script_Scaffold_Index.md` | md | unspecified | 2026-04-26 05:12Z |
+| ULTIMATE_H_TOWN_MASTER_MANUAL.md | `/docs/ULTIMATE_H_TOWN_MASTER_MANUAL.md` | md | unspecified | 2026-04-26 05:12Z |
+| GDD_Masterplan_ArcadeFootball.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+| graceful-leaping-crown_v2.md | unspecified | md | unspecified | 2026-04-26 05:12Z |
+
+**Inventar-Fazit:** Die bereitgestellte Dokumentation ist als **flacher Drive-Export** nutzbar, aber nicht als sofort konsistente Repo-Struktur. Für den Paketgebrauch fehlen Pfadauflösung, Größenmetadaten und teilweise die physisch referenzierten Zieldateien. Für einen belastbaren Clean-up muss deshalb die Repo-Struktur **wiederhergestellt** und anschließend automatisiert geprüft werden.
+
+## Konsistenzaudit
+
+Die Dokumentation besitzt bereits eine klare Soll-Struktur. Der `20H_DOCUMENTATION_INDEX` definiert eine eindeutige Prioritätsreihenfolge der Wahrheitsquellen, und das spätere Vollständigkeits-Audit erklärt explizit, dass `COMPLETE_GAME_FUNCTION_SPEC.md` die fehlende Implementierungsschicht ergänzt. Das ist ein guter Ausgangspunkt, weil damit nicht “alles neu geschrieben”, sondern vor allem **entstört und konsolidiert** werden muss. fileciteturn1file1 fileciteturn2file2
+
+Die größten Konsistenzprobleme liegen in **Widersprüchen, historisch gewachsenen Doppelungen, Scope-Leaks und Paket-Lücken**. Die folgende Tabelle markiert die wichtigsten Befunde.
+
+| Schwere | Problem | Beispiel / Evidenz | Bewertung |
+|---|---|---|---|
+| Hoch | **Statuskonflikt Phase 2** | `README.md` beschreibt Phase 2 als **in progress**, während `MVP_Scope.md` bereits von **Phase 2 sprint complete** spricht. fileciteturn0file0 fileciteturn9file0 | Eine neue Person weiß nicht, welches Statussignal gilt. |
+| Hoch | **Extraktionsregel widersprüchlich** | `COMPLETE_GAME_FUNCTION_SPEC.md` setzt den Default der Hold-Phase auf **30 Sekunden**; `ULTIMATE_H_TOWN_MASTER_MANUAL.md` dokumentiert **3.0s**; `VALIDATION_REPORT.md` kommentiert denselben Konflikt gegen ältere Implementierung. fileciteturn8file0 fileciteturn10file0 fileciteturn6file1 | Das ist ein direkter Gameplay- und QA-Widerspruch. |
+| Hoch | **Stack-/Versionsdrift** | `Technical_Architecture.md` nennt **Next.js 15 / React 19 / TypeScript 6**; `IMPLEMENTATION_GUIDE.md` nennt **React 18**; `MASTER_DOCUMENTATION.md` führt zusätzlich **Vite** als Build Tool. Offizielle Next.js-Installationsdokumentation zeigt heute `next dev/build/start` mit ESLint-CLI-Skripten; React 19 ist stabil; TypeScript 6 ist veröffentlicht. fileciteturn2file1 fileciteturn8file1 fileciteturn1file0 citeturn8search0turn9search0turn7search0 | Mindestens ein Teil dieser Aussagen ist historisch und sollte nicht mehr aktiv im Hauptpfad stehen. |
+| Hoch | **Legacy-Projektidentität im aktiven Baum** | `PreProduction_MasterDoc.md` beschreibt ein **Arcade Football + Combat Hybrid** namens `REDLINE FC`; `Complete_Game_Development_Checklist.md` spricht über Ball-, Goal-, Halftime- und Penalty-Flows; `Coding_Conventions.md` ist weiterhin Unity-/MonoBehaviour-zentriert. fileciteturn9file1 fileciteturn9file2 fileciteturn8file2 | Diese Dateien dürfen nicht im aktiven Entscheidungsraum stehen. |
+| Hoch | **Paket-interne Broken/Unresolved Links** | `README.md` und `MASTER_DOCUMENTATION.md` verlinken auf `story/...`, `.chatgpt/skills/...`, `src/...` und `release-notes-2026-04-17.md`, die im bereitgestellten Drive-Paket nicht enthalten sind. fileciteturn0file0 fileciteturn1file0 | Als Dokumentationspaket ist der Stand unvollständig und lokal nicht navigierbar. |
+| Mittel | **Zu viele “Einstiegspunkte”** | `README.md`, `MASTER_DOCUMENTATION.md`, `DOCUMENTATION_COMPLETENESS_AUDIT.md`, `COMPLETE_GAME_FUNCTION_SPEC.md`, `MVP_Scope.md`, mehrere Roadmaps und Statusdateien konkurrieren um dieselbe Rolle. fileciteturn0file0 fileciteturn1file0 fileciteturn2file2 fileciteturn9file0 | Die Wahrheit ist vorhanden, aber nicht sauber zugänglich. |
+| Mittel | **Format- und Sprachinkonsistenz** | Der Dokumentationsindex setzt technische Regeln und Lokalisierungspolitik in Englisch; operative Dateien wie `HTOWN_DEPLOY_STANDARD.md` und `manual-test-checklist.md` sind deutsch; Datumsformate wechseln zwischen ISO und englischer Langform. fileciteturn1file1 fileciteturn5file0 fileciteturn6file0 fileciteturn8file1 | Kein funktionaler Blocker, aber ein massiver Wartungs- und Review-Reibungsverlust. |
+| Mittel | **Mess- und Berichtsmix ohne klare Definition** | `bundle-size-history.md` trägt noch den Titel **REDLINE FC Web** und listet ~546–549 kB JS-Assets; `performance-baseline.md` nennt ~107 kB First Load JS. fileciteturn7file1 fileciteturn7file0 | Wahrscheinlich unterschiedliche Messgrößen, aber nicht erklärt. |
+| Mittel | **Absolute lokale Pfade in Doku** | Das ULTIMATE-Manual enthält absolute Windows-Pfade (`c:\\Users\\...`). fileciteturn10file0 | Das ist nicht portabel, leakt lokale Provenienz und gehört ins Archiv oder in Build Notes, nicht in Kern-Doku. |
+| Mittel | **Noch offene fachliche Lücken sind bereits benannt, aber nicht sauber an einer Stelle gesammelt** | Sowohl `DOCUMENTATION_COMPLETENESS_AUDIT.md` als auch `COMPLETE_GAME_FUNCTION_SPEC.md` listen Restlücken bei Character Pages, Region Pages, Bounties, Status Effects, Multiplayer-Wireframes und Screenshots. fileciteturn2file2 fileciteturn8file0 | Das sollte in eine einzige “Open Gaps”-Ansicht überführt werden. |
+
+In Summe ist das kein Problem “schlechter Doku”, sondern ein Problem von **fehlender Trennung zwischen kanonisch, historisch, experimentell und operativ**. Der vorhandene Kern ist gut genug, um sofort zu stabilisieren; die Cleanup-Arbeit ist deshalb vor allem **Informationsarchitektur**.
+
+## Qualitätsmängel und konkrete Umschreibungen
+
+### Einstiegsdokument entlasten
+
+`README.md` ist aktuell gleichzeitig Projektpitch, Architekturindex, Statusübersicht, Implementierungsleitfaden, Entwicklungsstatus, Checkliste und Next-Step-Liste. Das macht die Datei nützlich für einmaliges Lesen, aber schlecht als langfristig stabilen Einstiegspunkt. Gleichzeitig sagt das Vollständigkeits-Audit selbst, dass `README.md` zu hochlevelig für exakte Verhaltensdefinitionen ist. fileciteturn0file0 fileciteturn2file2
+
+**Vorher, sinngemäß:** großer Überblick + viele Deep-Links + lange Statuscheckliste in derselben Datei. fileciteturn0file0
+
+**Nachher, vorgeschlagen:**
+```md
+# H-Town Combat 67
+
+Browser-native vehicle extraction roguelite with a 20h campaign documentation pack.
+
+## Start here
+1. docs/project/status.md
+2. docs/preproduction/20H_DOCUMENTATION_INDEX.md
+3. docs/Technical_Architecture.md
+4. docs/COMPLETE_GAME_FUNCTION_SPEC.md
+
+## Language policy
+- Technical docs: English
+- Player-facing text: DE/EN localization files
+
+## Where to find what
+- docs/project/     status, roadmap, versioning
+- docs/preproduction/ content contracts
+- docs/qa/          release and test evidence
+- docs/archive/     historical documents
+```
+
+**Effekt:** geringere Driftfläche, schnellere Orientierung, weniger Status-Duplikation.
+
+### Status und Roadmap trennen
+
+Heute verteilen sich aktuelle, historische und geplante Zustände auf `README.md`, `MVP_Scope.md`, `ROADMAP.md`, `ROADMAP_NEXT.md`, `ROADMAP_DETAILED.md`, `PHASE_1_STATUS.md` und teils `repo-status.md`. Mindestens ein harter Konflikt ist bereits sichtbar: “Phase 2 in progress” vs. “Phase 2 sprint complete.” fileciteturn0file0 fileciteturn9file0
+
+**Vorher, sinngemäß:** mehrere Dateien führen gleichzeitig “aktuellen Stand” und “nächste Schritte”. fileciteturn0file0 fileciteturn9file0
+
+**Nachher, vorgeschlagen:**
+```md
+# docs/project/status.md
+## Verified now
+- Canonical docs spine exists
+- Phase 1 complete
+- Cross-browser manual sign-off still open
+- p99 frame spikes still under investigation
+
+# docs/project/roadmap.md
+## Remaining work only
+- Finish documentation cleanup
+- Close browser/device validation
+- Investigate performance spikes
+- Complete content implementation
+```
+
+**Effekt:** Keine Vermischung mehr von Ist-Zustand und Soll-Zustand.
+
+### Historische Dokumente mit harter Archiv-Bannerlogik versehen
+
+Mehrere Dokumente haben bereits einen “historical note”, bleiben aber trotzdem im aktiven Dateibaum und sehen auf den ersten Blick wie normale Projektunterlagen aus. Das gilt besonders für `PreProduction_MasterDoc.md`, `Coding_Conventions.md` und das `ULTIMATE_H_TOWN_MASTER_MANUAL.md`. fileciteturn9file1 fileciteturn8file2 fileciteturn10file0
+
+**Vorher, sinngemäß:** historischer Hinweis vorhanden, die Datei bleibt aber in derselben Navigationszone wie aktive Kernspezifikationen. fileciteturn9file1 fileciteturn8file2
+
+**Nachher, vorgeschlagen:**
+```md
+> Archived legacy document
+> This file is retained for historical context only.
+> It must not be used as an active source of truth.
+> Canonical replacements:
+> - docs/Technical_Architecture.md
+> - docs/COMPLETE_GAME_FUNCTION_SPEC.md
+> - docs/preproduction/20H_DOCUMENTATION_INDEX.md
+```
+
+**Effekt:** Sichtbarer Schutz gegen Fehlbenutzung.
+
+### Extraktionsregel kanonisieren
+
+Der Extraktionskonflikt ist zu zentral, um “nebenbei” weiterzuleben. Die kanonische Datei (`COMPLETE_GAME_FUNCTION_SPEC.md`) sollte den Default explizit festlegen, und alle historischen Abweichungen müssen klar als historisch oder experimentell markiert werden. fileciteturn8file0 fileciteturn10file0 fileciteturn6file1
+
+**Vorher, sinngemäß:** ein Dokument spricht von 30 Sekunden Default, ein anderes von 3,0 Sekunden Implementierungswert. fileciteturn8file0 fileciteturn10file0
+
+**Nachher, vorgeschlagen:**
+```md
+## Extraction Hold Rule
+Default extraction hold time is 30 seconds.
+
+If implementation experiments use a different value, they must be documented as:
+- non-default
+- branch-specific
+- temporary
+- not canonical until adopted here
+```
+
+**Effekt:** QA, Design und Implementierung bekommen dieselbe Basisregel.
+
+### Technische Architekturaussagen bereinigen
+
+`MASTER_DOCUMENTATION.md` nennt neben Next.js 15 auch **Vite** als Build Tool, während `Technical_Architecture.md` klar auf Next.js-App-Router und route-level shells setzt; `IMPLEMENTATION_GUIDE.md` bleibt zugleich bei React 18. Die offiziellen Next.js-Dokumente beschreiben für aktuelle Projekte `next dev`, `next build`, `next start` und `eslint`, nicht einen Vite-zentrierten Standardweg. React 19 ist stabil; TypeScript 6 ist offiziell veröffentlicht. fileciteturn1file0 fileciteturn2file1 fileciteturn8file1 citeturn8search0turn9search0turn7search0
+
+**Vorher, sinngemäß:** Next.js + React + Three.js + Zustand + Socket.io, aber zusätzlich Vite als Build Tool und React 18 in anderer Datei. fileciteturn1file0 fileciteturn8file1
+
+**Nachher, vorgeschlagen:**
+```md
+## Current stack
+- Next.js 15
+- React 19
+- TypeScript 6
+- Three.js
+- Zustand
+- Socket.io
+- Vitest + Playwright
+- ESLint CLI
+
+## Build and run
+- npm run dev    -> next dev
+- npm run build  -> next build
+- npm start      -> next start
+- npm run lint   -> eslint
+```
+
+**Effekt:** Eine einzige technische Wahrheit, anschlussfähig an aktuelle Upstream-Dokumentation. citeturn8search0turn9search0turn7search0
+
+## Zielstruktur, Versionierung und Bereinigung
+
+### Empfohlene Kanonisierung
+
+Die vorhandene Dokumentation sollte nicht platt “verschlankt”, sondern **in eine stabile Navigationsarchitektur überführt** werden. Die folgende Zuordnung minimiert Drift und respektiert zugleich bestehende, bereits gute Dokumente.
+
+| Aktion | Dateien | Ziel | Begründung |
+|---|---|---|---|
+| **Behalten als kanonisch** | `README.md`, `docs/Technical_Architecture.md`, `docs/COMPLETE_GAME_FUNCTION_SPEC.md`, `docs/preproduction/20H_*` | aktive Kernstruktur | Diese Dateien tragen bereits den größten Teil der belastbaren Projektwahrheit. fileciteturn0file0 fileciteturn2file1 fileciteturn8file0 fileciteturn1file1 |
+| **Mergen** | `README.md` + `MASTER_DOCUMENTATION.md` | neues, schlankes `README.md` | Überblick ja, aber kein zweites Handbuch im Root. fileciteturn0file0 fileciteturn1file0 |
+| **Mergen** | `ROADMAP.md`, `ROADMAP_NEXT.md`, `ROADMAP_DETAILED.md`, `PHASE_1_STATUS.md`, `repo-status.md` | `docs/project/status.md` + `docs/project/roadmap.md` | Status und Planung müssen getrennt werden. fileciteturn0file0 fileciteturn9file0 |
+| **Mergen** | `manual-test-checklist.md`, `web-release-checklist.md`, `viewport-validation-matrix.md`, `performance-baseline.md` | `docs/qa/*` | QA-Nachweise sind gut, aber derzeit zerstreut. fileciteturn5file2 fileciteturn6file0 fileciteturn6file2 fileciteturn7file0 |
+| **Mergen** | `HTOWN_DEPLOY_STANDARD.md` + README-Deployment-Passagen | `docs/deployment/deployment.md` | Deploymentregel gehört nicht in mehrere Orte. fileciteturn5file0 fileciteturn0file0 |
+| **In ADR umwandeln** | `migration-playbook.md`, `stack-evaluation.md` | `docs/adr/0001-unity-to-web.md` | Historisch wertvoll, aber keine aktive Handlungsanweisung mehr. fileciteturn5file1 fileciteturn7file2 |
+| **Mergen** | `ASSET_MANIFEST.md` + `ASSET_GENERATION_REPORT.md` | `docs/assets/asset-pipeline.md` | Manifest und Batch-Report sollten zusammengehörig sein. fileciteturn10file1 fileciteturn10file2 |
+| **Archivieren** | `PreProduction_MasterDoc.md`, `Complete_Game_Development_Checklist.md`, `Coding_Conventions.md`, `ULTIMATE_H_TOWN_MASTER_MANUAL.md` | `docs/archive/legacy/*` | Legacy/Unity/Football-DNA darf nicht aktiv mitlaufen. fileciteturn9file1 fileciteturn9file2 fileciteturn8file2 fileciteturn10file0 |
+| **Archivieren oder Quarantäne prüfen** | `GDD_Masterplan_ArcadeFootball.md`, `Project_Settings_Policy.md`, `Unity_Script_Scaffold_Index.md`, `graceful-leaping-crown_v2.md` | `docs/archive/legacy/*` oder `docs/quarantine/*` | Entweder klar historisch oder aktuell nicht als kanonisch verifizierbar. |
+| **Umziehen** | `AI_MEGA_PROMPT.md` | `.chatgpt/skills/` oder `docs/ops/prompts/` | Prompt-/Agent-Operations sollten nicht im allgemeinen Docs-Root treiben. |
+
+### Vorgeschlagene Zielstruktur
+
+```mermaid
+flowchart TD
+    A[Repository Root]
+    A --> B[README.md]
+    A --> C[CHANGELOG.md]
+    A --> D[docs/]
+    D --> E[project/]
+    D --> F[preproduction/]
+    D --> G[qa/]
+    D --> H[deployment/]
+    D --> I[adr/]
+    D --> J[assets/]
+    D --> K[archive/]
+    E --> E1[status.md]
+    E --> E2[roadmap.md]
+    E --> E3[versioning.md]
+    F --> F1[20H_DOCUMENTATION_INDEX.md]
+    F --> F2[20H_AREA_PROGRESSION_MODEL.md]
+    F --> F3[20H_SYSTEMS_AND_DATA_CONTRACTS.md]
+    F --> F4[... weitere 20H-Dateien ...]
+    G --> G1[manual-test-checklist.md]
+    G --> G2[release-checklist.md]
+    G --> G3[viewport-validation-matrix.md]
+    G --> G4[performance-baseline.md]
+    H --> H1[deployment.md]
+    I --> I1[0001-unity-to-web.md]
+    J --> J1[asset-pipeline.md]
+    K --> K1[legacy/]
+```
+
+GitHub rendert Mermaid-Diagramme direkt in Markdown-Dateien; GitHub Docs dokumentieren das sowohl allgemein für Markdown/GFM als auch explizit für Mermaid. citeturn13search0turn13search3
+
+### Versionierung und Provenienz
+
+Ich empfehle für alle aktiven Dokumente ein kurzes Front Matter mit `title`, `owner`, `status`, `version`, `last_reviewed`, optional `supersedes`, `superseded_by`, `audience`. So wird aus impliziter Historie eine explizite Governance. Die vorhandenen Dokumente selbst zeigen bereits, wie viel Schaden durch unklare “halb-historische” Dateien entsteht. fileciteturn2file2 fileciteturn9file1 fileciteturn8file2
+
+Empfohlene Regeln:
+
+| Feld | Regel |
+|---|---|
+| `status` | `canonical`, `draft`, `legacy`, `archived` |
+| `version` | CalVer, z. B. `2026.04` |
+| `last_reviewed` | ISO-Datum `YYYY-MM-DD` |
+| Dateiname | für neue operative Docs `lower-kebab-case`; stabile 20H-Domain-IDs dürfen erhalten bleiben |
+| Changelog | Root-`CHANGELOG.md` für Release-/Repo-Änderungen; keine Datumsinflation in Dateinamen außer bei echten Release Notes |
+| Archivierung | niemals still löschen; erst archivieren, Banner setzen, Link-Redirect einbauen, dann nach einer Übergangsphase entfernen |
+
+## Automatisierung, Skripte und reproduzierbare Deliverables
+
+Die Bereinigung sollte nicht manuell “nebenbei” passieren, sondern durch feste Tooling-Gates abgesichert werden. Dafür eignen sich vier Werkzeuge sehr gut: **markdownlint** für Markdown-Stil und Struktur, **Vale** für Sprachstil und Terminologie, **lychee** für Link-Prüfung, und **pre-commit** für lokale Hook-Integration. markdownlint beschreibt sich selbst als Linter für Markdown/CommonMark und unterstützt GFM-Syntax; Vale ist für stilistische Konsistenz und projektspezifische Vokabularregeln gedacht; lychee ist ein asynchroner Linkchecker mit rekursiver Prüfung und Offline-Modus; pre-commit verwaltet sprachübergreifende Hooks und kann auf allen Dateien laufen. citeturn12search1turn10search8turn11search7turn11search4turn14search1turn14search3turn10search4
+
+Für das JavaScript-/Next-Tooling ist außerdem wichtig, die aktuellere Next.js-Konvention zu verwenden: Die offiziellen Next.js-Dokumente zeigen `next dev`, `next build`, `next start` und `eslint` in `package.json`; wenn noch alte `next lint`-Annahmen im Umlauf sind, sollten diese bereinigt werden. citeturn8search0
+
+### Empfohlene Kommandos
+
+```bash
+# Markdown-Struktur prüfen
+npx markdownlint-cli2 "README.md" "docs/**/*.md"
+
+# Prosa- und Terminologieprüfung
+vale README.md docs
+
+# Linkprüfung
+lychee --config lychee.toml README.md docs/**/*.md
+
+# Alle lokalen Hooks auf gesamten Bestand ausführen
+pre-commit run --all-files
+```
+
+### Beispiel für Hook-Konfiguration
+
+```yaml
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+      - id: check-yaml
+      - id: check-json
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
+        files: \.md$
+
+  - repo: local
+    hooks:
+      - id: vale
+        name: vale
+        entry: vale
+        language: system
+        types: [markdown]
+      - id: lychee
+        name: lychee
+        entry: bash -lc 'lychee --config lychee.toml README.md docs/**/*.md'
+        language: system
+        pass_filenames: false
+```
+
+**Wirkung:** Jeder Commit scheitert früh an kaputten Links, Terminologielecks, Stilproblemen oder whitespace-/EOF-Themen, statt diese erst im Review zu entdecken. pre-commit ist genau für solche sprachübergreifenden Hook-Setups gedacht. citeturn10search4
+
+### Beispiel für eine einfache Python-Audit-Datei
+
+```python
+#!/usr/bin/env python3
+from pathlib import Path
+import hashlib
+import re
+
+LEGACY_TERMS = [
+    r"REDLINE FC",
+    r"Arcade Football",
+    r"MonoBehaviour",
+    r"Unity 6",
+    r"The Autoballer",
+]
+
+def sha1(text: str) -> str:
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()
+
+def files():
+    for p in Path(".").rglob("*.md"):
+        if ".git" not in p.parts:
+            yield p
+
+seen = {}
+for p in files():
+    text = p.read_text(encoding="utf-8", errors="ignore")
+    digest = sha1(text)
+    print(f"[FILE] {p}")
+    if digest in seen:
+        print(f"  duplicate-of: {seen[digest]}")
+    else:
+        seen[digest] = p
+    for pattern in LEGACY_TERMS:
+        for m in re.finditer(pattern, text, re.IGNORECASE):
+            line = text[:m.start()].count("\\n") + 1
+            print(f"  legacy-hit: {pattern} @ line {line}")
+```
+
+**Wirkung:** erkennt 1:1-Duplikate und Legacy-Begriffe früh, bevor sie wieder in kanonische Dateien zurückdiffundieren.
+
+### Reproduzierbare Clean-up- und ZIP-Schritte
+
+Ich konnte in diesem Zugriffskontext **keine Dateien schreiben**, **keine Quellablage ändern** und **kein ZIP-Artefakt erzeugen**. Deshalb liefere ich hier den exakten reproduzierbaren Ablauf. Er ist absichtlich robust gegen unklare alte Pfade und sucht zuerst im Root, dann unter `docs/`.
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+branch="docs/cleanup-2026-04-26"
+git checkout -b "$branch"
+
+mkdir -p docs/project docs/qa docs/deployment docs/adr docs/assets docs/archive/legacy scripts
+
+move_any() {
+  local name="$1"
+  local target="$2"
+  mkdir -p "$(dirname "$target")"
+  if [ -f "$name" ]; then
+    git mv "$name" "$target"
+    return 0
+  fi
+  if [ -f "docs/$name" ]; then
+    git mv "docs/$name" "$target"
+    return 0
+  fi
+  echo "WARN missing: $name" >&2
+}
+
+# Legacy archive
+move_any "MASTER_DOCUMENTATION.md" "docs/archive/legacy/master-documentation.md"
+move_any "PreProduction_MasterDoc.md" "docs/archive/legacy/preproduction-masterdoc.md"
+move_any "Complete_Game_Development_Checklist.md" "docs/archive/legacy/complete-game-development-checklist.md"
+move_any "Coding_Conventions.md" "docs/archive/legacy/coding-conventions-unity.md"
+move_any "ULTIMATE_H_TOWN_MASTER_MANUAL.md" "docs/archive/legacy/ultimate-h-town-master-manual.md"
+move_any "ROADMAP_NEXT.md" "docs/archive/legacy/roadmap-next.md"
+move_any "Repo_Setup_Status.md" "docs/archive/legacy/repo-setup-status.md"
+move_any "GDD_Masterplan_ArcadeFootball.md" "docs/archive/legacy/gdd-masterplan-arcade-football.md"
+move_any "Project_Settings_Policy.md" "docs/archive/legacy/project-settings-policy.md"
+move_any "Unity_Script_Scaffold_Index.md" "docs/archive/legacy/unity-script-scaffold-index.md"
+
+# Create canonical project docs
+cat > docs/project/status.md <<'EOF'
+# Project Status
+- Phase 1 complete
+- Canonical docs spine exists
+- Browser/device QA still open
+- Performance p99 spikes still under investigation
+EOF
+
+cat > docs/project/roadmap.md <<'EOF'
+# Project Roadmap
+- Finish documentation cleanup
+- Close browser/device validation
+- Investigate performance spikes
+- Complete content implementation
+EOF
+
+cat > docs/project/versioning.md <<'EOF'
+# Documentation Versioning Policy
+Use front matter with: title, owner, status, version, last_reviewed.
+EOF
+
+cat > docs/deployment/deployment.md <<'EOF'
+# Deployment
+Manual deploy only. No auto-pull and no automatic GitHub deploy workflow.
+EOF
+
+cat > docs/adr/0001-unity-to-web.md <<'EOF'
+# Move from Unity to Web Stack
+Accepted. Canonical architecture lives in Technical_Architecture.md.
+EOF
+
+# Optional asset merge stub
+cat > docs/assets/asset-pipeline.md <<'EOF'
+# Asset Pipeline
+Merged replacement for ASSET_MANIFEST.md and ASSET_GENERATION_REPORT.md.
+EOF
+
+# Tooling config
+cat > .markdownlint.jsonc <<'EOF'
+{
+  "default": true,
+  "MD013": false,
+  "MD033": false,
+  "MD041": false
+}
+EOF
+
+cat > lychee.toml <<'EOF'
+max_concurrency = 8
+timeout = 20
+retries = 2
+exclude_path = ["docs/archive/**", "tmp/**", "node_modules/**"]
+EOF
+
+# Run checks
+npx markdownlint-cli2 "README.md" "docs/**/*.md"
+vale README.md docs
+lychee --config lychee.toml README.md docs/**/*.md
+pre-commit run --all-files || true
+
+# Pack artifact
+zipname="htown-docs-cleanup-$(date +%F).zip"
+zip -r "$zipname" README.md docs .markdownlint.jsonc lychee.toml scripts .pre-commit-config.yaml .vale.ini
+echo "Created: $zipname"
+```
+
+### Empfohlener Änderungsworkflow
+
+```mermaid
+flowchart LR
+    A[Änderungswunsch] --> B[zuständige kanonische Datei bestimmen]
+    B --> C[Inhalt ändern]
+    C --> D[markdownlint]
+    D --> E[Vale]
+    E --> F[lychee]
+    F --> G[PR mit Verweis auf Source of Truth]
+    G --> H[Review]
+    H --> I[Merge]
+    I --> J[STATUS/CHANGELOG aktualisieren]
+```
+
+GitHub unterstützt Mermaid in Markdown-Dateien direkt; damit lässt sich dieser Workflow ohne zusätzliche Bildartefakte im Repo dokumentieren. citeturn13search3
+
+### Bewertete Deliverables
+
+| Deliverable | Status |
+|---|---|
+| Executive Summary | erstellt |
+| Vollinventur des bereitgestellten Dokumentpakets | erstellt |
+| Konsistenz-, Qualitäts- und Redundanzaudit | erstellt |
+| Konkrete Merge-/Archive-/Rewrite-Empfehlung | erstellt |
+| Versionierungs- und Provenienzschema | erstellt |
+| Bash-/Python-/Hook-Beispiele | erstellt |
+| Reproduzierbare ZIP-Schritte | erstellt |
+| Finaler ZIP-Download-Link | **nicht erzeugbar in diesem Zugriffskontext** |
+
+**Kurzurteil:** Wenn du nur eine Sache zuerst machen willst, dann **archiviere alle Legacy-/Unity-/Football-Dateien aus dem aktiven Sichtfeld und ersetze die Status-/Roadmap-Familie durch genau zwei kanonische Dateien**. Das bringt den größten Nutzen mit dem kleinsten Risiko und macht danach die restliche technische Bereinigung erheblich einfacher.

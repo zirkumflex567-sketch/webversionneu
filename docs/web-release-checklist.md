@@ -36,7 +36,7 @@ Stand: 2026-04-21
 
 ## Documentation and Release Notes
 
-- [x] KNOWN_ISSUES.md aktualisiert
+- [x] `docs/STATUS_VERIFICATION.md` aktualisiert
 - [x] manual-test-checklist.md spiegelt H-Town Combat (nicht Football-Prototyp)
 - [x] README / DEPLOYMENT / LIVE_DEPLOY up to date
 - [x] Legacy `game.html` nach `artifacts/legacy/` verschoben

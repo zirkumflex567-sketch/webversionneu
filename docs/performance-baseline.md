@@ -5,7 +5,7 @@ Last updated: 2026-04-22
 ## Build baseline
 - Command: `npm run build`
 - Current status: passes locally, static prerender of `/` at ~1.34 kB / 107 kB First Load JS
-- Bundle history tracked in [bundle-size-history.md](bundle-size-history.md)
+- Bundle history archived in [docs-cleanup bundle-size-history.md](archive/2026-04-26/docs-cleanup/bundle-size-history.md); active release evidence lives in [STATUS_VERIFICATION.md](STATUS_VERIFICATION.md)
 
 ## Headless viewport smoke (layout-only, not FPS)
 - Harness: [tests/viewport-smoke.mjs](../tests/viewport-smoke.mjs)

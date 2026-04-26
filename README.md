@@ -14,17 +14,17 @@ H-Town Combat 67 is a web-based vehicle extraction roguelite project with a 20-h
 Start here for any implementation or audit work:
 
 1. `.chatgpt/skills/htown-combat-dev/SKILL.md`
-2. `docs/README.md`
-3. `docs/preproduction/20H_DOCUMENTATION_INDEX.md`
-4. `docs/SOURCE_OF_TRUTH.md`
-5. `docs/STATUS_VERIFICATION.md`
+2. [docs/README.md](docs/README.md)
+3. [docs/preproduction/20H_DOCUMENTATION_INDEX.md](docs/preproduction/20H_DOCUMENTATION_INDEX.md)
+4. [docs/SOURCE_OF_TRUTH.md](docs/SOURCE_OF_TRUTH.md)
+5. [docs/STATUS_VERIFICATION.md](docs/STATUS_VERIFICATION.md)
 
 ## Source of Truth
 
-- Authoritative hierarchy: `docs/SOURCE_OF_TRUTH.md`
-- Current status and verification evidence: `docs/STATUS_VERIFICATION.md`
-- Conflict tracking: `docs/audit/DOC_CONFLICT_REGISTER.md`
-- Code-vs-doc traceability: `docs/audit/CODE_DOC_TRACEABILITY_MATRIX.md`
+- Authoritative hierarchy: [docs/SOURCE_OF_TRUTH.md](docs/SOURCE_OF_TRUTH.md)
+- Current status and verification evidence: [docs/STATUS_VERIFICATION.md](docs/STATUS_VERIFICATION.md)
+- Conflict tracking: [docs/audit/DOC_CONFLICT_REGISTER.md](docs/audit/DOC_CONFLICT_REGISTER.md)
+- Code-vs-doc traceability: [docs/audit/CODE_DOC_TRACEABILITY_MATRIX.md](docs/audit/CODE_DOC_TRACEABILITY_MATRIX.md)
 
 ## Build/Test Commands
 
@@ -38,4 +38,4 @@ npm run test:fps
 npm audit --audit-level=high
 ```
 
-Interpret results only through `docs/STATUS_VERIFICATION.md` and the latest audit report.
+Interpret results only through [docs/STATUS_VERIFICATION.md](docs/STATUS_VERIFICATION.md) and the latest audit report.
