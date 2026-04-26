@@ -46,3 +46,5 @@
   - Added automated tests for area transitions, bounty selection rules, and quest/reward resolution.
 - Deferred:
   - Multiplayer Phase 4 remains out of scope in this cycle.
+- [x] Secondary UI i18n pass completed for Auth/Profile/StoryPanel/Settings/QuestTracker/LoginView/ThemeDemo/FPS overlay.
+- [ ] Remaining warn-mode UI keyification backlog: HUD, Overlays, DebugSuite, Housing, Content Browser, SkillTree helper text.

@@ -5,8 +5,10 @@ import { GoogleLogin, CredentialResponse } from '@react-oauth/google'
 import { useAuthStore } from '@/src/auth/AuthStore'
 import { authAPI } from '@/src/auth/AuthAPI'
 import { readMagicLinkParams } from '@/src/auth/authUrl'
+import { useT } from '@/src/i18n/useT'
 
 export default function AuthScreen({ children }: { children: React.ReactNode }) {
+  const t = useT()
   const user = useAuthStore((s) => s.user)
   const setUser = useAuthStore((s) => s.setUser)
   const setError = useAuthStore((s) => s.setError)
@@ -71,8 +73,8 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
         const emailFailed = res.message?.includes('failed') || res.message?.includes('fehlgeschlagen')
         setEmailFallbackMsg(
           emailFailed
-            ? `Email-Versand fehlgeschlagen. Dein Code: ${res.code}`
-            : `Code auch hier sichtbar: ${res.code}`
+            ? t("ui.auth.email_failed_code", { code: res.code })
+            : t("ui.auth.code_visible", { code: res.code })
         )
       } else {
         setEmailFallbackMsg(null)
@@ -91,9 +93,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
   const handleGoogleSuccess = async (credentialResponse: CredentialResponse) => {
     setLoading(true)
     try {
-      if (!credentialResponse.credential) {
-        throw new Error('No credential received')
-      }
+      if (!credentialResponse.credential) throw new Error(t("ui.auth.no_credential"))
       const { token, user: userData } = await authAPI.loginWithGoogle(
         credentialResponse.credential
       )
@@ -113,7 +113,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
   return (
     <div className="w-screen h-screen bg-black flex items-center justify-center">
       <div className="w-full max-w-md p-8 bg-gray-900 rounded-lg border border-cyan-500">
-        <h1 className="text-3xl font-bold text-cyan-400 mb-8 text-center">H-Town Combat 67</h1>
+        <h1 className="text-3xl font-bold text-cyan-400 mb-8 text-center">{t("ui.auth.title")}</h1>
 
         {error && (
           <div className="bg-red-900 text-red-100 p-3 rounded mb-4 text-sm">
@@ -135,7 +135,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
                 : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
             }`}
           >
-            Login
+            {t("ui.auth.login")}
           </button>
           <button
             onClick={() => {
@@ -150,7 +150,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
                 : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
             }`}
           >
-            Register
+            {t("ui.auth.register")}
           </button>
         </div>
 
@@ -158,7 +158,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
           <div className="space-y-4">
             <input
               type="email"
-              placeholder="your@email.com"
+              placeholder={t("ui.auth.email_placeholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500"
@@ -168,7 +168,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
               disabled={isLoading}
               className="w-full bg-cyan-500 hover:bg-cyan-600 disabled:opacity-50 text-black font-bold py-2 rounded transition"
             >
-              {isLoading ? 'Sending...' : 'Send Magic Link'}
+              {isLoading ? t("ui.auth.sending") : t("ui.auth.send_magic_link")}
             </button>
           </div>
         )}
@@ -180,11 +180,11 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
                 {emailFallbackMsg}
               </div>
             ) : (
-              <p className="text-gray-300 text-sm">Check your email for a code</p>
+              <p className="text-gray-300 text-sm">{t("ui.auth.check_email")}</p>
             )}
             <input
               type="text"
-              placeholder="000000"
+              placeholder={t("ui.auth.code_placeholder")}
               value={code}
               onChange={(e) => setCode(e.target.value.toUpperCase())}
               maxLength={6}
@@ -195,13 +195,13 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
               disabled={isLoading}
               className="w-full bg-cyan-500 hover:bg-cyan-600 disabled:opacity-50 text-black font-bold py-2 rounded transition"
             >
-              {isLoading ? 'Verifying...' : 'Verify Code'}
+              {isLoading ? t("ui.auth.verifying") : t("ui.auth.verify_code")}
             </button>
             <button
               onClick={() => setCodeStep(false)}
               className="w-full bg-gray-700 hover:bg-gray-600 text-gray-300 font-semibold py-2 rounded transition"
             >
-              Back
+              {t("ui.auth.back")}
             </button>
           </div>
         )}
@@ -211,7 +211,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
             <div className="flex justify-center">
               <GoogleLogin
                 onSuccess={handleGoogleSuccess}
-                onError={() => setError('Google login failed')}
+                onError={() => setError(t("ui.auth.google_failed"))}
               />
             </div>
             <div className="relative">
@@ -219,12 +219,12 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
                 <div className="w-full border-t border-gray-700"></div>
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-gray-900 text-gray-500">or use magic link</span>
+                <span className="px-2 bg-gray-900 text-gray-500">{t("ui.auth.or_magic_link")}</span>
               </div>
             </div>
             <input
               type="email"
-              placeholder="your@email.com"
+              placeholder={t("ui.auth.email_placeholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500"
@@ -234,7 +234,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
               disabled={isLoading}
               className="w-full bg-gray-700 hover:bg-gray-600 disabled:opacity-50 text-white font-bold py-2 rounded transition"
             >
-              {isLoading ? 'Sending...' : 'Send Magic Link'}
+              {isLoading ? t("ui.auth.sending") : t("ui.auth.send_magic_link")}
             </button>
           </div>
         )}

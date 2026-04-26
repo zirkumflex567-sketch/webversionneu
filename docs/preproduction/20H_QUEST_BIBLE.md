@@ -1104,3 +1104,8 @@ Major choice flags:
 - Rewards:
   - completion: unlock char_edda_overdrive_node_1
   - completion: reputation +1 Falkenlicht
+
+## Runtime Sync Snapshot (2026-04-26)
+- Runtime quest flow is coupled to area progression transitions (`locked -> active_quest -> cleared_free_run`) via story completion in `StoryStore`.
+- Quest status/type labels in hub/story UI are now localization-key driven (`ui.story.status.*`, `ui.story.type.*`) and no longer rendered from raw uppercase enums.
+- Bounty-adjacent quest surfaces consume translation keys in runtime content paths; future quest additions must ship with DE/EN keys before merge.

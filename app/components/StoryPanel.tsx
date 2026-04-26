@@ -2,8 +2,10 @@
 
 import { useStoryStore } from '@/src/store/StoryStore'
 import { QuestStatus } from '@/src/game/StoryTypes'
+import { useT } from '@/src/i18n/useT'
 
 export default function StoryPanel() {
+  const t = useT()
   const quests = useStoryStore((s) => s.quests)
   const npcs = useStoryStore((s) => s.npcs)
   const worldState = useStoryStore((s) => s.worldState)
@@ -13,10 +15,10 @@ export default function StoryPanel() {
 
   return (
     <div className="flex flex-col gap-4 p-4 bg-black/90 text-cyan-400 font-mono text-xs border border-cyan-900 rounded-lg max-h-[80vh] overflow-auto">
-      <h2 className="text-lg font-bold border-b border-cyan-900 pb-2 mb-2">STORY ENGINE DEBUG</h2>
+      <h2 className="text-lg font-bold border-b border-cyan-900 pb-2 mb-2">{t("ui.story_panel.title")}</h2>
       
       <section>
-        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">Active Quests</h3>
+        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">{t("ui.story_panel.active_quests")}</h3>
         <div className="flex flex-col gap-2">
           {quests.map((quest) => (
             <div key={quest.id} className={`p-2 border ${quest.status === 'active' ? 'border-cyan-400 bg-cyan-950/30' : 'border-gray-800 bg-gray-900/20'}`}>
@@ -27,11 +29,11 @@ export default function StoryPanel() {
                   onChange={(e) => updateQuestStatus(quest.id, e.target.value as QuestStatus)}
                   className="bg-black border border-cyan-800 text-[10px] px-1"
                 >
-                  <option value="locked">Locked</option>
-                  <option value="available">Available</option>
-                  <option value="active">Active</option>
-                  <option value="completed">Completed</option>
-                  <option value="failed">Failed</option>
+                  <option value="locked">{t("ui.story.status.locked")}</option>
+                  <option value="available">{t("ui.story.status.available")}</option>
+                  <option value="active">{t("ui.story.status.active")}</option>
+                  <option value="completed">{t("ui.story.status.completed")}</option>
+                  <option value="failed">{t("ui.story.status.failed")}</option>
                 </select>
               </div>
               <div className="text-[10px] text-gray-400 mb-2">{quest.description}</div>
@@ -52,7 +54,7 @@ export default function StoryPanel() {
       </section>
 
       <section>
-        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">NPC Roster</h3>
+        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">{t("ui.story_panel.npc_roster")}</h3>
         <div className="grid grid-cols-2 gap-2">
           {npcs.map((npc) => (
             <div key={npc.id} className="p-2 border border-gray-800 bg-gray-900/20">
@@ -65,7 +67,7 @@ export default function StoryPanel() {
       </section>
 
       <section>
-        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">World State Flags</h3>
+        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">{t("ui.story_panel.world_flags")}</h3>
         <div className="flex flex-col gap-1">
           {Object.entries(worldState.flags).map(([flag, value]) => (
             <div key={flag} className="flex justify-between items-center py-1 border-b border-gray-900">
@@ -76,7 +78,7 @@ export default function StoryPanel() {
           <div className="mt-2 flex gap-2">
             <input 
               id="new-flag-name" 
-              placeholder="Flag ID" 
+              placeholder={t("ui.story_panel.flag_id_placeholder")}
               className="bg-black border border-cyan-900 p-1 flex-1 text-[10px]" 
             />
             <button 
@@ -89,14 +91,14 @@ export default function StoryPanel() {
               }}
               className="bg-cyan-900 text-white px-2 py-1 text-[10px]"
             >
-              Set True
+              {t("ui.story_panel.set_true")}
             </button>
           </div>
         </div>
       </section>
 
       <section>
-        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">Reputation</h3>
+        <h3 className="text-white font-bold mb-2 uppercase tracking-widest text-[10px]">{t("ui.story_panel.reputation")}</h3>
         <div className="grid grid-cols-2 gap-x-4 gap-y-1">
           {Object.entries(worldState.reputation).map(([faction, level]) => (
             <div key={faction} className="flex justify-between items-center">

@@ -397,3 +397,8 @@ Brannok’s brother. Member of Tiefenglocke cult by conviction, not brainwashing
 - companionQuestId: CQ-EDDA-01
 - unlock node: char_edda_overdrive_node_1
 - narrative theme: duty vs responsibility under failing infrastructure
+
+## Runtime Sync Snapshot (2026-04-26)
+- Active runtime character roster extends beyond initial 7 and currently includes: `lyra`, `mira`, `tarek`, `siofra`, `brannok`, `edda`, `kael`, `oren`, `yara`, `neris`, `velka`, `cyr`, `rixa`, `marek`.
+- Bounty and hub surfaces are now key-based in runtime (`displayNameKey` / `descriptionKey`), and docs should treat translation keys as mandatory for player-visible character strings.
+- Companion/side unlock wiring remains bound to story completion flags and area progression transitions in runtime store logic.

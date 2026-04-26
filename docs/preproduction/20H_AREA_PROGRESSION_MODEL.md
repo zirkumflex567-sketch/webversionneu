@@ -280,3 +280,8 @@ When in doubt, write:
 - State model: locked -> active_quest -> cleared_free_run
 - Story entry: Side Quest SQ-GM-01
 - Bounty availability: after side quest completion and extraction
+
+## Runtime Sync Snapshot (2026-04-26)
+- Runtime `AreaData` now exposes `state`, `stateLabelKey`, and `availableModesWhenCleared`, with transitions driven by story completion.
+- Story completion updates area state deterministically in domain store (`StoryStore`) and is covered by store-level tests.
+- Deploy/map progression should be validated against these runtime states before introducing additional area instances.

@@ -41,3 +41,5 @@ Repo root: C:\Users\Shadow\2\2\NEUEWEBVERSION\webversionneu
 - Notes:
   - Next.js lint deprecation warning remains informational.
   - Next.js plugin-detection warning remains informational.
+- Convergence follow-up (same date): additional UI localization migration landed for Auth/Profile/StoryPanel/Settings/QuestTracker/LoginView/ThemeDemo/FPS overlay.
+- Remaining i18n warnings are now concentrated in HUD/Overlays/DebugSuite and selected legacy UI modules.

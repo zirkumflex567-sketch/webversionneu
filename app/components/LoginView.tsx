@@ -6,8 +6,10 @@ import { useAuthStore } from "../../src/auth/AuthStore"
 import { authAPI } from "../../src/auth/AuthAPI"
 import { GoogleLogin } from "@react-oauth/google"
 import { GlitchHeader, ScanlineOverlay } from "./UIElements"
+import { useT } from "../../src/i18n/useT"
 
 export default function LoginView() {
+  const t = useT()
   const { setPhase } = useGameStore()
   const { setUser, setLoading, setError, isLoading, error } = useAuthStore()
   
@@ -24,10 +26,10 @@ export default function LoginView() {
         setUser(data.user, data.token)
         setPhase("Loading")
       }).catch((err: unknown) => {
-        setError(err instanceof Error ? err.message : "Google Login failed")
+        setError(err instanceof Error ? err.message : t("ui.login.google_failed"))
       })
     } catch {
-      setError("An unexpected error occurred")
+      setError(t("ui.login.unexpected_error"))
     } finally {
       setLoading(false)
     }
@@ -42,7 +44,7 @@ export default function LoginView() {
       setStep("code")
       setError(null)
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Email registration failed")
+      setError(err instanceof Error ? err.message : t("ui.login.email_registration_failed"))
     } finally {
       setLoading(false)
     }
@@ -57,7 +59,7 @@ export default function LoginView() {
       setUser(res.user, res.token)
       setPhase("Loading")
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Invalid verification code")
+      setError(err instanceof Error ? err.message : t("ui.login.invalid_verification_code"))
     } finally {
       setLoading(false)
     }
@@ -74,7 +76,7 @@ export default function LoginView() {
         
         <header className="mb-10 text-center">
           <GlitchHeader text="COMMAND ACCESS" />
-          <p className="text-[10px] font-black tracking-[0.4em] text-white/30 uppercase mt-4">Identify Pilot or Register Unit</p>
+          <p className="text-[10px] font-black tracking-[0.4em] text-white/30 uppercase mt-4">{t("ui.login.identify_or_register")}</p>
         </header>
 
         <div className="space-y-8">
@@ -82,14 +84,14 @@ export default function LoginView() {
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <div className="h-px flex-1 bg-white/10"></div>
-              <span className="text-[9px] font-bold text-white/20 tracking-widest uppercase">Fast_Sync</span>
+              <span className="text-[9px] font-bold text-white/20 tracking-widest uppercase">{t("ui.login.fast_sync")}</span>
               <div className="h-px flex-1 bg-white/10"></div>
             </div>
             
             <div className="flex justify-center border-2 border-white/5 p-4 bg-white/5 hover:bg-white/10 transition-all">
               <GoogleLogin
                 onSuccess={handleGoogleSuccess}
-                onError={() => setError("Google Login Failed")}
+                onError={() => setError(t("ui.login.google_failed"))}
                 theme="filled_black"
                 shape="square"
                 text="continue_with"
@@ -102,7 +104,7 @@ export default function LoginView() {
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <div className="h-px flex-1 bg-white/10"></div>
-              <span className="text-[9px] font-bold text-white/20 tracking-widest uppercase">Legacy_Protocol</span>
+              <span className="text-[9px] font-bold text-white/20 tracking-widest uppercase">{t("ui.login.legacy_protocol")}</span>
               <div className="h-px flex-1 bg-white/10"></div>
             </div>
 
@@ -111,7 +113,7 @@ export default function LoginView() {
                 <div className="relative">
                   <input
                     type="email"
-                    placeholder="ENTER EMAIL"
+                    placeholder={t("ui.login.enter_email")}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="w-full bg-black border-4 border-black p-4 font-bebas text-2xl tracking-widest text-white placeholder:text-white/10 focus:outline-none focus:border-[#00ffaa]/50 transition-all"
@@ -123,7 +125,7 @@ export default function LoginView() {
                   disabled={isLoading}
                   className="btn-wasteland-premium w-full h-14 text-xl tracking-[0.2em]"
                 >
-                  {isLoading ? "TRANSMITTING..." : "SEND MAGIC LINK"}
+                  {isLoading ? t("ui.login.transmitting") : t("ui.auth.send_magic_link")}
                 </button>
               </form>
             ) : (
@@ -131,7 +133,7 @@ export default function LoginView() {
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="VERIFICATION CODE"
+                    placeholder={t("ui.login.verification_code")}
                     value={code}
                     onChange={(e) => setCode(e.target.value)}
                     className="w-full bg-black border-4 border-black p-4 font-bebas text-2xl tracking-widest text-[#ffaa00] placeholder:text-white/10 focus:outline-none focus:border-[#ffaa00]/50 transition-all"
@@ -143,7 +145,7 @@ export default function LoginView() {
                     disabled={isLoading}
                     className="btn-wasteland-premium flex-1 h-14 text-xl tracking-[0.2em] border-[#ffaa00] text-[#ffaa00]"
                   >
-                    {isLoading ? "VERIFYING..." : "CONFIRM ACCESS"}
+                    {isLoading ? t("ui.auth.verifying") : t("ui.login.confirm_access")}
                   </button>
                   <button
                     type="button"
@@ -159,14 +161,14 @@ export default function LoginView() {
 
           {error && (
             <div className="p-4 border-2 border-[#ff4444] bg-[#ff4444]/10">
-              <p className="text-[10px] font-black text-[#ff4444] tracking-widest uppercase mb-1">SYSTEM_ERROR</p>
+              <p className="text-[10px] font-black text-[#ff4444] tracking-widest uppercase mb-1">{t("ui.login.system_error")}</p>
               <p className="text-xs text-white/80 uppercase">{error}</p>
             </div>
           )}
         </div>
 
         <footer className="mt-12 text-center">
-          <p className="text-[9px] font-bold text-white/10 tracking-[0.5em] uppercase">H-TOWN_COMBAT // SECURED_BY_COBALT</p>
+          <p className="text-[9px] font-bold text-white/10 tracking-[0.5em] uppercase">{t("ui.login.footer")}</p>
         </footer>
       </div>
     </div>

@@ -267,11 +267,11 @@ export interface MultiplayerComboDefinition {
 
 export interface CharacterDefinition {
   id: CharacterId;
-  name: string;
+  nameKey: TranslationKey;
   region: string;
   archetype: string;
-  combatIdentity: string;
-  storyHook: string;
+  combatIdentityKey: TranslationKey;
+  storyHookKey: TranslationKey;
   unlockChapter: number;
   tags: string[];
 }
@@ -284,14 +284,14 @@ export interface StatusEffectDefinition {
 
 export interface QuestDefinition {
   id: string;
-  name: string;
+  nameKey: TranslationKey;
   type: "main" | "regional" | "companion" | "world_event";
   region: string;
   estimatedMinutes: number;
   unlocks: string[];
   rewardDropTableId: string;
   worldStateFlags: string[];
-  description: string;
+  descriptionKey: TranslationKey;
 }
 
 export interface ContentDatabase {
@@ -307,3 +307,4 @@ export interface ContentDatabase {
   multiplayerCombos: MultiplayerComboDefinition[];
   quests: QuestDefinition[];
 }
+import type { TranslationKey } from "../i18n";

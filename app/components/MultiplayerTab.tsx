@@ -44,7 +44,7 @@ export default function MultiplayerTab() {
         <div className="border-4 border-black bg-[#111116] p-6 hover:bg-[#1a1a24] transition-colors relative group shadow-[4px_4px_0_0_#000]">
           <h3 className="font-bebas text-2xl tracking-wider text-white mb-2">{t("ui.multiplayer.leaderboard")}</h3>
           <div className="space-y-3 mt-4">
-            {leaderboard.length === 0 && <div className="text-white/40 text-xs">No rankings available yet.</div>}
+            {leaderboard.length === 0 && <div className="text-white/40 text-xs">{t("ui.multiplayer.no_rankings")}</div>}
             {leaderboard.slice(0, 5).map((entry, idx) => (
               <div key={idx} className="flex justify-between items-center text-sm bg-black/40 p-2 border-l-2 border-[#00ffaa]">
                 <span className="font-bold text-white/80">
@@ -67,10 +67,10 @@ export default function MultiplayerTab() {
           <div className="flex flex-col gap-2 max-h-48 overflow-y-auto scrollbar-wasteland pr-2">
             {currentLobby ? (
               <div className="bg-[#ffaa00]/10 border-2 border-[#ffaa00] p-3">
-                <div className="text-xs text-[#ffaa00] font-black uppercase mb-2">Joined: {currentLobby.name}</div>
+                <div className="text-xs text-[#ffaa00] font-black uppercase mb-2">{t("ui.multiplayer.joined")}: {currentLobby.name}</div>
                 {currentLobby.players.map((p) => (
                   <div key={p.id} className="text-white/80 text-sm">
-                    - {p.name} {p.id === currentLobby.host ? "(Host)" : ""}
+                    - {p.name} {p.id === currentLobby.host ? `(${t("ui.multiplayer.host")})` : ""}
                   </div>
                 ))}
                 <button
@@ -81,14 +81,14 @@ export default function MultiplayerTab() {
                 </button>
               </div>
             ) : lobbies.length === 0 ? (
-              <div className="text-white/40 text-xs">No active lobbies found.</div>
+              <div className="text-white/40 text-xs">{t("ui.multiplayer.no_lobbies")}</div>
             ) : (
               lobbies.map((lobby) => (
                 <div key={lobby.id} className="bg-black/40 border-2 border-[#ffaa00]/30 p-3 flex justify-between items-center">
                   <div>
                     <div className="text-xs text-[#ffaa00] font-black uppercase">{lobby.name}</div>
                     <div className="text-[10px] text-white/40">
-                      {lobby.players.length}/{lobby.maxPlayers} Players
+                      {lobby.players.length}/{lobby.maxPlayers} {t("ui.multiplayer.players")}
                     </div>
                   </div>
                   <button
@@ -108,7 +108,7 @@ export default function MultiplayerTab() {
                 type="text"
                 value={newLobbyName}
                 onChange={(e) => setNewLobbyName(e.target.value)}
-                placeholder="Lobby Name"
+                placeholder={t("ui.multiplayer.lobby_name")}
                 className="bg-black border border-white/20 text-white px-2 py-1 text-xs w-full focus:outline-none focus:border-[#ffaa00]"
               />
               <button
@@ -129,7 +129,7 @@ export default function MultiplayerTab() {
         <div className="border-4 border-black bg-[#111116] p-6 hover:bg-[#1a1a24] transition-colors relative group shadow-[4px_4px_0_0_#000] flex flex-col">
           <h3 className="font-bebas text-2xl tracking-wider text-[#33aaff] mb-2">{t("ui.multiplayer.chat")}</h3>
           <div className="flex-1 bg-black/50 border border-white/10 p-2 overflow-y-auto mb-2 flex flex-col gap-1 min-h-[120px] max-h-[160px] scrollbar-wasteland">
-            {chatHistory.length === 0 && <span className="text-white/30 text-xs italic">No messages yet.</span>}
+            {chatHistory.length === 0 && <span className="text-white/30 text-xs italic">{t("ui.multiplayer.no_messages")}</span>}
             {chatHistory.map((msg) => (
               <div key={msg.id} className="text-xs">
                 <span className="text-[#33aaff] font-bold">[{msg.sender}]</span>{" "}
@@ -151,7 +151,7 @@ export default function MultiplayerTab() {
               type="text"
               value={chatInput}
               onChange={(e) => setChatInput(e.target.value)}
-              placeholder={currentLobby ? "Message Lobby..." : "Message Global..."}
+              placeholder={currentLobby ? t("ui.multiplayer.message_lobby") : t("ui.multiplayer.message_global")}
               className="flex-1 bg-black border border-white/20 p-2 text-xs text-white focus:outline-none focus:border-[#33aaff]"
             />
             <button type="submit" className="bg-[#33aaff] text-black px-3 font-bold text-xs uppercase hover:bg-white transition-colors">

@@ -3,8 +3,10 @@
 import { useGameStore } from "../../src/store"
 import { useAuthStore } from "@/src/auth/AuthStore"
 import { useTheme } from "@/src/theme/useTheme"
+import { useT } from "@/src/i18n/useT"
 
 export default function SettingsMenu() {
+  const t = useT()
   const { isSettingsOpen, toggleSettings } = useGameStore()
   const clearAuth = useAuthStore((s) => s.clearAuth)
   const { uiTheme, setUITheme } = useTheme()
@@ -34,18 +36,18 @@ export default function SettingsMenu() {
 
         <div className="flex flex-col gap-8">
            <div className="flex flex-col">
-              <div className="text-[10px] tracking-[0.5em] text-[#c9b7ff] font-orbitron font-bold">SYSTEM // CALIBRATION</div>
-              <h1 className="font-bebas text-6xl text-white tracking-widest leading-none">SETTINGS</h1>
+              <div className="text-[10px] tracking-[0.5em] text-[#c9b7ff] font-orbitron font-bold">{t("ui.settings.calibration")}</div>
+              <h1 className="font-bebas text-6xl text-white tracking-widest leading-none">{t("ui.settings.title")}</h1>
            </div>
 
            <div className="space-y-6">
-              <SettingRow label="Audio Volume" value="80%" />
-              <SettingRow label="SFX Intensity" value="100%" />
-              <SettingToggle label="Screen Shake" active={true} />
-              <SettingToggle label="Scanlines Overlay" active={true} />
-              <SettingRow label="Resolution" value="Native" />
+              <SettingRow label={t("ui.settings.audio_volume")} value="80%" />
+              <SettingRow label={t("ui.settings.sfx_intensity")} value="100%" />
+              <SettingToggle label={t("ui.settings.screen_shake")} active={true} />
+              <SettingToggle label={t("ui.settings.scanlines_overlay")} active={true} />
+              <SettingRow label={t("ui.settings.resolution")} value={t("ui.settings.native")} />
               <SettingThemeToggle
-                label="UI Theme"
+                label={t("ui.settings.ui_theme")}
                 active={uiTheme === 'new'}
                 onToggle={() => setUITheme(uiTheme === 'wasteland' ? 'new' : 'wasteland')}
               />
@@ -55,14 +57,14 @@ export default function SettingsMenu() {
              onClick={toggleSettings}
              className="btn-wasteland-premium w-full mt-4 bg-[#c9b7ff]"
            >
-             APPLY CHANGES
+             {t("ui.settings.apply_changes")}
            </button>
 
            <button
              onClick={handleLogout}
              className="btn-wasteland-premium w-full mt-2 bg-red-600 hover:bg-red-700"
            >
-             LOGOUT
+             {t("ui.settings.logout")}
            </button>
         </div>
 

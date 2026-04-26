@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import { useT } from "../../src/i18n/useT"
 
 /**
  * Animated Scanlines Overlay for any panel
@@ -63,9 +64,10 @@ export function WastelandBar({
  * Animated Glitch Header
  */
 export function GlitchHeader({ text, className = "" }: { text: string, className?: string }) {
+  const t = useT()
   return (
     <div className={`flex flex-col ${className}`}>
-      <div className="text-[10px] tracking-[0.5em] text-[#00ffaa] font-orbitron font-bold uppercase mb-1">DATA_STREAM_0X22</div>
+      <div className="text-[10px] tracking-[0.5em] text-[#00ffaa] font-orbitron font-bold uppercase mb-1">{t("ui.glitch_header.data_stream")}</div>
       <h1 className="font-bebas text-6xl text-white tracking-widest leading-none drop-shadow-[0_2px_0_#000] text-glitch" data-text={text}>
         {text}
       </h1>

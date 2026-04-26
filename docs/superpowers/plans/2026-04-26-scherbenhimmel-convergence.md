@@ -22,9 +22,9 @@
 - [ ] Optional Hooks (`pre-commit`/`pre-push`) vorbereiten, CI bleibt autoritativ.
 
 ## 4) Kern-Dokumente direkt aktualisieren
-- [ ] `docs/preproduction/20H_CHARACTER_PAGES.md` auf Runtime-Stand bringen.
-- [ ] `docs/preproduction/20H_QUEST_BIBLE.md` auf Runtime-Stand bringen.
-- [ ] `docs/preproduction/20H_REGION_PAGES.md` + `20H_AREA_PROGRESSION_MODEL.md` auf Runtime-Stand bringen.
+- [x] `docs/preproduction/20H_CHARACTER_PAGES.md` auf Runtime-Stand bringen. Done: Runtime-Snapshot 2026-04-26 ergänzt.
+- [x] `docs/preproduction/20H_QUEST_BIBLE.md` auf Runtime-Stand bringen. Done: Runtime-Snapshot 2026-04-26 ergänzt.
+- [x] `docs/preproduction/20H_REGION_PAGES.md` + `20H_AREA_PROGRESSION_MODEL.md` auf Runtime-Stand bringen. Done: Runtime-Snapshot 2026-04-26 ergänzt.
 - [ ] `docs/audit/DOC_CONFLICT_REGISTER.md` echte Altkonflikte markieren/abschließen.
 - [ ] `docs/STATUS_VERIFICATION.md` + `docs/ROADMAP.md` mit neuen Gates/Abnahme aktualisieren.
 

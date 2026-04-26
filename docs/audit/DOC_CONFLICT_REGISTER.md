@@ -171,3 +171,14 @@ Last updated: 2026-04-26
 - Topic: Vertical slice execution introduced runtime helper files and concise add-on doc sections while existing preproduction docs remain broader canonical sources.
 - Risk: Duplicate phrasing across append-only doc sections may diverge over time.
 - Resolution: Keep append-only add-on sections for this cycle and fold into normalized chapter structure in next docs consolidation pass.
+
+## C-016
+
+- Severity: medium
+- Files involved: `docs/preproduction/20H_CHARACTER_PAGES.md`, `20H_QUEST_BIBLE.md`, `20H_REGION_PAGES.md`, `20H_AREA_PROGRESSION_MODEL.md`, runtime content modules
+- Conflicting statements: preproduction core chapters lagged behind extended runtime roster/area state contracts.
+- Current authoritative answer: runtime now includes extended character roster and area-state contract fields (`state`, `stateLabelKey`, `availableModesWhenCleared`) used by hub/map/deploy flows.
+- Decision made: added synchronized runtime snapshot sections directly in core `20H_*` documents (no addendum).
+- Files changed: the four core preproduction files above.
+- Evidence / command output: runtime inspection + green `npm run verify` / `npm run build` after updates.
+- Remaining follow-up: fold snapshot notes into normalized chapter tables in next docs consolidation pass.

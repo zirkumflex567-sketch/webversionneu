@@ -415,3 +415,8 @@ Laternenhof changes tone. Ivara confrontation unlocks. Midgame loop opens with S
 - Loot bias: +tech cache probability, -scrap crates
 - Extraction modifier: enemy pressure +10% while extraction channeling
 - Active content links: SQ-GM-01, bounty_chemfog_blackout
+
+## Runtime Sync Snapshot (2026-04-26)
+- Runtime area definitions include `graumarsch`, `sonnenglasweite`, `wurzelwald-nhal`, plus `graumarsch-chemiefabrik` as active extended instance.
+- Area contracts now include progress state + state label key + available modes when cleared; these fields are authoritative for deploy/map UI state.
+- Free-run and bounty availability are driven from area progress state and must remain domain-driven (not UI-local logic).
