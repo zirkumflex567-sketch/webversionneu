@@ -13,11 +13,10 @@ H-Town Combat 67 is a web-based vehicle extraction roguelite project with a 20-h
 
 Start here for any implementation or audit work:
 
-1. `.chatgpt/skills/htown-combat-dev/SKILL.md`
-2. [docs/README.md](docs/README.md)
-3. [docs/preproduction/20H_DOCUMENTATION_INDEX.md](docs/preproduction/20H_DOCUMENTATION_INDEX.md)
-4. [docs/SOURCE_OF_TRUTH.md](docs/SOURCE_OF_TRUTH.md)
-5. [docs/STATUS_VERIFICATION.md](docs/STATUS_VERIFICATION.md)
+1. [docs/README.md](docs/README.md)
+2. [docs/preproduction/20H_DOCUMENTATION_INDEX.md](docs/preproduction/20H_DOCUMENTATION_INDEX.md)
+3. [docs/SOURCE_OF_TRUTH.md](docs/SOURCE_OF_TRUTH.md)
+4. [docs/STATUS_VERIFICATION.md](docs/STATUS_VERIFICATION.md)
 
 ## Source of Truth
 

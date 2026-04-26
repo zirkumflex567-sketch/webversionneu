@@ -6,17 +6,16 @@ This file defines which documents are authoritative when statements conflict.
 
 ## Active Hierarchy (highest to lowest)
 
-1. `.chatgpt/skills/htown-combat-dev/SKILL.md`
-2. `docs/README.md`
-3. `docs/preproduction/20H_DOCUMENTATION_INDEX.md`
-4. `docs/COMPLETE_GAME_FUNCTION_SPEC.md`
-5. `docs/Technical_Architecture.md`
-6. `docs/preproduction/20H_SYSTEMS_AND_DATA_CONTRACTS.md`
-7. Feature-specific `docs/preproduction/*` owner docs
-8. `README.md` (repo summary only)
-9. `ROADMAP_DETAILED.md` (planning/status tracker only)
-10. `story/*` legacy content only when compatible with active contracts
-11. `docs/archive/**` historical only; never authoritative
+1. `docs/README.md`
+2. `docs/preproduction/20H_DOCUMENTATION_INDEX.md`
+3. `docs/COMPLETE_GAME_FUNCTION_SPEC.md`
+4. `docs/Technical_Architecture.md`
+5. `docs/preproduction/20H_SYSTEMS_AND_DATA_CONTRACTS.md`
+6. Feature-specific `docs/preproduction/*` owner docs
+7. `README.md` (repo summary only)
+8. `ROADMAP_DETAILED.md` (planning/status tracker only)
+9. `story/*` legacy content only when compatible with active contracts
+10. `docs/archive/**` historical only; never authoritative
 
 ## Conflict Resolution Rule
 

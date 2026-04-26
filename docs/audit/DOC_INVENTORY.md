@@ -3,6 +3,9 @@
 Last generated: 2026-04-25
 Commit baseline: `e32350f`
 
+Note: this inventory is a historical snapshot from 2026-04-25.
+For current-state reconciliation, see `docs/audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-26.md`.
+
 This inventory captures all high-impact documentation and relevant code/config files in audit scope, with classification for source-of-truth governance.
 
 ## Legend

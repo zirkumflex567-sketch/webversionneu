@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { GoogleAuthProvider } from '../src/auth/GoogleAuthProvider';
 
 export const metadata: Metadata = {
-  title: 'REDLINE FC',
-  description: 'Arcade football prototype powered by Three.js and Next.js',
+  title: 'H-Town Combat 67',
+  description: 'Vehicle extraction roguelite powered by Three.js and Next.js',
 };
 
 export default function RootLayout({

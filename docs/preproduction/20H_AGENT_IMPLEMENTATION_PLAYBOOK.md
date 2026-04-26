@@ -5,13 +5,12 @@ This document tells coding, design, QA, content, and implementation agents exact
 
 Before changing code, docs, quests, content, localization, multiplayer, rewards, persistence, extraction, UI, QA, or architecture:
 
-1. Read `.chatgpt/skills/htown-combat-dev/SKILL.md`.
-2. Read `docs/README.md`.
-3. Read `docs/preproduction/20H_DOCUMENTATION_INDEX.md`.
-4. Read the feature owner document listed in the index.
-5. Check `docs/SOURCE_OF_TRUTH.md`.
-6. Check `docs/STATUS_VERIFICATION.md`.
-7. If documents conflict, stop and fix docs before coding.
+1. Read `docs/README.md`.
+2. Read `docs/preproduction/20H_DOCUMENTATION_INDEX.md`.
+3. Read the feature owner document listed in the index.
+4. Check `docs/SOURCE_OF_TRUTH.md`.
+5. Check `docs/STATUS_VERIFICATION.md`.
+6. If documents conflict, stop and fix docs before coding.
 
 ### Hard prohibitions
 

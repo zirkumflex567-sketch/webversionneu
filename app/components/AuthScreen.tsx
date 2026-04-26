@@ -113,7 +113,7 @@ export default function AuthScreen({ children }: { children: React.ReactNode }) 
   return (
     <div className="w-screen h-screen bg-black flex items-center justify-center">
       <div className="w-full max-w-md p-8 bg-gray-900 rounded-lg border border-cyan-500">
-        <h1 className="text-3xl font-bold text-cyan-400 mb-8 text-center">REDLINE FC</h1>
+        <h1 className="text-3xl font-bold text-cyan-400 mb-8 text-center">H-Town Combat 67</h1>
 
         {error && (
           <div className="bg-red-900 text-red-100 p-3 rounded mb-4 text-sm">

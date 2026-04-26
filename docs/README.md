@@ -6,13 +6,12 @@ This is the authoritative entry point for all implementation and documentation w
 
 Before changing code, docs, quests, content, localization, multiplayer, rewards, persistence, extraction, UI, QA, or architecture:
 
-1. Read `.chatgpt/skills/htown-combat-dev/SKILL.md`.
-2. Read `docs/README.md`.
-3. Read `docs/preproduction/20H_DOCUMENTATION_INDEX.md`.
-4. Read the feature owner document listed in the index.
-5. Check `docs/SOURCE_OF_TRUTH.md`.
-6. Check `docs/STATUS_VERIFICATION.md`.
-7. If documents conflict, stop and fix docs before coding.
+1. Read `docs/README.md`.
+2. Read `docs/preproduction/20H_DOCUMENTATION_INDEX.md`.
+3. Read the feature owner document listed in the index.
+4. Check `docs/SOURCE_OF_TRUTH.md`.
+5. Check `docs/STATUS_VERIFICATION.md`.
+6. If documents conflict, stop and fix docs before coding.
 
 ### Hard prohibitions
 
@@ -84,6 +83,7 @@ Use `docs/SOURCE_OF_TRUTH.md` for document authority ranking.
 - [Doc Conflict Register](audit/DOC_CONFLICT_REGISTER.md)
 - [Code Doc Traceability Matrix](audit/CODE_DOC_TRACEABILITY_MATRIX.md)
 - [Doc Inventory](audit/DOC_INVENTORY.md)
+- [Full Repo Docs Code Audit 2026-04-26](audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-26.md)
 - [Full Repo Docs Code Audit 2026-04-25](audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-25.md)
 
 ### Historical archive
@@ -106,9 +106,9 @@ Use `docs/STATUS_VERIFICATION.md` for all current status evidence.
 
 ## Starting Sequence for New Contributors/Agents
 
-1. `.chatgpt/skills/htown-combat-dev/SKILL.md`
-2. `docs/README.md`
-3. `docs/preproduction/20H_DOCUMENTATION_INDEX.md`
+1. `docs/README.md`
+2. `docs/preproduction/20H_DOCUMENTATION_INDEX.md`
+3. `docs/SOURCE_OF_TRUTH.md`
 4. `docs/Technical_Architecture.md`
 5. Feature-owner doc from the index
 6. `docs/STATUS_VERIFICATION.md`

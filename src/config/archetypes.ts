@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Character Archetypes, Trick Types & Chaos Modifiers
+ * H-Town Combat 67 — Character Archetypes, Trick Types & Chaos Modifiers
  * 12 unique character slots for MVP roster.
  */
 
@@ -87,3 +87,4 @@ export const CHAOS_MODS: ChaosMod[] = [
   { name: 'SPEED DEMONS', desc: 'Everyone is fast!', duration: 25, apply: (g) => { g.chaosSpeedMult = 1.6; }, remove: (g) => { g.chaosSpeedMult = 1; } },
   { name: 'GLASS CANNON', desc: 'One-hit knockdowns!', duration: 20, apply: (g) => { g.chaosGlassCannon = true; }, remove: (g) => { g.chaosGlassCannon = false; } },
 ];
+

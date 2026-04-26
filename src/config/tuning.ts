@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Game Tuning Constants
+ * H-Town Combat 67 — Game Tuning Constants
  * All gameplay-relevant numbers in one place for easy balancing.
  */
 export const CFG = {
@@ -60,3 +60,4 @@ export const CFG = {
 } as const;
 
 export type CFGType = typeof CFG;
+

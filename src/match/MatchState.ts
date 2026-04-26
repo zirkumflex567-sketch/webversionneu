@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Match State Machine
+ * H-Town Combat 67 — Match State Machine
  * Phases, score tracking, and set-piece management.
  */
 
@@ -43,3 +43,4 @@ export interface MatchState {
   registerGoal: (side: number) => void;
   triggerSetPiece: (type: string, team: string, pos: { x: number; y: number; z: number }) => void;
 }
+

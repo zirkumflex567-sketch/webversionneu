@@ -1,0 +1,121 @@
+Ja — jetzt ist `webversionneu` öffentlich erreichbar. Den GitHub-Connector sehe ich in dieser Session nicht als eigenes freigeschaltetes Werkzeug; ich habe deshalb direkt über das öffentliche GitHub-Repo geprüft. Das Repo ist öffentlich, und die Root-Struktur ist sichtbar. ([GitHub][1])
+
+Ich habe dir ein neues, anwendbares Docs-Cleanup-Paket gebaut:
+
+[webversionneu-docs-cleanup-2026-04-26.zip herunterladen](sandbox:/mnt/data/webversionneu-docs-cleanup-2026-04-26.zip)
+
+## Ergebnis
+
+Die Doku ist **nicht komplett deckungsgleich** mit der Codebase. Sie ist schon deutlich strukturierter als vorher, aber es gibt noch klare Diskrepanzen, falsche Namen und Altlasten.
+
+Der wichtigste Doku-Fehler: `README.md`, `docs/README.md` und `docs/SOURCE_OF_TRUTH.md` verweisen aktiv auf `.chatgpt/skills/htown-combat-dev/SKILL.md`, während im öffentlichen Repo-Root keine `.chatgpt`-Struktur sichtbar ist. Der Root zeigt stattdessen unter anderem `app`, `docs`, `src`, `scripts`, `tests`, `package.json`, `next.config.mjs`, `multiplayer-server.mjs`, `nginx.conf`, `index.html`, `prototype.html`, mehrere `fr-sieg-*` Dateien und `gmail-creds*.json`. ([GitHub][1])
+
+## Was im ZIP enthalten ist
+
+Das Paket enthält ein `repo-overlay/` mit aktualisierten aktiven Dateien:
+
+```text
+README.md
+docs/README.md
+docs/SOURCE_OF_TRUTH.md
+docs/STATUS_VERIFICATION.md
+docs/Technical_Architecture.md
+docs/archive/README.md
+docs/audit/DOC_CONFLICT_REGISTER.md
+docs/audit/CODE_DOC_TRACEABILITY_MATRIX.md
+docs/audit/FULL_REPO_DOCS_CODE_AUDIT_2026-04-26.md
+```
+
+Außerdem sind Apply-Skripte enthalten:
+
+```text
+apply-docs-cleanup.sh
+apply-docs-cleanup.ps1
+```
+
+Die Skripte archivieren die alten aktiven Docs automatisch nach:
+
+```text
+docs/archive/2026-04-26/webversionneu-docs-cleanup/
+```
+
+Danach kopieren sie das neue Overlay in den Repo-Root.
+
+## Wichtigste Funde
+
+### 1. Falsche aktive Projektidentität im Code
+
+`app/layout.tsx` setzt noch `title: 'REDLINE FC'` und beschreibt das Projekt als Football-Prototyp. Das widerspricht der aktiven Doku-Identität `H-Town Combat 67 / Scherbenhimmel`. ([GitHub][2])
+
+Auch `package.json` heißt noch `bifa-web-app`. Gleichzeitig nutzt die Doku H-Town Combat 67 als aktiven Projektnamen. ([GitHub][3])
+
+### 2. Open-World-Widerspruch zwischen Doku und Runtime
+
+Die aktive Doku sagt korrekt: Die erste 20h-Kampagne ist **kein seamless open world**, sondern `Hub -> Quest -> Area Instance -> Extraction -> Hub`. ([GitHub][1])
+
+Aber der Runtime-Code importiert und nutzt aktiv `OpenWorldManager` in `src/game/Game.ts`; `src/game/OpenWorld.ts` definiert große Zonen, Zone-Transitions, Fog/Lighting-Wechsel und NPC-Interaktionen. Das muss entweder refaktoriert oder sauber als Prototyp-/Naming-Schuld dokumentiert werden. ([GitHub][4])
+
+### 3. Doku beschreibt teilweise Zielstruktur statt aktuelle Codebase
+
+`docs/Technical_Architecture.md` beschreibt eine empfohlene `src/app`-Struktur. Die tatsächliche Codebase nutzt aber root-level `app/` plus separates `src/`; `tsconfig.json` inkludiert auch genau `src`, `app` und `.next/types`. ([GitHub][5])
+
+Ich habe die Architektur-Datei im Overlay deshalb in eine **Current-State-Snapshot-Doku** umgebaut: tatsächliche Struktur, aktueller Stack, Runtime-Schulden, Content-Lücken und Zielstruktur sind getrennt.
+
+### 4. Content-Doku ist weiter als `src/content`
+
+Die Doku beschreibt Kampagnenmodule wie Areas, Quests, Bounties, Statuses, Items, Codex und Localization. In `src/content/` sichtbar sind aktuell aber nur `bosses.ts`, `characters.ts`, `index.ts`, `loot.ts`, `multiplayerCombos.ts`, `schema.ts`, `skills.ts`, `vehicleModules.ts` und `vehicles.ts`. ([GitHub][6])
+
+Im Overlay ist das als `Partial / Planned` markiert, damit keine falschen `Implemented`-Claims entstehen.
+
+### 5. Dokumentierter Validation-Gate existiert noch nicht
+
+`docs/Technical_Architecture.md` empfiehlt `scripts/validate-content.ts` und ein `validate:content` Package-Script. In `package.json` gibt es dieses Script nicht; die sichtbaren Scripts sind `dev`, `build`, `start`, `lint`, `test`, `test:viewport` und `test:fps`. ([GitHub][5])
+
+Im Overlay steht deshalb klar: Content Validation ist ein notwendiges Ziel, aber aktuell kein vorhandener Build-Gate.
+
+### 6. Security-/Repo-Hygiene-Blocker
+
+Im öffentlichen Root sind `gmail-creds-final.json`, `gmail-creds-new.json` und `gmail-creds.json` sichtbar. Die aktuelle `STATUS_VERIFICATION.md` sagt sogar, die Secrets-Policy halte Credential-JSON-Dateien per User-Entscheidung im Repo. Bei einem öffentlichen Repo ist das mindestens ein Blocker, falls diese Dateien echte Credentials enthalten. ([GitHub][1])
+
+Ich habe keine Secrets geöffnet, extrahiert oder in das Paket übernommen. Im Audit steht: sofort rotieren/widerrufen, aus Tree entfernen und bei echten Secrets aus der Git-History purgen.
+
+### 7. Archiv-Registry widerspricht Root-Realität
+
+`docs/archive/README.md` sagt, `index.html` und `prototype.html` seien archiviert worden. Im Root sind aber weiterhin Dateien mit genau diesen Namen sichtbar. Das kann ein Stub sein, eine Reintroduktion oder ein nicht abgeschlossener Cleanup — so wie es jetzt dokumentiert ist, ist es nicht sauber. ([GitHub][7])
+
+Das Overlay markiert diesen Punkt im Conflict Register und Archive Registry.
+
+## Anwenden
+
+Nach dem Entpacken im lokalen Repo-Root:
+
+```bash
+git checkout -b docs/webversionneu-cleanup-2026-04-26
+/path/to/webversionneu-docs-cleanup-2026-04-26/apply-docs-cleanup.sh
+
+git diff -- README.md docs
+npm ci
+npm test
+npm run lint
+npm run build
+npm run test:viewport
+npm run test:fps
+npm audit --audit-level=high
+```
+
+PowerShell:
+
+```powershell
+git checkout -b docs/webversionneu-cleanup-2026-04-26
+pwsh .\webversionneu-docs-cleanup-2026-04-26\apply-docs-cleanup.ps1
+```
+
+Ich habe **nicht gepusht** und **keine Tests neu ausgeführt**, weil ich hier keinen schreibenden GitHub-Connector und keinen verlässlichen lokalen Clone-Zugriff auf GitHub hatte. Das Paket ist deshalb bewusst als Overlay mit Archiv-Skripten, Audit-Bericht und klaren Follow-up-Blockern gebaut.
+
+[1]: https://github.com/zirkumflex567-sketch/webversionneu "GitHub - zirkumflex567-sketch/webversionneu · GitHub"
+[2]: https://raw.githubusercontent.com/zirkumflex567-sketch/webversionneu/main/app/layout.tsx "raw.githubusercontent.com"
+[3]: https://raw.githubusercontent.com/zirkumflex567-sketch/webversionneu/main/package.json "raw.githubusercontent.com"
+[4]: https://raw.githubusercontent.com/zirkumflex567-sketch/webversionneu/main/src/game/Game.ts "raw.githubusercontent.com"
+[5]: https://raw.githubusercontent.com/zirkumflex567-sketch/webversionneu/main/docs/Technical_Architecture.md "raw.githubusercontent.com"
+[6]: https://github.com/zirkumflex567-sketch/webversionneu/tree/main/src/content "webversionneu/src/content at main · zirkumflex567-sketch/webversionneu · GitHub"
+[7]: https://raw.githubusercontent.com/zirkumflex567-sketch/webversionneu/main/docs/archive/README.md "raw.githubusercontent.com"

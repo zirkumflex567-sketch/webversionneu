@@ -48,17 +48,17 @@ Hub / Laternenhof
 
 This means the engine should optimize for loaded area instances, not one persistent overworld simulation.
 
-## 4. Recommended Source Layout
+## 4. Current Repository Layout
 
-Recommended structure for implementation work:
+Current structure in this repository:
 
 ```text
+app/                             # Next.js routes and route-level shells
+├── page.tsx                     # Boot / landing
+├── garage/                      # Hub / Laternenhof UI
+├── game/                        # Area instance game client route
+└── api/                         # Server endpoints
 src/
-├── app/                         # Next.js routes and route-level shells
-│   ├── page.tsx                 # Boot / landing
-│   ├── garage/                  # Hub / Laternenhof UI
-│   ├── game/                    # Area instance game client route
-│   └── api/                     # Server endpoints if needed
 ├── content/                     # Authored game content, no runtime mutation
 │   ├── areas.ts
 │   ├── quests.ts
@@ -85,6 +85,8 @@ src/
 ├── lib/                         # shared utilities
 └── types/                       # shared TypeScript contracts
 ```
+
+Target architecture may evolve, but docs must describe the current tree first and call out future structure explicitly.
 
 ## 5. Layer Rules
 
@@ -135,6 +137,12 @@ Rules:
 - Three.js should consume state; it should not own campaign truth.
 - Rendering can interpolate, animate, and present, but not decide reward banking, quest completion, or save flags.
 - Effects must have accessibility fallbacks for flash, shake, color, and confusion.
+
+Current note:
+
+- The runtime still uses `OpenWorldManager` naming inside area instances.
+- This is a legacy class name and does not imply seamless campaign traversal.
+- Campaign progression remains hub-driven and area-instanced by contract.
 
 ### 5.4 UI Layer
 

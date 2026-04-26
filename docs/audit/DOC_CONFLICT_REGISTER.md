@@ -1,6 +1,6 @@
 # Documentation Conflict Register
 
-Last updated: 2026-04-25
+Last updated: 2026-04-26
 
 ## C-001
 
@@ -133,3 +133,25 @@ Last updated: 2026-04-25
 - Files changed: `docs/README.md`, `docs/preproduction/20H_DOCUMENTATION_INDEX.md`, `docs/preproduction/20H_AGENT_IMPLEMENTATION_PLAYBOOK.md`, `.chatgpt/skills/htown-combat-dev/SKILL.md`
 - Evidence / command output: file inspection.
 - Remaining follow-up: include regression check in future docs audits.
+
+## C-013
+
+- Severity: high
+- Files involved: `README.md`, `docs/README.md`, `docs/SOURCE_OF_TRUTH.md`, `docs/preproduction/20H_*`
+- Conflicting statements: active docs referenced missing `.chatgpt/skills/htown-combat-dev/SKILL.md` as mandatory entrypoint.
+- Current authoritative answer: repo-native docs are the entry contract; missing external skill files cannot be required.
+- Decision made: removed mandatory references to missing `.chatgpt` skill path from active entry docs and preproduction playbooks.
+- Files changed: `README.md`, `docs/README.md`, `docs/SOURCE_OF_TRUTH.md`, `docs/preproduction/20H_DOCUMENTATION_INDEX.md`, `docs/preproduction/20H_AGENT_IMPLEMENTATION_PLAYBOOK.md`
+- Evidence / command output: `Test-Path .chatgpt/skills/htown-combat-dev/SKILL.md` -> false; `rg` scan of active docs.
+- Remaining follow-up: none.
+
+## C-014
+
+- Severity: high
+- Files involved: `app/layout.tsx`, `app/components/AuthScreen.tsx`, `src/services/emailService.ts`, `src/*` module headers, `package.json`
+- Conflicting statements: active runtime used `REDLINE FC` and `bifa-web-app` while docs declare `H-Town Combat 67`.
+- Current authoritative answer: active public/runtime name is `H-Town Combat 67`.
+- Decision made: replaced active runtime branding and package name; retained legacy naming only in archived docs.
+- Files changed: runtime and config files above, plus naming/audit docs.
+- Evidence / command output: pre/post `rg -n "REDLINE FC|bifa-web-app" app src package.json`.
+- Remaining follow-up: keep naming checks in future audit passes.

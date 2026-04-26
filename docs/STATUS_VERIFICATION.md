@@ -1,7 +1,7 @@
 ﻿# Status Verification (Clean-Room Repo)
 
 Last verified: 2026-04-26
-Commit baseline: 6a6c0b7
+Commit baseline: d7ea54d
 Repo root: C:\Users\Shadow\2\2\NEUEWEBVERSION\webversionneu
 
 ## Command Snapshot
@@ -10,7 +10,7 @@ Repo root: C:\Users\Shadow\2\2\NEUEWEBVERSION\webversionneu
 |---|---|---|
 | `npm ci` | pass with warnings | install complete; 2 moderate advisories |
 | `npm test` | pass | 32 files, 333 tests passed |
-| `npm run lint` | pass with warnings | no lint errors; Next warnings remain (`img`, font, plugin/root inference) |
+| `npm run lint` | pass with warnings | no lint errors; Next warnings remain (`img`, custom font, plugin/root inference) |
 | `npm run build` | pass with warnings | production build successful; same warnings as lint |
 | `npm audit --audit-level=high` | pass | no high/critical vulnerabilities; 2 moderate remain |
 
@@ -26,4 +26,5 @@ Repo root: C:\Users\Shadow\2\2\NEUEWEBVERSION\webversionneu
 
 - Moderate dependency advisories still present (`postcss` via Next dependency tree).
 - Next lint/build warnings remain (non-blocking).
-- Secrets policy currently keeps credential JSON files in repo by explicit user decision.
+- Multi-lockfile workspace warning remains in Next.js output (root-level lockfile outside this repo folder).
+- Legacy multi-project infrastructure files (`fr-sieg-*`, `nginx.conf`) remain in tree and should be treated as boundary-managed scope.

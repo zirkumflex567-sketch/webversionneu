@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Module Index
+ * H-Town Combat 67 — Module Index
  * Central barrel export for all game modules.
  */
 
@@ -18,3 +18,4 @@ export type { GamepadState } from './input/Input';
 // Match
 export { MP, BS, S } from './match/MatchState';
 export type { MatchState, MatchStats } from './match/MatchState';
+

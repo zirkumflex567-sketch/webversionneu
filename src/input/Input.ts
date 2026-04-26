@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Input System
+ * H-Town Combat 67 — Input System
  * Keyboard + Gamepad with action buffering.
  */
 
@@ -72,3 +72,4 @@ export function readGamepad(idx: number): GamepadState | null {
     special: gp.buttons[8]?.pressed ?? false,
   };
 }
+

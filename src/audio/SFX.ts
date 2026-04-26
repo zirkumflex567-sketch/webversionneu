@@ -1,5 +1,5 @@
 /**
- * REDLINE FC — Sound Effects (Web Audio API)
+ * H-Town Combat 67 — Sound Effects (Web Audio API)
  * Procedural audio for all game events.
  */
 
@@ -134,3 +134,4 @@ export const SFX = {
     playNoise(.8, .08, 120, 40);
   },
 };
+
