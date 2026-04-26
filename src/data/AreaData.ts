@@ -1,4 +1,4 @@
-import type { TranslationKey } from "../i18n"
+﻿import type { TranslationKey } from "../i18n"
 
 export type AreaProgressState = "locked" | "active_quest" | "cleared_free_run"
 export type AreaMode = "story" | "side" | "companion" | "bounty" | "free_run"
@@ -10,9 +10,9 @@ export interface AreaDefinition {
   mapY: number
   color: string
   threat: "low" | "medium" | "high"
+  state: AreaProgressState
   nameKey: TranslationKey
   descriptionKey: TranslationKey
-  state: AreaProgressState
   availableModesWhenCleared: AreaMode[]
   stateLabelKey: TranslationKey
 }
@@ -38,9 +38,9 @@ export const AREA_DEFINITIONS: AreaDefinition[] = [
     mapY: 46,
     color: "#00ffaa",
     threat: "medium",
+    state: "active_quest",
     nameKey: "area.graumarsch.name",
     descriptionKey: "area.graumarsch.description",
-    state: "active_quest",
     availableModesWhenCleared: ["story", "side", "companion", "bounty", "free_run"],
     stateLabelKey: "ui.map.state.active_quest",
   },
@@ -51,9 +51,9 @@ export const AREA_DEFINITIONS: AreaDefinition[] = [
     mapY: 34,
     color: "#e9c46a",
     threat: "high",
+    state: "locked",
     nameKey: "area.sonnenglasweite.name",
     descriptionKey: "area.sonnenglasweite.description",
-    state: "locked",
     availableModesWhenCleared: ["story", "side", "companion", "bounty", "free_run"],
     stateLabelKey: "ui.map.state.locked",
   },
@@ -64,9 +64,9 @@ export const AREA_DEFINITIONS: AreaDefinition[] = [
     mapY: 62,
     color: "#4caf50",
     threat: "high",
+    state: "locked",
     nameKey: "area.wurzelwald.name",
     descriptionKey: "area.wurzelwald.description",
-    state: "locked",
     availableModesWhenCleared: ["story", "side", "companion", "bounty", "free_run"],
     stateLabelKey: "ui.map.state.locked",
   },
@@ -77,9 +77,9 @@ export const AREA_DEFINITIONS: AreaDefinition[] = [
     mapY: 52,
     color: "#6cf0ff",
     threat: "high",
+    state: "active_quest",
     nameKey: "area.graumarsch_chemiefabrik.name",
     descriptionKey: "area.graumarsch_chemiefabrik.description",
-    state: "active_quest",
     availableModesWhenCleared: ["story", "side", "bounty", "free_run"],
     stateLabelKey: "ui.map.state.active_quest",
   },

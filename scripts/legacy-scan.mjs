@@ -3,9 +3,15 @@ import path from "node:path"
 
 const root = process.cwd()
 const blocked = ["REDLINE", "BIFA", "ArcadeFootball", "bifa-web-app"]
+const mode = process.env.LEGACY_SCAN_MODE === "block" ? "block" : "warn"
+const suppressions = [
+  "docs/archive/",
+  "src/legacy/",
+]
 const roots = ["app", "src", "package.json", "next.config.mjs"]
 const ignorePrefixes = ["src/legacy/", ".git/", "node_modules/", ".next/"]
 const failures = []
+const warnings = []
 
 function walk(dir) {
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -20,7 +26,9 @@ function walk(dir) {
     const content = fs.readFileSync(full, "utf8")
     for (const token of blocked) {
       if (content.includes(token)) {
-        failures.push(`${rel}: contains legacy token "${token}"`)
+        const msg = `${rel}: contains legacy token "${token}"`
+        if (suppressions.some((p) => rel.startsWith(p))) warnings.push(msg)
+        else failures.push(msg)
       }
     }
   }
@@ -37,10 +45,17 @@ for (const relRoot of roots) {
     const content = fs.readFileSync(abs, "utf8")
     for (const token of blocked) {
       if (content.includes(token)) {
-        failures.push(`${rel}: contains legacy token "${token}"`)
+        const msg = `${rel}: contains legacy token "${token}"`
+        if (suppressions.some((p) => rel.startsWith(p))) warnings.push(msg)
+        else failures.push(msg)
       }
     }
   }
+}
+
+if (warnings.length) {
+  console.warn("legacy-scan warnings:")
+  for (const w of warnings) console.warn(` - ${w}`)
 }
 
 if (failures.length) {
@@ -49,4 +64,9 @@ if (failures.length) {
   process.exit(1)
 }
 
-console.log("legacy-scan passed")
+if (mode === "block" && warnings.length) {
+  console.error("legacy-scan failed in block mode due to warnings")
+  process.exit(1)
+}
+
+console.log(`legacy-scan passed (${mode} mode)`)

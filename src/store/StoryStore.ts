@@ -4,6 +4,7 @@ import { QUESTS, NPCS } from '../data/story/quests';
 import { DIALOGS } from '../data/story/dialogs';
 import { SaveManager } from '../save/SaveManager';
 import { CharacterId } from '../save/SaveSchema';
+import { AREA_DEFINITIONS, AreaProgressState } from '../data/AreaData';
 
 const STORY_UNLOCK_TO_CHARACTER: Record<string, CharacterId> = {
   'Lyra Dorn': 'lyra',
@@ -57,6 +58,7 @@ interface StoryState {
   dialogs: Record<string, DialogNode>;
   activeQuests: Quest[];
   characterBonuses: Record<string, { critChancePercent?: number; moveSpeedPercent?: number; armor?: number; loreAccess?: boolean }>;
+  areaProgress: Record<string, AreaProgressState>;
 
   // Actions
   updateQuestStatus: (id: string, status: QuestStatus) => void;
@@ -90,6 +92,7 @@ export const useStoryStore = create<StoryState>((set, get) => ({
   dialogs: DIALOGS,
   activeQuests: QUESTS.filter(q => q.status === 'active'),
   characterBonuses: {},
+  areaProgress: Object.fromEntries(AREA_DEFINITIONS.map((a) => [a.id, a.state])) as Record<string, AreaProgressState>,
 
   updateQuestStatus: (id, status) => {
     set((state) => {
@@ -111,11 +114,28 @@ export const useStoryStore = create<StoryState>((set, get) => ({
         }
       }
 
+      const areaProgress = { ...state.areaProgress }
+      if (status === 'completed') {
+        const quest = state.quests.find(q => q.id === id)
+        if (quest) {
+          const regionToAreaId: Record<string, string> = {
+            Graumarsch: 'graumarsch',
+            Sonnenglasweite: 'sonnenglasweite',
+            Wurzelwald: 'wurzelwald-nhal',
+          }
+          const areaId = regionToAreaId[quest.region]
+          if (areaId) {
+            areaProgress[areaId] = quest.type === 'main' ? 'cleared_free_run' : 'active_quest'
+          }
+        }
+      }
+
       syncCharacterUnlocksFromStory(newQuests);
 
       return {
         quests: newQuests,
-        activeQuests: newQuests.filter(q => q.status === 'active')
+        activeQuests: newQuests.filter(q => q.status === 'active'),
+        areaProgress,
       };
     });
     
