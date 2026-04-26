@@ -1,5 +1,15 @@
 # Strategic Roadmap: H-Town Combat 67
 
+## Convergence Sprint (2026-04-26)
+**Goal**: Runtime, docs and localization converge on one consistent contract.
+- [x] Hub/Story core labels migrated to i18n keys.
+- [x] Bounty runtime content migrated to translation-key backed fields.
+- [x] Story progression linked to area progress transitions.
+- [x] Guardrails upgraded to staged warn/block mode (`i18n-check`, `legacy-scan`).
+- [ ] Remaining UI hardcoded text migration (Auth/Debug/HUD/Profile/StoryPanel/etc.).
+- [ ] Full content keyification for character and quest data contracts.
+- [ ] Final preproduction docs synchronization sweep.
+
 ## Phase 1: Meta-Foundations & The Garage (P0)
 **Goal**: Establish the core loop and persistence.
 - [ ] **Save System**: Implement persistent storage for Scrap and Tech using Zod schema for robustness.
