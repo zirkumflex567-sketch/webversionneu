@@ -28,6 +28,6 @@
 - [x] 4.5 Update STATUS_VERIFICATION.md + ROADMAP.md + DOC_CONFLICT_REGISTER.md.
 
 ## 5) Commits
-- [ ] 5.1 Commit docs/contracts + i18n updates.
-- [ ] 5.2 Commit domain/data + tests updates.
-- [ ] 5.3 Commit QA/status docs updates.
+- [x] 5.1 Commit docs/contracts + i18n updates.
+- [x] 5.2 Commit domain/data + tests updates.
+- [x] 5.3 Commit QA/status docs updates.
