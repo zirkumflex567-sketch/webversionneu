@@ -1,3 +1,5 @@
+import type { TranslationKey } from "../i18n"
+
 export type BountyObjectiveType =
   | "KillEnemies"
   | "KillElites"
@@ -26,8 +28,8 @@ export interface BountyEffect {
 
 export interface BountyData {
   id: string
-  displayName: string
-  description: string
+  displayNameKey: TranslationKey
+  descriptionKey: TranslationKey
   objectives: BountyObjective[]
   effects: BountyEffect[]
   rewardScrap: number
@@ -41,8 +43,8 @@ export interface BountyData {
 export const BOUNTIES: BountyData[] = [
   {
     id: "bounty_scrap_rush",
-    displayName: "Scrap Rush",
-    description: "Collect 500 Scrap in one run. +25% Scrap gain, +15% enemy count.",
+    displayNameKey: "bounty.scrap_rush.name",
+    descriptionKey: "bounty.scrap_rush.description",
     objectives: [{ type: "CollectScrap", targetCount: 500 }],
     effects: [
       { type: "ScrapMultiplier", value: 1.25 },
@@ -57,8 +59,8 @@ export const BOUNTIES: BountyData[] = [
   },
   {
     id: "bounty_tech_heist",
-    displayName: "Tech Heist",
-    description: "Collect 3 Tech in one run. +50% Tech gain, +30% incoming damage.",
+    displayNameKey: "bounty.tech_heist.name",
+    descriptionKey: "bounty.tech_heist.description",
     objectives: [{ type: "CollectTech", targetCount: 3 }],
     effects: [
       { type: "TechMultiplier", value: 1.5 },
@@ -73,8 +75,8 @@ export const BOUNTIES: BountyData[] = [
   },
   {
     id: "bounty_slaughter",
-    displayName: "Slaughterhouse",
-    description: "Kill 200 enemies. +20% damage, +50% enemy count.",
+    displayNameKey: "bounty.slaughter.name",
+    descriptionKey: "bounty.slaughter.description",
     objectives: [{ type: "KillEnemies", targetCount: 200 }],
     effects: [
       { type: "DamageBonus", value: 0.2 },
@@ -89,8 +91,8 @@ export const BOUNTIES: BountyData[] = [
   },
   {
     id: "bounty_marathon",
-    displayName: "Marathon",
-    description: "Reach wave 6. Slow burn, huge payout.",
+    displayNameKey: "bounty.marathon.name",
+    descriptionKey: "bounty.marathon.description",
     objectives: [{ type: "ReachWave", targetCount: 6 }],
     effects: [
       { type: "ScrapMultiplier", value: 1.1 },
@@ -105,8 +107,8 @@ export const BOUNTIES: BountyData[] = [
   },
   {
     id: "bounty_chemfog_blackout",
-    displayName: "Chemfog Blackout",
-    description: "Survive 240s in Chemiefabrik fog. -25% shield margin, +50% Tech gain.",
+    displayNameKey: "bounty.chemfog_blackout.name",
+    descriptionKey: "bounty.chemfog_blackout.description",
     objectives: [{ type: "SurviveSeconds", targetCount: 240 }],
     effects: [
       { type: "IncomingDamageMultiplier", value: 1.25 },

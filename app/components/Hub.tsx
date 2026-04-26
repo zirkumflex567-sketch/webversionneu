@@ -17,12 +17,14 @@ import MapTab from "./MapTab"
 import { ScanlineOverlay, GlitchHeader } from "./UIElements"
 import ContentBrowser from "../../src/ui/content-browser/ContentBrowser"
 import { HousingUI } from "../../src/ui/HousingUI"
+import { useT } from "../../src/i18n/useT"
 
 type Tab = "pilot" | "garage" | "map" | "contracts" | "techlab" | "story" | "multiplayer" | "profile" | "archives" | "database" | "customization"
 
 export default function Hub() {
   const { phase, meta, loadout, tryBuyShop, tryRankUpSkill, configureLoadout, startBountySelection, refreshMeta, toggleSettings } = useGameStore()
   const worldState = useStoryStore((s) => s.worldState)
+  const t = useT()
   // ... (rest of state items are unchanged)
   const [tab, setTab] = useState<Tab>("pilot")
   const [selectedChar, setSelectedChar] = useState<CharacterId>(loadout?.character ?? "rixa")
@@ -58,11 +60,11 @@ export default function Hub() {
       
       {/* Top bar */}
       <header className="relative z-50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 px-4 sm:px-6 lg:px-10 py-4 sm:py-6 border-b-4 border-black bg-black/40 backdrop-blur-md">
-        <GlitchHeader text="DIE GARAGE" />
+        <GlitchHeader text={t("ui.hub.title")} />
         
         <div className="flex gap-3 sm:gap-6 lg:gap-10 items-center self-end sm:self-auto">
-          <ResourceBox label="SCHROTT" value={meta.totalScrap} color="#00ffaa" icon="scrap" />
-          <ResourceBox label="TECH" value={meta.totalTech} color="#c9b7ff" icon="tech" />
+          <ResourceBox label={t("ui.hub.resource.scrap")} value={meta.totalScrap} color="#00ffaa" icon="scrap" />
+          <ResourceBox label={t("ui.hub.resource.tech")} value={meta.totalTech} color="#c9b7ff" icon="tech" />
           
           <button 
             onClick={(e) => { e.stopPropagation(); toggleSettings(); }}
@@ -78,19 +80,19 @@ export default function Hub() {
 
       {/* Tabs */}
       <nav className="relative z-50 flex gap-1 px-4 sm:px-6 lg:px-10 py-3 sm:py-4 bg-black/20 overflow-x-auto scrollbar-wasteland">
-        {(["profile","story","pilot","garage","customization","map","contracts","techlab","archives","multiplayer","database"] as Tab[]).filter(t => {
-          if (t === "archives") return worldState.flags.mq03_hub_rebuilt;
+        {(["profile","story","pilot","garage","customization","map","contracts","techlab","archives","multiplayer","database"] as Tab[]).filter(tabId => {
+          if (tabId === "archives") return worldState.flags.mq03_hub_rebuilt;
           return true;
-        }).map(t => (
+        }).map(tabId => (
           <button
-            key={t}
-            onClick={() => setTab(t)}
+            key={tabId}
+            onClick={() => setTab(tabId)}
             className={`px-5 sm:px-8 lg:px-10 py-3 font-bebas tracking-[0.15em] sm:tracking-[0.2em] text-lg sm:text-xl transition-all duration-75 relative border-4 border-black shrink-0 ${
-              tab === t ? "bg-[#00ffaa] text-black translate-y-[-4px] shadow-[0_8px_0_0_#000] z-10"
+              tab === tabId ? "bg-[#00ffaa] text-black translate-y-[-4px] shadow-[0_8px_0_0_#000] z-10"
                         : "bg-white/5 text-white/40 hover:text-white hover:bg-white/10"
             }`}
           >
-            {t === "story" ? "GESCHICHTE" : t === "pilot" ? "PILOT" : t === "garage" ? "GARAGE" : t === "customization" ? "INDIVIDUALISIERUNG" : t === "map" ? "KARTE" : t === "contracts" ? "VERTRÄGE" : t === "techlab" ? "TECHLAB" : t === "archives" ? "ARCHIV" : t === "multiplayer" ? "MEHRSPIELER" : t === "database" ? "DATENBANK" : "PROFIL"}
+            {t(`ui.hub.tab.${tabId}` as never)}
           </button>
         ))}
       </nav>
@@ -165,9 +167,9 @@ export default function Hub() {
       <footer className="relative z-50 px-4 sm:px-6 lg:px-10 py-4 sm:py-8 border-t-4 border-black flex flex-col lg:flex-row justify-between items-stretch lg:items-center gap-4 sm:gap-6 bg-black/80 backdrop-blur-xl">
         <div className="flex gap-4 sm:gap-8 lg:gap-12 items-start lg:items-center flex-col sm:flex-row">
           <div className="flex flex-col">
-            <div className="text-[10px] text-white/30 font-black tracking-[0.4em] mb-1">UNIT_SYNC_STATUS</div>
+            <div className="text-[10px] text-white/30 font-black tracking-[0.4em] mb-1">{t("ui.hub.sync_status")}</div>
             <div className="font-bebas text-lg sm:text-2xl text-white uppercase tracking-[0.14em] sm:tracking-widest flex items-center gap-2 sm:gap-3 flex-wrap">
-              <span className="text-[#00ffaa]">{CHARACTERS[selectedChar as CharacterId]?.displayName ?? "Pilot"}</span> 
+              <span className="text-[#00ffaa]">{CHARACTERS[selectedChar as CharacterId]?.displayName ?? t("ui.hub.pilot.fallback")}</span> 
               <span className="opacity-10 text-sm">/</span> 
               <span>{(selectedVehicle ?? "").replace("vehicle_","")}</span> 
               <span className="opacity-10 text-sm">/</span> 
@@ -176,7 +178,7 @@ export default function Hub() {
           </div>
           {selectedBounties.length > 0 && (
             <div className="sm:pl-6 lg:pl-12 sm:border-l-4 border-black">
-              <div className="text-[10px] text-[#ffaa00] font-black tracking-[0.4em] mb-1">ACTIVE_CONTRACTS</div>
+              <div className="text-[10px] text-[#ffaa00] font-black tracking-[0.4em] mb-1">{t("ui.hub.active_contracts")}</div>
               <div className="font-bebas text-lg sm:text-xl text-[#ffaa00] uppercase tracking-[0.12em] sm:tracking-widest break-words">
                 {selectedBounties.map(id => (id ?? "").replace("bounty_","")).join(" + ")}
               </div>
@@ -189,7 +191,7 @@ export default function Hub() {
           disabled={!canDeploy}
           className="btn-wasteland-premium h-16 sm:h-20 w-full lg:w-auto px-8 sm:px-16 text-2xl sm:text-4xl shadow-[8px_8px_0_0_#000]"
         >
-          BEREIT FÜR DIE WILDNIS
+          {t("ui.hub.deploy_ready")}
         </button>
       </footer>
     </div>
@@ -231,13 +233,14 @@ interface PilotTabProps {
   unlockedCharacters: CharacterId[]
 }
 function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedVehicle, selectedWeapon, setSelectedWeapon, unlockedVehicles, unlockedWeapons, unlockedCharacters }: PilotTabProps) {
+  const t = useT()
   const char = CHARACTERS[selectedChar as CharacterId]
 
   return (
     <div className="grid grid-cols-1 xl:grid-cols-12 gap-4 sm:gap-6 lg:gap-8 h-full">
       {/* Pilot Selector */}
       <div className="xl:col-span-3 space-y-4">
-        <SectionHeader>PILOT WÄHLEN</SectionHeader>
+        <SectionHeader>{t("ui.hub.section.pilot_select")}</SectionHeader>
         {((Object.keys(CHARACTERS) as CharacterId[])).map(id => {
           const c = CHARACTERS[id]
           const active = selectedChar === id
@@ -260,7 +263,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
                 <div className="text-[10px] text-white/40 font-bold uppercase tracking-widest mt-1 truncate">{c.title}</div>
               </div>
               {active && <div className="absolute top-2 right-2 w-2 h-2 bg-[#00ffaa] animate-pulse"></div>}
-              {!isUnlocked && <div className="absolute top-2 right-2 text-[9px] tracking-widest text-white/50">LOCKED</div>}
+              {!isUnlocked && <div className="absolute top-2 right-2 text-[9px] tracking-widest text-white/50">{t("ui.common.locked")}</div>}
             </button>
           )
         })}
@@ -268,7 +271,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
 
       {/* Pilot Visuals & Stats */}
       <div className="xl:col-span-4 flex flex-col gap-4">
-        <SectionHeader>PILOTEN_DATEN</SectionHeader>
+        <SectionHeader>{t("ui.hub.section.pilot_data")}</SectionHeader>
         <div className="flex-1 panel-wasteland bg-[#0a111f] p-8 inner-glow-toxic">
           <div className="space-y-6">
             <div className="relative w-full aspect-[4/3] overflow-hidden border-2 border-[#00ffaa]/30 bg-black">
@@ -287,10 +290,10 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
                <p className="text-white/60 text-sm italic leading-relaxed pl-2">"{char.shortLore}"</p>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-8">
-              <StatCard label="HÜLLE" value={char.baseStats.maxHealth} />
-              <StatCard label="PANZERUNG" value={char.baseStats.armor} />
-              <StatCard label="GESCHW." value={`+${char.baseStats.moveSpeedPercent}%`} />
-              <StatCard label="RADAR" value={`+${char.baseStats.pickupRadiusPercent}%`} />
+              <StatCard label={t("ui.hub.stat.hull")} value={char.baseStats.maxHealth} />
+              <StatCard label={t("ui.hub.stat.armor")} value={char.baseStats.armor} />
+              <StatCard label={t("ui.hub.stat.speed")} value={`+${char.baseStats.moveSpeedPercent}%`} />
+              <StatCard label={t("ui.hub.stat.radar")} value={`+${char.baseStats.pickupRadiusPercent}%`} />
             </div>
             <div className="mt-8 pt-6 border-t border-white/5">
               <div className="font-bebas text-4xl text-[#00ffaa] tracking-widest toxic-glow">{char.passiveTrait.name}</div>
@@ -303,7 +306,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
       {/* Equipment Selector */}
       <div className="xl:col-span-5 space-y-8">
         <div>
-          <SectionHeader>FAHRZEUG-CHASSIS</SectionHeader>
+          <SectionHeader>{t("ui.hub.section.vehicle_chassis")}</SectionHeader>
           <div className="grid grid-cols-2 gap-3">
             {SHOP_ITEMS.filter(i => i.category === "Vehicle").map(v => (
               <EquipButton 
@@ -316,7 +319,7 @@ function PilotTab({ selectedChar, setSelectedChar, selectedVehicle, setSelectedV
           </div>
         </div>
         <div>
-          <SectionHeader>WAFFENSYSTEM</SectionHeader>
+          <SectionHeader>{t("ui.hub.section.weapon_system")}</SectionHeader>
           <div className="grid grid-cols-2 gap-3">
             {SHOP_ITEMS.filter(i => i.category === "Weapon").map(v => (
               <EquipButton 
@@ -340,6 +343,7 @@ interface TechLabTabProps {
   meta: MetaProgress
 }
 function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTabProps) {
+  const t = useT()
   const char = CHARACTERS[selectedChar as CharacterId]
   const ranks = meta.skillTech[selectedChar] ?? {}
 
@@ -356,7 +360,7 @@ function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTa
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between">
-        <SectionHeader>TECH-REKONSTRUKTIONS-LABOR</SectionHeader>
+        <SectionHeader>{t("ui.hub.section.techlab")}</SectionHeader>
         <div className="flex gap-2">
           {((Object.keys(CHARACTERS) as CharacterId[])).map(id => (
             <button
@@ -412,7 +416,7 @@ function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTa
                            <Image src={assetPath("/assets/ui/currencies.png")} alt="" width={24} height={24} className="w-6 h-6 object-contain hue-rotate-[240deg]" style={{ objectPosition: "-50px 0" }} />
                         </div>
                         <div className="flex flex-col">
-                           <span className="text-[9px] font-black text-white/20 tracking-widest uppercase">Input Req</span>
+                          <span className="text-[9px] font-black text-white/20 tracking-widest uppercase">{t("ui.hub.tech.input_req")}</span>
                            <span className="text-[#c9b7ff] font-orbitron font-bold text-lg leading-none">{n.techCost}T</span>
                         </div>
                       </div>
@@ -425,7 +429,7 @@ function TechLabTab({ selectedChar, setSelectedChar, onRankUp, meta }: TechLabTa
                           "bg-black text-[#ff4444] border-[#ff4444]"
                         }`}
                       >
-                        {maxed ? "SYNCED" : affordable ? "RANK UP" : "LOCKED"}
+                        {maxed ? t("ui.hub.tech.synced") : affordable ? t("ui.hub.tech.rank_up") : t("ui.common.locked")}
                       </button>
                     </div>
 
@@ -449,6 +453,7 @@ interface ShopTabProps {
   onBuy: (id: string) => void
 }
 function ShopTab({ meta, onBuy }: ShopTabProps) {
+  const t = useT()
   const grouped = useMemo(() => {
     const g: Record<string, ShopItem[]> = {}
     for (const it of SHOP_ITEMS) { (g[it.category] ??= []).push(it) }
@@ -464,7 +469,7 @@ function ShopTab({ meta, onBuy }: ShopTabProps) {
     <div className="space-y-12">
       {Object.entries(grouped).map(([cat, items]) => (
         <div key={cat}>
-          <SectionHeader>{cat === "Weapon" ? "WAFFEN" : cat === "Vehicle" ? "FAHRZEUGE" : cat === "Upgrade" ? "UPGRADES" : cat.toUpperCase()} ERWERB</SectionHeader>
+          <SectionHeader>{cat === "Weapon" ? t("ui.hub.shop.weapons") : cat === "Vehicle" ? t("ui.hub.shop.vehicles") : cat === "Upgrade" ? t("ui.hub.shop.upgrades") : cat.toUpperCase()} {t("ui.hub.shop.acquire")}</SectionHeader>
           <div className="grid grid-cols-4 gap-6">
             {items.map((it) => {
               const owned = ownedSet.has(it.id)
@@ -484,7 +489,7 @@ function ShopTab({ meta, onBuy }: ShopTabProps) {
                     
                     <div className="flex justify-between items-center pt-6 border-t border-white/5">
                       <div className="flex flex-col">
-                        <div className="text-[9px] font-black text-white/20 tracking-widest mb-1">REQ_SALVAGE</div>
+                        <div className="text-[9px] font-black text-white/20 tracking-widest mb-1">{t("ui.hub.shop.req_salvage")}</div>
                         <div className="flex gap-4 font-orbitron font-black text-lg">
                           <span className="text-[#00ffaa]">{it.scrapCost}S</span>
                           {it.techCost > 0 && <span className="text-[#c9b7ff]">{it.techCost}T</span>}
@@ -498,10 +503,10 @@ function ShopTab({ meta, onBuy }: ShopTabProps) {
                             canAfford ? 'bg-[#00ffaa] border-black text-black hover:bg-white' : 'bg-black border-white/5 text-white/10'
                           }`}
                         >
-                          BUY
+                          {t("ui.hub.shop.buy")}
                         </button>
                       ) : (
-                        <div className="text-[10px] font-black text-[#00ffaa] tracking-[0.4em] uppercase">Inventory_Sync</div>
+                        <div className="text-[10px] font-black text-[#00ffaa] tracking-[0.4em] uppercase">{t("ui.hub.shop.inventory_sync")}</div>
                       )}
                     </div>
                   </div>
@@ -521,11 +526,12 @@ interface ContractsTabProps {
   meta: MetaProgress
 }
 function ContractsTab({ selected, toggle, meta }: ContractsTabProps) {
+  const t = useT()
   return (
     <div className="space-y-8">
       <div>
-        <SectionHeader>AKTIVE KOPFGELD-VERTRÄGE</SectionHeader>
-        <p className="text-xs text-white/30 tracking-widest uppercase mb-6">Select up to 2 high-stakes modifiers for increased salvage rewards.</p>
+        <SectionHeader>{t("ui.hub.section.active_bounties")}</SectionHeader>
+        <p className="text-xs text-white/30 tracking-widest uppercase mb-6">{t("ui.hub.bounties.subtitle")}</p>
         <div className="grid grid-cols-3 gap-6">
           {BOUNTIES.map(b => {
             const active = selected.includes(b.id)
@@ -541,18 +547,18 @@ function ContractsTab({ selected, toggle, meta }: ContractsTabProps) {
                 }`}
               >
                 <div className="flex flex-col h-full gap-6">
-                  <div className="font-bebas text-5xl text-white tracking-widest group-hover:text-[#ffaa00] leading-none">{b.displayName}</div>
-                  <p className="text-xs text-white/40 flex-1 leading-relaxed uppercase tracking-[0.15em]">{b.description}</p>
+                  <div className="font-bebas text-5xl text-white tracking-widest group-hover:text-[#ffaa00] leading-none">{t(b.displayNameKey)}</div>
+                  <p className="text-xs text-white/40 flex-1 leading-relaxed uppercase tracking-[0.15em]">{t(b.descriptionKey)}</p>
                   
                   <div className="flex justify-between items-end pt-6 border-t border-white/5">
                     <div className="flex flex-col">
-                      <div className="text-[9px] font-black text-white/20 tracking-widest mb-1">EST_DATA_REWARD</div>
+                      <div className="text-[9px] font-black text-white/20 tracking-widest mb-1">{t("ui.hub.bounties.reward_estimate")}</div>
                       <div className="font-orbitron font-black text-[#ffaa00] text-2xl">+{b.rewardScrap}S / +{b.rewardTech}T</div>
                     </div>
                     {active ? (
-                      <div className="bg-[#ffaa00] text-black px-5 py-2 font-bebas text-2xl tracking-[0.2em] shadow-[4px_4px_0_0_#000]">ACTIVE</div>
+                      <div className="bg-[#ffaa00] text-black px-5 py-2 font-bebas text-2xl tracking-[0.2em] shadow-[4px_4px_0_0_#000]">{t("ui.common.active")}</div>
                     ) : (
-                      <div className="text-white/20 font-bebas text-2xl tracking-widest border-2 border-white/5 px-4 py-1">READY</div>
+                      <div className="text-white/20 font-bebas text-2xl tracking-widest border-2 border-white/5 px-4 py-1">{t("ui.common.ready")}</div>
                     )}
                   </div>
                 </div>
@@ -568,6 +574,7 @@ function ContractsTab({ selected, toggle, meta }: ContractsTabProps) {
 
 
 function StoryTab() {
+  const t = useT()
   const quests = useStoryStore((s) => s.quests)
   const npcs = useStoryStore((s) => s.npcs)
   const startDialog = useStoryStore((s) => s.startDialog)
@@ -581,16 +588,16 @@ function StoryTab() {
     updateQuestStatus(q.id, 'active')
     startDialog({
       id: `${q.id}_intro`,
-      speaker: q.giver || 'Unbekannte Stimme',
+      speaker: q.giver || t("ui.story.unknown_voice"),
       text: q.description,
       options: [
         { 
-          text: 'Ich nehme die Herausforderung an.', 
+          text: t("ui.story.accept_challenge"), 
           action: () => {
             console.log(`Quest ${q.id} started`);
           }
         },
-        { text: 'Ich bin noch nicht bereit.' }
+        { text: t("ui.story.not_ready") }
       ]
     })
   }
@@ -598,16 +605,16 @@ function StoryTab() {
   return (
     <div className="grid grid-cols-12 gap-8">
       <div className="col-span-8 space-y-8">
-        <SectionHeader>AKTIVE KAMPAGNE</SectionHeader>
+        <SectionHeader>{t("ui.story.active_campaign")}</SectionHeader>
         {activeQuests.length > 0 ? (
           activeQuests.map(q => (
             <div key={q.id} className="panel-wasteland bg-black/60 p-6 border-4 border-cyan-500 shadow-[8px_8px_0_0_rgba(0,255,255,0.2)]">
                <div className="flex justify-between items-start mb-4">
                  <div>
-                   <div className="text-cyan-400 font-orbitron font-black text-[10px] tracking-widest mb-1">{q.id} // {q.status.toUpperCase()}</div>
+                   <div className="text-cyan-400 font-orbitron font-black text-[10px] tracking-widest mb-1">{q.id} // {t(`ui.story.status.${q.status}` as never)}</div>
                    <div className="font-bebas text-4xl text-white tracking-widest uppercase">{q.title}</div>
                  </div>
-                 <div className="px-3 py-1 bg-cyan-500 text-black font-bebas text-xl">{q.type.toUpperCase()}</div>
+                 <div className="px-3 py-1 bg-cyan-500 text-black font-bebas text-xl">{t(`ui.story.type.${q.type}` as never)}</div>
                </div>
                <p className="text-white/60 text-sm leading-relaxed mb-6 italic">"{q.description}"</p>
                
@@ -627,7 +634,7 @@ function StoryTab() {
                    onClick={() => updateQuestStatus(q.id, 'completed')}
                    className="w-full mt-6 bg-cyan-500 text-black font-bebas text-2xl py-3 hover:bg-white transition-all shadow-[4px_4px_0_0_#000]"
                  >
-                   QUEST ABSCHLIESSEN
+                   {t("ui.story.complete_quest")}
                  </button>
                )}
             </div>
@@ -636,27 +643,27 @@ function StoryTab() {
           <div className="space-y-4">
             {availableQuests.map(q => (
               <div key={q.id} className="panel-wasteland bg-black/40 p-8 border-4 border-white/5 flex flex-col items-center justify-center text-center">
-                <div className="text-cyan-400 font-orbitron font-black text-[10px] tracking-widest mb-1">{q.id} // VERFÜGBAR</div>
+                <div className="text-cyan-400 font-orbitron font-black text-[10px] tracking-widest mb-1">{q.id} // {t("ui.story.available")}</div>
                 <div className="font-bebas text-3xl text-white mb-4 tracking-[0.3em] uppercase">{q.title}</div>
                 <button 
                   onClick={() => handleStartQuest(q)}
                   className="btn-wasteland-premium px-10 py-4 text-2xl"
                 >
-                  INITIALISIEREN
+                  {t("ui.story.initialize")}
                 </button>
               </div>
             ))}
           </div>
         ) : (
           <div className="panel-wasteland bg-black/40 p-12 border-4 border-white/5 flex flex-col items-center justify-center text-center">
-            <div className="text-white/20 font-bebas text-3xl mb-4 tracking-[0.3em]">KEINE AKTIVEN KAMPAGNEN-DATEN</div>
-            <p className="text-white/10 text-[10px] tracking-widest uppercase">System wartet auf Signal...</p>
+            <div className="text-white/20 font-bebas text-3xl mb-4 tracking-[0.3em]">{t("ui.story.none_active")}</div>
+            <p className="text-white/10 text-[10px] tracking-widest uppercase">{t("ui.story.waiting_signal")}</p>
           </div>
         )}
       </div>
 
       <div className="col-span-4 space-y-8">
-        <SectionHeader>NPC VERZEICHNIS</SectionHeader>
+        <SectionHeader>{t("ui.story.npc_directory")}</SectionHeader>
         <div className="space-y-4">
           {npcs.map(npc => {
             const canTalk = npc.status !== 'unknown'
@@ -678,7 +685,7 @@ function StoryTab() {
                     onClick={() => startDialogById(`${npc.id}_greeting`)}
                     className="px-2 py-1 border border-cyan-500 text-cyan-500 font-bebas text-xs hover:bg-cyan-500 hover:text-black transition-colors"
                   >
-                    SPRECHEN
+                    {t("ui.story.talk")}
                   </button>
                 )}
               </div>
@@ -739,6 +746,7 @@ function EquipButton({ item, owned, active, onSelect }: EquipButtonProps) {
 }
 
 function ArchivesTab() {
+  const t = useT()
   const flags = useStoryStore((s) => s.worldState.flags)
   
   const loreItems = [
@@ -752,9 +760,9 @@ function ArchivesTab() {
       {loreItems.map(item => (
         <div key={item.id} className={`panel-wasteland p-6 border-4 ${item.unlocked ? 'border-cyan-500/40 bg-black/60' : 'border-white/5 bg-black/20 opacity-40'}`}>
           <div className="text-[10px] font-black text-cyan-400 mb-2">LORE_DATA // {item.id}</div>
-          <div className="font-bebas text-2xl text-white mb-2">{item.unlocked ? item.title : 'VERSCHLÜSSELT'}</div>
+          <div className="font-bebas text-2xl text-white mb-2">{item.unlocked ? item.title : t("ui.hub.archives.locked")}</div>
           <p className="text-xs text-white/40 uppercase tracking-widest leading-relaxed">
-            {item.unlocked ? item.description : 'Datenfragmente fehlen. Setze die Kampagne fort.'}
+            {item.unlocked ? item.description : t("ui.hub.archives.missing_fragments")}
           </p>
         </div>
       ))}
@@ -790,25 +798,26 @@ function HubDeco() {
 }
 
 function WorldStateStatus() {
+  const t = useT()
   const quests = useStoryStore((s) => s.quests)
   
   const isMQ01Active = quests.find(q => q.id === 'MQ-01' && q.status === 'active')
   const isMQ03Done = quests.find(q => q.id === 'MQ-03' && q.status === 'completed')
   
-  let statusText = "REGION: GRAUMARSCH // STABIL"
+  let statusText = t("ui.hub.world_status.graumarsch_stable")
   let color = "#00ffaa"
   
   if (isMQ01Active) {
-    statusText = "KRISE: FACKELRUH BRENNT!"
+    statusText = t("ui.hub.world_status.crisis")
     color = "#ff4400"
   } else if (isMQ03Done) {
-    statusText = "REGION: LATERNENHOF // GESICHERT"
+    statusText = t("ui.hub.world_status.lanternhof_secured")
     color = "#00ccff"
   }
   
   return (
     <div className="flex flex-col items-end sm:items-start lg:items-end">
-      <div className="text-[10px] font-black tracking-[0.4em] text-white/30 mb-1 uppercase">Sektor_Status</div>
+      <div className="text-[10px] font-black tracking-[0.4em] text-white/30 mb-1 uppercase">{t("ui.hub.world_status.label")}</div>
       <div className="font-orbitron text-sm font-bold tracking-widest flex items-center gap-2" style={{ color }}>
         <div className={`w-2 h-2 rounded-full ${isMQ01Active ? 'animate-ping' : ''}`} style={{ backgroundColor: color }}></div>
         {statusText}
