@@ -32,7 +32,10 @@ export interface BountyData {
   effects: BountyEffect[]
   rewardScrap: number
   rewardTech: number
-  unlockCost: number // scrap to unlock the contract slot
+  unlockCost: number
+  unlockConditions?: string[]
+  extractionDependency?: "choice" | "extraction"
+  failureConditions?: string[]
 }
 
 export const BOUNTIES: BountyData[] = [
@@ -48,6 +51,9 @@ export const BOUNTIES: BountyData[] = [
     rewardScrap: 200,
     rewardTech: 1,
     unlockCost: 0,
+    unlockConditions: [],
+    extractionDependency: "choice",
+    failureConditions: ["run_abandoned"],
   },
   {
     id: "bounty_tech_heist",
@@ -61,6 +67,9 @@ export const BOUNTIES: BountyData[] = [
     rewardScrap: 0,
     rewardTech: 3,
     unlockCost: 500,
+    unlockConditions: ["mq05_complete"],
+    extractionDependency: "extraction",
+    failureConditions: ["player_defeated"],
   },
   {
     id: "bounty_slaughter",
@@ -74,6 +83,9 @@ export const BOUNTIES: BountyData[] = [
     rewardScrap: 400,
     rewardTech: 2,
     unlockCost: 800,
+    unlockConditions: ["mq08_complete"],
+    extractionDependency: "extraction",
+    failureConditions: ["run_abandoned", "player_defeated"],
   },
   {
     id: "bounty_marathon",
@@ -87,11 +99,40 @@ export const BOUNTIES: BountyData[] = [
     rewardScrap: 600,
     rewardTech: 4,
     unlockCost: 1500,
+    unlockConditions: ["mq09_complete"],
+    extractionDependency: "choice",
+    failureConditions: ["run_abandoned"],
+  },
+  {
+    id: "bounty_chemfog_blackout",
+    displayName: "Chemfog Blackout",
+    description: "Survive 240s in Chemiefabrik fog. -25% shield margin, +50% Tech gain.",
+    objectives: [{ type: "SurviveSeconds", targetCount: 240 }],
+    effects: [
+      { type: "IncomingDamageMultiplier", value: 1.25 },
+      { type: "TechMultiplier", value: 1.5 },
+    ],
+    rewardScrap: 350,
+    rewardTech: 5,
+    unlockCost: 1200,
+    unlockConditions: ["sq_graumarsch_chemfog_complete"],
+    extractionDependency: "extraction",
+    failureConditions: ["player_defeated", "no_extraction"],
   },
 ]
 
 export function getBounty(id: string): BountyData | undefined {
-  return BOUNTIES.find(b => b.id === id)
+  return BOUNTIES.find((b) => b.id === id)
+}
+
+export function canUnlockBounty(bounty: BountyData, completedFlags: string[]): boolean {
+  if (!bounty.unlockConditions || bounty.unlockConditions.length === 0) return true
+  return bounty.unlockConditions.every((f) => completedFlags.includes(f))
+}
+
+export function enforceSingleBountySelection(selectedBountyIds: string[]): string[] {
+  if (selectedBountyIds.length <= 1) return selectedBountyIds
+  return [selectedBountyIds[selectedBountyIds.length - 1]]
 }
 
 export interface BountyRuntimeMultipliers {
@@ -110,7 +151,7 @@ export function aggregateBountyEffects(bountyIds: string[]): BountyRuntimeMultip
     damageBonus: 0,
     incomingDamageMult: 1.0,
   }
-  for (const id of bountyIds) {
+  for (const id of enforceSingleBountySelection(bountyIds)) {
     const b = getBounty(id)
     if (!b) continue
     for (const e of b.effects) {

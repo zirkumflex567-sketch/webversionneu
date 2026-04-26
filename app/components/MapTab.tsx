@@ -54,6 +54,9 @@ export default function MapTab() {
               <div className="text-[10px] text-white/50 font-black uppercase tracking-widest pl-4 mb-2">
                 {t("ui.map.biome")}: {area.biome}
               </div>
+              <div className="text-[10px] text-white/50 font-black uppercase tracking-widest pl-4 mb-2">
+                {t("ui.map.state")}: {t(area.stateLabelKey)}
+              </div>
               <p className="text-white/70 text-xs pl-4 mb-3">{t(area.descriptionKey)}</p>
 
               <div className="pl-4 flex gap-2">
