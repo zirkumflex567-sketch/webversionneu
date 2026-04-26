@@ -26,3 +26,13 @@
 - [ ] **Matchmaking**: Simple lobby system for 2v2 or coop play.
 - [ ] **Leaderboards**: Global ranking based on "High Stakes Tech Extraction."
 - [ ] **Cross-Device Support**: Mobile touch-control optimization.
+
+## 2026-04-26 Vertical Slice (HTown)
+- Completed:
+  - Added vertical-slice area instance data (`graumarsch-chemiefabrik`) with progression states.
+  - Added vertical-slice bounty (`bounty_chemfog_blackout`) and single-selection guard logic.
+  - Added quest-flow helper for extraction-gated completion and reward outcome resolution.
+  - Added DE/EN UI keys for map-state and bounty contract flow.
+  - Added automated tests for area transitions, bounty selection rules, and quest/reward resolution.
+- Deferred:
+  - Multiplayer Phase 4 remains out of scope in this cycle.

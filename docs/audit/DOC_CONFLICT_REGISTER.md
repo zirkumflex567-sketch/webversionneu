@@ -166,3 +166,8 @@ Last updated: 2026-04-26
 - Files changed: runtime + UI files above, plus architecture docs and hard-pivot audit.
 - Evidence / command output: `rg -n OpenWorldManager|OPEN_WORLD_ZONES src app` now returns only legacy/archive references.
 - Remaining follow-up: optional cleanup of legacy file once no historical need remains.
+
+## 2026-04-26 VS-REMOTE-001
+- Topic: Vertical slice execution introduced runtime helper files and concise add-on doc sections while existing preproduction docs remain broader canonical sources.
+- Risk: Duplicate phrasing across append-only doc sections may diverge over time.
+- Resolution: Keep append-only add-on sections for this cycle and fold into normalized chapter structure in next docs consolidation pass.
