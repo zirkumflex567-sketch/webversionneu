@@ -218,3 +218,119 @@ certbot certonly --standalone -d h-town.duckdns.org -d www.h-town.duckdns.org
 - **src/game/AssetManager.ts** - Asset loading with error handling
 - **nginx conf** - Reverse proxy and static asset serving
 - **DEPLOYMENT_CONFIG.md** - Additional deployment notes
+## Magic Link Email Authentication Setup
+
+### Problem: ISP SMTP Port Blocking
+
+IONOS and many ISPs block outbound SMTP ports (25, 587, 465) to prevent spam relay abuse. This prevents sending emails directly from the application server to recipients.
+
+### Solution: External SMTP Relay Service (SendGrid)
+
+Use SendGrid as an external SMTP relay service instead of sending directly from the server.
+
+### SendGrid Configuration
+
+#### 1. Create SendGrid Account & Get API Key
+
+1. Sign up at https://sendgrid.com
+2. Navigate to Settings > API Keys
+3. Create a new API Key with Full Access
+4. Copy the key (format: SG.xxxxxxxxxxxx...)
+
+#### 2. Verify Sender Identity (CRITICAL!)
+
+SendGrid requires verified sender identities before sending emails.
+
+**Method A: Single Sender Verification**
+1. Go to Settings > Sender Authentication
+2. Click Verify a Single Sender
+3. Enter sender email address and click Create
+4. Check email inbox for verification link
+5. Click verification link to complete
+
+**Method B: Use Pre-Verified Sender (Fastest)**
+- Use the email address you registered your SendGrid account with
+- This address is automatically verified
+- Example: zirkumflex666@gmail.com
+
+Common error if sender is unverified:
+```
+550 The from address does not match a verified Sender Identity
+```
+
+#### 3. Configure Environment Variables
+
+Create or update .env.local in the application root:
+
+```
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587
+MAIL_SECURE=false
+MAIL_USER=apikey
+MAIL_PASS=SG.your-sendgrid-api-key-here
+MAIL_FROM=your-verified-email@example.com
+```
+
+#### 4. Restart Application Server
+
+After updating .env.local, restart the Node.js server:
+
+```bash
+pkill -9 npm
+pkill -9 next-server
+NODE_ENV=production npm start -- --port 3102 &
+```
+
+CRITICAL: Environment variables are only read when the server starts.
+
+### Testing Email Sending
+
+Test SMTP connectivity from application directory:
+
+```bash
+cd /opt/webversionneu
+curl -X POST http://localhost:3102/combat/api/auth/register   -H 'Content-Type: application/json'   -d '{email: test@example.com}'
+```
+
+Success response: `message: Magic link code sent to your email`
+Failure response: `message: Email delivery failed`
+
+### Email Service Implementation
+
+Located in src/services/emailService.ts:
+
+- Reads environment variables at module load time (server startup)
+- Creates nodemailer transporter with SendGrid SMTP settings
+- Sends HTML email with magic link code
+- Returns success even if email fails (code shown as fallback)
+
+Important: The transporter is created once at startup. Environment variable changes require server restart.
+
+### Troubleshooting
+
+| Error | Solution |
+|-------|----------|
+| 550 from address not verified | Verify sender in SendGrid (Settings > Sender Auth) |
+| Invalid login | Check API key format (must start with SG.) |
+| Connection timeout/refused | ISP blocking SMTP port - use SendGrid relay |
+| Email not received | Check spam folder, verify recipient email is correct |
+| .env.local changes don't apply | Restart server: pkill -9 npm && npm start |
+| Server won't start | Check .env.local syntax, no special characters |
+
+### Production Deployment (htown)
+
+```bash
+ssh htown
+cd /opt/webversionneu
+
+# Verify SendGrid credentials are in .env.local
+cat .env.local | grep MAIL_
+
+# Restart with production settings
+NODE_ENV=production npm start -- --port 3102 &
+
+# Verify email is working
+curl -X POST http://127.0.0.1:3102/combat/api/auth/register   -H 'Content-Type: application/json'   -d '{email: test@example.com}'
+
+# Should return: message: Magic link code sent to your email
+```
