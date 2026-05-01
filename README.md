@@ -334,3 +334,56 @@ curl -X POST http://127.0.0.1:3102/combat/api/auth/register   -H 'Content-Type: 
 
 # Should return: message: Magic link code sent to your email
 ```
+
+## Ingame Asset Loading Diagnostics
+
+### Problem
+
+The `Game` class wraps `AssetManager.preloadAll()` in a try/catch that swallows errors. Inside `preloadAll()`, every individual asset load was previously wrapped in `safeLoad()` which silently returned `null` on failure. As a result, when assets failed to load:
+
+- Vehicle/Enemy/World fell back to BoxGeometry / CylinderGeometry / plain plane
+- The browser console showed only a generic `"Asset load failed"` message without telling you which file
+- Symptom for the player: "no graphics for player, enemies, or world"
+
+### Diagnostics added (2026-05-01)
+
+`src/game/AssetManager.ts` now logs every asset load with its concrete URL and emits a structured summary at the end of `preloadAll()`. Open the browser DevTools console at `https://www.h-town.duckdns.org/combat` and look for:
+
+```
+[AssetManager] FAILED to load: /assets/<path>   ← per-asset error (only on failure)
+[AssetManager] Preload complete: {              ← end-of-preload summary
+  successes: 27,
+  failures: 0,
+  failedAssets: [],
+  models: { vehicleModel: true, enemyModel: true, rixaModel: true, marekModel: true, ... },
+  textures: { schrottyTex: true, asphaltTex: true, ... }
+}
+```
+
+Use this output to determine which specific asset is missing or failing. The flags in `models` and `textures` map directly to in-game graphics:
+
+| Flag false | Visible effect |
+|---|---|
+| `vehicleModel` | Player vehicle shown as fallback box |
+| `enemyModel` | Enemies shown as fallback cylinders |
+| `rixaModel` / `marekModel` | Pilot character shown as box (Vehicle.ts pilotModel branch) |
+| `bossGolemModel` / `bossMireKingModel` | Boss shown as fallback geometry |
+| `schrottyTex` / `chromTex` / `droneTex` / `heavyTex` | Sprite-based fallback path skipped |
+| `asphaltTex` | Ground arena lacks texture |
+| `propsTex` | World debris lacks texture |
+
+### Workflow when graphics are missing
+
+1. Open https://www.h-town.duckdns.org/combat in Chrome
+2. F12 → Console
+3. Reload page; look for `[AssetManager]` messages
+4. Each `FAILED to load: /assets/...` line names a missing/broken asset
+5. Verify on server: `ssh htown "ls -la /opt/webversionneu/public/assets/<failing-path>"`
+6. Verify HTTP delivery: `curl -sI https://www.h-town.duckdns.org/combat<failing-path>`
+
+### Note on file format mismatches
+
+Some sprite files in `public/assets/ui/` have `.png` extensions but are actually JPEG payloads (verified via `file` command):
+`ent_player_*.png`, `ent_enemy_*.png`, `ent_boss_*.png`, `loot_items_sheet.png`, `extraction_pad_decal.png`, `props_industrial_debris.png`.
+
+Three.js' `TextureLoader` typically handles this fine (browser decodes by magic bytes, not extension), but if the diagnostic above shows these as failed, the workaround is either to re-encode them as real PNGs or rename them to `.jpg` and update the paths in `AssetManager.preloadAll()`.

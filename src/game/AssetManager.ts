@@ -56,11 +56,22 @@ export class AssetManager {
   private marekModel: THREE.Group | null = null
 
   public async preloadAll(): Promise<void> {
-    const safeLoad = async <T,>(p: Promise<T>): Promise<T | null> => {
-      try { return await p } catch(e) { console.warn("Asset load failed", e); return null }
+    const failures: string[] = []
+    const successes: string[] = []
+    const safeLoad = async <T,>(p: Promise<T>, label?: string): Promise<T | null> => {
+      try {
+        const r = await p
+        if (label) successes.push(label)
+        return r
+      } catch(e) {
+        const lbl = label ?? "<unlabeled>"
+        failures.push(lbl)
+        console.error("[AssetManager] FAILED to load:", lbl, e)
+        return null
+      }
     }
 
-    const charactersTex = await safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/characters_main.png')))
+    const charactersTex = await safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/characters_main.png')), '/assets/textures/characters_main.png')
     if (charactersTex) {
       charactersTex.colorSpace = THREE.SRGBColorSpace
       charactersTex.flipY = false
@@ -74,32 +85,32 @@ export class AssetManager {
       sTex, cTex, dTex, hTex, gTex, mTex,
       lTex, eTex, pTex, aTex, snTex
     ] = await Promise.all([
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/schrotty.fbx'))),
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/characters.fbx'))),
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/boss_golem.fbx'))),
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/boss_mireking.fbx'))),
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/characters/char_feuermech.fbx'))),
-      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/characters/char_goldbadger.fbx'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/shoot.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/hit.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/levelup.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/start.mp3'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/gameover.mp3'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/kick.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/punch.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/tackle.wav'))),
-      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/goal.wav'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_player_schrotty.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_player_chromlilie.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_enemy_drone.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_enemy_heavy.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_boss_golem.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_boss_mireking.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/loot_items_sheet.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/extraction_pad_decal.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/props_industrial_debris.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/tex_ground_asphalt.png'))),
-      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/tex_ground_sand.png')))
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/schrotty.fbx')), '/assets/models/schrotty.fbx'),
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/characters.fbx')), '/assets/models/characters.fbx'),
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/boss_golem.fbx')), '/assets/models/boss_golem.fbx'),
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/models/boss_mireking.fbx')), '/assets/models/boss_mireking.fbx'),
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/characters/char_feuermech.fbx')), '/assets/characters/char_feuermech.fbx'),
+      safeLoad(this.fbxLoader.loadAsync(assetPath('/assets/characters/char_goldbadger.fbx')), '/assets/characters/char_goldbadger.fbx'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/shoot.wav')), '/assets/sounds/shoot.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/hit.wav')), '/assets/sounds/hit.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/levelup.wav')), '/assets/sounds/levelup.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/start.mp3')), '/assets/sounds/start.mp3'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/gameover.mp3')), '/assets/sounds/gameover.mp3'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/kick.wav')), '/assets/sounds/kick.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/punch.wav')), '/assets/sounds/punch.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/tackle.wav')), '/assets/sounds/tackle.wav'),
+      safeLoad(this.audioLoader.loadAsync(assetPath('/assets/sounds/goal.wav')), '/assets/sounds/goal.wav'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_player_schrotty.png')), '/assets/ui/ent_player_schrotty.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_player_chromlilie.png')), '/assets/ui/ent_player_chromlilie.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_enemy_drone.png')), '/assets/ui/ent_enemy_drone.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_enemy_heavy.png')), '/assets/ui/ent_enemy_heavy.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_boss_golem.png')), '/assets/ui/ent_boss_golem.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/ent_boss_mireking.png')), '/assets/ui/ent_boss_mireking.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/loot_items_sheet.png')), '/assets/ui/loot_items_sheet.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/extraction_pad_decal.png')), '/assets/ui/extraction_pad_decal.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/ui/props_industrial_debris.png')), '/assets/ui/props_industrial_debris.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/tex_ground_asphalt.png')), '/assets/textures/tex_ground_asphalt.png'),
+      safeLoad(this.textureLoader.loadAsync(assetPath('/assets/textures/tex_ground_sand.png')), '/assets/textures/tex_ground_sand.png')
     ])
     
     this.schrottyTex = sTex
@@ -144,6 +155,38 @@ export class AssetManager {
     if (bossMireKing) {
       bossMireKing.scale.setScalar(0.012)
       this.bossMireKingModel = bossMireKing
+    }
+
+    const modelState = {
+      vehicleModel: !!this.vehicleModel,
+      enemyModel: !!this.enemyModel,
+      rixaModel: !!this.rixaModel,
+      marekModel: !!this.marekModel,
+      bossGolemModel: !!this.bossGolemModel,
+      bossMireKingModel: !!this.bossMireKingModel,
+    }
+    const textureState = {
+      schrottyTex: !!this.schrottyTex,
+      chromTex: !!this.chromTex,
+      droneTex: !!this.droneTex,
+      heavyTex: !!this.heavyTex,
+      golemTex: !!this.golemTex,
+      mirekingTex: !!this.mirekingTex,
+      lootTex: !!this.lootTex,
+      extractTex: !!this.extractTex,
+      propsTex: !!this.propsTex,
+      asphaltTex: !!this.asphaltTex,
+      sandTex: !!this.sandTex,
+    }
+    console.log("[AssetManager] Preload complete:", {
+      successes: successes.length,
+      failures: failures.length,
+      failedAssets: failures,
+      models: modelState,
+      textures: textureState,
+    })
+    if (failures.length > 0) {
+      console.warn("[AssetManager] Some assets failed to load. Check failedAssets above. Game uses fallback geometry where missing.")
     }
   }
 
